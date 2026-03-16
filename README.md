@@ -36,19 +36,33 @@ Previous experience includes audit and financial analysis at **PwC Germany**.
 
 ```
 bewerbungen/
-├── cv/                   # CV versions (EN/DE)
+├── OpenCV.cls            # Custom LaTeX CV class
+├── cv.tex                # Main CV file
+├── education.tex         # Education section
+├── engagement.tex        # Extracurricular / engagement section
+├── project.tex           # Projects & thesis section
+├── misc.tex              # Miscellaneous / skills section
 ├── anschreiben/          # Cover letters by company
 │   ├── GIZ/
 │   ├── Henkel/
 │   ├── Vodafone/
 │   ├── Dior_LVMH/
+│   ├── LVMH/
 │   ├── Loreal/
 │   ├── Douglas/
 │   ├── Colliers/
 │   ├── HAL/
 │   └── BNP/
-└── templates/            # LaTeX templates (scrlttr2)
+└── templates/            # Reusable LaTeX templates (scrlttr2)
 ```
+
+### CV Files
+
+The CV is modularised into separate `.tex` files and compiled via `cv.tex` using the custom `OpenCV.cls` class. Edit individual section files (`education.tex`, `project.tex`, etc.) and recompile `cv.tex` on Overleaf or locally.
+
+### Cover Letters (`anschreiben/`)
+
+Each subfolder contains the LaTeX source and compiled PDF for a specific application. Letters are written in German or English depending on the target company, and typeset using KOMA-Script (`scrlttr2`).
 
 ---
 
@@ -59,12 +73,6 @@ bewerbungen/
 - FP&A / Business Intelligence roles
 - Research assistant / policy analyst positions
 - Graduate programmes in consulting, finance, or economics
-
----
-
-## Notes
-
-All documents are tailored per application. Templates use **KOMA-Script (`scrlttr2`)** in LaTeX for professional typesetting. Documents are available in German and English depending on the target company.
 
 ---
 
