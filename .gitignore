@@ -1,0 +1,23 @@
+## LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+
+## Compiled output (keep source, compile locally or on Overleaf)
+# Uncomment the next line to ignore all PDFs except those you explicitly track:
+# *.pdf
+
+## OS files
+.DS_Store
+Thumbs.db
