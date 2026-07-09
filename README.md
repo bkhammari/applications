@@ -61,6 +61,8 @@ applications/
 ├── research/
 │   ├── thesis/
 │   │   └── Master_Thesis_Final.pdf  # Full master's thesis
+│   ├── proposal/
+│   │   └── research-proposal.tex    # PhD research proposal (3-paper design)
 │   └── abstracts/
 │       └── masters-thesis-abstract.tex  # Standalone thesis abstract for applications
 │
@@ -84,6 +86,8 @@ applications/
 **Research statement:** Use `templates/research-statement.tex` for PhD proposals, fellowship applications, or scholarship essays. Adapt the section headings to the specific call.
 
 **Thesis abstract:** `research/abstracts/masters-thesis-abstract.tex` is a ready-to-compile standalone abstract. Attach to applications that ask for a writing sample or thesis summary.
+
+**Research proposal:** `research/proposal/research-proposal.tex` is a full PhD research proposal (3-paper design) extending the master's thesis to a comparative analysis of ProUni, FIES, and the Quota Law. Adapt the title page, timeline, and supervisor-fit sections per application.
 
 ---
 
