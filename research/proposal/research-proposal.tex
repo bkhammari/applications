@@ -27,7 +27,8 @@
 \vspace*{1cm}
 {\LARGE \textbf{Equal Opportunity by Design?}} \\[8pt]
 {\Large \textbf{The Causal Effects of Higher Education Access Policies}} \\[4pt]
-{\Large \textbf{on Labor Market Inequality in Brazil}} \\[24pt]
+{\Large \textbf{on Labour Market Inequality}} \\[8pt]
+{\large Evidence from Brazil} \\[24pt]
 {\large PhD Research Proposal} \\[16pt]
 {\large Baha Khammari} \\[4pt]
 M.Sc.\ Economics, University of Cologne \\
@@ -40,22 +41,26 @@ M.Sc.\ Economics, University of Cologne \\
 %================ EXECUTIVE SUMMARY ================%
 \section{Introduction}
 
-Over the past two decades, Brazil has implemented three large-scale policies to expand access to higher education: \textit{ProUni} (2005), a merit-based scholarship programme for low-income students at private institutions; \textit{FIES} (reformed 2010), a subsidised student loan scheme; and the \textit{Quota Law} (Lei de Cotas, 2012), which reserves places at federal universities for public-school graduates, low-income students, and racial minorities. Together, these policies reshaped the composition of Brazil's tertiary-educated workforce. Yet their comparative labour-market effects---and whether they reduce or reproduce existing inequalities---remain poorly understood.
+Governments worldwide rely on three principal mechanisms to expand access to higher education: scholarships, subsidised loans, and affirmative-action quotas. Each operates through a different channel---price subsidies reduce the private cost of attendance, credit instruments shift it intertemporally, and quantity mandates reserve places for underrepresented groups---and each carries distinct implications for who benefits and how. Whether these mechanisms reduce labour market inequality or merely alter the composition of graduates without changing downstream outcomes is a first-order question for education and labour policy. Yet no study to date compares their causal labour market effects within a unified empirical framework.
 
-This proposal outlines a three-paper PhD project that provides the first systematic causal comparison of these policies' effects on formal-sector labour market outcomes. Building on my master's thesis, which estimated the wage effects of ProUni using heterogeneity-robust staggered difference-in-differences \citep{callaway2021}, the project extends the analysis in three directions: (i)~comparing ProUni against the Quota Law and FIES to identify which policy design is most effective at reducing inequality, (ii)~examining outcomes beyond wages, including formality transitions, occupational upgrading, and job stability, and (iii)~developing a dose--response framework to inform optimal policy calibration.
+This proposal uses Brazil as an empirical laboratory for this comparison. Over a fifteen-year period, Brazil implemented all three mechanisms at national scale: \textit{ProUni} scholarships (2005), \textit{FIES} student loans (reformed 2010), and the \textit{Quota Law} (2012). The staggered rollout of each policy, combined with rich administrative employer--employee data (RAIS, approximately five million observations), creates the variation and data infrastructure needed for credible causal identification. While the empirical work is grounded in the Brazilian setting, the research questions, methods, and comparative framework are designed to inform the broader debate on how higher education access policies shape labour market inequality---a debate relevant in Germany, the EU, and other OECD countries facing similar design choices.
 
-The project exploits Brazil's uniquely rich administrative data infrastructure---the RAIS employer--employee registry, ProUni and FIES programme records, and Census microdata---accessible through the \texttt{basedosdados} BigQuery interface, with which I have extensive experience. Methodologically, the project contributes to the rapidly evolving literature on heterogeneous treatment effects in staggered adoption settings \citep{roth2023, dechaisemartin2020, goodmanbacon2021}.
+The project is organised as a three-paper PhD. Building on my master's thesis, which estimated the wage effects of ProUni using heterogeneity-robust staggered difference-in-differences \citep{callaway2021}, it extends the analysis in three directions: (i)~comparing scholarships against quotas and loans to identify which mechanism is most effective at reducing inequality, (ii)~examining outcomes beyond wages, including formality transitions, occupational upgrading, and job stability, and (iii)~developing a dose--response framework to estimate optimal policy intensity. Methodologically, the project contributes to the rapidly evolving literature on heterogeneous treatment effects in staggered adoption settings \citep{roth2023, dechaisemartin2020, goodmanbacon2021}.
 
 \subsection{Motivation and relevance}
 
-The question of whether higher education expansion translates into better labour market outcomes---and for whom---is among the most policy-relevant in development economics. In Brazil, tertiary enrolment more than doubled between 2003 and 2018, driven primarily by the three policies studied here. This expansion occurred alongside a historic reduction in income inequality (the Gini coefficient fell from 0.59 to 0.52 between 2001 and 2014), but the contribution of education policy to this trend is causally unidentified.
+The question of whether higher education expansion translates into better labour market outcomes---and for whom---is among the most policy-relevant in both development and labour economics. Most countries use at least one of the three mechanisms studied here, yet policy choices between them are typically made without comparative causal evidence. Germany, for example, combines grant-loan hybrids (BAf\"oG), merit scholarships (Deutschlandstipendium, Begabtenf\"orderungswerke), and an ongoing debate about social quotas in university admissions. The EU more broadly grapples with cross-national differences in tuition, financial aid, and equity mandates under the Bologna Process. Evidence on which mechanism works best---and for whom---is directly transferable across these settings.
 
-My thesis findings motivate several of the core questions: ProUni's wage effects are non-monotonic (+3.04\% in low-dose regions, near-zero in high-dose regions), gains accrue disproportionately to non-white workers, and na\"ive two-way fixed effects (TWFE) estimation masks these patterns entirely. These findings raise three questions that this PhD project addresses: Do the Quota Law and FIES produce similarly heterogeneous effects? Are scholarship-based and quota-based mechanisms substitutes or complements? And can we identify an optimal ``dosage'' that maximises labour market returns for disadvantaged groups?
+Brazil provides a uniquely clean setting for this comparison. Tertiary enrolment more than doubled between 2003 and 2018, driven primarily by the three policies studied here. This expansion occurred alongside a historic reduction in income inequality (the Gini coefficient fell from 0.59 to 0.52 between 2001 and 2014), but the contribution of education policy to this trend is causally unidentified.
+
+My thesis findings motivate the core questions. ProUni's wage effects are non-monotonic (+3.04\% in low-dose regions, near-zero in high-dose regions), gains accrue disproportionately to non-white workers, and na\"ive two-way fixed effects (TWFE) estimation masks these patterns entirely. These results raise three questions that this PhD project addresses: Do loans and quotas produce similarly heterogeneous effects? Are scholarship-based and quota-based mechanisms substitutes or complements? And is there an optimal intensity that maximises returns for disadvantaged groups?
 
 %================ BACKGROUND ================%
 \section{Background and Scientific Basis}
 
-\subsection{Institutional context}
+\subsection{Institutional context: Brazil as empirical setting}
+
+The comparative analysis requires a setting where multiple access mechanisms were introduced at scale with variation in timing and intensity. Brazil meets these conditions.
 
 \textbf{ProUni} (\textit{Programa Universidade para Todos}, Lei n\textsuperscript{o} 11.096/2005) provides full or partial tuition scholarships at private higher education institutions to students from low-income households (family income $\leq 1.5$ or $\leq 3$ minimum wages per capita, respectively) who attended public secondary schools or received full private-school scholarships. Institutions participate voluntarily in exchange for tax exemptions. By 2019, ProUni had awarded over 2.4 million scholarships.
 
@@ -65,11 +70,11 @@ My thesis findings motivate several of the core questions: ProUni's wage effects
 
 \subsection{Gaps in the literature}
 
-The existing literature evaluates each policy in isolation. Studies of ProUni have focused on enrolment effects \citep{cataldo2020} and institutional quality \citep{aprile2009}, with limited attention to downstream labour market outcomes. Research on the Quota Law has examined academic performance and graduation rates at the institution level but rarely traces quota beneficiaries into the formal labour market. FIES has received attention primarily through its fiscal costs and default rates.
+The broader literature on higher education access and labour markets evaluates individual policy instruments in isolation---scholarships in one study, quotas in another, loans in a third---without comparing mechanisms head-to-head. This fragmentation limits what policymakers can learn: knowing that a scholarship programme raises wages does not tell them whether the same resources allocated to quotas or loans would have been more effective. The gap is not specific to Brazil; it characterises the literature globally.
 
-No study to date compares the labour-market returns across these three policies within a unified empirical framework. This gap is consequential: the policies target overlapping but distinct populations, operate through different mechanisms (price subsidies, credit, quantity mandates), and interact in ways that single-policy evaluations cannot capture.
+Within the Brazilian case, studies of ProUni focus on enrolment effects \citep{cataldo2020} and institutional quality \citep{aprile2009}, with limited attention to downstream labour market outcomes. Research on the Quota Law examines academic performance and graduation rates but rarely traces beneficiaries into the formal labour market. FIES has received attention primarily through its fiscal costs and default rates.
 
-Methodologically, most existing evaluations rely on conventional TWFE estimators, which are biased under staggered adoption with heterogeneous treatment effects \citep{goodmanbacon2021, dechaisemartin2020}. My thesis demonstrated this empirically for ProUni: the TWFE estimate of $-0.65\%$ on wages reverses to $+3.04\%$ in low-dose regions once heterogeneity-robust methods are applied. Similar biases likely affect existing estimates for FIES and the Quota Law.
+Methodologically, most existing evaluations rely on conventional TWFE estimators, which are biased under staggered adoption with heterogeneous treatment effects \citep{goodmanbacon2021, dechaisemartin2020}. My thesis demonstrated this empirically for ProUni: the TWFE estimate of $-0.65\%$ on wages reverses to $+3.04\%$ in low-dose regions once heterogeneity-robust methods are applied. Similar biases likely affect existing estimates for FIES, the Quota Law, and education access policies evaluated in other countries.
 
 %================ RESEARCH QUESTIONS ================%
 \section{Research Questions and Challenges}
@@ -157,17 +162,29 @@ All estimation is conducted in R, using the \texttt{did} package \citep{callaway
 \subsection{Scientific contribution}
 
 \begin{enumerate}[nosep]
-    \item \textbf{First comparative evaluation} of Brazil's three main higher education access policies within a unified causal framework, addressing a significant gap in the development economics and education policy literatures.
-    \item \textbf{Applied implementation} of heterogeneity-robust DiD methods in a staggered policy environment, building on \citet{callaway2021}, \citet{dechaisemartin2020}, and \citet{sun2021}.
-    \item \textbf{Expanded outcome analysis} beyond wages to formality, occupational upgrading, and job stability---outcomes that are first-order relevant in developing countries with large informal sectors but rarely examined in the education policy literature.
-    \item \textbf{Dose--response estimation} for education policies, providing evidence on optimal programme scale and informing the design of future interventions.
+    \item \textbf{First head-to-head comparison} of the three main higher education access mechanisms (scholarships, loans, quotas) within a unified causal framework, addressing a gap in the education and labour economics literatures that extends well beyond the Brazilian case.
+    \item \textbf{Applied implementation} of heterogeneity-robust DiD methods in a staggered multi-policy environment, building on \citet{callaway2021}, \citet{dechaisemartin2020}, and \citet{sun2021}, with a comparative structure that serves as a template for other country settings.
+    \item \textbf{Expanded outcome analysis} beyond wages to formality, occupational upgrading, and job stability---outcomes that are first-order relevant wherever informal employment is prevalent but rarely examined in the education policy literature.
+    \item \textbf{Dose--response estimation} for education access policies, providing evidence on optimal programme intensity and informing the calibration of future interventions.
 \end{enumerate}
 
 \subsection{Policy impact}
 
-The findings are directly relevant to policymakers in Brazil and other middle-income countries designing higher education access programmes. The Quota Law's ten-year review (mandated for 2022, ongoing) and recurrent debates about FIES's fiscal sustainability create immediate demand for rigorous comparative evidence. The dose--response analysis in Paper~3 can inform decisions about programme scale---a question my thesis flagged (diminishing returns in high-dose regions) but could not fully resolve with a single-policy design.
+The findings speak to any country choosing between scholarships, loans, and quotas as instruments for widening higher education access. In Brazil, the Quota Law's ten-year review (mandated for 2022, ongoing) and recurrent debates about FIES's fiscal sustainability create immediate demand for rigorous comparative evidence. The dose--response analysis in Paper~3 can inform decisions about programme scale---a question my thesis flagged (diminishing returns in high-dose regions) but could not fully resolve with a single-policy design.
 
-More broadly, the project contributes to the global debate on whether expanding higher education access through different mechanisms (price subsidies, quantity mandates, credit) produces equitable labour market outcomes or merely shifts rents.
+\subsection{External validity and generalisability}
+
+The research design is grounded in Brazil, but the underlying question---which access mechanism reduces labour market inequality most effectively---is universal. The three mechanisms studied here (scholarships, loans, quotas) map directly onto policy instruments used in other contexts:
+
+\begin{itemize}[nosep]
+    \item \textbf{Germany}: BAf\"oG (grant-loan hybrid), the Deutschlandstipendium, Begabtenf\"orderungswerke, and recent proposals for social quotas in university admissions.
+    \item \textbf{EU}: Cross-national variation in tuition regimes, means-tested grants, income-contingent loans, and equity mandates under the Bologna Process.
+    \item \textbf{Global South}: India's reservation system, South Africa's NSFAS loans, and scholarship programmes across Latin America and Southeast Asia.
+\end{itemize}
+
+Brazil is a strong empirical laboratory precisely because it implemented all three mechanisms at national scale within a short window, producing the staggered variation needed for causal identification. The methodological framework---heterogeneity-robust DiD under staggered adoption---transfers directly to any setting with phased policy rollout. The comparative structure (which mechanism, for whom, at what intensity) provides a template that can be applied to other countries' higher education systems as administrative data become available.
+
+I see this project as the first step in a broader research agenda on the design of equity-oriented education policy. The methods, research questions, and comparative framework developed here extend naturally to related topics---for instance, the labour market effects of vocational training programmes, apprenticeship systems, or lifelong learning policies---in Germany and elsewhere.
 
 %================ RESEARCH ETHICS ================%
 \section{Research Ethics}
