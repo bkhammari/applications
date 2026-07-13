@@ -1,8 +1,7 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{tgheros}
-\renewcommand{\familydefault}{\sfdefault}
+\usepackage{lmodern}
 \usepackage[english]{babel}
 \usepackage{geometry}
 \geometry{left=1in, right=1in, top=1in, bottom=1in}
@@ -101,7 +100,7 @@ This paper builds on my thesis finding of non-monotonic ProUni effects. It forma
 
 \begin{itemize}[nosep]
     \item \textbf{Selection into treatment.} ProUni and FIES are voluntary; the Quota Law mandates institutional behaviour but not individual take-up. Each paper must address selection at the appropriate level (microregion, institution, or individual) using doubly-robust methods and sensitivity analysis.
-    \item \textbf{Concurrent policies.} The three programmes overlap temporally and geographically. Isolating each policy's contribution requires careful control for the others, leveraging differences in eligibility criteria and rollout timing.
+    \item \textbf{Concurrent policies.} The three programmes overlap temporally and geographically. Isolating each policy's contribution requires careful control for the others, using differences in eligibility criteria and rollout timing.
     \item \textbf{Data linkage.} Individual-level linkage across programme records and RAIS is not feasible without CPF identifiers. The project therefore operates at the microregion--year level, following the design of my thesis, supplemented by institution-level analysis where data permit.
     \item \textbf{RAIS coverage.} RAIS captures only formal employment. Effects on informality must be inferred indirectly, e.g.\ through PNAD Cont\'inua survey data or changes in the formal employment share at the microregion level.
 \end{itemize}
@@ -159,7 +158,7 @@ All estimation is conducted in R, using the \texttt{did} package \citep{callaway
 
 \begin{enumerate}[nosep]
     \item \textbf{First comparative evaluation} of Brazil's three main higher education access policies within a unified causal framework, addressing a significant gap in the development economics and education policy literatures.
-    \item \textbf{Methodological demonstration} of heterogeneity-robust DiD methods applied to a real-world staggered policy environment, contributing to the growing body of applied work that implements the theoretical advances of \citet{callaway2021}, \citet{dechaisemartin2020}, and \citet{sun2021}.
+    \item \textbf{Applied implementation} of heterogeneity-robust DiD methods in a staggered policy environment, building on \citet{callaway2021}, \citet{dechaisemartin2020}, and \citet{sun2021}.
     \item \textbf{Expanded outcome analysis} beyond wages to formality, occupational upgrading, and job stability---outcomes that are first-order relevant in developing countries with large informal sectors but rarely examined in the education policy literature.
     \item \textbf{Dose--response estimation} for education policies, providing evidence on optimal programme scale and informing the design of future interventions.
 \end{enumerate}

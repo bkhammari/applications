@@ -1,4 +1,4 @@
-Subject: Request for a letter of recommendation — Baha Khammari
+Subject: Request for a letter of recommendation - Baha Khammari
 
 Dear Professor [LAST NAME],
 
@@ -10,7 +10,7 @@ I have attached my academic CV for reference. I am happy to provide a research p
 
 The deadline for the application is [DATE]. If this timeline is too tight or if you would prefer not to write the letter, I fully understand.
 
-Thank you very much for your time and for [SPECIFIC THANKS: e.g., "your supervision of my bachelor's thesis" / "the opportunity to engage with the Mian and Sufi literature in your seminar — it broadened my understanding of how micro-level frictions propagate through macroeconomic channels"].
+Thank you very much for your time and for [SPECIFIC THANKS: e.g., "your supervision of my bachelor's thesis" / "the seminar, which gave me the chance to work through the Mian and Sufi literature in detail"].
 
 Best regards,
 Baha Khammari
