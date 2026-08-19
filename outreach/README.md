@@ -8,6 +8,9 @@ LaTeX cover letters and the research proposal live under
 
 _Last updated: August 2026._
 
+**Deadlines at a glance:** see `deadlines-dashboard.html` (visual board of every
+program's deadline, requirements, and fit).
+
 ## Standard attachments
 
 Unless noted otherwise, each first contact carries:
@@ -27,13 +30,14 @@ use a contact form.
 
 | Target | Contact | Route | Status | Next action |
 |---|---|---|---|---|
+| **HHU Düsseldorf (DGSE)** | Application (Jan 2027 start) | Structured PhD | **Deadline 16 Sep 2026** | Submit form + [statement](duesseldorf/application-statement.md); send [reference requests](duesseldorf/reference-request-dgse.md) now |
 | **Bonn (BGSE)** | Prof. Teodora Boneva | Cold email + meeting | Sent, no reply | Send [follow-up](bonn/email-boneva-followup.md) after ~1 week |
 | **Cologne** | Prof. Sebastian Siegloch | Cold email | Not sent | Send [email](cologne/email-siegloch.md) |
 | **Cologne** | Prof. Pia Pinger | Cold email + reference | Not sent | Send [email](cologne/email-pinger.md) |
 | **Cologne** | Jun.-Prof. Raoul van Maarseveen | Follow-up | Sent, no reply | Send [follow-up](cologne/email-vanmaarseveen-followup.md) |
 | **Cologne (CGS)** | Cologne Graduate School | Structured programme | Opens spring | See [note](cologne/note-cgs.md) |
-| **HHU Düsseldorf (DICE)** | Prof. Hannah Schildberg-Hörisch | Cold email | Not sent | Send [email](duesseldorf/email-schildberg-hoerisch.md) |
-| **HHU Düsseldorf (DICE)** | Prof. Jens Südekum | Cold email | Not sent | Send [email](duesseldorf/email-suedekum.md) |
+| **HHU Düsseldorf (DICE)** | Prof. Hannah Schildberg-Hörisch | Cold email | Not sent | Send [email](duesseldorf/email-schildberg-hoerisch.md) alongside the application |
+| **HHU Düsseldorf (DICE)** | Prof. Jens Südekum | Cold email | Not sent | Send [email](duesseldorf/email-suedekum.md) alongside the application |
 | **RWI Essen** | Prof. Ronald Bachmann | Reply | Replied: no positions at his chair | Send [reply](rwi-essen/email-bachmann-reply.md), keep door open |
 | **ifo Munich (MGSE)** | ifo Center for the Economics of Education | Cold email | Not sent | Send [email](institutes/email-ifo-munich.md) |
 | **ZEW Mannheim (CDSE)** | Inequality & Public Policy / Labour Markets | Cold email | Not sent | Send [email](institutes/email-zew-mannheim.md) |
@@ -45,6 +49,14 @@ use a contact form.
 | **Interim — policy** | Ministries / IZA / OECD / think tanks | Cold email | Not sent | Adapt [template](_templates/email-policy-internship.md) |
 
 ## Notes by target
+
+**Düsseldorf / DGSE.** The one imminent deadline: **16 September 2026**, for a
+January 2027 start (off-cycle intake). No GRE. Two reference letters go directly
+from the referees to `dgse@uni-duesseldorf.de`. Application statement drafted in
+`duesseldorf/application-statement.md`; reference-request email in
+`duesseldorf/reference-request-dgse.md`. Send the Schildberg-Hörisch and Südekum
+emails alongside the formal application. See the full deadline picture in
+`deadlines-dashboard.html`.
 
 **Bonn / Boneva.** First email sent (referenced Milena Jessen from the PhD
 event; asked for a meeting and leads). No reply yet — follow up once, briefly,
