@@ -55,8 +55,22 @@ applications/
 │
 ├── cover-letters/
 │   ├── academic/                    # PhD / postdoc / scholarship motivation letters
+│   │   ├── motivation-letter.tex    # General academic motivation-letter template
+│   │   ├── bonn/                    # BGSE: tailored letter + research proposal
+│   │   ├── duesseldorf/             # HHU / DICE: tailored letter
+│   │   └── rwi-essen/               # RWI: tailored letter
 │   └── industry/                    # Company cover letters (German, scrlttr2)
 │       └── colliers/
+│
+├── outreach/                        # PhD & research outreach hub (email drafts + tracker)
+│   ├── README.md                    # Master tracker: every target, status, next action
+│   ├── _templates/                  # Reusable email templates (supervisor, institute, internships)
+│   ├── cologne/                     # Siegloch, Pinger, van Maarseveen, CGS note
+│   ├── bonn/                        # Boneva (initial + follow-up)
+│   ├── duesseldorf/                 # Schildberg-Hörisch, Südekum
+│   ├── rwi-essen/                   # Bachmann (initial + reply)
+│   ├── institutes/                  # ifo, ZEW, DIW
+│   └── international/               # Netherlands, France, Belgium
 │
 ├── research/
 │   ├── thesis/
@@ -88,6 +102,8 @@ applications/
 **Thesis abstract:** `research/abstracts/masters-thesis-abstract.tex` is a ready-to-compile standalone abstract. Attach to applications that ask for a writing sample or thesis summary.
 
 **Research proposal:** `research/proposal/research-proposal.tex` is a full PhD research proposal (3-paper design) extending the master's thesis to a comparative analysis of ProUni, FIES, and the Quota Law. Adapt the title page, timeline, and supervisor-fit sections per application.
+
+**Outreach:** `outreach/README.md` is the master tracker for every PhD, doctoral-programme, and interim-position contact — who, status, and next action. Ready-to-send email drafts live in the per-target subfolders; reusable templates are in `outreach/_templates/`. Formal LaTeX letters stay under `cover-letters/academic/`.
 
 ---
 
