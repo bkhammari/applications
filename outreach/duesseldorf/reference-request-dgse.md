@@ -6,28 +6,27 @@ Anna Person as a *formal* referee — she is a PhD candidate (M.Sc.), not a
 professor. Her role instead is to brief the professor who writes about the
 master's thesis (see Pinger, below).
 
-## Recommended pair (both supervised your independent research)
+## Plan: ask three this week, use the first two firm yeses
 
-1. **Prof. Dr. Pia Pinger** — professorial supervisor of your master's thesis
-   (grade 1.0), and the best topical fit (economics of education, equality of
-   opportunity). You have not met her, so the letter realistically works only if
-   **Anna Person briefs her** on your work. Ask Anna first, then Pinger. The
-   Cologne email in `../cologne/email-pinger.md` already opens this door.
-2. **Univ.-Prof. Dr. Andreas Schabert** — supervised your bachelor's thesis
+Only two letters are needed, but two of the three are uncertain, so ask all
+three now and let the first two confirmations stand. **Schabert is the reliable
+anchor.**
+
+1. **Univ.-Prof. Dr. Andreas Schabert** — supervised your bachelor's thesis
    (grade 1.7). A professor who has seen your independent research start to
-   finish. Straightforward ask.
+   finish. Straightforward ask. *(Email 1 below.)*
+2. **Prof. Dr. Pia Pinger** — professorial supervisor of your master's thesis
+   (grade 1.0) and the best topical fit (economics of education, equality of
+   opportunity). You have not met her, so it works only if **Anna Person briefs
+   her** — ask Anna first, then send. *(Email 2 below.)*
+3. **Prof. Dr. Michael Krause** — taught you across three courses (bachelor
+   economic policy 2.0, master macro 1.7, the housing seminar). He has your
+   earlier request but has not replied in five days and said the topic is
+   outside his field, so this is a short, low-pressure nudge. *(Email 3 below.)*
 
-## Backups (professors who taught you well, if a slot is hard to fill)
-
-- **Prof. Dr. Christopher Roth** — Selected Methods / Experimental Methods, grade
-  1.7. Prominent applied microeconomist at ECONtribute; strong field fit and a
-  name that carries weight, though contact was through the course.
-- **Prof. Dr. Roman Liesenfeld** — master's Econometrics, grade 1.3. Can speak to
-  your econometric ability, which is central to the thesis.
-- **Prof. Dr. Michael Krause** — taught you across three courses (bachelor
-  economic policy 2.0, master macro 1.7, the housing seminar) so he knows you
-  best of the course instructors, but he has not replied in five days and has
-  said the topic is outside his field. Send one short nudge; don't rely on him.
+**Deeper backups if a slot still doesn't fill:** Prof. Christopher Roth (applied
+micro, ECONtribute, MSc Methods 1.7) or Prof. Roman Liesenfeld (Econometrics,
+1.3) — both taught you, both credible, though contact was course-only.
 
 ---
 
@@ -69,6 +68,31 @@ I am applying to the Düsseldorf Graduate School of Economics for a PhD starting
 The letter would go directly from you to dgse@uni-duesseldorf.de. I have attached my CV, the thesis, and a research proposal. I completely understand if you would prefer to leave this to another referee.
 
 Thank you very much for considering it.
+
+Best regards,
+Baha Khammari
+M.Sc. Economics (expected Sep. 2026), University of Cologne
+b.e.khammari@gmail.com
+
+---
+
+## Email 3 — Prof. Krause (short follow-up to your earlier request)
+
+Subject: Re: Request for a letter of recommendation — one specific deadline
+
+Dear Professor Krause,
+
+Thank you again for your earlier reply and the suggestions on whom to contact — they were genuinely helpful, and I am following up with several of them.
+
+I wanted to come back with one concrete request. I am applying to the Düsseldorf Graduate School of Economics for a PhD starting January 2027, and the program asks for two letters from professors. I completely understand that the topic is outside your area; even a letter speaking to my performance in your courses (economic policy, macroeconomics) and the housing seminar, where I wrote the paper on subprime mortgage credit, would be a real help.
+
+If you are willing:
+
+- **Deadline: 16 September 2026.**
+- The letter goes directly from you to **dgse@uni-duesseldorf.de**.
+- My CV, a research proposal, and a thesis abstract are attached.
+
+If it does not work, I completely understand, and I am grateful for your help either way.
 
 Best regards,
 Baha Khammari
