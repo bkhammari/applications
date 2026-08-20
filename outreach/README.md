@@ -83,12 +83,23 @@ the fit line per employer.
 
 ## Reference letters
 
-- **Anna Person, M.Sc.** — master's thesis supervisor (graded it 1.0). Primary
-  academic reference. Request email: `../templates/emails/anna-person-recommendation.md`.
-- **Univ.-Prof. Dr. Andreas Schabert** — bachelor's thesis supervisor.
-- **Prof. Dr. Michael Krause** — housing/macro seminar instructor. Note: replied
-  that the field is outside his expertise; better as a general reference than a
-  field-specific one.
-- **Prof. Dr. Pia Pinger** — possible reference given the thesis was completed at
-  her chair; raise tactfully and in coordination with Anna Person (see
-  [email](cologne/email-pinger.md)).
+**Most programs — including Düsseldorf — require the referees to be professors.**
+Anna Person (M.Sc., PhD candidate) is therefore *not* a valid formal referee,
+even though she supervised and graded the thesis; her role is to brief the
+professor who writes about the master's thesis. The two formal referees should
+be professors:
+
+- **Prof. Dr. Pia Pinger** — professorial supervisor of the master's thesis;
+  best topical fit. Works only if Anna Person briefs her (never met in person).
+  See `cologne/email-pinger.md` and `duesseldorf/reference-request-dgse.md`.
+- **Univ.-Prof. Dr. Andreas Schabert** — bachelor's thesis supervisor; a
+  professor who has seen the applicant's independent research. Straightforward.
+- **Backups (taught the applicant, strong grades):** Prof. Christopher Roth
+  (applied micro, ECONtribute, 1.7), Prof. Roman Liesenfeld (econometrics, 1.3),
+  Prof. Michael Krause (three courses; unresponsive 5 days, field mismatch).
+- **Anna Person, M.Sc.** — not a formal referee where professors are required,
+  but the direct supervisor who can supply the substance for Pinger's letter and
+  serve as a reference where a non-professor is acceptable.
+
+The CV no longer lists named referees (nothing is confirmed yet); it says
+"References available upon request."
