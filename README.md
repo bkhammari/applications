@@ -72,10 +72,13 @@ applications/
 │   ├── institutes/                  # ifo, ZEW, DIW
 │   └── international/               # Netherlands, France, Belgium
 │
-├── administrative-applications/     # EU & public-sector tracks
+├── administrative-applications/     # EU competitions & traineeships
 │   ├── README.md                    # Tracker: EPSO AD5, Blue Book
 │   ├── blue-book-traineeship.md     # Commission traineeship (deadline 4 Sep 2026)
 │   └── epso-ad5.md                  # EU administrator competition
+│
+├── bridge-positions/                # Paid interim internships (GIZ, KfW, ECB, EIB, ...)
+│   └── README.md                    # Curated tracker, sorted by the pay bar
 │
 ├── research/
 │   ├── thesis/

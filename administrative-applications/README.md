@@ -11,7 +11,7 @@ _Last updated: August 2026._
 | Track | What it is | Key date | Status |
 |---|---|---|---|
 | Blue Book traineeship (March 2027) | 5-month paid Commission traineeship | Apply by **4 Sep 2026** | Not started |
-| EPSO AD5 (EPSO/AD/427/26) | Entry-grade EU administrator competition | Reasoning tests **Oct/Nov 2026**, documents by **7 Oct 2026** | Assumes already registered |
+| EPSO AD5 (EPSO/AD/427/26) | Entry-grade EU administrator competition | Reasoning tests **Oct/Nov 2026**, documents by **7 Oct 2026** | Registered |
 
 ## Order of play
 
@@ -21,6 +21,7 @@ Details for each track are in the notes below.
 
 - Blue Book traineeship: `blue-book-traineeship.md`
 - EPSO AD5 competition: `epso-ad5.md`
+- Paid bridge internships (GIZ, KfW, Bundesbank, ECB, EIB, and more): [`../bridge-positions/`](../bridge-positions/)
 
 ## Why these fit the profile
 
