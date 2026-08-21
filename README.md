@@ -72,6 +72,11 @@ applications/
 │   ├── institutes/                  # ifo, ZEW, DIW
 │   └── international/               # Netherlands, France, Belgium
 │
+├── administrative-applications/     # EU & public-sector tracks
+│   ├── README.md                    # Tracker: EPSO AD5, Blue Book
+│   ├── blue-book-traineeship.md     # Commission traineeship (deadline 4 Sep 2026)
+│   └── epso-ad5.md                  # EU administrator competition
+│
 ├── research/
 │   ├── thesis/
 │   │   └── Master_Thesis_Final.pdf  # Full master's thesis
