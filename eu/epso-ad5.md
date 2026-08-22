@@ -4,65 +4,64 @@ The entry-grade competition for permanent administrator posts across the EU
 institutions. Success puts you on a reserve list from which the institutions
 recruit. You are registered for this cycle.
 
-## Dates
+## Format, and why it changes the strategy
 
-The competition runs in two stages with an eliminatory cut between them.
+The reasoning stage has two separately timed blocks, and they are not equal in
+weight.
 
-1. First stage, reasoning tests: verbal, numerical, and abstract reasoning,
-   expected in late October or early November 2026.
-2. Second stage, expected in 2027: EU knowledge, digital skills, a situational
-   competency test, and the EUFTE written essay.
+1. **Verbal reasoning: 20 questions in 35 minutes. This block is ranked.** Your
+   score here counts toward the final ranking that decides who advances, so this
+   is where the competition is actually won.
+2. **Numerical and abstract reasoning: 20 questions combined in 30 minutes. This
+   block is pass/fail only.** You need 10 out of 20 to progress, and it does not
+   count toward the ranking.
 
-Supporting documents must be scanned, uploaded, and linked to the EPSO profile by
-7 October 2026, 12:00 Brussels time. Treat that upload as a hard deadline in its
-own right, since missing it can invalidate an otherwise strong application.
+The practical consequence is clear. Put the most preparation into verbal
+reasoning, because it is ranked. Treat numerical and abstract as a gate you have
+to clear at 10 out of 20, not a score to maximize. Your quantitative background
+makes numerical a relative strength, which can carry much of the gate on its own,
+so the job on abstract reasoning is to lift it from a weakness to reliable enough
+that the gate is never in doubt.
 
-## Preparation, weighted toward abstract reasoning
+Supporting documents must be uploaded and linked to the EPSO profile by
+**7 October 2026, 12:00 Brussels time**. Treat that as a hard deadline in its own
+right, since missing it can invalidate an otherwise strong application.
 
-The first stage is computer-based reasoning under time pressure, and it rewards
-practice on the exact EPSO formats rather than general aptitude. Your mock tests
-show abstract reasoning, the pattern-recognition section, as the current weak
-point, so weight practice toward it.
+Expected timing of the reasoning tests is late October or early November 2026.
 
-**Abstract reasoning.** Each item shows a sequence of figures that changes by
-hidden rules, and you pick the figure that comes next. Drill one rule type at a
-time until each is automatic.
+## Preparation priorities
 
-1. Rotation. A shape turns by a fixed angle each step, often 45 or 90 degrees,
-   clockwise or counter-clockwise.
-2. Movement. An element shifts position by a fixed step, sometimes bouncing off
-   the frame.
-3. Count. The number of elements grows or shrinks by a constant, or alternates.
-4. Shading. Fill flips between states on a fixed cycle.
-5. Addition and removal. Elements appear or disappear on a regular beat.
-6. Several rules at once. Two or three of the above run in parallel, which is
-   where most errors happen.
+**Verbal reasoning (ranked, invest here first).** Each question gives a short
+passage and four options, and you pick the option that follows from the passage
+alone. The single most common error is choosing an option that is true in the
+world but not stated or implied by the text. Read the passage, then test each
+option against it with the question "does the passage actually support this."
+Practice under the 105-second-per-question pace so timing is automatic.
 
-The method that helps most with multi-rule items is to isolate one attribute at a
-time, shape, count, position, rotation, then shading, and check it across the
-whole sequence before moving to the next attribute. Scan one attribute across all
-frames rather than reading each frame whole. If two options survive, the
-difference is usually a single attribute you have not yet checked. Every item
-carries equal weight, so guess and flag rather than overspend on one figure.
+**Abstract reasoning (the weak point, lift it to clear the gate).** Figural
+sequences that change by hidden rules. The interactive trainer in
+`ad5-prep/abstract-trainer.html` drills these with endless generated questions
+and explanations. The rule types and the one-attribute-at-a-time method are in
+the trainer and in `ad5-prep/README.md`. Aim for reliable accuracy on
+single-rule items first, then on two-rule items.
 
-**Verbal reasoning.** Passage-based inference. The trap is an option that is true
-in the world but not supported by the passage. Answer only from the text.
+**Numerical reasoning (relative strength, keep it sharp).** Data tables and
+percentages under a tight clock. Speed on ratios and percentage change matters
+more than advanced maths. The mock set in `ad5-prep/numerical-reasoning.md` keeps
+this fast.
 
-**Numerical reasoning.** Data tables and percentages under a tight per-question
-clock. Speed on ratios and percentage change matters more than advanced maths.
-This overlaps with the quantitative work in your thesis and should be a relative
-strength.
+## Practice material in this folder
 
-## Plan
-
-Run timed mock sets several times a week from now to the test window, tracked by
-question type, with the largest share on abstract reasoning and specifically on
-multi-rule items. Two months of regular practice before late October is realistic
-alongside the September deadlines.
+- `ad5-prep/README.md`, the format, the strategy, and how to practice.
+- `ad5-prep/verbal-reasoning.md`, a mock verbal set with answers and explanations.
+- `ad5-prep/numerical-reasoning.md`, a mock numerical set with worked solutions.
+- `ad5-prep/abstract-trainer.html`, an interactive generator for abstract reasoning.
 
 ## Checklist
 
-1. Prepare and upload supporting documents before 7 October.
-2. Drill abstract reasoning first, then numerical, then verbal.
-3. Note the test date once EPSO confirms the slot, and plan around the Blue Book
+1. Upload supporting documents before 7 October.
+2. Drill verbal reasoning most, since it is the ranked block.
+3. Bring abstract reasoning up to a safe margin on the pass/fail gate.
+4. Keep numerical sharp for speed.
+5. Note the test date once EPSO confirms the slot, and plan around the Blue Book
    deadline (4 September) and the Düsseldorf deadline (16 September).
