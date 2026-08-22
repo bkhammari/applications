@@ -1,7 +1,7 @@
 # EU & administrative applications
 
 Applications to the EU institutions and other administrative or public-sector
-tracks, kept separate from the academic PhD outreach in `../outreach/`. These
+tracks, kept separate from the academic PhD outreach in `../phd/`. These
 run on their own calendars and often move faster than the academic cycle.
 
 _Last updated: August 2026._
@@ -19,9 +19,9 @@ The Blue Book deadline (4 September) comes first, before both the EPSO test wind
 and the Düsseldorf PhD deadline (16 September). Treat it as the immediate task.
 Details for each track are in the notes below.
 
-- Blue Book traineeship: `blue-book-traineeship.md`
-- EPSO AD5 competition: `epso-ad5.md`
-- Paid bridge internships (GIZ, KfW, Bundesbank, ECB, EIB, and more): [`../bridge-positions/`](../bridge-positions/)
+- Blue Book traineeship: `blue-book.md`
+- EPSO AD5 competition: `epso-ad5.md`, with practice material in `ad5-prep/`
+- Paid bridge internships (GIZ, KfW, Bundesbank, ECB, EIB, and more): [`../bridge/`](../bridge/)
 
 ## Why these fit the profile
 
@@ -36,5 +36,5 @@ already documented in this repository.
 These are not a fallback. A Blue Book traineeship or a place on the AD5 reserve
 list gives direct policy experience that strengthens later academic and research
 applications, and the timelines overlap rather than compete with the winter PhD
-round. The interim-position templates in `../outreach/_templates/` cover the
+round. The interim-position templates in `../bridge/` cover the
 same ground for national ministries and think tanks.

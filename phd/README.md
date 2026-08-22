@@ -3,16 +3,16 @@
 Central hub for all PhD, doctoral-program, and interim-position outreach. Each
 target has a ready-to-send email draft in the linked folder. Formal LaTeX cover
 letters and the research proposal live under
-[`../cover-letters/academic/`](../cover-letters/academic/) and
+[`../letters/academic/`](../letters/academic/) and
 [`../research/proposal/`](../research/proposal/).
 
 _Last updated: August 2026._
 
-**Deadlines at a glance:** see `deadlines-dashboard.html` for a visual board of
-every program's deadline, requirements, and fit.
+**Deadlines at a glance:** see [`../dashboards/deadlines.html`](../dashboards/deadlines.html)
+for a visual board of every program's deadline, requirements, and fit.
 
 **EU and administrative applications** (EPSO AD5, Blue Book traineeship) are
-tracked separately in [`../administrative-applications/`](../administrative-applications/).
+tracked separately in [`../eu/`](../eu/).
 The Blue Book deadline, 4 September 2026, comes before everything here.
 
 ## Standard attachments
@@ -20,7 +20,7 @@ The Blue Book deadline, 4 September 2026, comes before everything here.
 Unless noted otherwise, each first contact carries the academic CV
 (`../cv/academic/academic_cv.tex`), the research proposal
 (`../research/proposal/research-proposal.tex`, or the Bonn-tailored version under
-`../cover-letters/academic/bonn/`), and the thesis abstract
+`../letters/academic/bonn/`), and the thesis abstract
 (`../research/abstracts/masters-thesis-abstract.tex`), which you can offer and
 attach on request to keep the first email light.
 
@@ -48,8 +48,8 @@ form.
 | **Netherlands** | Potential supervisor (Rotterdam / Tinbergen / Tilburg) | Cold email | Not sent | Adapt [template](international/email-netherlands.md) |
 | **France** | Potential supervisor (PSE / TSE / CREST / AMSE) | Cold email | Not sent | Adapt [template](international/email-france.md) |
 | **Belgium** | Potential supervisor (KU Leuven / UCLouvain) | Cold email | Not sent | Adapt [template](international/email-belgium.md) |
-| **Interim, research** | Institutes and chairs (RA / pre-doc) | Cold email | Not sent | Adapt [template](_templates/email-research-internship.md) |
-| **Interim, policy** | Ministries, IZA, OECD, think tanks | Cold email | Not sent | Adapt [template](_templates/email-policy-internship.md) |
+| **Interim, research** | Institutes and chairs (RA / pre-doc) | Cold email | Not sent | Adapt [template](../bridge/email-research-internship.md) |
+| **Interim, policy** | Ministries, IZA, OECD, think tanks | Cold email | Not sent | Adapt [template](../bridge/email-policy-internship.md) |
 
 ## Notes by target
 
@@ -59,7 +59,7 @@ from the referees to `dgse@uni-duesseldorf.de`. The application statement is in
 `duesseldorf/application-statement.md`, and the reference-request emails are in
 `duesseldorf/reference-request-dgse.md`. Send the Schildberg-Hörisch and Südekum
 emails alongside the formal application. The full deadline picture is in
-`deadlines-dashboard.html`.
+[`../dashboards/deadlines.html`](../dashboards/deadlines.html).
 
 **Bonn / Boneva.** First email sent. It referenced Milena Jessen from the PhD
 event and asked for a meeting and leads. No reply yet, so follow up once, briefly,
@@ -80,9 +80,10 @@ a future cycle. Krause separately flagged RWI, DIW, ZEW, and ifo as institutes
 with doctoral training and housing or applied-micro groups.
 
 **Interim positions.** Open to a research internship, RA, or pre-doc role, or a
-policy internship while applications are in flight. Templates are provided. Adapt
-the fit line per employer. The EPSO AD5 competition and the Blue Book traineeship
-in `../administrative-applications/` cover the EU-institution side.
+policy internship while applications are in flight. Templates are in
+[`../bridge/`](../bridge/). Adapt the fit line per employer. The EPSO AD5
+competition and the Blue Book traineeship in [`../eu/`](../eu/) cover the
+EU-institution side.
 
 ## Reference letters
 

@@ -24,7 +24,7 @@ enrolment requirement on each posting before applying.
 | GIZ | Bonn, Eschborn, or abroad | about 2,200 to 2,300 | Development-cooperation internship, policy and evaluation work | Rolling, per project | Strong, and Bonn is near Düsseldorf |
 | KfW | Frankfurt, also Berlin | 2,048 voluntary, 1,443 mandatory | Promotional and development bank internship | Rolling | Strong, finance and development economics |
 | EIB | Luxembourg | 1,500 flat | Five-month traineeship at the EU investment bank | March to April and September to October, apply about four months ahead | Strong, economics and finance |
-| Blue Book, EU Commission | Brussels or Luxembourg | about 1,390 | Five-month Commission traineeship | March 2027 session, apply by 4 Sep 2026 | Strong, see `../administrative-applications/blue-book-traineeship.md` |
+| Blue Book, EU Commission | Brussels or Luxembourg | about 1,390 | Five-month Commission traineeship | March 2027 session, apply by 4 Sep 2026 | Strong, see `../eu/blue-book.md` |
 | ECB | Frankfurt | 1,170, or 2,120 at PhD level | Central bank traineeship, three to six months | Rolling per vacancy | Strong, though 1,170 is just under the bar. Accommodation is covered if the distance is over 50 km |
 
 ## Named, but below the bar on pay
@@ -59,8 +59,8 @@ January 2027 PhD start.
 On the Bundesbank, only one internship is allowed per study phase, so use it where
 it counts most, most likely the Research Centre.
 
-For applications by email, adapt `../outreach/_templates/email-research-internship.md`
+For applications by email, adapt `email-research-internship.md`
 for GIZ, KfW, the Bundesbank, and think tanks, and
-`../outreach/_templates/email-policy-internship.md` for ministries, EU
+`email-policy-internship.md` for ministries, EU
 institutions, and NGOs. The EU traineeships at the EIB, the ECB, and the Blue Book
 use their own online forms rather than a cold email.
