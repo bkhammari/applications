@@ -45,11 +45,39 @@ question. Worked solutions are at the end.
 **7.** A candidate does the Commission traineeship, then the ECB traineeship back to back. What is the total pay across both?
 - A. €12,870  B. €13,970  C. €14,020  D. €14,520  E. €15,000
 
+**8.** Using Table A, what was the percentage change in ProUni awards from 2018 to 2019?
+- A. +5%  B. +10%  C. +15%  D. +20%  E. +22%
+
+**9.** Using Table A, what was the total number of awards across all three programmes in 2019?
+- A. 570k  B. 590k  C. 600k  D. 610k  E. 630k
+
+**10.** Using Table B, what is the average monthly stipend across the three institutions?
+- A. €1,300  B. €1,353  C. €1,400  D. €1,420  E. €1,500
+
+---
+
+### Table C. Enrolment and graduation by region
+
+| Region | Enrolled | Graduated |
+|---|---|---|
+| North | 5,000 | 3,000 |
+| South | 8,000 | 4,800 |
+| East | 4,000 | 2,600 |
+
+**11.** Which region has the highest graduation rate, that is graduates as a share of those enrolled?
+- A. North  B. South  C. East  D. All equal  E. Cannot be determined
+
+**12.** What is the overall graduation rate across the three regions combined?
+- A. 58%  B. 60%  C. 61%  D. 63%  E. 65%
+
+**13.** If East's enrolment increased by 25%, how many students would be enrolled?
+- A. 4,500  B. 4,800  C. 5,000  D. 5,200  E. 5,500
+
 ---
 
 ### Gate check
 
-**8.** On the reasoning stage, the numerical and abstract block is scored out of 20 and needs 10 to pass. A candidate gets 7 of 10 numerical and 4 of 10 abstract. Do they clear the gate, and what percentage is their block score?
+**14.** On the reasoning stage, the numerical and abstract block is scored out of 20 and needs 10 to pass. A candidate gets 7 of 10 numerical and 4 of 10 abstract. Do they clear the gate, and what percentage is their block score?
 - A. No, 45%  B. Yes, 50%  C. Yes, 55%  D. Yes, 60%  E. No, 55%
 
 ---
@@ -63,6 +91,12 @@ question. Worked solutions are at the end.
 5. **C.** 1,170 × 6 = €7,020.
 6. **D.** EIB 1,500 × 5 = 7,500. Commission 1,390 × 5 = 6,950. Difference = €550.
 7. **B.** Commission 6,950 + ECB 7,020 = €13,970.
-8. **C.** 7 + 4 = 11, which is at least 10, so the gate is cleared. 11 / 20 = 55%. Note that a strong numerical score (7) carried a weak abstract score (4) over the line, which is exactly the strategy.
+8. **B.** (220 − 200) / 200 = 20 / 200 = +10%.
+9. **C.** 220 + 250 + 130 = 600k.
+10. **B.** (1,390 + 1,500 + 1,170) / 3 = 4,060 / 3 = €1,353.
+11. **C.** East is 2,600 / 4,000 = 65%, above North and South at 60% each.
+12. **C.** Total graduates 10,400 over total enrolled 17,000 = 0.612, about 61%.
+13. **C.** 4,000 × 1.25 = 5,000.
+14. **C.** 7 + 4 = 11, which is at least 10, so the gate is cleared. 11 / 20 = 55%. A strong numerical score (7) carried a weak abstract score (4) over the line, which is exactly the strategy.
 
-Score out of 8. Since this block is only pass/fail, the goal is speed and a safe margin, not perfection.
+Score out of 14. Since this block is only pass/fail, the goal is speed and a safe margin, not perfection.

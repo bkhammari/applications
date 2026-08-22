@@ -17,13 +17,15 @@ numerical/abstract question, so practice against the clock.
 
 ## Files
 
-- `verbal-reasoning.md`, a mock verbal set with an answer key and explanations.
-  Do it first and timed, since verbal is the ranked block.
-- `numerical-reasoning.md`, a mock numerical set with worked solutions.
+- `verbal-reasoning.md`, a full 20-question verbal set with an answer key and
+  explanations. Do it first and timed, since verbal is the ranked block.
+- `numerical-reasoning.md`, a 14-question numerical set with worked solutions.
 - `abstract-trainer.html`, an interactive generator. Open it in a browser. It
   draws figural sequences, you pick the next figure from five options, and it
   scores you and explains the rule. Endless questions, filterable by rule type
-  and by one-rule or two-rule difficulty.
+  and by one-rule or two-rule difficulty. Keys 1 to 5 pick an option and Enter
+  or the right arrow loads the next, and your running score persists between
+  sessions in the browser.
 
 ## The abstract-reasoning method
 
@@ -35,6 +37,7 @@ The attribute types the trainer uses, and the ones EPSO leans on, are:
 2. Count. The number of elements grows or shrinks by a constant.
 3. Shading. A fill flips between states on a fixed cycle.
 4. Movement. An element moves position by a fixed step, often around the frame.
+5. Size. A shape grows or shrinks by one step each figure.
 
 Most misses happen on items where two rules run at once. Scan rotation across all
 panels first, then count, then shading, then movement. Name each rule before you

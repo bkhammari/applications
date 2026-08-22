@@ -1,6 +1,6 @@
 # Mock verbal reasoning (AD5)
 
-Ranked block. Twenty questions is a full test. Here are ten to start, on EU and
+Ranked block. This is a full twenty-question set, on EU and
 economic-policy themes, so you build EU knowledge at the same time. Read each
 passage, then pick the one option that follows from the passage alone. Do not use
 outside knowledge, even if an option is true in the real world. Target about 105
@@ -88,6 +88,86 @@ Which statement follows?
 - C. Other factors make it hard to attribute the enrolment rise to the loan scheme alone.
 - D. The scholarship programme had no effect on enrolment.
 
+**11.** The principle of subsidiarity governs when the EU may act in areas that are not within its exclusive competence. Under this principle, the EU acts only if the objectives of a proposed action cannot be sufficiently achieved by the member states and can be better achieved at EU level. National parliaments monitor compliance and may issue reasoned opinions if they consider it breached.
+
+Which statement follows?
+- A. The EU may act in any area regardless of member-state capacity.
+- B. Subsidiarity applies to the EU's exclusive competences.
+- C. National parliaments may object to a proposal on subsidiarity grounds.
+- D. National parliaments adopt EU legislation.
+
+**12.** To adopt the euro, a member state must meet the convergence criteria, which cover price stability, sound public finances, exchange-rate stability, and long-term interest rates. A country's government deficit should not exceed 3% of GDP, and public debt should not exceed 60% of GDP or be sufficiently diminishing toward it. Not all EU member states use the euro.
+
+Which is correct?
+- A. Every EU member state uses the euro.
+- B. The deficit criterion is a ceiling of 3% of GDP.
+- C. The debt criterion is a ceiling of 3% of GDP.
+- D. Exchange-rate stability is not among the criteria.
+
+**13.** When the price of a good rises, the quantity demanded usually falls. The size of this response depends on the price elasticity of demand. If demand is elastic, a price rise leads to a more than proportional fall in quantity, and total revenue falls. If demand is inelastic, quantity falls less than proportionally, and total revenue rises.
+
+Which statement follows?
+- A. A price rise always increases total revenue.
+- B. If demand is inelastic, a price rise can raise total revenue.
+- C. Elasticity does not affect the response of quantity to price.
+- D. When price rises, quantity demanded usually rises.
+
+**14.** Cohesion policy aims to reduce disparities between the levels of development of European regions. It channels funds to less-developed regions to support investment in areas such as infrastructure, research, and skills. Regions are classified by their GDP per capita relative to the EU average, and the policy is delivered in partnership with national and regional authorities.
+
+Which can be concluded?
+- A. Cohesion policy targets the wealthiest regions.
+- B. Regions are classified partly by GDP per capita relative to the EU average.
+- C. Cohesion funds are delivered by the Commission alone.
+- D. Cohesion policy funds only infrastructure.
+
+**15.** A negative externality arises when the production or consumption of a good imposes costs on third parties that are not reflected in the market price. Pollution from a factory is a common example. Because these costs are external to the market, the good tends to be overproduced relative to the socially optimal level. Governments may correct this with taxes or regulation.
+
+Which statement follows?
+- A. Negative externalities are reflected in the market price.
+- B. Goods with negative externalities tend to be overproduced.
+- C. Externalities cannot be addressed by policy.
+- D. Pollution is an example of a positive externality.
+
+**16.** The European Council brings together the heads of state or government of the member states, together with its President and the President of the Commission. It defines the general political direction and priorities of the EU, but it does not exercise legislative functions. It should not be confused with the Council of the European Union, which is made up of government ministers and does legislate.
+
+Which can be concluded?
+- A. The European Council passes EU laws.
+- B. The European Council is made up of government ministers.
+- C. The European Council sets the EU's general political direction.
+- D. The European Council and the Council of the EU are the same body.
+
+**17.** Every choice involves an opportunity cost, the value of the next best alternative that is given up. A government that spends more on defence has fewer resources for education or health, assuming its budget is fixed. Recognising opportunity cost is central to evaluating whether a decision uses resources well.
+
+Which statement follows?
+- A. Choices have no cost if no money changes hands.
+- B. Opportunity cost is the value of the next best alternative forgone.
+- C. A fixed budget can fund every priority fully at once.
+- D. Opportunity cost applies only to governments.
+
+**18.** The General Data Protection Regulation sets rules for how the personal data of individuals in the EU may be processed. Organisations must have a lawful basis for processing, and individuals have rights including access to their data and, in certain cases, erasure. The regulation applies to organisations outside the EU if they offer goods or services to individuals in the EU.
+
+Which is correct?
+- A. The regulation applies only to organisations based in the EU.
+- B. Processing personal data requires a lawful basis.
+- C. Individuals have no right to access their data.
+- D. Erasure is guaranteed in all cases.
+
+**19.** Two countries can both gain from trade even if one is more productive at making every good. What matters is comparative advantage, the ability to produce a good at a lower opportunity cost than another country. Each country specialises in the goods where its opportunity cost is lowest and trades for the rest, and total output can then be higher than without trade.
+
+Which statement follows?
+- A. A country gains from trade only if it is more productive at everything.
+- B. Comparative advantage depends on relative opportunity costs.
+- C. Specialisation reduces total output.
+- D. Trade cannot benefit a less productive country.
+
+**20.** Article 2 of the Treaty on European Union sets out the values on which the Union is founded, including respect for human dignity, freedom, democracy, equality, the rule of law, and human rights. These values are common to the member states. A serious and persistent breach by a member state can trigger a procedure that may lead to the suspension of certain rights.
+
+Which can be concluded?
+- A. The Union's founding values are listed in Article 2 TEU.
+- B. The rule of law is not among the Union's values.
+- C. A breach of these values carries no possible consequence.
+- D. The values belong to the EU institutions, not the member states.
+
 ---
 
 ## Answer key
@@ -102,5 +182,15 @@ Which statement follows?
 8. **B.** This restates the real-income point. A ignores the wage-price gap, C reverses the unemployment effect, and D reverses the purchasing-power effect.
 9. **C.** The temporary reintroduction of controls is stated. A and B contradict "not every EU state" and "some non-EU countries," and D contradicts the exception.
 10. **C.** The analyst points to a pre-existing trend and a concurrent programme. A and D overstate, and B contradicts "enrolment rises."
+11. **C.** National parliaments may issue reasoned opinions on subsidiarity. A ignores the capacity test, B reverses the scope (subsidiarity covers non-exclusive competences), and D misstates their role.
+12. **B.** The 3% deficit ceiling is stated. A contradicts "not all use the euro," C swaps the debt figure (60%) for the deficit figure, and D contradicts the list of criteria.
+13. **B.** Inelastic demand plus a price rise raises revenue. A overgeneralises, C contradicts the elasticity point, and D reverses the demand relationship.
+14. **B.** GDP per capita relative to the EU average is the classifier. A reverses the target, C contradicts "in partnership," and D contradicts "such as."
+15. **B.** External costs lead to overproduction. A contradicts "not reflected," C contradicts the taxes-or-regulation sentence, and D mislabels the externality.
+16. **C.** Setting political direction is stated. A and B describe the Council of the EU, and D conflates the two bodies.
+17. **B.** This is the definition given. A denies opportunity cost, C contradicts the fixed-budget trade-off, and D over-narrows it.
+18. **B.** A lawful basis is required. A contradicts the extraterritorial sentence, C contradicts the access right, and D overstates erasure.
+19. **B.** Comparative advantage rests on relative opportunity costs. A and D contradict the opening sentence, and C reverses the output effect.
+20. **A.** The values are listed in Article 2 TEU. B contradicts the list, C contradicts the suspension procedure, and D contradicts "common to the member states."
 
-Score out of 10. On the real test this block is ranked, so treat anything below 8 as a signal to keep drilling the "supported by the passage alone" habit.
+Score out of 20. On the real test this block is ranked, so treat anything below 16 as a signal to keep drilling the "supported by the passage alone" habit.
