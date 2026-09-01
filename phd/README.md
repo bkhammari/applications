@@ -93,19 +93,27 @@ though she supervised and graded the thesis. Her role is to brief the professor
 who writes about the master's thesis. The two formal referees should be
 professors.
 
-- **Prof. Dr. Pia Pinger.** Professorial supervisor of the master's thesis, and
-  the best topical fit. Works only if Anna Person briefs her, since they have not
-  met in person. See `cologne/email-pinger.md` and
-  `duesseldorf/reference-request-dgse.md`.
+- **Prof. Dr. Pia Pinger.** Replied and is willing to help. She prefers that Anna
+  Person writes the letter, since Anna knows the applicant personally, and Pinger
+  will send it out on Anna's behalf. That combination satisfies programmes that
+  require a professor. Pinger also advised that the second letter should come
+  from someone who has interacted with the applicant, such as a seminar
+  instructor, which points to Krause. See
+  `cologne/email-pinger-general-reference.md`.
 - **Univ.-Prof. Dr. Andreas Schabert.** Bachelor's thesis supervisor, a professor
   who has seen the applicant's independent research. Straightforward.
 - **Backups who taught the applicant with strong grades.** Prof. Christopher Roth
   (applied micro, ECONtribute, 1.7), Prof. Roman Liesenfeld (econometrics, 1.3),
   and Prof. Michael Krause (three courses, unresponsive for five days, field
   mismatch).
-- **Anna Person, M.Sc.** Not a formal referee where professors are required, but
-  the direct supervisor who can supply the substance for Pinger's letter and
-  serve as a reference where a non-professor is acceptable.
+- **Anna Person, M.Sc.** The direct thesis supervisor, and the person who actually
+  writes the letter, with Pinger sending it out. She needs the applicant section
+  of each form completed first. Her university address has expired, so use her
+  gmail address.
+
+Note on the applicant profile: there is no research-assistant experience to point
+to, so the second letter has to come from teaching contact rather than from an RA
+role.
 
 The CV no longer lists named referees, since nothing is confirmed yet. It says
 "References available upon request."
