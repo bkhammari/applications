@@ -36,29 +36,53 @@ attachments (this happened with RWI, status 550 5.7.1). If a message bounces,
 resend with no attachments and offer to send them on request, or use a contact
 form.
 
-## Gmail drafts, 8 September 2026
+## Gmail, 8 September 2026
 
-Five emails are drafted in Gmail and labelled **PhD**, ready to review and send.
-Nothing has been sent. The Gmail label **Applications** exists for the
-finance, consulting and industry track.
+Emails drafted in Gmail carry the label **PhD**. The label **Applications** exists
+for the finance, consulting and industry track.
 
-| Draft | To | Notes before sending |
+| Email | To | State |
 |---|---|---|
-| Reference reply | Anna Person + Pinger | Send first. Nine days overdue, and Pinger's question from 28 Aug is unanswered |
-| Settele | settele@wiso.uni-koeln.de | Send the same day, since the reply above names her to Pinger |
-| Boneva follow-up | tboneva@uni-bonn.de | Eight weeks of silence. Send once, then leave it |
-| van Maarseveen follow-up | vanmaarseveen@wiso.uni-koeln.de | Eight weeks of silence |
-| Siegloch | siegloch@wiso.uni-koeln.de | **Verify the address**, it was inferred from the department pattern. Attach CV and proposal |
+| Reference reply | Anna Person + Pinger | **Sent** 19:20 |
+| Boneva follow-up | tboneva@uni-bonn.de | **Sent** 19:21 |
+| Siegloch | siegloch@wiso.uni-koeln.de | **Sent** 19:22 |
+| Settele | settele@wiso.uni-koeln.de | Drafted. Send now, the reference reply already names her to Pinger |
+| Wohlfart | wohlfart@wiso.uni-koeln.de | Drafted. **Verify the address.** Neisser recommended him in July and he was never contacted |
+| van Maarseveen follow-up | vanmaarseveen@wiso.uni-koeln.de | Drafted, on hold. See below |
+
+**Delete the stale drafts.** Sending the first three left duplicate drafts behind
+in Gmail for Pinger, Boneva and Siegloch. Delete them so nothing goes out twice.
+
+**The van Maarseveen draft is on hold.** It says he never replied. Searching the
+whole account for his name, the thread itself, and all inbound mail turns up no
+reply from him, so the draft is accurate as far as the mailbox shows. If a reply
+did arrive somewhere else, such as a university address, the draft has to be
+rewritten before it goes out.
+
+## Carina Neisser's four names, July 2026
+
+She answered a cold email on 17 July with the people to approach for applied
+microeconomics at Cologne. Recording it because one name went unused for eight
+weeks.
+
+| Name | State |
+|---|---|
+| Sebastian Siegloch | Contacted 8 Sep |
+| Pia Pinger | In the reference thread |
+| Sonja Settele | Met in person 21 Jul, draft ready |
+| Johannes Wohlfart | **Never contacted.** Draft now ready, see [`cologne/email-wohlfart.md`](cologne/email-wohlfart.md) |
 
 ## Status overview
 
 | Target | Contact | Route | Status | Next action |
 |---|---|---|---|---|
 | **HHU Düsseldorf (DGSE)** | Application (Jan 2027 start) | Structured PhD | **Not pursued** (decided Sep 2026) | None. Deadline was 16 Sep 2026 and was open, but the target was dropped |
-| **Bonn (BGSE)** | Prof. Teodora Boneva | Cold email, meeting | Sent, no reply | Send [follow-up](bonn/email-boneva-followup.md) after about a week |
-| **Cologne** | Prof. Sebastian Siegloch | Cold email | Not sent | Send [email](cologne/email-siegloch.md) |
-| **Cologne** | Prof. Pia Pinger | Cold email, reference | Not sent | Send [email](cologne/email-pinger.md) |
-| **Cologne** | Jun.-Prof. Raoul van Maarseveen | Follow-up | Sent, no reply | Send [follow-up](cologne/email-vanmaarseveen-followup.md) |
+| **Bonn (BGSE)** | Prof. Teodora Boneva | Cold email, meeting | **Followed up 8 Sep** | Nothing further. If she stays silent, apply to the BGSE anyway, it does not depend on her |
+| **Cologne** | Prof. Sebastian Siegloch | Cold email | **Sent 8 Sep** | Wait. Follow up once if silent after three weeks |
+| **Cologne** | Prof. Sonja Settele | Warm follow-up | Met 21 Jul, draft ready | Send [email](international/email-denmark.md). Second letter and the CEBI introduction |
+| **Cologne** | Prof. Johannes Wohlfart | Cold email | Draft ready | Send [email](cologne/email-wohlfart.md). Recommended by Neisser in July, never contacted |
+| **Cologne** | Prof. Pia Pinger | Reference | **Replied 8 Sep** | Awaiting her answer on a general letter or referee status |
+| **Cologne** | Jun.-Prof. Raoul van Maarseveen | Follow-up | Sent 15 Jul, no reply found | [Follow-up](cologne/email-vanmaarseveen-followup.md) drafted but on hold, see above |
 | **Cologne (CGS)** | Cologne Graduate School | Structured program | Opens spring | See [note](cologne/note-cgs.md) |
 | **HHU Düsseldorf (DICE)** | Prof. Hannah Schildberg-Hörisch | Cold email | Not pursued | Draft kept in `duesseldorf/` if the decision is revisited |
 | **HHU Düsseldorf (DICE)** | Prof. Jens Südekum | Cold email | Not pursued | Draft kept in `duesseldorf/` if the decision is revisited |
@@ -92,9 +116,10 @@ October 2027 start**: Bonn and DIW on 15 January, Munich on 31 January, then
 Cologne, Ruhr, and Mannheim in March. That removes the September time pressure on
 references and makes a general letter or referee arrangement the sensible ask.
 
-**Bonn / Boneva.** First email sent. It referenced Milena Jessen from the PhD
-event and asked for a meeting and leads. No reply yet, so follow up once, briefly,
-then leave it.
+**Bonn / Boneva.** First email sent 15 July, referencing Milena Jessen from the PhD
+event and asking for a meeting and leads. Eight weeks of silence, so a single short
+follow-up went out on 8 September. That was the one nudge. Nothing more now. The
+BGSE application closes on 15 January and does not depend on her answering.
 
 **Cologne.** Prof. Michael Krause (thesis-seminar instructor) suggested three
 names, all at the University of Cologne and ECONtribute: Raoul van Maarseveen (no
