@@ -144,7 +144,20 @@ there.
 - **Ruhr-Universität Bochum** and **TU Dortmund**, both RGS Econ partners, so a
   post there can also be the PhD route.
 
+## Finance, consulting and industry
+
+Covered separately in [`private-sector.md`](private-sector.md), because the pay
+floor, the CV and the honest strategic position are all different. Short version:
+economic consulting is the one part of the private sector that uses your actual
+econometrics and treats a pre-PhD analyst stint as normal, so Frontier Economics
+in Cologne and Simon-Kucher in Bonn belong near the top of any list. Strategy
+consulting and banking pay far more than anything on this page but are career
+tracks rather than bridges, which is worth naming rather than glossing over.
+
 ## Qualification filter
+
+This is the research-track filter. The private-sector one is different and lives
+in [`private-sector.md`](private-sector.md).
 
 Reject immediately if any of these is true.
 

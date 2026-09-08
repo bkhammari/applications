@@ -36,6 +36,20 @@ attachments (this happened with RWI, status 550 5.7.1). If a message bounces,
 resend with no attachments and offer to send them on request, or use a contact
 form.
 
+## Gmail drafts, 8 September 2026
+
+Five emails are drafted in Gmail and labelled **PhD**, ready to review and send.
+Nothing has been sent. The Gmail label **Applications** exists for the
+finance, consulting and industry track.
+
+| Draft | To | Notes before sending |
+|---|---|---|
+| Reference reply | Anna Person + Pinger | Send first. Nine days overdue, and Pinger's question from 28 Aug is unanswered |
+| Settele | settele@wiso.uni-koeln.de | Send the same day, since the reply above names her to Pinger |
+| Boneva follow-up | tboneva@uni-bonn.de | Eight weeks of silence. Send once, then leave it |
+| van Maarseveen follow-up | vanmaarseveen@wiso.uni-koeln.de | Eight weeks of silence |
+| Siegloch | siegloch@wiso.uni-koeln.de | **Verify the address**, it was inferred from the department pattern. Attach CV and proposal |
+
 ## Status overview
 
 | Target | Contact | Route | Status | Next action |

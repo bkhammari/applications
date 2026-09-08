@@ -37,7 +37,10 @@ saved time there.
 
 1. **Source.** Collect open postings. Institute career pages (RWI, ZEW, DIW, ifo,
    IZA), employer pages (ECB, Bundesbank, KfW, BaFin, Destatis, GIZ), and boards (INOMICS and
-   EconJobMarket for economics RA and pre-doc roles, Indeed for the wider set).
+   EconJobMarket for economics RA and pre-doc roles, Indeed and LinkedIn for the
+   wider set). For the private-sector track, add the firm career pages listed in
+   [`private-sector.md`](private-sector.md), since consulting and insurance rarely
+   post to the economics boards.
 2. **Qualify.** Reject fast on the hard criteria before reading any further.
 3. **Draft.** For each survivor, take the matching template and write only the fit
    paragraph, quoting something concrete from the posting.
