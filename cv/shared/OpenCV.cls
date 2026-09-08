@@ -14,8 +14,11 @@
 \RequirePackage{enumitem}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[empty]{fullpage}
-\RequirePackage[ngerman]{babel}
+% babel is deliberately NOT loaded here. Loading it with a fixed language made the
+% English CV fail with an option clash, because it asks for english and the class
+% demanded ngerman. Each CV now loads babel itself with the language it needs.
 \RequirePackage{latexsym}
+\RequirePackage{amsmath}   % \text in maths, used in the thesis bullets
 \RequirePackage{tabularx}
 \RequirePackage{fontawesome}
 \RequirePackage[T1]{fontenc}

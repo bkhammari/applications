@@ -76,9 +76,19 @@ block in `letter.tex`.
 If you cannot write that paragraph from the posting, the role is probably not a
 fit. That is useful information rather than a failure.
 
-The rest of `letter.tex` is already true and stays as it is. Compile with
-`pdflatex` locally or on Overleaf. There is no LaTeX in this repo's tooling, so
-the workflow produces sources rather than PDFs.
+The rest of `letter.tex` is already true and stays as it is.
+
+Then build the PDFs:
+
+```bash
+python3 apply/build.py frontier        # one application
+python3 apply/build.py --all --clean   # everything open, aux files removed
+```
+
+It runs pdflatex twice on `cv.tex` and `letter.tex`, reports the page count, and
+prints the first real error rather than the whole log when something fails. The
+install line for a machine without LaTeX is in the file's docstring. `tex-gyre`
+and `lmodern` are the two easy ones to miss, and the CV class needs both.
 
 ### 5. Send, then record it
 
@@ -135,6 +145,8 @@ does not exist.
 | `python3 apply/track.py set <id> <status>` | Move it along |
 | `python3 apply/track.py note <id> "text"` | Append a dated note |
 | `python3 apply/track.py summary` | Counts and reply rate |
+| `python3 apply/build.py <id>` | Compile that application's CV and letter |
+| `python3 apply/build.py --all --clean` | Compile everything open, tidy up after |
 
 Statuses run `draft`, `sent`, `replied`, `interview`, `offer`, `rejected`,
 `closed`. The first four count as open.
@@ -145,6 +157,7 @@ Statuses run `draft`, `sent`, `replied`, `interview`, `offer`, `rejected`,
 apply/
 ├── new.py              scaffold an application
 ├── track.py            read and update the tracker
+├── build.py            compile the LaTeX to PDF
 ├── _tracker.py         shared state, the only thing that touches the CSV
 ├── tracker.csv         one row per application, the single source of truth
 ├── templates/
@@ -155,12 +168,13 @@ apply/
     └── <employer-role>/
         ├── posting.md   the posting, the qualification check, the research
         ├── cv.tex       copied in and tuned for this application
-        └── letter.tex   boilerplate plus the one fit paragraph
+        ├── letter.tex   boilerplate plus the one fit paragraph
+        └── *.pdf        what you actually send
 ```
 
 The tracker is a CSV rather than a markdown table so that git diffs it row by row,
 a spreadsheet can open it, and nothing has to be reformatted by hand. It is the
-single source of truth. Both scripts read and write it through `_tracker.py`.
+single source of truth. Every script reaches it through `_tracker.py`.
 
 ## Where Claude fits
 
