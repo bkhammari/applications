@@ -60,6 +60,8 @@ for the finance, consulting and industry track.
 | **Dohmen, Bonn** | t.dohmen@uni-bonn.de | Drafted. Highest value of the batch. Bonn chair, Maastricht chair in Education and the Labour Market, and chairs ROA's advisory board |
 | **Schiprowski, Bonn** | amelie.schiprowski@uni-bonn.de | Drafted. Purest field match at Bonn, empirical labour and public economics |
 | **ROA, Maastricht** | secretary-roa-sbe@maastrichtuniversity.nl | Drafted. Asks who to approach, since GSBE wants a supervisor identified first |
+| **Qaim + Parlasca, Bonn** | mqaim@ / parlasca@uni-bonn.de | Drafted. C08 Job Futures in TRR 228, which uses employer data on jobs and inequality. Best fit in that CRC |
+| **Klagge, Bonn** | klagge@uni-bonn.de | Drafted. Economic geography, and spokesperson for the TRR 228 phase starting 2026 |
 | van Maarseveen follow-up | vanmaarseveen@wiso.uni-koeln.de | Drafted, on hold. See below |
 
 **Delete the stale drafts.** Sending the first three left duplicate drafts behind
