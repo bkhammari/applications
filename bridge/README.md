@@ -1,66 +1,92 @@
-# Bridge positions: paid internships and traineeships
+# Bridge positions: Rhine-Ruhr only
 
-Goal: a paid position, ideally above 1,200 euros per month, to bridge the time
-until a PhD start. That is January 2027 if the Düsseldorf application succeeds, or
-autumn 2027 for the winter cycle. Open to Germany, Luxembourg, Brussels, or the
-Netherlands. The table sorts by whether the pay clears the 1,200 euro bar.
+Goal: a paid position within commuting range of Cologne and Düsseldorf, to bridge
+the time until a PhD start. Target pay above 1,200 euros a month, and in practice
+much more than that is achievable (see below).
 
-_Last updated: August 2026._
+_Last updated: September 2026._
 
-## Eligibility note (important after graduation)
+## The geography constraint changes the list
 
-The M.Sc. finishes in September 2026, so from then on the profile is a graduate,
-not an enrolled student. Werkstudent roles and mandatory-internship
-(Pflichtpraktikum) slots usually require current enrolment and will often not
-apply. The graduate-eligible paid tracks are the EU traineeships (Blue Book, EIB,
-ECB), the GIZ trainee route, and voluntary graduate internships. Check the
-enrolment requirement on each posting before applying.
+In range, roughly an hour or less from Cologne or Düsseldorf: **Bonn** (30 min
+from Cologne), **Essen** and **Duisburg** (25 to 40 min from Düsseldorf),
+**Leverkusen**, **Wuppertal**, **Bochum**, **Dortmund**, **Aachen**.
 
-## Clears the bar, recommended targets
+Out of range, and therefore dropped from the earlier shortlist: **Frankfurt**
+(Bundesbank, KfW, ECB) at roughly 1.5 to 2 hours, **Luxembourg** (EIB), and
+**Brussels**. Those were three of the five previous top targets. They only come
+back if you would relocate, so say the word if that is on the table.
 
-| Employer | Location | Pay per month (gross) | What it is | Intake | Fit |
-|---|---|---|---|---|---|
-| Bundesbank Research Centre | Frankfurt | about 2,400 with a bachelor's | Research internship at the central bank | Rolling, apply early | Very strong, matches the research profile directly |
-| GIZ | Bonn, Eschborn, or abroad | about 2,200 to 2,300 | Development-cooperation internship, policy and evaluation work | Rolling, per project | Strong, and Bonn is near Düsseldorf |
-| KfW | Frankfurt, also Berlin | 2,048 voluntary, 1,443 mandatory | Promotional and development bank internship | Rolling | Strong, finance and development economics |
-| EIB | Luxembourg | 1,500 flat | Five-month traineeship at the EU investment bank | March to April and September to October, apply about four months ahead | Strong, economics and finance |
-| Blue Book, EU Commission | Brussels or Luxembourg | about 1,390 | Five-month Commission traineeship | March 2027 session, apply by 4 Sep 2026 | Strong, see `../eu/blue-book.md` |
-| ECB | Frankfurt | 1,170, or 2,120 at PhD level | Central bank traineeship, three to six months | Rolling per vacancy | Strong, though 1,170 is just under the bar. Accommodation is covered if the distance is over 50 km |
+## The bigger shift: stop applying for internships
 
-## Named, but below the bar on pay
+Once the M.Sc. is finished in September 2026 you are a graduate, which makes you
+eligible for **wissenschaftliche Mitarbeiter** posts (TV-L E13) at German
+universities and institutes. These are salaried research jobs, not internships.
 
-| Employer | Location | Pay | Note |
-|---|---|---|---|
-| Federal ministries, including the Auswärtiges Amt (Foreign Office) | Berlin | about 450 per month | Well below 1,200. Prestigious, but not viable on pay unless the requirement is relaxed |
-| UN Bonn (UNFCCC and related) | Bonn | Unpaid | UN Secretariat internships are unpaid. The paid UNFCCC fellowship is for mid-career professionals from developing countries, so it does not apply here |
-| OECD | Paris | about 1,000 | Below the bar, and outside the named locations |
+The difference is large. A 65% E13 post pays roughly 2,700 to 3,000 euros gross a
+month, against 1,200 to 2,200 for an internship. Many of these posts are also
+formally **Doktorandenstellen**, meaning the job and the PhD are the same
+position. That solves both of your problems at once and is a far better use of
+the same application effort.
 
-## Also worth checking, pay varies by posting
+So the priority order is: E13 research posts first, internships only as a
+fallback.
 
-- EIF, the European Investment Fund, Luxembourg. Close in profile to the EIB.
-- Eurostat and other EU bodies through the EU traineeships portal, Luxembourg and Brussels.
-- Economic think tanks. Bruegel and CEPS in Brussels, and DIW, ZEW, ifo, and the Kiel Institute in Germany. Full-time research-assistant roles can clear the bar. Student-assistant roles are hourly.
-- Dutch institutions. CPB Netherlands Bureau for Economic Policy Analysis and DNB, the Dutch central bank.
-- IZA in Bonn. Research-assistant or visiting roles, near Düsseldorf and directly in field.
+## In-range targets
 
-## Strategy
+### Bonn, 30 minutes from Cologne
 
-Given the pay requirement, the strongest five are the Bundesbank Research Centre,
-GIZ, KfW, the EIB, and the Blue Book. All clear 1,200 euros, most clear 2,000, and
-all fit an economist with this profile. IZA and GIZ are both in Bonn, near
-Düsseldorf, which keeps any move small.
+- **IZA, Institute of Labor Economics.** The single best field match anywhere in
+  range. Labour economics, administrative data, policy evaluation. Look for
+  research assistant and junior research associate posts.
+- **GIZ.** Roughly 2,200 a month for an internship, and also hires graduates.
+- **briq, Behavior and Inequality Research Institute.**
+- **Max Planck Institute for Research on Collective Goods.**
+- **University of Bonn chairs and ECONtribute.** E13 posts, often with a PhD.
+- **Deutsche Post DHL** and **Deutsche Telekom** head offices, for corporate
+  economics and analytics.
 
-On timing, a five to six month traineeship starting in autumn 2026 or spring 2027
-bridges cleanly to an October 2027 PhD start. If the Düsseldorf PhD comes through
-for January 2027, keep the bridge short and avoid a traineeship that runs past the
-start date. The Blue Book March 2027 session, for instance, would overlap a
-January 2027 PhD start.
+### Cologne, home
 
-On the Bundesbank, only one internship is allowed per study phase, so use it where
-it counts most, most likely the Research Centre.
+- **University of Cologne chairs.** Siegloch, Pinger, and van Maarseveen are
+  already contacts. Chair-level E13 posts are exactly the job-plus-PhD case.
+- **ECONtribute**, the Bonn and Cologne cluster.
+- **IW Köln**, Institut der deutschen Wirtschaft, an economic research institute.
+- **Bayer** in Leverkusen, 20 minutes away.
 
-For applications by email, adapt `email-research-internship.md`
-for GIZ, KfW, the Bundesbank, and think tanks, and
-`email-policy-internship.md` for ministries, EU
-institutions, and NGOs. The EU traineeships at the EIB, the ECB, and the Blue Book
-use their own online forms rather than a cold email.
+### Essen and Duisburg, 25 to 40 minutes from Düsseldorf
+
+- **RWI Leibniz Institute, Essen.** Doctoral researcher posts at TV-L E13.
+  Bachmann has no slot at his chair, but other groups recruit, and Westphal and
+  Tamm are the closer field fits.
+- **University of Duisburg-Essen**, an RGS Econ partner.
+- **E.ON** and **Evonik**, Essen.
+
+### Düsseldorf, home
+
+- **HHU and DICE.** The PhD programme was dropped, but E13 research posts are a
+  separate thing and still worth watching.
+- **Henkel**, **Metro**, **Vodafone**, **Trivago**, **Ergo**, and the big four
+  offices.
+
+### Bochum and Dortmund, 45 to 60 minutes
+
+- **Ruhr-Universität Bochum** and **TU Dortmund**, both RGS Econ partners, so a
+  post there can also be the PhD route.
+
+## Qualification filter
+
+Reject immediately if any of these is true.
+
+- Unpaid, or below 1,200 euros a month
+- Outside the Rhine-Ruhr range above
+- Requires current enrolment (Werkstudent, Pflichtpraktikum)
+- Requires a completed PhD
+
+## How to work it
+
+The daily loop, the fit-paragraph method, and the tracker are in
+[`pipeline.md`](pipeline.md). Email templates are `email-research-internship.md`
+for institutes and chairs, and `email-policy-internship.md` for agencies and
+NGOs. For E13 posts, the research template is the right starting point, with the
+fit paragraph pointed at the group's actual project.
