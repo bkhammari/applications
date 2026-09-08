@@ -13,9 +13,11 @@ worked with, so your method transfers directly rather than needing to be
 relearned. Positions are advertised as individual job vacancies through the year
 rather than in one annual round, so check the vacancy pages regularly.
 
-**Warm contact:** Sonja Settele is at Copenhagen. She already gave you advice
-about Barcelona, so asking her about Copenhagen is a natural follow-up rather than
-a cold approach. Use the version at the bottom for her.
+**Warm contact:** Sonja Settele is an Associate Professor at Cologne and an
+**external member of CEBI**, having been an Assistant Professor there before she
+moved. She is not inside the department any more, so the ask is an introduction
+rather than a position. You met her in person in July, so this is a follow-up. Use
+the version at the bottom for her.
 
 **Adapt:** the `[Professor X]` line and the one-line fit paragraph.
 
@@ -45,17 +47,20 @@ b.e.khammari@gmail.com
 Shorter, because there is already a conversation. The ask is advice and a
 pointer, not a position.
 
-Subject: Following up on your Barcelona suggestion, and a question about Copenhagen
+Subject: Following up on our meeting in July, and a question about CEBI
 
-Dear Sonja,
+Dear Professor Settele,
 
-Thank you again for the suggestion to look at Barcelona. I have been working through the options there, and UPF and the BSE are both on my list for the January round.
+Thank you again for meeting me in July. Your suggestion to look at Barcelona was helpful, and UPF and the BSE are both on my list for the January round.
 
-While doing that I realised I should also be asking you about Copenhagen. CEBI works on the questions I want to work on, and the register data would let me do the version of my thesis I could not do in Brazil, following people over time instead of repeated cross-sections. My thesis estimated the wage effects of the ProUni scholarship program with a heterogeneity-robust staggered DiD design, and the PhD project extends it to compare scholarships, loans and quotas.
+Since then I have been putting the applications together, and I wanted to ask you about Copenhagen as well. CEBI works on the questions I want to work on, and the Danish registers would let me do the version of my thesis I could not do in Brazil, following individuals over time instead of repeated cross-sections. My thesis estimated the wage effects of the ProUni scholarship program with a heterogeneity-robust staggered DiD design, and the PhD project extends it to compare scholarships, loans and quotas.
 
-Would you have a few minutes to tell me whether it is worth applying, and who at CEBI would be the right person to write to? I am also happy to send my CV and proposal if that is useful.
+Since you are an external member of CEBI, would you be able to tell me whether it is worth applying, and who there would be the right person to write to?
+
+One other question, if I may. Programmes ask for two letters, and most require a professor. Professor Pinger will send out the letter from my thesis supervisor, and for the second she suggested someone who knows me from direct interaction. Would you be willing to consider that, or to tell me what you would need from me first? I am glad to send my CV, transcript and proposal.
 
 Thank you very much.
 
 Best regards,
-Baha
+Baha Khammari
+M.Sc. Economics (expected Sep. 2026), University of Cologne

@@ -44,10 +44,12 @@ already know how to handle. Danish administrative registers are the closest thin
 in Europe to the RAIS data you used in the thesis, which makes your method
 directly transferable rather than merely adjacent.
 
-**Sonja Settele is at Copenhagen.** She already suggested Barcelona to you, which
-means the door is open. Ask her about Copenhagen too. A warm contact at the
-best-paid, best-fitting department is worth more than ten cold emails, and it
-costs one message.
+**Sonja Settele is the route in.** She is an Associate Professor at Cologne, not
+at Copenhagen, but she is an **external member of CEBI** and was an Assistant
+Professor there before moving. So she is not a contact inside the department, she
+is someone who can introduce you to one, which is nearly as good and costs one
+message. You already met her in person in July, so this is a follow-up rather than
+a cold ask.
 
 Also worth watching: Aarhus (strong econometrics), and the Copenhagen Business
 School.
@@ -165,8 +167,12 @@ steady drip.
 
 ## Immediate actions
 
-1. Email Sonja Settele about Copenhagen and CEBI, not only Barcelona. Best pay,
-   best fit, warmest contact.
+1. Write to Sonja Settele. She is the highest-value contact you have, and for
+   three separate reasons rather than one. She is a Cologne professor who has
+   already met you, which makes her a candidate for the second reference letter
+   Pinger asked about. She is an external CEBI member who can introduce you to
+   Copenhagen. She is a senior research fellow at the MPI in Bonn, which is on the
+   bridge list. One email covers all three.
 2. Decide the GRE. It unlocks Bonn, UPF and BSE together, and closes most of
    Spain if you skip it.
 3. Send three Swiss emails to named chairs at Zurich, Lausanne and St. Gallen.

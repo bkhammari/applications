@@ -52,7 +52,7 @@ form.
 | **ifo Munich (MGSE)** | ifo Center for the Economics of Education | Cold email | Not sent | Send [email](institutes/email-ifo-munich.md) |
 | **ZEW Mannheim (CDSE)** | Inequality and Public Policy / Labour Markets | Cold email | Not sent | Send [email](institutes/email-zew-mannheim.md) |
 | **DIW Berlin (GC)** | DIW Graduate Center | Cold email | Not sent | Send [email](institutes/email-diw-berlin.md) |
-| **Denmark** | Sonja Settele (Copenhagen, CEBI) | Warm email | Not sent | Send the Settele version of [template](international/email-denmark.md). Best pay and best fit on the list |
+| **Denmark** | Prof. Sonja Settele (Cologne, external CEBI member) | Warm follow-up | Not sent | Send the Settele version of [template](international/email-denmark.md). Asks for a CEBI introduction and about the second letter |
 | **Switzerland** | Chairs at Zurich / Lausanne / St. Gallen | Cold email | Not sent | Adapt [template](international/email-switzerland-austria.md). Direct hiring, so no letters needed to start |
 | **Netherlands** | Potential supervisor (Rotterdam / Tinbergen / Tilburg / Maastricht) | Cold email | Not sent | Adapt [template](international/email-netherlands.md). Use the RSM connection for Rotterdam |
 | **Austria** | Chairs at Vienna / WU / Innsbruck | Cold email | Not sent | Adapt [template](international/email-switzerland-austria.md) |
@@ -101,8 +101,8 @@ with pay as a tiebreaker. Full country-by-country ranking, pay figures and
 deadlines are in [`geography-and-pay.md`](geography-and-pay.md). The short version
 is that Denmark, Switzerland and the Netherlands pay two to three times what Spain
 and Italy pay for the same work, so those three come first. Copenhagen and CEBI
-are the best single target, because the field fit, the register data and the pay
-all line up and Sonja Settele is already a contact there.
+are the best single target on field fit, register data and pay together, and
+Sonja Settele is an external member there who can make the introduction.
 
 Two of these run on their own clock rather than the German winter cycle. FWO in
 Belgium closes at the start of December, and the EUI in Florence around 31
@@ -141,6 +141,14 @@ ask, rather than a form per application. The draft is in
   from someone who has interacted with the applicant, such as a seminar
   instructor, which points to Krause. See
   `cologne/email-pinger-general-reference.md`.
+- **Prof. Dr. Sonja Settele.** The answer to Pinger's question about a second
+  letter writer, and it had been overlooked. Associate Professor at Cologne,
+  ECONtribute faculty, senior research fellow at the MPI in Bonn, and an external
+  member of CEBI Copenhagen. She replied to a cold email in July, met the
+  applicant in person on 21 July, and already has the CV and proposal. That is
+  exactly the direct interaction Pinger asked for, from a professor at the
+  applicant's own university. Ask her. Draft in
+  `international/email-denmark.md`.
 - **Univ.-Prof. Dr. Andreas Schabert.** Bachelor's thesis supervisor, a professor
   who has seen the applicant's independent research. Straightforward.
 - **Backups who taught the applicant with strong grades.** Prof. Christopher Roth
