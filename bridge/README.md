@@ -59,6 +59,10 @@ makes you eligible.
 So the priority order is: graduate schemes and E13 research posts first,
 internships only as a fallback.
 
+How to find and approach chair E13 posts, including the boards, the DFG grant
+database and the email that works, is in
+[`../phd/e13-direct.md`](../phd/e13-direct.md).
+
 ## One timing trap worth naming
 
 The bridge window is roughly October 2026 to September 2027, because the German

@@ -11,6 +11,15 @@ _Last updated: September 2026._
 **Deadlines at a glance:** see [`../dashboards/deadlines.html`](../dashboards/deadlines.html)
 for a visual board of every program's deadline, requirements, and fit.
 
+**Going direct for a chair position:** see [`e13-direct.md`](e13-direct.md). The
+answer to "everyone says it runs through the graduate school" is that there are two
+separate hiring channels, and only one of them is the graduate school. A chair E13
+post is a job the professor fills alone, it can start in weeks, it pays 2,700 to
+3,000 gross, and the doctorate happens alongside it. That file has the boards, the
+grant-database trick, and a target list. The email for it is
+[`templates/email-e13-inquiry.md`](templates/email-e13-inquiry.md), and it asks a
+deliberately different question from the supervisor cold email.
+
 **Where to apply abroad, and what it pays:** see
 [`geography-and-pay.md`](geography-and-pay.md). Germany's neighbours include
 three of the best-paid PhD systems in Europe, so the international layer is worth
