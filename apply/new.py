@@ -36,6 +36,11 @@ def build_parser():
     p.add_argument("--deadline", default="", help="ISO date, or blank for rolling")
     p.add_argument("--url", default="", help="Link to the posting")
     p.add_argument("--lang", default="en", choices=["en", "de"], help="Letter language")
+    p.add_argument(
+        "--cv",
+        default="",
+        help="Override the CV the track would pick, as a repo-relative path",
+    )
     p.add_argument("--contact", default="", help="Named person, if the posting gives one")
     p.add_argument("--posting-file", default="", help="File holding the posting text")
     p.add_argument("--notes", default="", help="Anything worth remembering")
@@ -79,7 +84,9 @@ def main(argv=None):
     os.makedirs(folder, exist_ok=True)
 
     date = t.iso(t.today())
-    cv = t.TRACKS[args.track]
+    cv = args.cv or t.TRACKS[args.track]
+    if not os.path.exists(os.path.join(t.REPO, cv)):
+        raise SystemExit(f"No CV at {cv}. Give a repo-relative path that exists.")
     opening = build_opening(args.lang, args.contact)
 
     values = {

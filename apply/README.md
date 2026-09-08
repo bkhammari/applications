@@ -27,10 +27,30 @@ That creates `apply/applications/<slug>/` holding `posting.md` and `letter.tex`,
 picks the right CV for the track, and adds a row to `tracker.csv` with status
 `draft`. Nothing is sent.
 
-`--track` decides the CV. `academic`, `research` and `policy` get the English
-academic CV, `industry` gets the German professional one. `--lang` picks the
-letter language and `--contact` sets the salutation, including the gendered German
-form when you pass a name starting with Herr or Frau.
+`--lang` picks the letter language and `--contact` sets the salutation, including
+the gendered German form when you pass a name starting with Herr or Frau.
+
+## Which CV goes with which track
+
+| Track | CV |
+|---|---|
+| `academic`, `research`, `policy` | `cv/academic/academic_cv.tex`, English |
+| `consulting` | `cv/academic/academic_cv.tex`, English |
+| `industry` | `cv/professional/cv.tex`, German |
+
+Economic consulting has its own track rather than sitting under `industry`,
+because the obvious mapping is the wrong one. Frontier, CRA, Compass Lexecon and
+the rest hire economists to run econometrics, and their process runs in English.
+The academic CV carries the thesis in the detail that is the actual
+qualification, naming the estimator, the packages and the result, where the German
+CV compresses it to a single line. It also lists advanced Excel and VBA, so nothing
+commercial is given up, and it leaves out the Abitur, the Gymnasium and the retail
+job, which are noise to a consultancy.
+
+Override per application with `--cv cv/professional/cv.tex` when a posting argues
+the other way, such as a German-language application to a German office. The path
+is checked, so a typo fails immediately rather than silently recording a CV that
+does not exist.
 
 `--posting-file` is optional. Without it, paste the posting into `posting.md`
 afterwards. Keep the text either way, because postings vanish once the role is
@@ -89,6 +109,7 @@ and it is the part that produces replies.
 | Command | What it does |
 |---|---|
 | `python3 apply/new.py ...` | Scaffold an application and add the tracker row |
+| `python3 apply/new.py --cv <path>` | Same, overriding the CV the track would pick |
 | `python3 apply/track.py list` | Open applications |
 | `python3 apply/track.py list --all` | Including closed and rejected |
 | `python3 apply/track.py due` | Follow-ups owed, deadlines closing |

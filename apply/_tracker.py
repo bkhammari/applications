@@ -46,10 +46,16 @@ STATUSES = [
 # Open means still worth spending time on.
 OPEN_STATUSES = {"draft", "sent", "replied", "interview"}
 
+# Which CV goes with which track. Economic consulting is its own track on purpose:
+# the firms hire economists to run econometrics, their process runs in English, and
+# the academic CV carries the methods detail that is the actual qualification. It
+# also lists advanced Excel and VBA, so nothing commercial is given up. Override
+# with --cv when a posting argues for the other one.
 TRACKS = {
     "academic": "cv/academic/academic_cv.tex",
     "research": "cv/academic/academic_cv.tex",
     "policy": "cv/academic/academic_cv.tex",
+    "consulting": "cv/academic/academic_cv.tex",
     "industry": "cv/professional/cv.tex",
 }
 
