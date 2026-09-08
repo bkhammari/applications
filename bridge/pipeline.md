@@ -36,7 +36,7 @@ saved time there.
 ## The five steps
 
 1. **Source.** Collect open postings. Institute career pages (RWI, ZEW, DIW, ifo,
-   IZA), employer pages (GIZ, KfW, Bundesbank, ECB, EIB), and boards (INOMICS and
+   IZA), employer pages (ECB, Bundesbank, KfW, BaFin, Destatis, GIZ), and boards (INOMICS and
    EconJobMarket for economics RA and pre-doc roles, Indeed for the wider set).
 2. **Qualify.** Reject fast on the hard criteria before reading any further.
 3. **Draft.** For each survivor, take the matching template and write only the fit

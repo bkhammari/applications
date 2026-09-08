@@ -110,10 +110,12 @@ January. The cold-email countries, Switzerland, Denmark, Belgium and Luxembourg,
 have no deadline at all and can start immediately.
 
 **Interim positions.** Open to a research internship, RA, or pre-doc role, or a
-policy internship while applications are in flight. The geography constraint is
-commuting range of Cologne and Düsseldorf, which rules out Frankfurt, Luxembourg
-and Brussels. Targets by city, and the case for applying to salaried E13 research
-posts rather than internships once the M.Sc. is finished, are in
+policy internship while applications are in flight. The geography is the Rhine-Ruhr
+plus the Frankfurt corridor, since Köln Hbf to Frankfurt Flughafen is about an
+hour on the high-speed line. That keeps the ECB, the Bundesbank, KfW and Destatis
+in play and rules out only Luxembourg and Brussels. Targets by city, and the case
+for applying to salaried E13 research posts and graduate schemes rather than
+internships once the M.Sc. is finished, are in
 [`../bridge/README.md`](../bridge/README.md). Templates are in
 [`../bridge/`](../bridge/). Adapt the fit line per employer. The EPSO AD5
 competition and the Blue Book traineeship in [`../eu/`](../eu/) cover the
