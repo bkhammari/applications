@@ -70,8 +70,17 @@ applications/
 │   ├── blue-book.md        # Commission traineeship (deadline 4 Sep 2026)
 │   └── ad5-prep/           # AD5 mock exams and abstract-reasoning trainer
 │
-├── bridge/                 # Paid interim internships (GIZ, KfW, ECB, EIB, ...)
-│   ├── README.md           # Curated tracker, sorted by the pay bar
+├── apply/                  # The application workflow (posting -> letter -> tracker)
+│   ├── new.py              # Scaffold an application, pick the CV, add the row
+│   ├── track.py            # list / due / sent / set / note / summary
+│   ├── tracker.csv         # One row per application, single source of truth
+│   ├── templates/          # posting.md, letter-en.tex, letter-de.tex
+│   └── applications/       # One folder per application
+│
+├── bridge/                 # Paid interim positions, Rhine-Ruhr and Frankfurt
+│   ├── README.md           # Targets by city, and the case for E13 over internships
+│   ├── private-sector.md   # Finance, consulting and industry
+│   ├── pipeline.md         # The daily loop
 │   └── email-*.md          # Research and policy internship templates
 │
 ├── scholarships/           # Scholarship and grant materials
@@ -82,6 +91,16 @@ applications/
 ```
 
 ### How to use
+
+**Applying to a job.** Start here. `apply/new.py` takes a posting and produces the
+folder, the letter to tailor, and the tracker row. `apply/track.py due` tells you
+what is owed today. Full loop in [`apply/README.md`](apply/README.md).
+
+```bash
+python3 apply/new.py --employer "Frontier Economics" --role "Economic Analyst" \
+    --track industry --location Cologne --deadline 2026-10-15 --lang en
+python3 apply/track.py due
+```
 
 **CVs.** Two variants, both using the shared `OpenCV.cls` class. Compile with `pdflatex` locally or on Overleaf. `cv/academic/academic_cv.tex` is the single-file English CV for PhD, scholarships, and research. `cv/professional/cv.tex` is the modular German CV for industry roles.
 

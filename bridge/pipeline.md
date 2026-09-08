@@ -82,18 +82,24 @@ real fit, which is useful information rather than a failure.
 
 ## Tracker
 
-| Date | Employer | Role | Link | Pay | Status | Follow-up | Notes |
-|---|---|---|---|---|---|---|---|
-| | | | | | | | |
+Not a table here any more, because a markdown table rots the moment it is not
+updated by hand. The tracker is now `apply/tracker.csv`, driven by two scripts:
 
-Status values: drafted, sent, replied, interview, rejected, closed.
+```bash
+python3 apply/new.py --employer "..." --role "..." --track industry ...
+python3 apply/track.py due
+```
+
+`new.py` scaffolds the folder, picks the CV, generates the letter and adds the
+row. `track.py due` reports the follow-ups owed and the deadlines closing. Full
+usage is in [`../apply/README.md`](../apply/README.md).
 
 ## What Claude can run
 
 Steps 1 to 4 can be done in a batch: search for openings, apply the qualification
-filter, draft the fit paragraph and the full email per opening, and either write
-them into this folder or create them directly as Gmail drafts ready to review.
-Sending stays manual on purpose, so nothing goes out that you have not read.
+filter, scaffold each survivor with `apply/new.py`, draft the fit paragraph and the
+full email, and create the Gmail drafts ready to review under the **Applications**
+label. Sending stays manual on purpose, so nothing goes out that you have not read.
 
 To start a batch, either paste a set of postings, or say which sources and roles
 to search and the filter above will be applied to whatever comes back.
