@@ -57,6 +57,9 @@ for the finance, consulting and industry track.
 | Siegloch | siegloch@wiso.uni-koeln.de | **Sent** 19:22 |
 | Settele | settele@wiso.uni-koeln.de | Drafted. Send now, the reference reply already names her to Pinger |
 | Wohlfart | wohlfart@wiso.uni-koeln.de | Drafted. **Verify the address.** Neisser recommended him in July and he was never contacted |
+| **Dohmen, Bonn** | t.dohmen@uni-bonn.de | Drafted. Highest value of the batch. Bonn chair, Maastricht chair in Education and the Labour Market, and chairs ROA's advisory board |
+| **Schiprowski, Bonn** | amelie.schiprowski@uni-bonn.de | Drafted. Purest field match at Bonn, empirical labour and public economics |
+| **ROA, Maastricht** | secretary-roa-sbe@maastrichtuniversity.nl | Drafted. Asks who to approach, since GSBE wants a supervisor identified first |
 | van Maarseveen follow-up | vanmaarseveen@wiso.uni-koeln.de | Drafted, on hold. See below |
 
 **Delete the stale drafts.** Sending the first three left duplicate drafts behind
