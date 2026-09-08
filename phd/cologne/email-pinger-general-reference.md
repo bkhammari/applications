@@ -45,36 +45,24 @@ Replace the Anna paragraph so the form keeps moving in parallel:
 
 ---
 
-## Separate reply to Anna alone
+## Reply to Anna, current version
 
-Use this if you would rather answer Anna directly instead of writing to both.
-Warmer in tone, since she supervised the thesis day to day and is finishing her
-own dissertation. Send it to her gmail address.
+Düsseldorf has been dropped, so Anna does not need to fill the DGSE form at all.
+Saying that plainly is good news for her workload, and it makes the real ask easy
+to say yes to. The January timing also removes any pressure, which helps. Send it
+to her gmail address.
 
 Subject: Re: Letter of recommendation for PhD for September 2026
 
 Dear Anna,
 
-Thank you, and sorry for the change of plan.
+Thank you again, and good news for your inbox: I have decided not to apply to Düsseldorf, so please do not spend any time on the DGSE form.
 
-My applications have broadened beyond the September deadline to a wider set running through the winter. Would a general letter of recommendation be possible instead, or may I name you as a referee? That would cover all of them rather than a single form.
+What I would still be very grateful for is a reference for the main round. Most of my applications fall between mid-January and the end of March, for Bonn, Cologne, Munich, Mannheim and a few research institutes. Would you be willing to write a general letter I could reuse, or to be named as a referee so that programmes can contact you directly? Professor Pinger offered to send it out under her name, which would cover the programmes that require a professor.
 
-If that is not practical, I will gladly send you the completed applicant section as you suggested.
+There is no rush before January. I will send my CV and proposal whenever it suits you.
 
-Either way I will write to your gmail from now on. Thank you again, and I hope the last stretch of the dissertation is going well.
+Thank you, and good luck with the last stretch of the dissertation.
 
 Best,
 Baha
-
-### If you are keeping the Düsseldorf application
-
-Then the reply is simply:
-
-> Dear Anna,
->
-> Thank you, that is very kind. I will fill in the applicant section and send you the PDF at your gmail address in the next few days.
->
-> Thank you again, and good luck with the last stretch of the dissertation.
->
-> Best,
-> Baha
