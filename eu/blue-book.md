@@ -3,9 +3,15 @@
 A five-month paid traineeship inside the European Commission. Around 1,000 places
 per session, two sessions a year (March and October starts).
 
-## Dates for the March 2027 session
+## Status
 
-Applications run from 22 July 2026 to **4 September 2026, 10:00 Brussels time**.
+The March 2027 window **closed on 4 September 2026**. The next window, for the
+October 2027 session, is expected to open around January 2027 on the same
+pattern, so set a reminder for early January and reuse the motivation text below.
+
+## Dates for the March 2027 session (closed, kept for the pattern)
+
+Applications ran from 22 July 2026 to **4 September 2026, 10:00 Brussels time**.
 The session itself runs 1 March to 31 July 2027. The deadline is firm and the
 online form closes at the stated time, so aim to submit a few days early.
 

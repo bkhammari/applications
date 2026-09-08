@@ -1,5 +1,16 @@
 # Reference letters, Düsseldorf (DGSE), deadline 16 Sep 2026
 
+> **Superseded, September 2026.** Düsseldorf was dropped, so nothing here is
+> live. References are now needed for the winter cycle instead, with the first
+> letters due around 15 January 2027. The current ask is a general letter or
+> standing referee status, drafted in
+> [`../cologne/email-pinger-general-reference.md`](../cologne/email-pinger-general-reference.md).
+>
+> The Krause email below is still the right second-letter ask. To reuse it, drop
+> the 16 September deadline and the `dgse@uni-duesseldorf.de` address, and ask
+> instead whether he would act as a referee for applications through the winter.
+> Kept in full below as a record and as a starting point.
+
 **DGSE requires two letters from professors**, sent directly by the referees to
 `dgse@uni-duesseldorf.de`, separate from the application. This rules out Anna
 Person as a formal referee. She is a PhD candidate (M.Sc.), not a professor. Her

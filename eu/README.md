@@ -10,13 +10,16 @@ _Last updated: August 2026._
 
 | Track | What it is | Key date | Status |
 |---|---|---|---|
-| Blue Book traineeship (March 2027) | 5-month paid Commission traineeship | Apply by **4 Sep 2026** | Not started |
+| Blue Book traineeship | 5-month paid Commission traineeship | March 2027 window **closed 4 Sep 2026** | Next session opens around Jan 2027 |
 | EPSO AD5 (EPSO/AD/427/26) | Entry-grade EU administrator competition | Reasoning tests **Oct/Nov 2026**, documents by **7 Oct 2026** | Registered |
 
 ## Order of play
 
-The Blue Book deadline (4 September) comes first, before both the EPSO test window
-and the Düsseldorf PhD deadline (16 September). Treat it as the immediate task.
+The Blue Book window for the March 2027 session closed on 4 September 2026, and
+the Düsseldorf PhD application was dropped. The immediate task is therefore EPSO:
+upload the supporting documents by **7 October 2026**, then sit the reasoning
+tests in late October or early November. The next Blue Book window, for the
+October 2027 session, is expected to open around January 2027, so watch for it.
 Details for each track are in the notes below.
 
 - Blue Book traineeship: `blue-book.md`

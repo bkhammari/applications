@@ -6,14 +6,16 @@ letters and the research proposal live under
 [`../letters/academic/`](../letters/academic/) and
 [`../research/proposal/`](../research/proposal/).
 
-_Last updated: August 2026._
+_Last updated: September 2026._
 
 **Deadlines at a glance:** see [`../dashboards/deadlines.html`](../dashboards/deadlines.html)
 for a visual board of every program's deadline, requirements, and fit.
 
 **EU and administrative applications** (EPSO AD5, Blue Book traineeship) are
-tracked separately in [`../eu/`](../eu/).
-The Blue Book deadline, 4 September 2026, comes before everything here.
+tracked separately in [`../eu/`](../eu/). The Blue Book window for the March 2027
+session closed on 4 September 2026. The nearest live deadline anywhere is now the
+EPSO AD5 document upload on 7 October 2026, followed by the reasoning tests in
+late October or early November.
 
 ## Standard attachments
 
@@ -33,14 +35,14 @@ form.
 
 | Target | Contact | Route | Status | Next action |
 |---|---|---|---|---|
-| **HHU Düsseldorf (DGSE)** | Application (Jan 2027 start) | Structured PhD | **Deadline 16 Sep 2026** | Submit form and [statement](duesseldorf/application-statement.md), send [reference requests](duesseldorf/reference-request-dgse.md) now |
+| **HHU Düsseldorf (DGSE)** | Application (Jan 2027 start) | Structured PhD | **Not pursued** (decided Sep 2026) | None. Deadline was 16 Sep 2026 and was open, but the target was dropped |
 | **Bonn (BGSE)** | Prof. Teodora Boneva | Cold email, meeting | Sent, no reply | Send [follow-up](bonn/email-boneva-followup.md) after about a week |
 | **Cologne** | Prof. Sebastian Siegloch | Cold email | Not sent | Send [email](cologne/email-siegloch.md) |
 | **Cologne** | Prof. Pia Pinger | Cold email, reference | Not sent | Send [email](cologne/email-pinger.md) |
 | **Cologne** | Jun.-Prof. Raoul van Maarseveen | Follow-up | Sent, no reply | Send [follow-up](cologne/email-vanmaarseveen-followup.md) |
 | **Cologne (CGS)** | Cologne Graduate School | Structured program | Opens spring | See [note](cologne/note-cgs.md) |
-| **HHU Düsseldorf (DICE)** | Prof. Hannah Schildberg-Hörisch | Cold email | Not sent | Send [email](duesseldorf/email-schildberg-hoerisch.md) alongside the application |
-| **HHU Düsseldorf (DICE)** | Prof. Jens Südekum | Cold email | Not sent | Send [email](duesseldorf/email-suedekum.md) alongside the application |
+| **HHU Düsseldorf (DICE)** | Prof. Hannah Schildberg-Hörisch | Cold email | Not pursued | Draft kept in `duesseldorf/` if the decision is revisited |
+| **HHU Düsseldorf (DICE)** | Prof. Jens Südekum | Cold email | Not pursued | Draft kept in `duesseldorf/` if the decision is revisited |
 | **RWI Essen** | Prof. Ronald Bachmann | Reply | Replied, no positions at his chair | Send [reply](rwi-essen/email-bachmann-reply.md), keep door open |
 | **ifo Munich (MGSE)** | ifo Center for the Economics of Education | Cold email | Not sent | Send [email](institutes/email-ifo-munich.md) |
 | **ZEW Mannheim (CDSE)** | Inequality and Public Policy / Labour Markets | Cold email | Not sent | Send [email](institutes/email-zew-mannheim.md) |
@@ -53,13 +55,17 @@ form.
 
 ## Notes by target
 
-**Düsseldorf / DGSE.** The one imminent PhD deadline, 16 September 2026, for a
-January 2027 start (off-cycle intake). No GRE. Two reference letters go directly
-from the referees to `dgse@uni-duesseldorf.de`. The application statement is in
-`duesseldorf/application-statement.md`, and the reference-request emails are in
-`duesseldorf/reference-request-dgse.md`. Send the Schildberg-Hörisch and Südekum
-emails alongside the formal application. The full deadline picture is in
-[`../dashboards/deadlines.html`](../dashboards/deadlines.html).
+**Düsseldorf / DGSE. Dropped.** Decided in September 2026 not to pursue HHU
+Düsseldorf. The 16 September 2026 deadline for the January 2027 intake was still
+open at the time of the decision, so this was a choice rather than a missed
+deadline. The drafts stay in `duesseldorf/` (application statement, the
+Schildberg-Hörisch and Südekum emails, and the DGSE reference pack) in case the
+decision is revisited for a later cycle.
+
+With Düsseldorf out, the PhD effort moves entirely to the **winter cycle for an
+October 2027 start**: Bonn and DIW on 15 January, Munich on 31 January, then
+Cologne, Ruhr, and Mannheim in March. That removes the September time pressure on
+references and makes a general letter or referee arrangement the sensible ask.
 
 **Bonn / Boneva.** First email sent. It referenced Milena Jessen from the PhD
 event and asked for a meeting and leads. No reply yet, so follow up once, briefly,
@@ -87,11 +93,16 @@ EU-institution side.
 
 ## Reference letters
 
-**Most programs, including Düsseldorf, require the referees to be professors.**
-Anna Person (M.Sc., PhD candidate) is therefore not a valid formal referee, even
-though she supervised and graded the thesis. Her role is to brief the professor
-who writes about the master's thesis. The two formal referees should be
-professors.
+**Most programs require the referees to be professors.** Anna Person (M.Sc., PhD
+candidate) is therefore not a valid formal referee on her own, even though she
+supervised and graded the thesis. The arrangement she and Pinger agreed solves
+this: Anna writes, Pinger sends it out under her name.
+
+With Düsseldorf dropped, there is no September deadline driving this. References
+are now needed for the winter cycle, with the first letters due around 15 January
+2027. That makes a general letter or a standing referee arrangement the right
+ask, rather than a form per application. The draft is in
+`cologne/email-pinger-general-reference.md`.
 
 - **Prof. Dr. Pia Pinger.** Replied and is willing to help. She prefers that Anna
   Person writes the letter, since Anna knows the applicant personally, and Pinger
