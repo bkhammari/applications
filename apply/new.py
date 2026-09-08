@@ -11,6 +11,7 @@ Nothing is sent. This only prepares the folder and records the row.
 
 import argparse
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -41,10 +42,53 @@ def build_parser():
         default="",
         help="Override the CV the track would pick, as a repo-relative path",
     )
+    p.add_argument(
+        "--shared-cv",
+        action="store_true",
+        help="Point at the canonical CV instead of copying it in to tune",
+    )
     p.add_argument("--contact", default="", help="Named person, if the posting gives one")
     p.add_argument("--posting-file", default="", help="File holding the posting text")
     p.add_argument("--notes", default="", help="Anything worth remembering")
     return p
+
+
+CLASS_RE = re.compile(r"\\documentclass(\[[^\]]*\])?\{([^}]*)\}")
+INPUT_RE = re.compile(r"\\input\{([^}]+)\}")
+
+
+def copy_cv(cv_rel, folder):
+    """Copy the CV into the application folder so it can be tuned for this one job.
+
+    The CV sources use a relative \\documentclass path to cv/shared/OpenCV, which
+    breaks once the file moves, so rewrite it. The German CV also pulls in its
+    sections with \\input, so bring those along too.
+    """
+    src = os.path.join(t.REPO, cv_rel)
+    src_dir = os.path.dirname(src)
+    dest = os.path.join(folder, "cv.tex")
+    text = open(src, encoding="utf-8").read()
+
+    match = CLASS_RE.search(text)
+    if match and "/" in match.group(2):
+        cls_abs = os.path.normpath(os.path.join(src_dir, match.group(2)))
+        new_path = os.path.relpath(cls_abs, folder).replace(os.sep, "/")
+        text = text.replace(match.group(0), f"\\documentclass{match.group(1) or ''}{{{new_path}}}")
+
+    extra = []
+    for name in INPUT_RE.findall(text):
+        part = name if name.endswith(".tex") else name + ".tex"
+        part_src = os.path.join(src_dir, part)
+        if os.path.exists(part_src):
+            part_dest = os.path.join(folder, os.path.basename(part))
+            if not os.path.exists(part_dest):
+                with open(part_dest, "w", encoding="utf-8") as fh:
+                    fh.write(open(part_src, encoding="utf-8").read())
+                extra.append(part_dest)
+
+    with open(dest, "w", encoding="utf-8") as fh:
+        fh.write(text)
+    return [dest] + extra
 
 
 def build_opening(lang, contact):
@@ -122,6 +166,12 @@ def main(argv=None):
         with open(letter_path, "w", encoding="utf-8") as fh:
             fh.write(t.render(template, values))
         written.append(letter_path)
+
+    cv_path = os.path.join(folder, "cv.tex")
+    if os.path.exists(cv_path):
+        print(f"  kept   {os.path.relpath(cv_path, t.REPO)} (already exists)")
+    elif not args.shared_cv:
+        written.extend(copy_cv(cv, folder))
 
     t.append_row(
         {

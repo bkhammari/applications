@@ -1,0 +1,142 @@
+% CV tuned for Frontier Economics, Graduate Economic Analyst, Cologne or Berlin.
+% Base: cv/academic/academic_cv.tex
+%
+% What changed for this application, and why:
+%   - PROFILE replaces Research Interests. A consultancy reads a profile, not an
+%     academic's research agenda. This is the block to rewrite per application.
+%   - Grades are labelled with the scale, because the posting says "Germany 2.0 or
+%     better" and 1.6 only reads as strong if the reader knows 1.0 is the top.
+%   - Thesis bullets reordered around counterfactual construction and robustness,
+%     which is what competition work actually uses. Two academic bullets cut.
+%   - Excel and VBA moved to the front of Technical Skills. The posting asks for
+%     "advanced Excel skills" before it asks for R.
+%   - RSM Rotterdam kept and dated, since Frontier has just opened Amsterdam.
+%   - Bachelor's thesis compressed to one line. Physics prize cut as noise here.
+%
+% Compile with pdflatex locally or on Overleaf. No photo, the posting says so.
+
+\documentclass{../../../cv/shared/OpenCV}
+\usepackage{fontawesome}
+\usepackage[english]{babel}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage{lmodern}
+
+\begin{document}
+
+%================ HEADER ================%
+\vspace*{-1.5cm}
+\begin{center}
+    \textbf{\Huge Baha Khammari} \\
+    \vspace{5pt}
+    \small
+    D\"usseldorf, Germany \quad
+    \faEnvelopeO\enskip \href{mailto:b.e.khammari@gmail.com}{b.e.khammari@gmail.com} \quad
+    \faMobile\enskip +49\,1520\,9016956 \quad
+    \faLinkedin\enskip \href{https://www.linkedin.com/in/baha-khammari/}{linkedin.com/in/baha-khammari} \quad
+    \faGithub\enskip \href{https://github.com/bkhammari}{github.com/bkhammari}
+\end{center}
+
+\vspace{-2pt}
+
+%================ PROFILE (tune this per application) ================%
+\section*{Profile}
+\small
+Applied microeconomist finishing an M.Sc.\ at the University of Cologne, working on causal inference with large administrative datasets. Comfortable building a counterfactual, defending it against the obvious objections, and explaining the result to a reader who has no interest in the estimator. Two years at PwC in audit before the master's. Native German, fluent English, available from October 2026.
+
+%================ EDUCATION ================%
+\section*{Education}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{University of Cologne}{Cologne, Germany}
+{M.Sc.\ Economics, grade 1.6 (German scale, 1.0 highest)}{Oct.\ 2023 -- Sep.\ 2026}
+\resumeItemListStart
+\resumeItem{Specialisation: Applied Econometrics, Energy Economics, Financial Macroeconomics.}
+\resumeItem{Coursework: Advanced Econometrics, Causal Inference, Panel Data Analysis, Time Series Econometrics, Microeconomics.}
+\resumeItem{6 ECTS remaining (one seminar paper). Available from October 2026.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Rotterdam School of Management (RSM), Erasmus University}{Rotterdam, Netherlands}
+{Erasmus+ Exchange Semester}{Sep.\ 2024 -- Dec.\ 2024}
+\resumeItemListStart
+\resumeItem{Asset Pricing (CAPM, multi-factor models) and Derivatives Valuation (Black--Scholes, option strategies).}
+\resumeItemListEnd
+
+\resumeSubheading
+{University of Cologne}{Cologne, Germany}
+{B.Sc.\ Economics, grade 1.6. Top 5\,\% of cohort, Dean's List}{Oct.\ 2019 -- Feb.\ 2023}
+\resumeItemListStart
+\resumeItem{Thesis on the financial accelerator mechanism (grade 1.7), supervised by Univ.-Prof.\ Dr.\ Andreas Schabert.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%================ QUANTITATIVE WORK ================%
+\section*{Quantitative Work}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Master's Thesis}{University of Cologne}
+{Grade: 1.0 (highest). Supervisors: Prof.\ Dr.\ Pia Pinger and Anna Person, M.Sc.}{Oct.\ 2025 -- Apr.\ 2026}
+\resumeItemListStart
+\resumeItem{\textbf{Estimated the causal wage effect of Brazil's ProUni scholarship programme} across 558 regions over 2005--2019, using the Callaway and Sant'Anna (2021) heterogeneity-robust staggered difference-in-differences estimator with doubly-robust inference.}
+\resumeItem{\textbf{Built the dataset from scratch:} a regional panel linking programme administrative records, RAIS linked employer--employee data ($\sim$5\,million observations), and Census demographics, assembled in R through a BigQuery interface.}
+\resumeItem{\textbf{Showed the naive estimate is wrong in sign.} Conventional two-way fixed effects returned $-0.65\,\%$ where the corrected estimate is $+3.04\,\%$ in low-exposure regions, an empirical case of the forbidden comparisons problem (Goodman-Bacon, 2021).}
+\resumeItem{\textbf{Defended the counterfactual:} HonestDiD sensitivity analysis (Rambachan and Roth, 2023), Bacon decomposition, age-cohort placebo, alternative exposure cutoffs, and controls for two concurrent policies.}
+\resumeItem{Documented a non-monotonic dose--response, with effects concentrated in moderate-exposure labour markets and near zero at high exposure.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Seminar Paper: Housing and the Macroeconomy}{University of Cologne}
+{Instructor: Prof.\ Dr.\ Michael Krause}{2024}
+\resumeItemListStart
+\resumeItem{Analysed subprime mortgage credit expansion in the U.S.\ financial crisis, using the Mian and Sufi framework linking household leverage to employment and consumption.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%================ PROFESSIONAL EXPERIENCE ================%
+\section*{Professional Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{PwC Germany}{D\"usseldorf, Germany}
+{Intern and Working Student, Assurance Solutions}{Mar.\ 2023 -- Jul.\ 2025}
+\resumeItemListStart
+\resumeItem{Ran variance analyses and plausibility checks for annual and group audits (HGB/IFRS) on clients with balance sheets above EUR\,500\,million.}
+\resumeItem{Built Excel and VBA tools for KPI tracking and forecasting, used by the engagement team.}
+\resumeItem{Identified business drivers and risks with senior associates and managers, and wrote the results into audit reports and management letters.}
+\resumeItem{Audited sustainability disclosures under ISAE\,3000 and tested internal control systems.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%================ TECHNICAL SKILLS ================%
+\section*{Technical Skills}
+\resumeItemListStart
+\resumeItem{\textbf{Excel:} advanced, including VBA. \textbf{R:} advanced (\texttt{did}, \texttt{fixest}, \texttt{HonestDiD}, \texttt{tidyverse}, \texttt{ggplot2}). SQL and BigQuery. Python (basic).}
+\resumeItem{\textbf{Methods:} Difference-in-Differences including staggered adoption and doubly-robust estimation, event studies, panel data models, instrumental variables, Bacon decomposition, sensitivity analysis.}
+\resumeItem{\textbf{Other:} Power\,BI, \LaTeX, Git.}
+\resumeItemListEnd
+
+%================ LANGUAGES ================%
+\section*{Languages}
+\resumeItemListStart
+\resumeItem{German (native), Tunisian Arabic (native), English (C1, IELTS Academic 8.0), French (B1, DELF), Italian (A2).}
+\resumeItemListEnd
+
+%================ AWARDS ================%
+\section*{Awards}
+\resumeItemListStart
+\resumeItem{\textbf{Dean's List}, University of Cologne. Top 5\,\% of the B.Sc.\ Economics cohort.}
+\resumeItem{\textbf{2nd Prize, Young Economic Summit 2018}, national finals. Developed a policy proposal on digital trust in online transactions. Organised by the ZBW Leibniz Information Centre for Economics under the patronage of the Federal Ministry for Economic Affairs.}
+\resumeItemListEnd
+
+%================ REFERENCES ================%
+\section*{References}
+\resumeItemListStart
+\resumeItem{Available upon request.}
+\resumeItemListEnd
+
+\end{document}
