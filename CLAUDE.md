@@ -6,7 +6,7 @@ Claude.ai chat, paste or upload it at the start.
 It exists so that a new session does not re-derive what is already settled, repeat
 research already done, or re-litigate decisions already made.
 
-_Written 9 September 2026._
+_Written 9 September 2026, updated the same evening after the first replies came in._
 
 ## Who this is
 
@@ -95,13 +95,23 @@ which is answerable in one line. Full write-up in
 [`phd/e13-direct.md`](phd/e13-direct.md), template in
 [`phd/templates/email-e13-inquiry.md`](phd/templates/email-e13-inquiry.md).
 
-### Sent 8 September 2026
+### Sent 8 September 2026, nine emails
 
-| To | What |
-|---|---|
-| Anna Person + Prof. Pinger | Reference reply. Düsseldorf dropped, asks for a general letter or referee status, answers Pinger's question about RA experience by naming Settele |
-| Prof. Boneva, Bonn | Follow-up after eight weeks of silence. **That nudge is spent, do not write again** |
-| Prof. Siegloch, Cologne | Cold email, first contact |
+| To | What | Outcome |
+|---|---|---|
+| Anna Person + Prof. Pinger | Reference reply, asks for a general letter or referee status | **Pinger replied "Sounds good!" on 9 Sep. The arrangement is agreed** |
+| Prof. Boneva, Bonn | Follow-up after eight weeks | **Replied 9 Sep.** Apply to BGSE, several Bonn professors work in these areas, meetings follow admission |
+| Prof. Klagge, Bonn | TRR 228 phase three | **Declined 9 Sep**, no capacity for another PhD student |
+| ROA Maastricht | Who to approach | **Tim Huijts, PhD coordinator, replied 9 Sep.** No funded openings now, but he is forwarding the message to Cörvers, Haelermans and Fouarge |
+| Prof. Dohmen, Bonn | E13 enquiry, Bonn and Maastricht | No reply yet |
+| Prof. Schiprowski, Bonn | E13 enquiry | No reply yet |
+| Qaim + Parlasca, Bonn | C08 Job Futures | No reply yet |
+| Prof. Siegloch, Cologne | Cold email | No reply yet |
+| Frontier Economics | 2027 graduate intake | No reply yet |
+
+**Four replies inside 24 hours on nine emails.** Two were clean answers to the
+yes-or-no question, which is the E13 approach working as designed. The earlier
+diffuse emails got eight weeks of silence instead.
 
 ### Drafted in Gmail, not sent
 
@@ -109,14 +119,11 @@ All labelled **PhD** except Frontier, labelled **Applications**.
 
 | To | Address | Note |
 |---|---|---|
-| Prof. Sonja Settele | settele@wiso.uni-koeln.de | Asks for a CEBI introduction and about the second reference letter |
+| Prof. Sonja Settele | settele@wiso.uni-koeln.de | Asks for a CEBI introduction and about the second reference letter. **Send this one** |
 | Prof. Johannes Wohlfart | wohlfart@wiso.uni-koeln.de | Address unverified. Neisser recommended him in July, never contacted |
-| Prof. Thomas Dohmen | t.dohmen@uni-bonn.de | Highest value. Covers Bonn and Maastricht at once |
-| Prof. Amelie Schiprowski | amelie.schiprowski@uni-bonn.de | Purest field match at Bonn |
-| Prof. Qaim + Dr Parlasca | mqaim@ / parlasca@uni-bonn.de | C08 Job Futures, TRR 228 |
-| Prof. Britta Klagge | klagge@uni-bonn.de | Economic geography, TRR 228 phase 3 spokesperson |
-| ROA Maastricht | secretary-roa-sbe@maastrichtuniversity.nl | Asks who to approach |
-| Frontier Economics | recruitment@frontier-economics.com | When does the 2027 Cologne graduate intake open |
+| Anna Person + Pinger | anna.person127@gmail.com | Reply to "Sounds good". Sends the materials Anna needs to write the letter |
+| Dr Tim Huijts, ROA | t.huijts@maastrichtuniversity.nl | Thanks, offers thesis and proposal for circulation, notes flexibility on start date |
+| Prof. Boneva | tboneva@uni-bonn.de | One-line thanks, confirms the BGSE application |
 | Jun.-Prof. van Maarseveen | vanmaarseveen@wiso.uni-koeln.de | **On hold.** It asserts he never replied, which the mailbox confirms. Rewrite if a reply surfaces elsewhere |
 
 ### Open questions he has not answered
