@@ -92,6 +92,12 @@ applications/
 
 ### How to use
 
+**Working with Claude on this repo.** [`CLAUDE.md`](CLAUDE.md) loads automatically
+in a Claude Code session and carries the state of play: what is decided, what has
+been sent, verified contact details, the writing rules, and the open questions. For
+a Claude.ai chat, paste or upload it at the start. Keep it current, since it is
+what stops a new session re-deriving settled work.
+
 **Applying to a job.** Start here. `apply/new.py` takes a posting and produces the
 folder, the letter to tailor, and the tracker row. `apply/track.py due` tells you
 what is owed today. Full loop in [`apply/README.md`](apply/README.md).
