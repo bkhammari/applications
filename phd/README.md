@@ -47,9 +47,14 @@ form.
 
 ## Gmail, as of 9 September 2026
 
-Nine emails went out on the evening of 8 September. **Four replies came back within
-24 hours**, two of them clean answers to the direct question, which is the E13
-approach working. The earlier, more diffuse emails got eight weeks of silence.
+Nine emails went out on the evening of 8 September. **Six replies came back within
+48 hours**, every one a clear answer rather than silence, which is the direct
+question working. The earlier, vaguer emails got eight weeks of nothing.
+
+Most of the answers are no. Read that as information arriving fast rather than as
+failure: Bonn is settled in two days instead of in January. **Four of five Bonn
+contacts have now declined**, so Bonn is closed apart from Dohmen, who has not
+replied. What that leaves is a thin pipeline, and only volume fixes it.
 
 | Email | Outcome |
 |---|---|
@@ -58,7 +63,8 @@ approach working. The earlier, more diffuse emails got eight weeks of silence.
 | Klagge, Bonn | **Declined.** No capacity for another PhD student |
 | ROA Maastricht | **Tim Huijts, PhD coordinator, is forwarding it** to Cörvers, Haelermans and Fouarge |
 | Schiprowski, Bonn | **Declined 10 Sep.** All Bonn PhD admissions run through the BGSE, next deadline early 2027 |
-| Dohmen, Qaim and Parlasca, Siegloch, Frontier | No reply yet |
+| Qaim and Parlasca, Bonn | **Declined 10 Sep.** No new PhDs on the project |
+| Dohmen, Siegloch, Frontier | No reply yet |
 
 The replies to Huijts and Boneva went out on 9 September.
 

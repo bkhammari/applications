@@ -128,9 +128,11 @@ doctoral admission through the BGSE even where the money sits on a chair, so the
 two-channel logic in this file does not apply there. Since the BGSE wants the GRE
 and the GRE is ruled out, Bonn is closed.
 
-Worth keeping separate: **Qaim and Parlasca sit in agricultural economics, not the
-economics department**, so they may not be bound by the same rule. Their answer,
-when it comes, is still informative.
+Qaim and Parlasca sit in agricultural economics rather than the economics
+department, so they were not bound by the same rule, and they answered separately
+on 10 September: no new doctoral hires on the project. Britta Klagge declined for
+lack of capacity. **Four of the five Bonn approaches have now been answered and all
+four were no.** Only Dohmen is outstanding.
 
 The general lesson holds and is worth restating. The direct question got a direct
 answer in two days, where the vaguer version got eight weeks of silence. Ask it

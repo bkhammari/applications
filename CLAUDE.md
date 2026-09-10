@@ -87,8 +87,9 @@ in both cases checking was the right move and he accepted the correction.
   Bonn genuinely routes chair positions through the BGSE too, which makes it an
   exception to the two-channel rule below, and the GRE requirement closes it. He
   was right to drop it. The one thread still open is **Qaim and Parlasca, who sit
-  in agricultural economics rather than the economics department** and may not be
-  bound by the same rule.
+  in agricultural economics rather than the economics department**, and they
+  answered on 10 September: no new PhDs on the project. So every Bonn door tested
+  is shut. Only Dohmen has not replied.
 
 ### The single most important insight of the session
 
@@ -116,13 +117,19 @@ which is answerable in one line. Full write-up in
 | ROA Maastricht | Who to approach | **Tim Huijts, PhD coordinator, replied 9 Sep.** No funded openings now, but he is forwarding the message to Cörvers, Haelermans and Fouarge |
 | Prof. Dohmen, Bonn | E13 enquiry, Bonn and Maastricht | No reply yet |
 | Prof. Schiprowski, Bonn | E13 enquiry | **Declined 10 Sep.** All Bonn PhD admissions go through the BGSE, next deadline early 2027 |
-| Qaim + Parlasca, Bonn | C08 Job Futures | No reply yet |
+| Qaim + Parlasca, Bonn | C08 Job Futures | **Declined 10 Sep.** Parlasca: "we will not hire any new PhDs in this project" |
 | Prof. Siegloch, Cologne | Cold email | No reply yet |
 | Frontier Economics | 2027 graduate intake | No reply yet |
 
-**Four replies inside 24 hours on nine emails.** Two were clean answers to the
-yes-or-no question, which is the E13 approach working as designed. The earlier
-diffuse emails got eight weeks of silence instead.
+**Six replies on nine emails inside 48 hours.** Every one was a clear answer rather
+than silence, which is the direct question working exactly as intended. The earlier
+diffuse emails got eight weeks of nothing.
+
+The answers are mostly no, and that is worth reading correctly. He now knows where
+Bonn stands in two days rather than in January, and the effort can move. Four of
+five Bonn contacts have answered and all four were no, so **Bonn is fully closed**
+except for Dohmen, who has not replied. The pipeline is now thin, and volume is the
+only thing that fixes that.
 
 ### Drafted in Gmail, not sent
 
