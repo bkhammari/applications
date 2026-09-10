@@ -1,0 +1,122 @@
+% CV tuned for Frontier Economics, Graduate Economic Analyst, Cologne or Berlin.
+% Base: cv/academic/academic_cv.tex
+%
+% What changed for this application, and why:
+%   - PROFILE replaces Research Interests. A consultancy reads a profile, not an
+%     academic's research agenda. This is the block to rewrite per application.
+%   - Grades are labelled with the scale, because the posting says "Germany 2.0 or
+%     better" and 1.6 only reads as strong if the reader knows 1.0 is the top.
+%   - Thesis bullets reordered around counterfactual construction and robustness,
+%     which is what competition work actually uses. Two academic bullets cut.
+%   - Excel and VBA moved to the front of Technical Skills. The posting asks for
+%     "advanced Excel skills" before it asks for R.
+%   - RSM Rotterdam kept and dated, since Frontier has just opened Amsterdam.
+%   - Cut to fit one page, which is what a graduate consulting application wants:
+%     the seminar paper, the bachelor's thesis detail, the RSM course list, and the
+%     Awards section. Dean's List still appears under Education, where it belongs.
+%     The Young Economic Summit prize is from school in 2018 and was the weakest
+%     item on the page once there was a 1.0 thesis and PwC above it.
+%
+% Compile with pdflatex locally or on Overleaf. No photo, the posting says so.
+
+\documentclass{../../../cv/shared/OpenCV}
+\usepackage{fontawesome}
+\usepackage[english]{babel}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage{lmodern}
+
+% One page is the target here, so tighten the class defaults a little.
+\geometry{a4paper, left=0.65in, right=0.65in, top=0.5in, bottom=0.45in}
+\linespread{1.0}
+
+\begin{document}
+
+%================ HEADER ================%
+\vspace*{-1.5cm}
+\begin{center}
+    \textbf{\Huge Baha Khammari} \\
+    \vspace{5pt}
+    \small
+    D\"usseldorf, Germany \quad
+    \faEnvelopeO\enskip \href{mailto:b.e.khammari@gmail.com}{b.e.khammari@gmail.com} \quad
+    \faMobile\enskip +49\,1520\,9016956 \quad
+    \faLinkedin\enskip \href{https://www.linkedin.com/in/baha-khammari/}{linkedin.com/in/baha-khammari} \quad
+    \faGithub\enskip \href{https://github.com/bkhammari}{github.com/bkhammari}
+\end{center}
+
+\vspace{-2pt}
+
+%================ PROFILE (tune this per application) ================%
+\section*{Profile}
+\small
+Applied microeconomist finishing an M.Sc.\ at Cologne, working on causal inference with large administrative data. Comfortable building a counterfactual, defending it against the obvious objections, and explaining the result to a reader with no interest in the estimator. Two years at PwC in audit beforehand. Native German, available from October 2026.
+
+%================ EDUCATION ================%
+\section*{Education}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{University of Cologne}{Cologne, Germany}
+{M.Sc.\ Economics, grade 1.6 (German scale, 1.0 highest)}{Oct.\ 2023 -- Sep.\ 2026}
+\resumeItemListStart
+\resumeItem{Applied Econometrics, Causal Inference, Panel Data Analysis, Time Series Econometrics, Microeconomics, Energy Economics.}
+\resumeItem{6 ECTS remaining (one seminar paper). Available from October 2026.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Rotterdam School of Management (RSM), Erasmus University}{Rotterdam, Netherlands}
+{Erasmus+ Exchange Semester. Asset Pricing, Derivatives Valuation}{Sep.\ 2024 -- Dec.\ 2024}
+
+\resumeSubheading
+{University of Cologne}{Cologne, Germany}
+{B.Sc.\ Economics, grade 1.6. Top 5\,\% of cohort, Dean's List}{Oct.\ 2019 -- Feb.\ 2023}
+
+\resumeSubHeadingListEnd
+
+%================ QUANTITATIVE WORK ================%
+\section*{Quantitative Work}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Master's Thesis}{University of Cologne}
+{Grade: 1.0 (highest). Supervisors: Prof.\ Dr.\ Pia Pinger and Anna Person, M.Sc.}{Oct.\ 2025 -- Apr.\ 2026}
+\resumeItemListStart
+\resumeItem{\textbf{Estimated the causal wage effect of Brazil's ProUni scholarship programme} across 558 regions over 2005--2019, using the Callaway and Sant'Anna (2021) heterogeneity-robust staggered difference-in-differences estimator with doubly-robust inference.}
+\resumeItem{\textbf{Built the dataset from scratch:} a regional panel linking programme records, RAIS linked employer--employee data ($\sim$5\,million observations) and Census demographics, assembled in R through BigQuery.}
+\resumeItem{\textbf{Showed the naive estimate is wrong in sign.} Two-way fixed effects returned $-0.65\,\%$ against a corrected $+3.04\,\%$, an empirical case of forbidden comparisons (Goodman-Bacon, 2021).}
+\resumeItem{\textbf{Defended the counterfactual:} HonestDiD sensitivity analysis (Rambachan and Roth, 2023), Bacon decomposition, age-cohort placebo, alternative exposure cutoffs, and controls for two concurrent policies.}
+\resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
+%================ PROFESSIONAL EXPERIENCE ================%
+\section*{Professional Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{PwC Germany}{D\"usseldorf, Germany}
+{Intern and Working Student, Assurance Solutions}{Mar.\ 2023 -- Jul.\ 2025}
+\resumeItemListStart
+\resumeItem{Ran variance analyses and plausibility checks for annual and group audits (HGB/IFRS) on clients with balance sheets above EUR\,500\,million.}
+\resumeItem{Built Excel and VBA tools for KPI tracking and forecasting, used by the engagement team.}
+\resumeItem{Identified business drivers and risks with senior associates and managers, and wrote the results into audit reports and management letters.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%================ TECHNICAL SKILLS ================%
+\section*{Technical Skills}
+\resumeItemListStart
+\resumeItem{\textbf{Excel:} advanced, including VBA. \textbf{R:} advanced (\texttt{did}, \texttt{fixest}, \texttt{HonestDiD}, \texttt{tidyverse}, \texttt{ggplot2}). SQL and BigQuery. Python (basic).}
+\resumeItem{\textbf{Methods:} Difference-in-Differences including staggered adoption and doubly-robust estimation, event studies, panel data models, instrumental variables, Bacon decomposition, sensitivity analysis.}
+\resumeItem{\textbf{Other:} Power\,BI, \LaTeX, Git.}
+\resumeItemListEnd
+
+%================ LANGUAGES ================%
+\section*{Languages}
+\resumeItemListStart
+\resumeItem{German (native), Tunisian Arabic (native), English (C1, IELTS Academic 8.0), French (B1, DELF), Italian (A2).}
+\resumeItemListEnd
+
+\end{document}

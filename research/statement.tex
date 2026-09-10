@@ -1,0 +1,49 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage[colorlinks=true, urlcolor=blue, citecolor=black]{hyperref}
+\usepackage{geometry}
+\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\usepackage{setspace}
+\onehalfspacing
+
+\title{Research Statement}
+\author{Baha Khammari \\ University of Cologne \\ \href{mailto:b.e.khammari@gmail.com}{b.e.khammari@gmail.com}}
+\date{}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\section*{Research Interests}
+
+I study how different higher education access mechanisms, scholarships, loans, and affirmative-action quotas, affect labour market inequality. My work asks which mechanism is most effective at reducing disparities in wages, employment, and occupational attainment, and for whom. Methodologically, I use difference-in-differences estimation under staggered treatment adoption, heterogeneous treatment effects, and doubly-robust inference. A recurring theme is that standard econometric approaches mask policy-relevant heterogeneity across demographic groups and regions. Applying recent methodological advances reverses or fundamentally changes the conclusions.
+
+\section*{Past Research}
+
+\textbf{Master's thesis (Grade: 1.0/1.0).} My thesis, \textit{How Equal is Equal Opportunity? Gender, Ethnic and Regional Disparities in Labor Market Outcomes of Higher Education Policies in Brazil}, provides the first microregion-level causal analysis of Brazil's ProUni scholarship programme on formal-sector wages. I constructed a panel of 558 microregions over 2005--2019 by linking ProUni administrative records, RAIS employer--employee data ($\sim$5\,million observations), and Census demographics via the \texttt{basedosdados} BigQuery interface.
+
+Using the Callaway \& Sant'Anna (2021) heterogeneity-robust staggered DiD estimator with doubly-robust inference, I documented three key findings. First, ProUni's wage effects are non-monotonic: low-dose regions show a significant +3.04\% effect, while high-dose regions show near-zero returns consistent with diminishing marginal productivity. Second, a conventional TWFE specification masks these effects entirely ($\hat{\beta}_{\text{TWFE}} = -0.65\%$), providing an empirical illustration of the ``forbidden comparisons'' bias (Goodman-Bacon, 2021). Third, heterogeneity analysis reveals that wage gains accrue disproportionately to non-white workers in moderate-exposure markets, consistent with ProUni's affirmative-action design, while a gender asymmetry persists despite majority-female scholarship uptake.
+
+\textbf{Seminar paper.} In a seminar on Housing and the Macroeconomy (Prof.\ Dr.\ Michael Krause), I analysed the role of subprime mortgage credit expansion in the U.S.\ financial crisis, drawing on the Mian \& Sufi empirical framework linking household leverage to employment and consumption declines. The paper gave me experience applying empirical macro-finance methods to a different policy context.
+
+\textbf{Bachelor's thesis (Grade: 1.7/1.0).} My bachelor's thesis, \textit{The Financial Accelerator Mechanism}, reviewed the theoretical literature on financial frictions and macroeconomic amplification, focusing on the Bernanke--Gertler--Gilchrist (1999) framework. The contrast between the theoretical approach of the bachelor's thesis and the empirical work I later did in the master's thesis is what led me toward applied causal inference.
+
+\section*{Proposed Research}
+
+My doctoral project asks a question that applies across countries: when governments use scholarships, loans, or quotas to widen access to higher education, which mechanism is most effective at reducing labour market inequality, and for whom? I use Brazil as an empirical laboratory because it implemented all three mechanisms at national scale within a fifteen-year window: ProUni scholarships (2005), FIES student loans (reformed 2010), and the Quota Law (2012). Its administrative data infrastructure (RAIS, $\sim$5\,million observations) allows credible causal identification.
+
+The project is organised as three papers. \textit{Paper~1} compares the labour market returns to scholarships and quotas, exploiting the staggered quota compliance timeline (2013--2016) across federal universities. \textit{Paper~2} broadens the outcome set beyond wages to formal-sector entry, occupational upgrading, and job stability, outcomes that are first-order relevant wherever informal employment is prevalent. \textit{Paper~3} develops a dose--response framework using continuous treatment DiD (Callaway et al., 2024) to estimate optimal policy intensity.
+
+While grounded in Brazil, the comparative structure and methods transfer to other settings: the same design choices between grants (BAf\"oG, Deutschlandstipendium), loans, and equity mandates recur in Germany, the EU, and the Global South. The project is empirically feasible. All data are publicly available through \texttt{basedosdados}, and the methodological toolkit (the \texttt{did}, \texttt{fixest}, and \texttt{HonestDiD} R packages) is one I have used extensively. A detailed research proposal with timeline, ethics discussion, and full references is available upon request.
+
+\section*{Fit}
+
+% Adapt this section to each application. Explain why the specific
+% programme, department, or supervisor is the right environment for
+% this research. Reference their published work where it intersects
+% with your agenda.
+
+\end{document}
