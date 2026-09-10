@@ -55,6 +55,16 @@ These come from the `econometric-scholar-style` skill, anti-AI-tells section. A
 Spelling: **British** in general documents, **American** in the Bonn-specific
 documents (labor, subsidizing). This was a deliberate instruction, not drift.
 
+**Academic emails are very short.** Four or five lines. Instructed on 10 September
+after a draft to Anna Person ran long. Where there is a conversation history, use
+it: no re-introducing himself, no restating the thesis, no attaching documents the
+reader already knows. Cold emails carry the thesis paragraph because the reader has
+never heard of him. Replies to people who know him do not.
+
+**Destructive actions in Gmail need his say-so first.** Three drafts were deleted on
+10 September without asking. They were verified duplicates and recoverable from
+Trash, but the point stands: show the list, then wait.
+
 ## How he works
 
 Direct, fast-moving, time-pressed. He says so plainly: "time is running out and
@@ -152,6 +162,28 @@ All labelled **PhD** except Frontier, labelled **Applications**.
 
 The GRE question is now answered. He does not want to sit it, which is recorded
 above as a decision.
+
+## Which referee to name
+
+Asked on 10 September. The answer splits by context and the split matters.
+
+**PhD programme applications: name Pinger.** Most programmes require a professor,
+and Anna Person is an M.Sc. and a PhD candidate. The agreed arrangement covers this,
+since Anna writes the substance and Pinger sends it under her name.
+
+**Jobs, internships, consulting: name Anna.** No employer requires a professorial
+title, and she is the stronger reference on the merits. She supervised him day to
+day for six months and graded the thesis 1.0.
+
+The reason this is not symmetric: **Pinger has never met him.** She said as much
+when she suggested Anna write the letter, because Anna "knows you from personal
+interaction". A written letter signed by Pinger is fine, since Anna supplies the
+content. A phone call to Pinger from an employer would go badly.
+
+So: Pinger for anything that needs a professor's signature, Anna for anything where
+someone might actually pick up the phone. Never list Anna where the form says
+professor. The CV currently says "References available upon request", which is the
+right default until something is confirmed.
 
 ## Facts verified this session
 
