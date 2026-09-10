@@ -68,7 +68,7 @@ van Maarseveen follow-up which stays on hold.
 | Target | Contact | Route | Status | Next action |
 |---|---|---|---|---|
 | **HHU Düsseldorf (DGSE)** | Application (Jan 2027 start) | Structured PhD | **Not pursued** (decided Sep 2026) | None. Deadline was 16 Sep 2026 and was open, but the target was dropped |
-| **Bonn (BGSE)** | Prof. Teodora Boneva | Cold email, meeting | **Replied 9 Sep** | She points to the BGSE programme. Send the one-line thanks, then apply in January |
+| **Bonn (BGSE)** | Prof. Teodora Boneva | Cold email, meeting | **Replied 9 Sep, then dropped** | BGSE is the only route in and it wants the GRE, which is ruled out. Send the one-line thanks and close it |
 | **Cologne** | Prof. Sebastian Siegloch | Cold email | **Sent 8 Sep** | Wait. Follow up once if silent after three weeks |
 | **Cologne** | Prof. Sonja Settele | Warm follow-up | Met 21 Jul, draft ready | Send [email](international/email-denmark.md). Second letter and the CEBI introduction |
 | **Cologne** | Prof. Johannes Wohlfart | Cold email | Draft ready | Send [email](cologne/email-wohlfart.md). Recommended by Neisser in July, never contacted |
@@ -84,12 +84,14 @@ van Maarseveen follow-up which stays on hold.
 | **Denmark** | Prof. Sonja Settele (Cologne, external CEBI member) | Warm follow-up | Not sent | Send the Settele version of [template](international/email-denmark.md). Asks for a CEBI introduction and about the second letter |
 | **Switzerland** | Chairs at Zurich / Lausanne / St. Gallen | Cold email | Not sent | Adapt [template](international/email-switzerland-austria.md). Direct hiring, so no letters needed to start |
 | **Maastricht (ROA)** | Dr Tim Huijts, PhD coordinator | Enquiry | **Replied 9 Sep** | No openings now, but he is forwarding it internally. Send the thanks and stay on the list |
+| **Maastricht (UNU-MERIT)** | IEGSD doctoral programme | Programme application | Not started | **No GRE, one reference letter, deadline about 15 Feb.** See [notes](international/maastricht.md). Cut the proposal to 2-3 pages |
+| **Maastricht (MILE)** | Prof. Lex Borghans, Prof. Bart Golsteyn | E13-style enquiry | Not sent | Verify addresses first. See [notes](international/maastricht.md) |
 | **Netherlands** | Potential supervisor (Rotterdam / Tinbergen / Tilburg) | Cold email | Not sent | Adapt [template](international/email-netherlands.md). Use the RSM connection for Rotterdam |
 | **Austria** | Chairs at Vienna / WU / Innsbruck | Cold email | Not sent | Adapt [template](international/email-switzerland-austria.md) |
 | **Belgium** | Potential supervisor (KU Leuven / UCLouvain) | Cold email | Not sent | Adapt [template](international/email-belgium.md). FWO round closes early December |
 | **Luxembourg** | Uni Luxembourg / LISER | Cold email | Not sent | Adapt [template](international/email-switzerland-austria.md) |
 | **France** | Potential supervisor (PSE / TSE / CREST / AMSE) | Cold email | Not sent | Adapt [template](international/email-france.md) |
-| **Spain** | CEMFI / BSE / UPF / UAB | Programme application | Not sent | See [notes](international/email-spain-italy.md). GRE decision gates this |
+| **Spain** | CEMFI only | Programme application | Not sent | See [notes](international/email-spain-italy.md). UPF and the BSE are out with the GRE decision. Check whether CEMFI requires it |
 | **Italy** | EUI Florence / Bocconi | Programme application | Not sent | See [notes](international/email-spain-italy.md). EUI closes about 31 Jan |
 | **Interim, research** | Institutes and chairs (RA / pre-doc) | Cold email | Not sent | Adapt [template](../bridge/email-research-internship.md) |
 | **Interim, policy** | Ministries, IZA, OECD, think tanks | Cold email | Not sent | Adapt [template](../bridge/email-policy-internship.md) |

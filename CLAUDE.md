@@ -78,6 +78,14 @@ in both cases checking was the right move and he accepted the correction.
   tiebreaker.
 - **Priority order:** salaried E13 research posts and graduate schemes first,
   internships only as a fallback.
+- **No GRE.** Decided 10 September 2026. This closes the Bonn BGSE programme, UPF
+  and the Barcelona School of Economics. Do not propose the GRE again.
+- **Bonn is out**, decided 10 September 2026, because the BGSE programme is the only
+  route in and it wants the GRE. One caveat worth holding: the three enquiries sent
+  to Dohmen, Schiprowski and Qaim/Parlasca on 8 September are **chair positions, not
+  BGSE**, and a chair post needs no GRE and no programme admission. If one of them
+  answers yes, that is a live offer outside the closed door. Treat replies on their
+  merits rather than as part of the Bonn decision.
 
 ### The single most important insight of the session
 
@@ -128,11 +136,12 @@ All labelled **PhD** except Frontier, labelled **Applications**.
 
 ### Open questions he has not answered
 
-1. **The GRE.** One decision, not three. It unlocks Bonn (closes 15 January), UPF
-   and the Barcelona School of Economics together. Skipping it closes most of Spain.
-2. **Did the Blue Book application go in before 4 September 2026?**
-3. Whether to authorise job searching. **An Indeed search was explicitly denied
-   earlier in the session.** Do not retry without asking.
+1. **Did the Blue Book application go in before 4 September 2026?**
+2. Whether to run the LinkedIn and Indeed search. He raised it himself on 10
+   September, so the earlier refusal is superseded, but confirm before running it.
+
+The GRE question is now answered. He does not want to sit it, which is recorded
+above as a decision.
 
 ## Facts verified this session
 
