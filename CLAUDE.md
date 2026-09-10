@@ -230,6 +230,30 @@ runs in English.
 
 **Sending always stays manual.** Draft into Gmail, never send.
 
+## Which Claude to use for what
+
+Asked twice, so recorded. The split is about what each surface can touch, not
+about capability.
+
+**This one, Claude Code on the repo.** It holds the tracker, the LaTeX and PDF
+build, git, and Gmail. Use it for anything that produces or changes an artefact:
+batches of applications, tuned CVs, drafted emails, research that has to persist.
+It is the system of record.
+
+**A chat session, Cowork or claude.ai or the desktop app.** Upload `CLAUDE.md` at
+the start and it has the full picture. Use it for the things that happen away from
+the keyboard: triaging a reply on a phone, judging whether a posting is worth
+applying to, preparing for an interview, thinking out loud about a decision. It
+cannot touch the repo, so nothing decided there is real until it comes back here.
+
+**The bridge is this file plus GitHub.** That is the whole integration and it is
+already built. Do not build a dashboard, a website or an app for this. The
+bottleneck has never been tooling.
+
+**One thing that belongs in a separate session entirely:** the outstanding seminar
+paper on the EU ETS, 6 ECTS. It gates the degree, it is nothing to do with the job
+search, and it is not in this repo. Give it its own chat.
+
 ## Where things are
 
 - `apply/` the workflow and per-application folders
