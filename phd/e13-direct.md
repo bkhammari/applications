@@ -113,6 +113,29 @@ You have more standing here than you are using.
 Everyone in that list already knows your name or taught you. That is a different
 email from a cold one.
 
+## Bonn is an exception, confirmed twice
+
+**Tested on 8 September and answered by 10 September.** Two Bonn professors were
+asked the direct funded-position question and both gave the same answer.
+
+Amelie Schiprowski, 10 September: *"In Bonn, all PhD admissions have to go through
+our graduate school, the BGSE. Please feel free to apply through them. The next
+deadline is going to be beginning 2027."* Teodora Boneva said the same thing a day
+earlier.
+
+That is not a brush-off, it is a rule. The Bonn economics department routes
+doctoral admission through the BGSE even where the money sits on a chair, so the
+two-channel logic in this file does not apply there. Since the BGSE wants the GRE
+and the GRE is ruled out, Bonn is closed.
+
+Worth keeping separate: **Qaim and Parlasca sit in agricultural economics, not the
+economics department**, so they may not be bound by the same rule. Their answer,
+when it comes, is still informative.
+
+The general lesson holds and is worth restating. The direct question got a direct
+answer in two days, where the vaguer version got eight weeks of silence. Ask it
+everywhere, and accept that some places will answer "we do not work that way".
+
 ## The honest caveat
 
 Chair positions are competitive too, and a real share go to people the professor

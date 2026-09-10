@@ -80,12 +80,15 @@ in both cases checking was the right move and he accepted the correction.
   internships only as a fallback.
 - **No GRE.** Decided 10 September 2026. This closes the Bonn BGSE programme, UPF
   and the Barcelona School of Economics. Do not propose the GRE again.
-- **Bonn is out**, decided 10 September 2026, because the BGSE programme is the only
-  route in and it wants the GRE. One caveat worth holding: the three enquiries sent
-  to Dohmen, Schiprowski and Qaim/Parlasca on 8 September are **chair positions, not
-  BGSE**, and a chair post needs no GRE and no programme admission. If one of them
-  answers yes, that is a live offer outside the closed door. Treat replies on their
-  merits rather than as part of the Bonn decision.
+- **Bonn is out**, decided 10 September 2026, and now confirmed from the inside.
+  Schiprowski replied to the direct chair enquiry on 10 September: *"In Bonn, all
+  PhD admissions have to go through our graduate school, the BGSE... The next
+  deadline is going to be beginning 2027."* Boneva said the same a day earlier. So
+  Bonn genuinely routes chair positions through the BGSE too, which makes it an
+  exception to the two-channel rule below, and the GRE requirement closes it. He
+  was right to drop it. The one thread still open is **Qaim and Parlasca, who sit
+  in agricultural economics rather than the economics department** and may not be
+  bound by the same rule.
 
 ### The single most important insight of the session
 
@@ -112,7 +115,7 @@ which is answerable in one line. Full write-up in
 | Prof. Klagge, Bonn | TRR 228 phase three | **Declined 9 Sep**, no capacity for another PhD student |
 | ROA Maastricht | Who to approach | **Tim Huijts, PhD coordinator, replied 9 Sep.** No funded openings now, but he is forwarding the message to Cörvers, Haelermans and Fouarge |
 | Prof. Dohmen, Bonn | E13 enquiry, Bonn and Maastricht | No reply yet |
-| Prof. Schiprowski, Bonn | E13 enquiry | No reply yet |
+| Prof. Schiprowski, Bonn | E13 enquiry | **Declined 10 Sep.** All Bonn PhD admissions go through the BGSE, next deadline early 2027 |
 | Qaim + Parlasca, Bonn | C08 Job Futures | No reply yet |
 | Prof. Siegloch, Cologne | Cold email | No reply yet |
 | Frontier Economics | 2027 graduate intake | No reply yet |
@@ -129,9 +132,9 @@ All labelled **PhD** except Frontier, labelled **Applications**.
 |---|---|---|
 | Prof. Sonja Settele | settele@wiso.uni-koeln.de | Asks for a CEBI introduction and about the second reference letter. **Send this one** |
 | Prof. Johannes Wohlfart | wohlfart@wiso.uni-koeln.de | Address unverified. Neisser recommended him in July, never contacted |
-| Anna Person + Pinger | anna.person127@gmail.com | Reply to "Sounds good". Sends the materials Anna needs to write the letter |
-| Dr Tim Huijts, ROA | t.huijts@maastrichtuniversity.nl | Thanks, offers thesis and proposal for circulation, notes flexibility on start date |
-| Prof. Boneva | tboneva@uni-bonn.de | One-line thanks, confirms the BGSE application |
+| Anna Person + Pinger | anna.person127@gmail.com | **Still unsent as of 10 Sep.** Anna has never received the CV or transcript. The August attachments went to Pinger alone, and Anna was only copied on Pinger's reply, which carries no attachments. She cannot write the letter until this goes |
+
+
 | Jun.-Prof. van Maarseveen | vanmaarseveen@wiso.uni-koeln.de | **On hold.** It asserts he never replied, which the mailbox confirms. Rewrite if a reply surfaces elsewhere |
 
 ### Open questions he has not answered

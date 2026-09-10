@@ -57,11 +57,16 @@ approach working. The earlier, more diffuse emails got eight weeks of silence.
 | Boneva, Bonn | **Replied.** Apply to the BGSE programme, several Bonn professors work in these areas |
 | Klagge, Bonn | **Declined.** No capacity for another PhD student |
 | ROA Maastricht | **Tim Huijts, PhD coordinator, is forwarding it** to Cörvers, Haelermans and Fouarge |
-| Dohmen, Schiprowski, Qaim and Parlasca, Siegloch, Frontier | No reply yet |
+| Schiprowski, Bonn | **Declined 10 Sep.** All Bonn PhD admissions run through the BGSE, next deadline early 2027 |
+| Dohmen, Qaim and Parlasca, Siegloch, Frontier | No reply yet |
 
-Drafted and still unsent, labelled **PhD**: Settele, Wohlfart, the reply to Anna
-and Pinger with materials, the reply to Huijts, the thanks to Boneva, and the
-van Maarseveen follow-up which stays on hold.
+The replies to Huijts and Boneva went out on 9 September.
+
+Still unsent, labelled **PhD**: Settele, Wohlfart, the van Maarseveen follow-up
+which stays on hold, and **the reply to Anna Person carrying the CV, transcript and
+proposal**. That last one is the blocker. Anna has never received those documents.
+The August attachments went to Pinger alone, and Anna was only copied on Pinger's
+reply, which carries no attachments. She cannot write the letter until it goes.
 
 ## Status overview
 
