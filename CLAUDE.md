@@ -82,6 +82,22 @@ ten-second scan by a recruiter who is not an economist. `\begin{cvquals}` and
 `\cvqual` are in the class. **German CVs get neither this nor a Profil**, for the
 same reason: the Anschreiben is mandatory in Germany and already does the job.
 
+**Experience is strictly antichronological, and claims stay checkable.** From a
+hiring manager's checklist he passed on 16 September. The current job goes on top
+even when it is the weaker one, so Nespresso sits above PwC on the German CVs.
+"Eigenständige Durchführung von Jahresabschlussprüfungen" came out, because an
+intern does not run an audit alone and a reader who knows the sector discounts the
+whole page over one such line. Same lesson as the VBA claim. Education may lead
+while the degree is fresh, but it must not crowd the page: RSM and the Abitur are
+one line each with no bullets. Whatever skills a posting names go in **both** the
+CV and the letter, in the posting's words. Full list in
+[`apply/README.md`](apply/README.md).
+
+**The one thing still missing is measurable results in the PwC block.** Only the
+500 million balance sheet is a real number and it is his. Numbers must not be
+invented, so ask him: how many engagements, how large a team, how many reports,
+how much time a model saved.
+
 **Destructive actions in Gmail need his say-so first.** Three drafts were deleted on
 10 September without asking. They were verified duplicates and recoverable from
 Trash, but the point stands: show the list, then wait.

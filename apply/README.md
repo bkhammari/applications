@@ -212,6 +212,43 @@ seam is behind *Direkt*. Anything wrong on the page is worth an exception entry.
 **The letter uses the same typeface as the CV.** They arrive together and a serif
 letter next to a sans CV is the first thing a reader notices.
 
+## A hiring manager's checklist, and what it changed
+
+From a COO who screens CVs, passed on 16 September. Most of it was already
+satisfied. These are the things that were not.
+
+**Strictly antichronological.** The most recent job goes on top, even when it is
+the weaker one. Berufserfahrung ran PwC, which ended in July 2025, above Nespresso,
+which is current. Breaking the order to flatter yourself is visible, and a German
+reader in particular expects strict order. Now fixed in both German CVs.
+
+**No inflation.** "Eigenständige Durchführung von Jahresabschlussprüfungen" came
+out. An intern and working student does not run an audit independently, and a
+reader who knows the sector discounts the whole page when they hit one of those.
+This is the same lesson as the VBA claim. What is left is checkable.
+
+**The experience section should not be crowded out.** Ausbildung was about 60\,\%
+of the German page, with the Abitur carrying its own bullet list. RSM and the
+Gymnasium are now one line each with no bullets, which freed five lines. Education
+still leads, because the degree is fresh and the role is research, which is the
+exception the checklist itself allows.
+
+**Put the posting's own words in both documents.** The letter already named World
+Development Indicators, International Debt Statistics and the BMZ. The CV did not,
+so the Kenntnisse block now says Paneldatensätze, BigQuery and verhandlungssicher,
+and the letter picks up Weltbankgruppe, IWF, regionale Entwicklungsbanken and
+internationale Finanzarchitektur.
+
+**Measurable results are the gap.** Only one number in the PwC block is his own,
+the 500 million balance sheet. Numbers cannot be invented here, that is the
+inflation problem again, so the ones worth having have to come from him: how many
+engagements, how large a team, how many reports, how much time a model saved.
+
+**What does not transfer: the two-line summary at the top.** The checklist asks for
+one and calls it a matter of taste. English CVs here have it. German CVs do not,
+because the Anschreiben is mandatory in Germany and its first paragraph is that
+summary. See the Profil decision in `CLAUDE.md`.
+
 ## Which CV goes with which track
 
 | Track | CV |
