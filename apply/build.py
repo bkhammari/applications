@@ -33,11 +33,14 @@ def compile_one(tex_path, runs=2):
     folder = os.path.dirname(tex_path)
     name = os.path.basename(tex_path)
     for _ in range(runs):
+        # pdflatex emits Latin-1 bytes for German characters, so decoding its
+        # output strictly as UTF-8 crashes on any German document.
         result = subprocess.run(
             ["pdflatex", "-interaction=nonstopmode", "-halt-on-error", name],
             cwd=folder,
             capture_output=True,
             text=True,
+            errors="replace",
         )
     pdf = os.path.splitext(tex_path)[0] + ".pdf"
     if os.path.exists(pdf):
