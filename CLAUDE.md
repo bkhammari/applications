@@ -65,6 +65,14 @@ it: no re-introducing himself, no restating the thesis, no attaching documents t
 reader already knows. Cold emails carry the thesis paragraph because the reader has
 never heard of him. Replies to people who know him do not.
 
+**No Profil block on a German CV.** Decided 16 September. The classic Lebenslauf
+runs Ausbildung, Berufserfahrung, Kenntnisse and nothing else, and for a
+Bundesunternehmen the conservative form is the safe one. A Kurzprofil is not
+unknown in German CVs, it is just a consulting and industry habit rather than a
+convention, so leave it out. Anything the profile was carrying, such as
+availability, moves into the relevant entry. English CVs keep their Profile block,
+which is standard there.
+
 **Destructive actions in Gmail need his say-so first.** Three drafts were deleted on
 10 September without asking. They were verified duplicates and recoverable from
 Trash, but the point stands: show the list, then wait.

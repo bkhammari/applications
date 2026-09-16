@@ -59,6 +59,10 @@ python3 apply/track.py set frontier closed
 One block does most of the work: the `Profile` at the top, three or four lines
 aimed at this employer. It is to the CV what the fit paragraph is to the letter.
 
+**On a German CV, drop it.** The classic Lebenslauf has no Kurzprofil, and for a
+public-sector employer the conservative form is safer. Move whatever the profile
+was carrying, availability for instance, into the entry it belongs to.
+
 Beyond that, the tuning worth doing is reordering rather than rewriting. Put the
 skill they named first, label the grades with the scale when the posting states a
 threshold, and cut whatever is noise for this reader. The Frontier application in
