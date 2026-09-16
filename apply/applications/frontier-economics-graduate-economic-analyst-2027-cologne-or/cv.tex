@@ -29,11 +29,13 @@
 \usepackage[english]{babel}
 
 \cvname{Baha Khammari}
-\cvlocation{D\"usseldorf, Germany}
+\cvlocation{D\"usseldorf}
 \cvemail{b.e.khammari@gmail.com}
 \cvphone{+49\,1520\,9016956}
 \cvlinkedin{linkedin.com/in/baha-khammari}
-\cvgithub{github.com/bkhammari}
+% GitHub link left off. See the note in cv/academic/academic_cv.tex. Dropping it
+% also brings the contact block back onto one line.
+% \cvgithub{github.com/bkhammari}
 
 \begin{document}
 
@@ -43,19 +45,20 @@
 %================ PROFILE, one sentence ================%
 \section*{Profile}
 \small
-Applied microeconomist finishing an M.Sc.\ at Cologne, working on causal inference with large administrative data. Available from October 2026.
+Applied microeconomist finishing an M.Sc.\ at Cologne, working on causal inference with large administrative data. Available October 2026.
 
 %================ ROLE-ALIGNED QUALIFICATIONS ================%
 % One line per stated requirement in the posting, in their order, in their words.
-% A recruiter who is not an economist should be able to tick all five in ten
-% seconds without reading the rest of the page.
+% One line literally: each of these five fits on a single line, which is what
+% makes the block scannable. A two-line entry here is a rewrite, not a formatting
+% problem. Whatever gets cut to make it fit is said again below in full.
 \section*{Qualifications for this role}
 \begin{cvquals}
-\cvqual{Economics degree, Germany 2.0 or better, plus a master's.}{M.Sc.\ Economics 1.6 and B.Sc.\ Economics 1.6, University of Cologne. Top 5\,\% of cohort, Dean's List.}
-\cvqual{Microeconomics knowledge and experience.}{Master's thesis in applied microeconomics, graded 1.0, on the labour market effects of a national education policy.}
-\cvqual{Advanced Excel, and R or Stata.}{R for the thesis (\texttt{did}, \texttt{fixest}, \texttt{HonestDiD}) across five million records. Excel daily for two years at PwC.}
-\cvqual{Strong communicator.}{Wrote audit reports and management letters at PwC for client and partner readers.}
-\cvqual{Fluent in the language of the office.}{German native, English C1 (IELTS Academic 8.0). Suits Cologne, Berlin or Brussels.}
+\cvqual{Economics degree, Germany 2.0 or better, plus a master's.}{M.Sc.\ 1.6 and B.Sc.\ 1.6, Cologne.}
+\cvqual{Microeconomics knowledge and experience.}{Master's thesis in applied microeconomics, graded 1.0.}
+\cvqual{Advanced Excel, and R or Stata.}{R across five million records. Excel daily for two years at PwC.}
+\cvqual{Strong communicator.}{Wrote audit reports and management letters at PwC for partner readers.}
+\cvqual{Fluent in the language of the office.}{German native, English C1 (IELTS Academic 8.0).}
 \end{cvquals}
 
 %================ EDUCATION ================%
@@ -67,7 +70,6 @@ Applied microeconomist finishing an M.Sc.\ at Cologne, working on causal inferen
 {M.Sc.\ Economics, grade 1.6 (German scale, 1.0 highest)}{Oct.\ 2023 -- Sep.\ 2026}
 \resumeItemListStart
 \resumeItem{Applied Econometrics, Causal Inference, Panel Data Analysis, Time Series Econometrics, Microeconomics, Energy Economics.}
-\resumeItem{Available from October 2026.}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -90,7 +92,7 @@ Applied microeconomist finishing an M.Sc.\ at Cologne, working on causal inferen
 \resumeItemListStart
 \resumeItem{\textbf{Estimated the causal wage effect of Brazil's ProUni scholarship programme} across 558 regions over 2005--2019, using the Callaway and Sant'Anna (2021) heterogeneity-robust staggered difference-in-differences estimator with doubly-robust inference.}
 \resumeItem{\textbf{Showed the naive estimate is wrong in sign.} Two-way fixed effects returned $-0.65\,\%$ against a corrected $+3.04\,\%$, an empirical case of forbidden comparisons (Goodman-Bacon, 2021).}
-\resumeItem{\textbf{Defended the counterfactual:} HonestDiD sensitivity analysis (Rambachan and Roth, 2023), Bacon decomposition, age-cohort placebo, alternative exposure cutoffs, and controls for two concurrent policies.}
+\resumeItem{\textbf{Defended the counterfactual:} HonestDiD sensitivity analysis (Rambachan and Roth, 2023), Bacon decomposition, age-cohort placebo, and controls for two concurrent policies.}
 \resumeItemListEnd
 
 
@@ -114,8 +116,10 @@ Applied microeconomist finishing an M.Sc.\ at Cologne, working on causal inferen
 %================ TECHNICAL SKILLS ================%
 \section*{Technical Skills}
 \resumeItemListStart
-\resumeItem{\textbf{Excel:} advanced. \textbf{R:} advanced (\texttt{did}, \texttt{fixest}, \texttt{HonestDiD}, \texttt{tidyverse}, \texttt{ggplot2}). SQL and BigQuery, Python (basic), Power\,BI, \LaTeX, Git.}
-\resumeItem{\textbf{Methods:} Difference-in-Differences including staggered adoption and doubly-robust estimation, event studies, panel data models, instrumental variables, Bacon decomposition, sensitivity analysis.}
+\resumeItem{\textbf{Excel:} advanced. \textbf{R:} advanced (\texttt{did}, \texttt{fixest}, \texttt{HonestDiD}, \texttt{tidyverse}). SQL and BigQuery, Python (basic), Power\,BI, \LaTeX.}
+% Bacon decomposition and sensitivity analysis are named in the thesis bullets
+% above, so they do not need repeating here.
+\resumeItem{\textbf{Methods:} Difference-in-Differences, event studies, panel data models, instrumental variables.}
 \resumeItemListEnd
 
 \end{document}

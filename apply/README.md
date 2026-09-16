@@ -154,14 +154,20 @@ that used to be pasted into every tuned copy by hand.
 \cvemail{b.e.khammari@gmail.com}
 \cvphone{+49\,1520\,9016956}
 \cvlinkedin{linkedin.com/in/baha-khammari}
-\cvgithub{github.com/bkhammari}
 
 \begin{document}
 \cvheader
 ```
 
 `\cvheader` skips whatever you leave unset, so the same block works for a CV with
-GitHub and one without.
+GitHub and one without. **Keep it to four items.** A fifth wraps the contact block
+onto a second line at any sensible size. The separator is a discretionary, so a
+block that does wrap breaks between items and never leaves a dangling dot, but one
+line still reads better than two.
+
+The GitHub field is currently unset everywhere. `github.com/bkhammari` is public
+and the repository it shows is this one, the job search itself. Set it again when
+there is something worth sending a reader to.
 
 **Use `noicons` whenever a machine reads the file first.** The class loads
 `glyphtounicode` so text extracts cleanly, but the FontAwesome glyphs defeat it.
@@ -181,6 +187,30 @@ volume report that colour and extra columns slow them down, because the eye has 
 decide where to go next instead of running straight down the page. The class has
 never had a sidebar or a two-column split, and `mono` takes the last colour out.
 Keep the blue on an academic CV, which one person reads slowly.
+
+## Typography, and why the CV stopped being justified
+
+Changed on 16 September after reading a build rather than the source. The German
+CV was setting flush left and right on a narrow measure, and paying for the flush
+right edge with stretched word spaces and a broken word at the end of most lines.
+One page carried Mikroregio-nen, verfüg-bar, Jahresabschlussprü-fungen, Scha-bert
+and Informationsveranstaltun-gen. German compounds are long and the measure is
+about 95 characters, so there is nothing for TeX to do but hyphenate or stretch.
+
+The class now sets ragged right, raises `\hyphenpenalty`, and loads `microtype`
+for protrusion and font expansion. Same space spent, on a ragged margin instead of
+on visible holes in the lines. Two hyphenations survive on the German CV and both
+are correct. Leading and the gaps between entries went up at the same time, which
+is what actually makes a dense page readable.
+
+**A German letter keeps Blocksatz**, because that is the convention there, so the
+GIZ letter is justified and loads `microtype` to pay for it. It also carries a
+`\hyphenation` list. Babel hyphenates by German rules, which is wrong for English
+terms in the text, and it had produced Direk-tinvestitionen, where the compound
+seam is behind *Direkt*. Anything wrong on the page is worth an exception entry.
+
+**The letter uses the same typeface as the CV.** They arrive together and a serif
+letter next to a sans CV is the first thing a reader notices.
 
 ## Which CV goes with which track
 

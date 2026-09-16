@@ -79,6 +79,8 @@
 \RequirePackage{xcolor}
 \RequirePackage{geometry}
 \RequirePackage{parskip}
+\RequirePackage{ragged2e}
+\RequirePackage{microtype}         % protrusion and expansion, fewer bad lines
 
 \if@cvicons
   \RequirePackage{fontawesome}
@@ -114,20 +116,35 @@
 % === Page geometry ===
 \if@cvcompact
   \geometry{a4paper, portrait, left=0.65in, right=0.65in, top=0.5in, bottom=0.45in}
-  \linespread{1.0}
+  \linespread{1.06}
 \else
   \geometry{a4paper, portrait, left=0.75in, right=0.75in, top=0.6in, bottom=0.6in}
-  \linespread{1.08}
+  \linespread{1.12}
 \fi
 \setlength{\tabcolsep}{0in}
 \setlength{\parskip}{0pt}
 
-% === Section headings: blue, thin light-gray rule ===
+% === Ragged right, and hyphenate only as a last resort ===
+% Justified setting is wrong for a CV, and badly wrong for a German one. The
+% measure is narrow, the words are long compounds, and TeX pays for a flush
+% right edge with stretched inter-word spaces and a broken word at the end of
+% most lines. An earlier build of the German CV hyphenated Mikroregionen,
+% verfuegbar, Jahresabschlusspruefungen, Schabert and Informationsveranstaltungen
+% on one page. Ragged right spends the same space as ragged margin instead, which
+% the eye does not notice, and keeps every word whole.
+\AtBeginDocument{\RaggedRight}
+\hyphenpenalty=2000
+\tolerance=2000
+\emergencystretch=2em
+
+% === Section headings ===
 \titleformat{\section}
   {\vspace{6pt}\raggedright\large\bfseries\color{myblue}}
   {\thesection}{0em}{}
-  [\vspace{-4pt}{\color{lightgray}\hrule height 0.5pt}\vspace{4pt}]
-\titlespacing*{\section}{0pt}{8pt}{4pt}
+  [\vspace{-3pt}{\color{lightgray}\hrule height 0.6pt}\vspace{5pt}]
+% Space above a heading is what separates one section from the next, so it is
+% worth more than the same space spent inside a section.
+\titlespacing*{\section}{0pt}{11pt}{5pt}
 
 % === Header fields ===
 % Set what applies, leave the rest unset. \cvheader skips empty fields, so the
@@ -142,29 +159,37 @@
 \newcommand{\cvlinkedin}[1]{\def\@cvlinkedin{#1}}
 \newcommand{\cvgithub}[1]{\def\@cvgithub{#1}}
 
-\newcommand{\cv@sep}{\quad$\cdot$\quad}
+% Each contact item is an \mbox, so a line break in the contact block falls
+% between items and never between an icon and the text it belongs to. The old
+% version let the LinkedIn glyph end one line while its URL started the next.
+%
+% The separator is a \discretionary whose no-break text is the dot and its
+% spacing, and whose pre-break and post-break texts are empty. A contact block
+% that has to wrap therefore ends the line after the last item rather than after
+% a dangling separator, and starts the next one on an item rather than a dot.
+\newcommand{\cv@sep}{\discretionary{}{}{\mbox{\hspace{0.6em}$\cdot$\hspace{0.6em}}}}
 
 \newcommand{\cvheader}{%
   \vspace*{-1.5cm}
   \begin{center}
-    \textbf{\Huge\@cvname} \\
-    \vspace{5pt}
+    \textbf{\huge\@cvname} \\
+    \vspace{6pt}
     \small
-    \@cvlocation
+    \mbox{\@cvlocation}%
     \ifx\@cvemail\empty\else
-      \cv@sep\if@cvicons\faEnvelopeO\enskip\fi\href{mailto:\@cvemail}{\@cvemail}%
+      \cv@sep\mbox{\if@cvicons\faEnvelopeO\enskip\fi\href{mailto:\@cvemail}{\@cvemail}}%
     \fi
     \ifx\@cvphone\empty\else
-      \cv@sep\if@cvicons\faMobile\enskip\fi\@cvphone
+      \cv@sep\mbox{\if@cvicons\faMobile\enskip\fi\@cvphone}%
     \fi
     \ifx\@cvlinkedin\empty\else
-      \cv@sep\if@cvicons\faLinkedin\enskip\fi\href{https://www.\@cvlinkedin}{\@cvlinkedin}%
+      \cv@sep\mbox{\if@cvicons\faLinkedin\enskip\fi\href{https://www.\@cvlinkedin}{\@cvlinkedin}}%
     \fi
     \ifx\@cvgithub\empty\else
-      \cv@sep\if@cvicons\faGithub\enskip\fi\href{https://\@cvgithub}{\@cvgithub}%
+      \cv@sep\mbox{\if@cvicons\faGithub\enskip\fi\href{https://\@cvgithub}{\@cvgithub}}%
     \fi
   \end{center}
-  \vspace{-2pt}
+  \vspace{2pt}
 }
 
 % === Role-aligned qualifications ===
@@ -192,17 +217,22 @@
 }
 
 % === Subheading: title and place on one line, role and dates on the next ===
+% The two \hfill pairs are the only thing on the page that puts content at the
+% right margin. That is alignment, not a second column, and it reads fine: the
+% eye still runs straight down the left edge through the employers and degrees.
 \newcommand{\resumeSubheading}[4]{
     \item
     \vspace{3pt}
-    \textbf{#1} \hfill \small{#2} \\[1pt]
+    \textbf{#1} \hfill \small{#2} \\[2pt]
     \textit{\small #3} \hfill \textit{\small #4}
-    \vspace{-2pt}
+    \vspace{-1pt}
 }
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}, itemsep=2pt]}
+% Entries are separated by more space than the bullets inside them, so a reader
+% skimming for employers sees blocks rather than one continuous list.
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}, itemsep=5pt]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.35in, itemsep=1pt, topsep=2pt]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{2pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.3in, itemsep=3pt, topsep=4pt, parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{1pt}}

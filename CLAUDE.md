@@ -294,6 +294,30 @@ split, so only the colour needed taking out, which is what `mono` does. Use
 `[compact,mono]` on German and industry CVs, `[serif,compact,mono]` on consulting
 ones. Colour stays on the academic CV, which one person reads slowly.
 
+**The CV is ragged right, not justified.** He said on 16 September that it was
+hard to read and he was right. Justified setting on a 95-character measure full of
+German compounds gave stretched word spaces and a hyphenated word at the end of
+most lines: Mikroregio-nen, verfüg-bar, Jahresabschlussprü-fungen, Scha-bert,
+Informationsveranstaltun-gen. The class now sets `\RaggedRight`, raises
+`\hyphenpenalty` and loads `microtype`, and the leading and the gaps between
+entries went up. **A German letter keeps Blocksatz**, which is the convention
+there, and pays for it with `microtype` plus a `\hyphenation` exception list.
+Check a rebuild by rendering it, not by reading the source. Full reasoning in
+[`apply/README.md`](apply/README.md).
+
+Two habits that came out of the same pass. **Bold has to be scarce to mean
+anything**: on the German CV it is now the name, the section headings, the
+employers, the thesis grade and the start date, and nothing else. **The letter
+uses the CV's typeface**, because they arrive together.
+
+**`github.com/bkhammari` is off the CVs.** Verified public on 16 September, and
+the repository it shows is this one: the tracker, the replies including every
+rejection, and the reasoning about referees. The `\cvgithub` line is commented out
+in `cv/academic/academic_cv.tex` and in the Frontier copy rather than deleted. Put
+it back when there is a repository worth sending a reader to, such as thesis
+replication code. **Whether to make this repo private is his call and he has not
+been asked yet.**
+
 ## The tooling
 
 ```

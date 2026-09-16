@@ -18,9 +18,25 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[ngerman]{babel}
-\usepackage{lmodern}
+% Gleiche Schrift wie im Lebenslauf. Beide Dokumente liegen dem Leser nebenein-
+% ander vor, und eine Serifenschrift im Anschreiben neben einer serifenlosen im
+% Lebenslauf faellt sofort auf.
+\usepackage{tgheros}
+\renewcommand{\familydefault}{\sfdefault}
 \usepackage[left=25mm, right=25mm, top=22mm, bottom=20mm]{geometry}
 \usepackage{parskip}
+% Blocksatz bleibt, weil er fuer ein deutsches Anschreiben die uebliche Form ist.
+% microtype bezahlt ihn mit Randausgleich und minimaler Laufweitenaenderung statt
+% mit Trennstrichen. Ohne das Paket endeten sechs Zeilen auf dieser Seite mit
+% einem getrennten Wort: Indi-cators, Mil-lionen, Eco-nomics, Bedin-gungen,
+% Newslet-ter, Ma-nagement.
+\usepackage{microtype}
+\hyphenpenalty=1000
+% Babel trennt nach deutschen Regeln. Bei englischen Fachbegriffen ist das
+% falsch, deshalb stehen sie hier ohne Trennstelle und werden gar nicht getrennt.
+% "Direk-tinvestitionen" war auch auf Deutsch falsch: die Fuge liegt hinter
+% "Direkt", nicht mitten im Wortstamm.
+\hyphenation{Development Economics Indicators Statistics Direkt-investitionen}
 
 \pagestyle{empty}
 \setlength{\parskip}{0.85em}
@@ -49,7 +65,10 @@ Bonn
 
 \vspace{5mm}
 
-\noindent\textbf{Bewerbung als Praktikant*in im Sektorvorhaben Multilaterale Entwicklungsbanken f\"ur Globale \"Offentliche G\"uter (Ausschreibung V000065092)}
+% "Bewerbung als Praktikant*in" waere die Ausschreibung woertlich, liest sich in
+% eigener Sache aber schief. Die Stelle statt der Person zu nennen loest das und
+% behaelt die Referenznummer fuer die Zuordnung.
+\noindent\textbf{Bewerbung um das Praktikum im Sektorvorhaben Multilaterale Entwicklungsbanken f\"ur Globale \"Offentliche G\"uter (Ausschreibung V000065092)}
 
 \vspace{3mm}
 
