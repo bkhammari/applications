@@ -114,6 +114,48 @@ follow-up, and deadlines closing within a fortnight that are still unsent. Run i
 at the start of a working session. It is the part of the process that people drop,
 and it is the part that produces replies.
 
+## The CV class
+
+All CVs use `cv/shared/OpenCV.cls`. Three options, and the first two replace
+blocks that used to be pasted into every tuned copy by hand.
+
+| Option | What it does |
+|---|---|
+| `compact` | Tighter margins and single line spacing, for a one-page CV |
+| `serif` | Latin Modern roman instead of the sans default |
+| `noicons` | Plain-text contact line with no FontAwesome glyphs |
+
+```latex
+\documentclass[serif,compact]{../../../cv/shared/OpenCV}
+\usepackage[english]{babel}
+
+\cvname{Baha Khammari}
+\cvlocation{D\"usseldorf, Germany}
+\cvemail{b.e.khammari@gmail.com}
+\cvphone{+49\,1520\,9016956}
+\cvlinkedin{linkedin.com/in/baha-khammari}
+\cvgithub{github.com/bkhammari}
+
+\begin{document}
+\cvheader
+```
+
+`\cvheader` skips whatever you leave unset, so the same block works for a CV with
+GitHub and one without.
+
+**Use `noicons` whenever a machine reads the file first.** The class loads
+`glyphtounicode` so text extracts cleanly, but the FontAwesome glyphs defeat it.
+Extract the contact line from an icon build and it comes back as
+
+```
+Düsseldorf · Q b.e.khammari@gmail.com · +49 1520 9016956 · ¯
+```
+
+The envelope becomes `Q`, LinkedIn becomes a macron, the phone disappears. A
+parser sees a stray letter glued to the email address. With `noicons` the same
+line extracts as plain text. Icons stay the default because they look better to a
+human, so the choice is: who reads this first, a person or a system.
+
 ## Which CV goes with which track
 
 | Track | CV |

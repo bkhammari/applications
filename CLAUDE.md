@@ -261,6 +261,22 @@ and amsmath is loaded in the class. The English CV had never compiled before thi
 LaTeX needs `tex-gyre` and `lmodern` on top of the usual texlive packages. The
 install line is in the docstring of `apply/build.py`.
 
+`apply/build.py` decoded pdflatex output strictly as UTF-8 and crashed on the
+first German document, since pdflatex emits Latin-1 for umlauts. Fixed with
+`errors="replace"`.
+
+The German letter template used **scrlttr2**, which reserves a third of the page
+for fold marks, a deep reference line and a footer it never prints, and would not
+come down to one page. The GIZ letter sets its geometry directly on `article`
+instead. Do that for the next German letter rather than fighting the class again.
+
+`OpenCV.cls` now takes options: `compact` for a one-page CV, `serif` for Latin
+Modern roman, `noicons` for a machine-readable contact line. Header fields are set
+with `\cvname` and friends and printed by `\cvheader`, so the header block is no
+longer copy-pasted per document. **The old "ATS-Optimised" claim was false where it
+mattered**: FontAwesome glyphs made the contact line extract as `Q
+b.e.khammari@gmail.com ... ¯`. Use `noicons` wherever a system parses the CV.
+
 ## The tooling
 
 ```
