@@ -49,16 +49,21 @@ collision, and it leaves spring free for interviews.
 **The gap.** The thesis is labour and education microeconometrics, not
 international finance. There is no MDB or development-finance experience.
 
-**What answers it, and it is better than it looks.** There is a real financial
-macro thread running through the degree that almost never gets used:
+**What answers it.** **Development Economics** in the master's covered
+international development cooperation, foreign direct investment, the different
+channels through which aid works, and its role in conflict regions. That is the
+subject of the role rather than an adjacent field, and it is the paragraph the
+letter leads with.
 
-- Bachelor's thesis on the **financial accelerator mechanism**, the
-  Bernanke-Gertler-Gilchrist framework, supervised by Schabert
-- Seminar paper on **subprime mortgage credit and the US financial crisis**, using
-  the Mian and Sufi framework on household leverage
-- M.Sc. specialisation includes **Financial Macroeconomics**
+The first draft of this letter led with a financial macro thread instead, the
+bachelor's thesis on the financial accelerator and a seminar paper on subprime
+credit. Both are real and both stay on the CV, but they answer a question nobody
+asked. Development economics answers the one on the posting.
 
-Point three is what makes the application work. World Development Indicators and
+**Financial Macroeconomics** as a second master's focus supplies the link to
+international financial architecture, in one clause rather than a paragraph.
+
+On the data side, World Development Indicators and
 International Debt Statistics are cross-country panels. Building a regional panel
 from five million administrative records and analysing it in R is the same craft at
 a larger scale, and most applicants for a policy internship cannot do it at all.
@@ -67,9 +72,13 @@ Add PwC for the Excel and the discipline of preparing numbers other people rely 
 
 ## Fit paragraph
 
-Written into `letter.tex`. It leads with the financial macro thread, because that
-is what makes the application credible on subject rather than only on method, then
-turns to the databases they named.
+Written into `letter.tex`. It leads with the databases they named, because that is
+the strongest claim, then with Development Economics for the subject fit.
+
+**The CV had to change with it.** A letter claiming development economics against
+a CV that never mentions it is the kind of gap a reader notices. Development
+Economics is now a bullet under the master's entry, and the subprime seminar came
+out to make room.
 
 ## How to apply
 
