@@ -20,9 +20,9 @@
 - [x] **Range.** Bonn, half an hour from Cologne.
 - [x] **Enrolment.** The standing filter rejects anything requiring current
       enrolment. This one says *"eingeschrieben in einem Masterstudiengang oder
-      innerhalb von sechs Monaten nach dem Abschluss"*. Both limbs are satisfied.
-      Still enrolled with 6 ECTS outstanding, and a November start falls inside six
-      months of a September graduation either way.
+      innerhalb von sechs Monaten nach dem Abschluss"*. The thesis is submitted and
+      the degree completes in September, so a November start falls comfortably
+      inside the second limb.
 - [x] **Languages.** Verhandlungssicher German and English. Native and C1.
 - [x] **Excel.** Advanced, from PwC. They ask for it explicitly.
 - [x] **No PhD required**, no professional qualification required.
@@ -91,8 +91,8 @@ lists as background papers for the BMZ, a monthly newsletter and presentations,
 and links it to two years of preparing audit results for management at PwC.
 
 **Find something real about the employer.** The letter had nothing GIZ-specific.
-The outstanding seminar paper is on the **EU Emissions Trading System**, which is a
-market instrument for a global public good. The unit is called Sektorvorhaben
+The seminar paper is on the **EU Emissions Trading System**, which is a market
+instrument for a global public good. The unit is called Sektorvorhaben
 Multilaterale Entwicklungsbanken **für Globale Öffentliche Güter**. That connection
 is true, specific, and nobody else applying will have it.
 

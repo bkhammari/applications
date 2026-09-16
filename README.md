@@ -17,7 +17,7 @@ Düsseldorf, Germany
 
 ## Background
 
-Master's student in Economics with a quantitative focus on causal inference and empirical policy evaluation. 6 ECTS remaining (one seminar paper), available from October 2026.
+Master's student in Economics with a quantitative focus on causal inference and empirical policy evaluation. Graduating September 2026, available from October 2026.
 
 **Master's thesis (Grade: 1.0):** *How Equal is Equal Opportunity? Gender, Ethnic and Regional Disparities in Labor Market Outcomes of Higher Education Policies in Brazil.* Applied the Callaway & Sant'Anna (2021) heterogeneity-robust staggered DiD estimator with doubly-robust inference to ~5 million observations of Brazilian administrative microdata (RAIS and ProUni) across 558 microregions (2005 to 2019). Supervised by Prof. Dr. Pia Pinger and Anna Person, M.Sc.
 
@@ -44,7 +44,7 @@ applications/
 ├── .gitignore
 │
 ├── cv/                     # CVs
-│   ├── shared/OpenCV.cls   # Custom LaTeX CV class (ATS-optimised)
+│   ├── shared/OpenCV.cls   # Custom LaTeX CV class (compact/serif/noicons/mono)
 │   ├── academic/           # academic_cv.tex (English, PhD and scholarships)
 │   └── professional/       # German industry CV (modular)
 │

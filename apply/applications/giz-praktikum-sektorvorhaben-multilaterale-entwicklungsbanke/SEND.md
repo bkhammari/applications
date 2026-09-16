@@ -1,49 +1,14 @@
 # GIZ, what to do and in what order
 
 **Deadline: Monday 21 September 2026.** Today is Wednesday 16 September, so five
-days. The research and the documents are done. What is left is yours.
+days. The documents are done. What is left is yours.
 
 Portal: <https://jobs.giz.de/index.php?ac=jobad&id=79157>, the button is
 *Jetzt online bewerben*. This is not an email application.
 
 ---
 
-## 1. Today: write to Herr Maas
-
-The posting names **Hauke Maas, `hauke.maas@giz.de`**, for fachliche Fragen. Use
-him.
-
-This is the German version of the advice about getting a human to look at your
-file. It only works if the question is real, because a transparent networking
-message reads worse than no message at all. You have a real one. The posting asks
-for someone *"eingeschrieben in einem Masterstudiengang oder innerhalb von sechs
-Monaten nach dem Abschluss"*, and your position sits across both limbs: the degree
-finishes in September but one seminar paper is outstanding, so your formal
-enrolment status in November is genuinely ambiguous.
-
-Asking clears it up, and it puts your name in front of the person most likely to
-read the applications, two working days before the deadline. Send it in German.
-
-> **Betreff:** Frage zur Ausschreibung V000065092, Praktikum Sektorvorhaben Multilaterale Entwicklungsbanken
->
-> Sehr geehrter Herr Maas,
->
-> ich interessiere mich für das Praktikum im Sektorvorhaben Multilaterale Entwicklungsbanken und möchte mich vor Fristende bewerben.
->
-> Eine Frage vorab zur Voraussetzung. Ich schließe mein Masterstudium der Volkswirtschaftslehre in Köln im September 2026 ab, es steht allerdings noch eine Seminararbeit aus, sodass ich zum Praktikumsbeginn im November voraussichtlich noch eingeschrieben bin. Erfüllt das die Voraussetzung, oder ist der Abschluss zum Startzeitpunkt erforderlich?
->
-> Vielen Dank für Ihre Einschätzung.
->
-> Mit freundlichen Grüßen
-> Baha Khammari
-> b.e.khammari@gmail.com
-> +49 1520 9016956
-
-Do not attach anything. It is a question, not an application.
-
----
-
-## 2. Documents
+## 1. Documents
 
 | Document | Status |
 |---|---|
@@ -52,16 +17,13 @@ Do not attach anything. It is a question, not an application.
 | **Transcript of Records** | You have this. `Khammari_ToR_Aug2026.pdf`, attached to the 19 August email to Prof. Pinger |
 | **Bachelorzeugnis** | **Find it.** B.Sc. finished February 2023 |
 | **Praktikumszeugnis PwC** | **Check whether you have one.** Two years at Assurance Solutions is the strongest non-academic item you own, and a Zeugnis makes it verifiable |
-| Masterzeugnis | Does not exist yet. Say so if the form asks, the posting already expects it |
+| Masterzeugnis | Issued only after graduation, so the transcript covers it. Nothing to explain |
 
-The portal will tell you which of these it actually wants. Have the PDFs in one
-folder before you start, because these forms time out.
+Put them all in one folder before you open the portal. These forms time out.
 
 ---
 
-## 3. Filling the form
-
-Things worth getting right, from the posting rather than guesswork.
+## 2. Filling the form
 
 - **Verfügbarkeit: 1. November 2026.** The term runs to 30 April 2027
 - **Referenznummer V000065092**
@@ -69,7 +31,34 @@ Things worth getting right, from the posting rather than guesswork.
   **2.349 EUR brutto** and that figure is fixed
 - If it asks for a referee, name **Anna Person**, not Prof. Pinger. No employer
   needs a professorial title, Anna supervised you daily for six months and graded
-  the thesis 1.0, and Pinger has never met you. The reasoning is in `CLAUDE.md`
+  the thesis 1.0, and Pinger has never met you. Reasoning is in `CLAUDE.md`
+
+---
+
+## 3. On writing to Herr Maas
+
+The posting names **Hauke Maas, `hauke.maas@giz.de`** for fachliche Fragen, and the
+recruiter advice about getting a person to look at your file is sound.
+
+**I had drafted an email and I have taken it out.** It was built on the enrolment
+requirement being ambiguous in your case. Once the thesis is submitted and the
+degree completes in September, a November start sits comfortably inside *"innerhalb
+von sechs Monaten nach dem Abschluss"* and there is nothing to ask. The question
+would have been a pretext, and a pretext reads worse than silence, particularly to
+a German reader who will notice that the posting already answers it.
+
+If you want contact, the honest version is a short note **after** you submit, not
+before:
+
+> Sehr geehrter Herr Maas,
+>
+> ich habe mich soeben auf das Praktikum im Sektorvorhaben Multilaterale Entwicklungsbanken beworben (V000065092). Falls vorab Fragen zu meinem Hintergrund aufkommen, stehe ich gerne zur Verfügung.
+>
+> Mit freundlichen Grüßen
+> Baha Khammari
+
+That is defensible because it is true and asks nothing. Sending nothing at all is
+also fine. The application has to carry itself either way.
 
 ---
 
@@ -79,9 +68,9 @@ Things worth getting right, from the posting rather than guesswork.
 python3 apply/track.py sent giz
 ```
 
-That stamps the date and schedules a nudge for twelve days out, which lands around
+That stamps the date and schedules a nudge twelve days out, landing around
 **3 October**. If nothing has come back by then, one short follow-up to Herr Maas
-is appropriate.
+is appropriate, and by that point it is a real question.
 
 ---
 
@@ -92,7 +81,7 @@ it is the strongest bridge role found so far.
 
 **2.349 EUR brutto a month.** Above the 2.200 previously recorded for GIZ, above
 the Bundesbank traineeship, and roughly double the ECB one. Bonn is thirty minutes
-from Cologne. And the term, November to April, fills the first half of the bridge
+from Cologne. The term, November to April, fills the first half of the bridge
 window and ends five months before an October 2027 doctorate, so nothing collides.
 
 The application argues from Development Economics rather than from the thesis,

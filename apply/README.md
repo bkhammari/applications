@@ -135,17 +135,18 @@ and it is the part that produces replies.
 
 ## The CV class
 
-All CVs use `cv/shared/OpenCV.cls`. Three options, and the first two replace
-blocks that used to be pasted into every tuned copy by hand.
+All CVs use `cv/shared/OpenCV.cls`. Four options, and the first two replace blocks
+that used to be pasted into every tuned copy by hand.
 
 | Option | What it does |
 |---|---|
 | `compact` | Tighter margins and single line spacing, for a one-page CV |
 | `serif` | Latin Modern roman instead of the sans default |
 | `noicons` | Plain-text contact line with no FontAwesome glyphs |
+| `mono` | Headings, rules and links in black instead of blue |
 
 ```latex
-\documentclass[serif,compact]{../../../cv/shared/OpenCV}
+\documentclass[serif,compact,mono]{../../../cv/shared/OpenCV}
 \usepackage[english]{babel}
 
 \cvname{Baha Khammari}
@@ -174,6 +175,12 @@ The envelope becomes `Q`, LinkedIn becomes a macron, the phone disappears. A
 parser sees a stray letter glued to the email address. With `noicons` the same
 line extracts as plain text. Icons stay the default because they look better to a
 human, so the choice is: who reads this first, a person or a system.
+
+**Use `mono` for anything commercial or public-sector.** Recruiters screening at
+volume report that colour and extra columns slow them down, because the eye has to
+decide where to go next instead of running straight down the page. The class has
+never had a sidebar or a two-column split, and `mono` takes the last colour out.
+Keep the blue on an academic CV, which one person reads slowly.
 
 ## Which CV goes with which track
 

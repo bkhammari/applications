@@ -13,6 +13,11 @@
 %             fact, which is now an option.
 %   noicons   plain-text contact line with no FontAwesome glyphs. Use it
 %             whenever a machine will parse the CV. See the note below.
+%   mono      everything in black. Headings, rules and links. Recruiters
+%             screening at volume say colour slows them down, and a German
+%             public-sector application is conservative anyway. Use it for
+%             industry, consulting and public-sector. Colour is fine on an
+%             academic CV, which is read slowly by one person.
 %
 % Usage
 %   \documentclass[compact]{../shared/OpenCV}
@@ -22,6 +27,13 @@
 %
 % Passing no options reproduces the previous behaviour exactly, so existing
 % documents keep compiling and keep their page counts.
+%
+% === Layout is deliberately one column ===
+% No sidebar, no two-column split, no boxes. Recruiters reading twenty to fifty
+% CVs in half an hour report that extra columns slow them down, because the eye
+% has to decide where to go next instead of running straight down the page. The
+% \hfill pairs in \resumeSubheading put a place or a date on the right of a line,
+% which is not the same thing and reads fine.
 %
 % === A note on the old "ATS-Optimised" claim ===
 % The class loads glyphtounicode so that text extracts cleanly, which is right.
@@ -40,10 +52,12 @@
 \newif\if@cvcompact\@cvcompactfalse
 \newif\if@cvserif\@cvseriffalse
 \newif\if@cvicons\@cviconstrue
+\newif\if@cvmono\@cvmonofalse
 
 \DeclareOption{compact}{\@cvcompacttrue}
 \DeclareOption{serif}{\@cvseriftrue}
 \DeclareOption{noicons}{\@cviconsfalse}
+\DeclareOption{mono}{\@cvmonotrue}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
 
@@ -79,8 +93,13 @@
   \renewcommand{\familydefault}{\sfdefault}
 \fi
 
-\definecolor{myblue}{RGB}{0,51,102}
-\definecolor{lightgray}{RGB}{180,180,180}
+\if@cvmono
+  \definecolor{myblue}{RGB}{0,0,0}
+  \definecolor{lightgray}{RGB}{120,120,120}
+\else
+  \definecolor{myblue}{RGB}{0,51,102}
+  \definecolor{lightgray}{RGB}{180,180,180}
+\fi
 
 \RequirePackage[colorlinks=true,
     linkcolor=myblue,

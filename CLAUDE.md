@@ -12,8 +12,10 @@ _Written 9 September 2026, updated the same evening after the first replies came
 
 **Baha Khammari**, b.e.khammari@gmail.com, +49 1520 9016956, based in Düsseldorf.
 
-M.Sc. Economics, University of Cologne, finishing September 2026. **6 ECTS
-remaining**, one seminar paper on the EU ETS. Available from October 2026. M.Sc.
+M.Sc. Economics, University of Cologne, **graduating September 2026**, thesis
+submitted. Available from October 2026. **Do not write that credits are
+outstanding.** It was on the CV until 16 September and he asked for it removed. The
+EU ETS seminar paper is a subject he can cite, not a gap to flag. M.Sc.
 grade 1.6, B.Sc. 1.6, top 5 percent of cohort and Dean's List. German scale, 1.0 is
 best.
 
@@ -278,11 +280,19 @@ come down to one page. The GIZ letter sets its geometry directly on `article`
 instead. Do that for the next German letter rather than fighting the class again.
 
 `OpenCV.cls` now takes options: `compact` for a one-page CV, `serif` for Latin
-Modern roman, `noicons` for a machine-readable contact line. Header fields are set
-with `\cvname` and friends and printed by `\cvheader`, so the header block is no
-longer copy-pasted per document. **The old "ATS-Optimised" claim was false where it
-mattered**: FontAwesome glyphs made the contact line extract as `Q
-b.e.khammari@gmail.com ... ¯`. Use `noicons` wherever a system parses the CV.
+Modern roman, `noicons` for a machine-readable contact line, `mono` for black
+instead of blue. Header fields are set with `\cvname` and friends and printed by
+`\cvheader`, so the header block is no longer copy-pasted per document. **The old
+"ATS-Optimised" claim was false where it mattered**: FontAwesome glyphs made the
+contact line extract as `Q b.e.khammari@gmail.com ... ¯`. Use `noicons` wherever a
+system parses the CV.
+
+**Single column, black and white, for anything commercial or public-sector.** A
+recruiter rule he sent on 16 September, and it matches everything else recruiters
+say about screening at volume. The class has never had a sidebar or a two-column
+split, so only the colour needed taking out, which is what `mono` does. Use
+`[compact,mono]` on German and industry CVs, `[serif,compact,mono]` on consulting
+ones. Colour stays on the academic CV, which one person reads slowly.
 
 ## The tooling
 
@@ -327,9 +337,9 @@ cannot touch the repo, so nothing decided there is real until it comes back here
 already built. Do not build a dashboard, a website or an app for this. The
 bottleneck has never been tooling.
 
-**One thing that belongs in a separate session entirely:** the outstanding seminar
-paper on the EU ETS, 6 ECTS. It gates the degree, it is nothing to do with the job
-search, and it is not in this repo. Give it its own chat.
+**One thing that belongs in a separate session entirely:** the seminar paper on
+the EU ETS. It has nothing to do with the job search and it is not in this repo, so
+give it its own chat. In applications it is a subject he can cite, never a gap.
 
 ## Where things are
 
