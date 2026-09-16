@@ -34,7 +34,7 @@ late October or early November.
 ## Standard attachments
 
 Unless noted otherwise, each first contact carries the academic CV
-(`../cv/academic/academic_cv.tex`), the research proposal
+(`../cv/academic/cv_academic_khammari.tex`), the research proposal
 (`../research/proposal/research-proposal.tex`, or the Bonn-tailored version under
 `../letters/academic/bonn/`), and the thesis abstract
 (`../research/abstracts/masters-thesis-abstract.tex`), which you can offer and

@@ -113,6 +113,10 @@ prints the first real error rather than the whole log when something fails. The
 install line for a machine without LaTeX is in the file's docstring. `tex-gyre`
 and `lmodern` are the two easy ones to miss, and the CV class needs both.
 
+**It then renames the PDFs to what they are sent as**, so the GIZ folder holds
+`cv_giz_khammari.pdf` and `anschreiben_giz_khammari.pdf` rather than `cv.pdf` and
+`letter.pdf`. See the naming section below.
+
 ### 5. Send, then record it
 
 ```bash
@@ -212,15 +216,47 @@ seam is behind *Direkt*. Anything wrong on the page is worth an exception entry.
 **The letter uses the same typeface as the CV.** They arrive together and a serif
 letter next to a sans CV is the first thing a reader notices.
 
+## What the files are called
+
+A recruiter downloads your attachments into a folder next to forty other people's.
+`cv.pdf` is invisible there, `Lebenslauf_final_v3.pdf` is worse, and neither says
+whose it is once it leaves the email it arrived in.
+
+```
+cv_<firm>_khammari.pdf
+anschreiben_<firm>_khammari.pdf      German applications
+letter_<firm>_khammari.pdf           English applications
+```
+
+`build.py` applies this after every compile, because pdflatex always writes
+`<source>.pdf` and the rename has to happen each time. The sources keep their plain
+names, so `cv.tex` and `letter.tex` are in the same place in every folder and
+`new.py` has nothing to special-case.
+
+`<firm>` comes from the tracker's **`firm`** column when it is set, otherwise from
+the first word of the employer. The column exists because the first word is wrong
+often enough to matter. Deutsche Bundesbank would give `deutsche` and European
+Central Bank would give `european`, so set `firm` to `bundesbank` or `ecb` and the
+filename comes out right.
+
+```bash
+python3 apply/track.py firm <id> bundesbank
+```
+
+The two base CVs follow the same shape, `cv_academic_khammari.tex` and
+`cv_professional_khammari.tex`, so that compiling one by hand also produces a file
+that is ready to attach.
+
 ## A hiring manager's checklist, and what it changed
 
 From a COO who screens CVs, passed on 16 September. Most of it was already
 satisfied. These are the things that were not.
 
-**Strictly antichronological.** The most recent job goes on top, even when it is
-the weaker one. Berufserfahrung ran PwC, which ended in July 2025, above Nespresso,
-which is current. Breaking the order to flatter yourself is visible, and a German
-reader in particular expects strict order. Now fixed in both German CVs.
+**Order.** The checklist says the most recent job goes on top. PwC ended in July
+2025 and Nespresso is current, but PwC is the entry worth reading first, and he
+asked for it there. Both hold if the retail job gets its own **Nebentätigkeit**
+heading below Berufserfahrung: PwC leads, each section is in order within itself,
+and nothing looks rearranged. That is the shape in both German CVs now.
 
 **No inflation.** "Eigenständige Durchführung von Jahresabschlussprüfungen" came
 out. An intern and working student does not run an audit independently, and a
@@ -253,9 +289,9 @@ summary. See the Profil decision in `CLAUDE.md`.
 
 | Track | CV |
 |---|---|
-| `academic`, `research`, `policy` | `cv/academic/academic_cv.tex`, English |
-| `consulting` | `cv/academic/academic_cv.tex`, English |
-| `industry` | `cv/professional/cv.tex`, German |
+| `academic`, `research`, `policy` | `cv/academic/cv_academic_khammari.tex`, English |
+| `consulting` | `cv/academic/cv_academic_khammari.tex`, English |
+| `industry` | `cv/professional/cv_professional_khammari.tex`, German |
 
 Economic consulting has its own track rather than sitting under `industry`,
 because the obvious mapping is the wrong one. Frontier, CRA, Compass Lexecon and
@@ -266,7 +302,7 @@ CV compresses it to a single line. It also lists advanced Excel, so nothing
 commercial is given up, and it leaves out the Abitur, the Gymnasium and the retail
 job, which are noise to a consultancy.
 
-Override per application with `--cv cv/professional/cv.tex` when a posting argues
+Override per application with `--cv cv/professional/cv_professional_khammari.tex` when a posting argues
 the other way, such as a German-language application to a German office. The path
 is checked, so a typo fails immediately rather than silently recording a CV that
 does not exist.
@@ -282,6 +318,7 @@ does not exist.
 | `python3 apply/track.py due` | Follow-ups owed, deadlines closing |
 | `python3 apply/track.py sent <id>` | Mark sent, schedule the nudge |
 | `python3 apply/track.py set <id> <status>` | Move it along |
+| `python3 apply/track.py firm <id> <word>` | Fix the employer word in the filenames |
 | `python3 apply/track.py note <id> "text"` | Append a dated note |
 | `python3 apply/track.py summary` | Counts and reply rate |
 | `python3 apply/build.py <id>` | Compile that application's CV and letter |
@@ -305,10 +342,11 @@ apply/
 │   └── letter-de.tex   German Anschreiben
 └── applications/
     └── <employer-role>/
-        ├── posting.md   the posting, the qualification check, the research
-        ├── cv.tex       copied in and tuned for this application
-        ├── letter.tex   boilerplate plus the one fit paragraph
-        └── *.pdf        what you actually send
+        ├── posting.md                 the posting, the qualification check, the research
+        ├── cv.tex                     copied in and tuned for this application
+        ├── letter.tex                 boilerplate plus the one fit paragraph
+        ├── cv_<firm>_khammari.pdf     what you actually send
+        └── anschreiben_<firm>_khammari.pdf
 ```
 
 The tracker is a CSV rather than a markdown table so that git diffs it row by row,

@@ -67,6 +67,20 @@ def pages(pdf):
     return "?"
 
 
+def rename_for_sending(pdf, tex_name, row):
+    """Move cv.pdf and letter.pdf to their send-ready names, and return the path.
+
+    pdflatex always writes <source>.pdf, so the rename happens after every build
+    rather than once. Renaming rather than copying keeps one PDF per document in
+    the folder, so there is nothing to attach by mistake.
+    """
+    kind = "cv" if tex_name == "cv.tex" else "letter"
+    target = os.path.join(os.path.dirname(pdf), t.send_name(kind, row))
+    if os.path.abspath(target) != os.path.abspath(pdf):
+        os.replace(pdf, target)
+    return target
+
+
 def clean(folder):
     for ext in AUX:
         for path in glob.glob(os.path.join(folder, "*" + ext)):
@@ -105,6 +119,10 @@ def main(argv=None):
                 continue
             ok, pdf, detail = compile_one(tex)
             if ok:
+                # The source keeps its plain name, which is what new.py scaffolds
+                # and what every folder has in the same place. The PDF gets the
+                # name it will carry into someone else's downloads folder.
+                pdf = rename_for_sending(pdf, name, row)
                 print(f"  ok    {os.path.relpath(pdf, t.REPO)}  ({pages(pdf)}p)")
             else:
                 failures += 1

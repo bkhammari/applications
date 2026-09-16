@@ -27,6 +27,7 @@ FIELDS = [
     "url",
     "cv",
     "lang",
+    "firm",
     "status",
     "sent",
     "followup",
@@ -52,11 +53,11 @@ OPEN_STATUSES = {"draft", "sent", "replied", "interview"}
 # also lists advanced Excel, so nothing commercial is given up. Override
 # with --cv when a posting argues for the other one.
 TRACKS = {
-    "academic": "cv/academic/academic_cv.tex",
-    "research": "cv/academic/academic_cv.tex",
-    "policy": "cv/academic/academic_cv.tex",
-    "consulting": "cv/academic/academic_cv.tex",
-    "industry": "cv/professional/cv.tex",
+    "academic": "cv/academic/cv_academic_khammari.tex",
+    "research": "cv/academic/cv_academic_khammari.tex",
+    "policy": "cv/academic/cv_academic_khammari.tex",
+    "consulting": "cv/academic/cv_academic_khammari.tex",
+    "industry": "cv/professional/cv_professional_khammari.tex",
 }
 
 # Days of silence after sending before a nudge is due.
@@ -88,6 +89,40 @@ def slugify(*parts):
     raw = "-".join(p for p in parts if p)
     slug = re.sub(r"[^a-z0-9]+", "-", raw.lower()).strip("-")
     return slug[:60].strip("-") or "application"
+
+
+# === What the sent files are called ===
+# A recruiter downloads the attachments into a folder next to forty other people's
+# attachments. "cv.pdf" is invisible there and "Lebenslauf_final_v3.pdf" is worse.
+# The format is cv_<firm>_<surname>.pdf, and the letter takes the word the reader
+# expects in their own language.
+SURNAME = "khammari"
+
+
+def firm_token(row):
+    """The short employer word used in filenames.
+
+    Taken from the tracker's `firm` column when it is set, otherwise from the
+    first word of the employer name. The column exists because the first word is
+    wrong often enough to matter: Deutsche Bundesbank would give "deutsche" and
+    European Central Bank would give "european". Set `firm` to bundesbank or ecb
+    and the filename is right.
+    """
+    explicit = (row.get("firm") or "").strip()
+    if explicit:
+        return slugify(explicit)
+    return slugify(row.get("employer", "")).split("-")[0] or "application"
+
+
+def send_name(kind, row):
+    """The filename an application's PDF is sent under. `kind` is cv or letter."""
+    if kind == "cv":
+        stem = "cv"
+    elif (row.get("lang") or "en").strip().lower().startswith("de"):
+        stem = "anschreiben"
+    else:
+        stem = "letter"
+    return f"{stem}_{firm_token(row)}_{SURNAME}.pdf"
 
 
 def unique_slug(base, existing):

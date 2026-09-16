@@ -82,12 +82,26 @@ ten-second scan by a recruiter who is not an economist. `\begin{cvquals}` and
 `\cvqual` are in the class. **German CVs get neither this nor a Profil**, for the
 same reason: the Anschreiben is mandatory in Germany and already does the job.
 
-**Experience is strictly antichronological, and claims stay checkable.** From a
-hiring manager's checklist he passed on 16 September. The current job goes on top
-even when it is the weaker one, so Nespresso sits above PwC on the German CVs.
-"Eigenständige Durchführung von Jahresabschlussprüfungen" came out, because an
-intern does not run an audit alone and a reader who knows the sector discounts the
-whole page over one such line. Same lesson as the VBA claim. Education may lead
+**Sent files are named `cv_<firm>_khammari.pdf`.** His format, given on 16
+September. German letters are `anschreiben_<firm>_khammari.pdf`, English ones
+`letter_<firm>_khammari.pdf`. `build.py` renames after every compile, since
+pdflatex always writes `<source>.pdf`. The sources stay `cv.tex` and `letter.tex`
+in every folder. `<firm>` comes from the tracker's `firm` column, or the first word
+of the employer when that column is blank, and `python3 apply/track.py firm <id>
+<word>` fixes the cases where the first word is wrong, such as Deutsche Bundesbank
+or European Central Bank. The base CVs are `cv/academic/cv_academic_khammari.tex`
+and `cv/professional/cv_professional_khammari.tex`.
+
+**PwC leads Berufserfahrung, and the retail job sits under its own heading.** He
+asked for PwC first on 16 September, after I had put the current job on top for
+strict antichronology. A separate **Nebentätigkeit** section does both: PwC is the
+first thing read, and nothing looks out of order, because each section is in order
+within itself.
+
+**Claims stay checkable.** From a hiring manager's checklist he passed on 16
+September. "Eigenständige Durchführung von Jahresabschlussprüfungen" came out,
+because an intern does not run an audit alone and a reader who knows the sector
+discounts the whole page over one such line. Same lesson as the VBA claim. Education may lead
 while the degree is fresh, but it must not crowd the page: RSM and the Abitur are
 one line each with no bullets. Whatever skills a posting names go in **both** the
 CV and the letter, in the posting's words. Full list in
@@ -329,7 +343,7 @@ uses the CV's typeface**, because they arrive together.
 **`github.com/bkhammari` is off the CVs.** Verified public on 16 September, and
 the repository it shows is this one: the tracker, the replies including every
 rejection, and the reasoning about referees. The `\cvgithub` line is commented out
-in `cv/academic/academic_cv.tex` and in the Frontier copy rather than deleted. Put
+in `cv/academic/cv_academic_khammari.tex` and in the Frontier copy rather than deleted. Put
 it back when there is a repository worth sending a reader to, such as thesis
 replication code. **Whether to make this repo private is his call and he has not
 been asked yet.**

@@ -45,7 +45,7 @@ applications/
 │
 ├── cv/                     # CVs
 │   ├── shared/OpenCV.cls   # Custom LaTeX CV class (compact/serif/noicons/mono)
-│   ├── academic/           # academic_cv.tex (English, PhD and scholarships)
+│   ├── academic/           # cv_academic_khammari.tex (English, PhD and scholarships)
 │   └── professional/       # German industry CV (modular)
 │
 ├── letters/                # Motivation and cover letters
@@ -108,7 +108,7 @@ python3 apply/new.py --employer "Frontier Economics" --role "Economic Analyst" \
 python3 apply/track.py due
 ```
 
-**CVs.** Two variants, both using the shared `OpenCV.cls` class. Compile with `pdflatex` locally or on Overleaf. `cv/academic/academic_cv.tex` is the single-file English CV for PhD, scholarships, and research. `cv/professional/cv.tex` is the modular German CV for industry roles.
+**CVs.** Two variants, both using the shared `OpenCV.cls` class. Compile with `pdflatex` locally or on Overleaf. `cv/academic/cv_academic_khammari.tex` is the single-file English CV for PhD, scholarships, and research. `cv/professional/cv_professional_khammari.tex` is the modular German CV for industry roles.
 
 **Letters.** Copy a template from `letters/templates/` into the right `letters/` subfolder, rename, and fill in. Tailored PhD motivation letters are in `letters/academic/`.
 

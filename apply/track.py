@@ -150,6 +150,24 @@ def cmd_set(args):
     return 0
 
 
+def cmd_firm(args):
+    """Set the short employer word the sent filenames are built from.
+
+    Only needed when the first word of the employer is the wrong one, which is
+    why it is a separate command rather than something to remember on every row.
+    """
+    rows = t.read_rows()
+    row = t.find(rows, args.id)
+    was = t.firm_token(row)
+    row["firm"] = args.firm
+    _save(rows)
+    print(f"{row['id']}: firm {was} -> {t.firm_token(row)}")
+    print(f"  {t.send_name('cv', row)}")
+    print(f"  {t.send_name('letter', row)}")
+    print("Rebuild to rename the PDFs: python3 apply/build.py " + row["id"])
+    return 0
+
+
 def cmd_note(args):
     rows = t.read_rows()
     row = t.find(rows, args.id)
@@ -204,6 +222,11 @@ def build_parser():
     st.add_argument("id")
     st.add_argument("status", choices=t.STATUSES)
     st.set_defaults(func=cmd_set)
+
+    fm = sub.add_parser("firm", help="set the employer word used in filenames")
+    fm.add_argument("id")
+    fm.add_argument("firm")
+    fm.set_defaults(func=cmd_firm)
 
     nt = sub.add_parser("note", help="append a dated note")
     nt.add_argument("id")

@@ -12,8 +12,8 @@ Portal: <https://jobs.giz.de/index.php?ac=jobad&id=79157>, the button is
 
 | Document | Status |
 |---|---|
-| **Anschreiben** | Ready, `letter.pdf`, one page |
-| **Lebenslauf** | Ready, `cv.pdf`, one page |
+| **Anschreiben** | Ready, `anschreiben_giz_khammari.pdf`, one page |
+| **Lebenslauf** | Ready, `cv_giz_khammari.pdf`, one page |
 | **Transcript of Records** | You have this. `Khammari_ToR_Aug2026.pdf`, attached to the 19 August email to Prof. Pinger |
 | **Bachelorzeugnis** | **Find it.** B.Sc. finished February 2023 |
 | **Praktikumszeugnis PwC** | **Check whether you have one.** Two years at Assurance Solutions is the strongest non-academic item you own, and a Zeugnis makes it verifiable |
