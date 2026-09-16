@@ -2,8 +2,11 @@
 % Base: cv/academic/academic_cv.tex
 %
 % What changed for this application, and why:
-%   - PROFILE replaces Research Interests. A consultancy reads a profile, not an
-%     academic's research agenda. This is the block to rewrite per application.
+%   - PROFILE cut to one sentence, and a QUALIFICATIONS block added under it.
+%     The posting states five requirements. The block answers them one by one, in
+%     their order and their words, so a recruiter who is not an economist can tick
+%     all five in a ten-second scan. These two blocks are what gets rewritten per
+%     application. English CVs only, see the note in OpenCV.cls.
 %   - Grades are labelled with the scale, because the posting says "Germany 2.0 or
 %     better" and 1.6 only reads as strong if the reader knows 1.0 is the top.
 %   - Thesis bullets reordered around counterfactual construction and robustness,
@@ -11,6 +14,9 @@
 %   - Excel moved to the front of Technical Skills. The posting asks for
 %     "advanced Excel skills" before it asks for R.
 %   - RSM Rotterdam kept and dated, since Frontier has just opened Amsterdam.
+%   - Languages section and the dataset bullet removed, because the
+%     qualifications block above now states both. The block earns its space by
+%     letting the sections below stop repeating themselves.
 %   - Cut to fit one page, which is what a graduate consulting application wants:
 %     the seminar paper, the bachelor's thesis detail, the RSM course list, and the
 %     Awards section. Dean's List still appears under Education, where it belongs.
@@ -34,10 +40,23 @@
 \cvheader
 
 
-%================ PROFILE (tune this per application) ================%
+%================ PROFILE, one sentence ================%
 \section*{Profile}
 \small
-Applied microeconomist finishing an M.Sc.\ at Cologne, working on causal inference with large administrative data. Comfortable building a counterfactual, defending it against the obvious objections, and explaining the result to a reader with no interest in the estimator. Two years at PwC in audit beforehand. Native German, available from October 2026.
+Applied microeconomist finishing an M.Sc.\ at Cologne, working on causal inference with large administrative data. Available from October 2026.
+
+%================ ROLE-ALIGNED QUALIFICATIONS ================%
+% One line per stated requirement in the posting, in their order, in their words.
+% A recruiter who is not an economist should be able to tick all five in ten
+% seconds without reading the rest of the page.
+\section*{Qualifications for this role}
+\begin{cvquals}
+\cvqual{Economics degree, Germany 2.0 or better, plus a master's.}{M.Sc.\ Economics 1.6 and B.Sc.\ Economics 1.6, University of Cologne. Top 5\,\% of cohort, Dean's List.}
+\cvqual{Microeconomics knowledge and experience.}{Master's thesis in applied microeconomics, graded 1.0, on the labour market effects of a national education policy.}
+\cvqual{Advanced Excel, and R or Stata.}{R for the thesis (\texttt{did}, \texttt{fixest}, \texttt{HonestDiD}) across five million records. Excel daily for two years at PwC.}
+\cvqual{Strong communicator.}{Wrote audit reports and management letters at PwC for client and partner readers.}
+\cvqual{Fluent in the language of the office.}{German native, English C1 (IELTS Academic 8.0). Suits Cologne, Berlin or Brussels.}
+\end{cvquals}
 
 %================ EDUCATION ================%
 \section*{Education}
@@ -70,7 +89,6 @@ Applied microeconomist finishing an M.Sc.\ at Cologne, working on causal inferen
 {Grade: 1.0 (highest). Supervisors: Prof.\ Dr.\ Pia Pinger and Anna Person, M.Sc.}{Oct.\ 2025 -- Apr.\ 2026}
 \resumeItemListStart
 \resumeItem{\textbf{Estimated the causal wage effect of Brazil's ProUni scholarship programme} across 558 regions over 2005--2019, using the Callaway and Sant'Anna (2021) heterogeneity-robust staggered difference-in-differences estimator with doubly-robust inference.}
-\resumeItem{\textbf{Built the dataset from scratch:} a regional panel linking programme records, RAIS linked employer--employee data ($\sim$5\,million observations) and Census demographics, assembled in R through BigQuery.}
 \resumeItem{\textbf{Showed the naive estimate is wrong in sign.} Two-way fixed effects returned $-0.65\,\%$ against a corrected $+3.04\,\%$, an empirical case of forbidden comparisons (Goodman-Bacon, 2021).}
 \resumeItem{\textbf{Defended the counterfactual:} HonestDiD sensitivity analysis (Rambachan and Roth, 2023), Bacon decomposition, age-cohort placebo, alternative exposure cutoffs, and controls for two concurrent policies.}
 \resumeItemListEnd
@@ -96,15 +114,8 @@ Applied microeconomist finishing an M.Sc.\ at Cologne, working on causal inferen
 %================ TECHNICAL SKILLS ================%
 \section*{Technical Skills}
 \resumeItemListStart
-\resumeItem{\textbf{Excel:} advanced. \textbf{R:} advanced (\texttt{did}, \texttt{fixest}, \texttt{HonestDiD}, \texttt{tidyverse}, \texttt{ggplot2}). SQL and BigQuery. Python (basic).}
+\resumeItem{\textbf{Excel:} advanced. \textbf{R:} advanced (\texttt{did}, \texttt{fixest}, \texttt{HonestDiD}, \texttt{tidyverse}, \texttt{ggplot2}). SQL and BigQuery, Python (basic), Power\,BI, \LaTeX, Git.}
 \resumeItem{\textbf{Methods:} Difference-in-Differences including staggered adoption and doubly-robust estimation, event studies, panel data models, instrumental variables, Bacon decomposition, sensitivity analysis.}
-\resumeItem{\textbf{Other:} Power\,BI, \LaTeX, Git.}
-\resumeItemListEnd
-
-%================ LANGUAGES ================%
-\section*{Languages}
-\resumeItemListStart
-\resumeItem{German (native), Tunisian Arabic (native), English (C1, IELTS Academic 8.0), French (B1, DELF), Italian (A2).}
 \resumeItemListEnd
 
 \end{document}

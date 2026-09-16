@@ -73,6 +73,13 @@ convention, so leave it out. Anything the profile was carrying, such as
 availability, moves into the relevant entry. English CVs keep their Profile block,
 which is standard there.
 
+**English CVs carry a role-aligned qualifications block.** Added 16 September. One
+sentence of profile, then at most five lines mapping the posting's stated
+requirements onto evidence, in the posting's own order and words. The test is a
+ten-second scan by a recruiter who is not an economist. `\begin{cvquals}` and
+`\cvqual` are in the class. **German CVs get neither this nor a Profil**, for the
+same reason: the Anschreiben is mandatory in Germany and already does the job.
+
 **Destructive actions in Gmail need his say-so first.** Three drafts were deleted on
 10 September without asking. They were verified duplicates and recoverable from
 Trash, but the point stands: show the list, then wait.

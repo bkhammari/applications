@@ -56,12 +56,31 @@ python3 apply/track.py set frontier closed
 
 ### 3. Tune the CV
 
-One block does most of the work: the `Profile` at the top, three or four lines
-aimed at this employer. It is to the CV what the fit paragraph is to the letter.
+**On an English CV, two blocks at the top do the work.** A one-sentence `Profile`,
+then a `Qualifications for this role` block: one line per requirement the posting
+states, in their order and their words, five at most.
 
-**On a German CV, drop it.** The classic Lebenslauf has no Kurzprofil, and for a
-public-sector employer the conservative form is safer. Move whatever the profile
-was carrying, availability for instance, into the entry it belongs to.
+```latex
+\section*{Qualifications for this role}
+\begin{cvquals}
+\cvqual{Economics degree, Germany 2.0 or better.}{M.Sc.\ 1.6 and B.Sc.\ 1.6, Cologne.}
+\cvqual{Advanced Excel, and R or Stata.}{R for the thesis across five million records.}
+\end{cvquals}
+```
+
+The test is whether a recruiter who is not an economist can tick every requirement
+in ten seconds without reading further down the page. See the Frontier application
+for a worked example against a posting that states five.
+
+The block also earns its space twice, because once it carries the headline the
+sections below can stop repeating themselves. On the Frontier CV it replaced the
+whole Languages section and a thesis bullet.
+
+**On a German CV, do neither.** The classic Lebenslauf has no Kurzprofil and no
+qualifications block, and the Anschreiben is mandatory there, so the letter already
+does this job. An American-style block on a German public-sector application reads
+as foreign. Move whatever the profile was carrying, availability for instance, into
+the entry it belongs to.
 
 Beyond that, the tuning worth doing is reordering rather than rewriting. Put the
 skill they named first, label the grades with the scale when the posting states a

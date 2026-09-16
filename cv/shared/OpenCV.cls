@@ -148,6 +148,25 @@
   \vspace{-2pt}
 }
 
+% === Role-aligned qualifications ===
+% A short block that maps the posting's stated requirements onto evidence, one
+% line each, readable in well under ten seconds. Put it directly under a
+% one-sentence profile on an English CV.
+%
+% Do not use this on a German Lebenslauf. The tabellarischer CV is conservative
+% and the Anschreiben is mandatory there, so the letter already does this job.
+% Adding an American-style qualifications block to a German public-sector
+% application reads as foreign, the same reason the Profil block came out.
+%
+%   \section*{Qualifications for this role}
+%   \begin{cvquals}
+%     \cvqual{What they asked for}{What answers it.}
+%   \end{cvquals}
+\newenvironment{cvquals}
+  {\begin{itemize}[leftmargin=0.2in, itemsep=2pt, topsep=3pt]}
+  {\end{itemize}\vspace{2pt}}
+\newcommand{\cvqual}[2]{\item\small{\textbf{#1} #2}}
+
 % === Bullet points ===
 \newcommand{\resumeItem}[1]{
     \item\small{#1}
