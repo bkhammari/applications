@@ -24,7 +24,7 @@
       Still enrolled with 6 ECTS outstanding, and a November start falls inside six
       months of a September graduation either way.
 - [x] **Languages.** Verhandlungssicher German and English. Native and C1.
-- [x] **Excel.** Advanced, including VBA, from PwC. They ask for it explicitly.
+- [x] **Excel.** Advanced, from PwC. They ask for it explicitly.
 - [x] **No PhD required**, no professional qualification required.
 
 ## Timing is the strongest argument
@@ -79,6 +79,32 @@ the strongest claim, then with Development Economics for the subject fit.
 a CV that never mentions it is the kind of gap a reader notices. Development
 Economics is now a bullet under the master's entry, and the subprime seminar came
 out to make room.
+
+## Against the Kickresume guide
+
+Checked on 16 September. Three of its points changed this letter, one does not
+transfer.
+
+**Answer their top tasks, not just the one you like.** The first draft answered
+only the database task. It now also answers the writing task, which the posting
+lists as background papers for the BMZ, a monthly newsletter and presentations,
+and links it to two years of preparing audit results for management at PwC.
+
+**Find something real about the employer.** The letter had nothing GIZ-specific.
+The outstanding seminar paper is on the **EU Emissions Trading System**, which is a
+market instrument for a global public good. The unit is called Sektorvorhaben
+Multilaterale Entwicklungsbanken **für Globale Öffentliche Güter**. That connection
+is true, specific, and nobody else applying will have it.
+
+**Use their vocabulary.** Already doing this with World Development Indicators and
+International Debt Statistics, now extended to globale öffentliche Güter.
+
+**What does not transfer: the template itself.** "Hi [Hiring Manager's Name]", a
+closing that repeats your phone number, and lines like "I'd love to bring my
+passion" are US conventions. GIZ is a German Bundesunternehmen and the reader
+expects Sehr geehrte Damen und Herren, contact details in the header, and a formal
+register. Applying that template here would cost the application, not help it. The
+substance of the advice is sound. The form is written for a different market.
 
 ## How to apply
 

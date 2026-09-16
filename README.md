@@ -31,7 +31,7 @@ Previous experience includes audit and financial analysis at **PwC Germany** (As
 |---|---|
 | Econometrics & Causal Inference | R (`did`, `fixest`, `HonestDiD`, `tidyverse`, `ggplot2`), DiD (staggered, doubly-robust), IV, Panel Data, Event Studies, Bacon Decomposition |
 | Data Engineering | `basedosdados` (BigQuery), SQL, administrative microdata (RAIS, ProUni, Census) |
-| Financial Analysis | Excel (advanced, VBA), Power BI, audit methodology (PwC) |
+| Financial Analysis | Excel (advanced), Power BI, audit methodology (PwC) |
 | Languages | German (native), Tunisian Arabic (native), English (C1, IELTS Academic 8.0), French (B1, DELF) |
 
 ---

@@ -27,7 +27,11 @@ regions, where naive TWFE returns -0.65 percent and reverses the sign. Supervise
 by Prof. Pia Pinger with Anna Person, M.Sc. doing the day-to-day supervision.
 
 Before the master's, two years at **PwC Germany, Assurance Solutions**, audit and
-Excel/VBA tooling. Erasmus semester at **RSM Rotterdam**, autumn 2024.
+advanced Excel work. Erasmus semester at **RSM Rotterdam**, autumn 2024.
+
+**Do not write VBA anywhere.** It was on the CV until 16 September 2026 and it was
+wrong. He is very good in Excel and did not build VBA tools. Corrected across every
+file. Claim advanced Excel, nothing more.
 
 Languages: German native, Tunisian Arabic native, English C1 (IELTS 8.0), French
 B1 (DELF), Italian A2. Parents are from Tunisia. He holds EU citizenship, inferred

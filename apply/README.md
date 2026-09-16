@@ -123,7 +123,7 @@ because the obvious mapping is the wrong one. Frontier, CRA, Compass Lexecon and
 the rest hire economists to run econometrics, and their process runs in English.
 The academic CV carries the thesis in the detail that is the actual
 qualification, naming the estimator, the packages and the result, where the German
-CV compresses it to a single line. It also lists advanced Excel and VBA, so nothing
+CV compresses it to a single line. It also lists advanced Excel, so nothing
 commercial is given up, and it leaves out the Abitur, the Gymnasium and the retail
 job, which are noise to a consultancy.
 

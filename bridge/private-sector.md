@@ -120,7 +120,7 @@ which is the right starting point for this track.
 **Economic consulting is the exception, and it takes the academic CV.** These firms
 hire economists to run econometrics, and their process runs in English. The thesis
 section is the qualification there, not a distraction, and the academic CV already
-lists advanced Excel and VBA so nothing commercial is lost. That is why
+lists advanced Excel so nothing commercial is lost. That is why
 `apply/new.py` has a separate `consulting` track.
 
 The fit paragraph method in [`pipeline.md`](pipeline.md) still applies. What
