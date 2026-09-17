@@ -107,10 +107,22 @@ one line each with no bullets. Whatever skills a posting names go in **both** th
 CV and the letter, in the posting's words. Full list in
 [`apply/README.md`](apply/README.md).
 
-**The one thing still missing is measurable results in the PwC block.** Only the
-500 million balance sheet is a real number and it is his. Numbers must not be
-invented, so ask him: how many engagements, how large a team, how many reports,
-how much time a model saved.
+**What he actually did at PwC.** Told on 17 September. He worked the **same large
+audit mandate in two consecutive years**, and supported several smaller
+engagements for documentation. The repeat is the point, because the team put him
+back on that mandate the following year.
+
+**Audit clients are never named.** Not on a CV, not in a letter, not in an email.
+He said so, and it is a confidentiality question rather than a style one. **He told
+me which client it was and that name is deliberately not written down here, because
+this repository is public.** If a future session needs it, ask him. The wording
+that carries the fact without it is *zwei aufeinanderfolgende
+Jahresabschlussprüfungen desselben Mandanten, dazu Zuarbeit und
+Prüfungsdokumentation bei mehreren kleineren Mandaten.*
+
+**Still missing, and only he can supply it:** how large the engagement team was,
+how many reports he worked on, whether anything he built saved measurable time.
+Numbers must not be invented.
 
 **Destructive actions in Gmail need his say-so first.** Three drafts were deleted on
 10 September without asking. They were verified duplicates and recoverable from
