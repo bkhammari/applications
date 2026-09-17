@@ -301,6 +301,33 @@ applying.** So the portal is paperwork that follows the approach. Rolling review
 through May 2027, Studielink opens 1 October 2026. Central address
 `gsbe-phd-application@maastrichtuniversity.nl`.
 
+**A Dutch PhD is an advertised job, not a programme intake.** Verified 17
+September. Every funded Maastricht PhD is published on **AcademicTransfer** and the
+UM job site and filled by applying to it, with no committee cycle. Same shape as
+the German E13 channel, and it pays more than either alternative: the last
+economics vacancy advertised **€3,059 to €3,881 gross** over four years. Maastricht
+had been treated here as a programme problem when half of it is a job problem.
+**MILE runs an annual department-wide round called Inequality Dynamics**, which
+closed 30 April 2025 and 1 February 2026, so expect February to April 2027. The
+theme is the master's thesis restated. Nothing was open in economics on 17
+September. Full detail in
+[`phd/international/maastricht.md`](phd/international/maastricht.md).
+
+**UNU-MERIT dates, confirmed rather than inferred.** Call **opens 1 November 2026,
+closes 15 February 2027**, selection March and April, starts September 2027.
+Fellowship **€1,650 net a month** for four years, not the roughly €1,700 recorded
+earlier, and net rather than gross. No GRE. **The number of reference letters is
+not stated on their pages**, so the earlier "one letter" claim is unverified. Ask
+`phdprogramme@merit.unu.edu`, because one versus two changes whether Settele has to
+be asked in time.
+
+**Maastricht uses two email patterns, not one.** `t.huijts@` and `b.golsteyn@` are
+initial.lastname, `julian.ashwin@` and `lex.borghans@` are firstname.lastname, all
+at `maastrichtuniversity.nl`. The earlier rule in this repo inferred one pattern
+from one address and would have sent Borghans's mail to a dead box. UM staff pages
+render in JavaScript, so a plain fetch returns nothing and verification needs a
+browser.
+
 ## Bugs fixed, do not reintroduce
 
 `cv/shared/OpenCV.cls` used to load `\RequirePackage[ngerman]{babel}`, which clashed

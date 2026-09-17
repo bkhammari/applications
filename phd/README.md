@@ -45,6 +45,43 @@ attachments (this happened with RWI, status 550 5.7.1). If a message bounces,
 resend with no attachments and offer to send them on request, or use a contact
 form.
 
+## Where this stands, 17 September 2026
+
+**Nothing is due, and nothing has moved.** No PhD deadline falls before the Belgian
+FWO round at the start of December. The next date after that is UNU-MERIT, whose
+call opens 1 November and closes 15 February. So there is no deadline risk this
+month.
+
+The problem is the other one. **Nine emails went out on 8 September and nothing has
+gone out since 9 September.** Fourteen rows in the table below still say *not sent*,
+and four drafts have been sitting in Gmail for a week, including the one to Anna
+Person that every reference letter depends on. Six replies came back inside 48
+hours when the emails went. Zero come back when they do not.
+
+Three threads are open and none of them needs anything today: Siegloch, silent
+since 8 September, where the note says follow up after three weeks, so **29
+September**. Dohmen, silent since 8 September. Huijts at ROA, circulating the
+message internally, where the right move is to wait.
+
+The calendar, so it is in one place:
+
+| When | What |
+|---|---|
+| 7 Oct 2026 | EPSO AD5 document upload, tracked in [`../eu/`](../eu/) |
+| 1 Nov 2026 | UNU-MERIT call **opens** |
+| Early Dec 2026 | Belgium, FWO round closes |
+| 15 Jan 2027 | DIW Berlin. Bonn the same day, but Bonn is closed |
+| ~31 Jan 2027 | EUI Florence |
+| 31 Jan 2027 | Munich |
+| 15 Feb 2027 | UNU-MERIT closes |
+| Feb to Apr 2027 | Maastricht MILE, if the Inequality Dynamics round repeats |
+| Mar 2027 | Cologne CGS, Ruhr, Mannheim |
+
+Everything on that list starts in autumn 2027, which is the cycle the September
+decision already committed to. The four months before December are for building the
+pipeline, and the cold-email countries, Switzerland, Denmark, Belgium and
+Luxembourg, have no deadline at all and can start on any day.
+
 ## Gmail, as of 9 September 2026
 
 Nine emails went out on the evening of 8 September. **Six replies came back within
@@ -95,8 +132,10 @@ reply, which carries no attachments. She cannot write the letter until it goes.
 | **Denmark** | Prof. Sonja Settele (Cologne, external CEBI member) | Warm follow-up | Not sent | Send the Settele version of [template](international/email-denmark.md). Asks for a CEBI introduction and about the second letter |
 | **Switzerland** | Chairs at Zurich / Lausanne / St. Gallen | Cold email | Not sent | Adapt [template](international/email-switzerland-austria.md). Direct hiring, so no letters needed to start |
 | **Maastricht (ROA)** | Dr Tim Huijts, PhD coordinator | Enquiry | **Replied 9 Sep** | No openings now, but he is forwarding it internally. Send the thanks and stay on the list |
-| **Maastricht (UNU-MERIT)** | IEGSD doctoral programme | Programme application | Not started | **No GRE, one reference letter, deadline about 15 Feb.** See [notes](international/maastricht.md). Cut the proposal to 2-3 pages |
-| **Maastricht (MILE)** | Prof. Lex Borghans, Prof. Bart Golsteyn | E13-style enquiry | Not sent | Verify addresses first. See [notes](international/maastricht.md) |
+| **Maastricht (vacancies)** | AcademicTransfer, UM job site | **Advertised job** | Watching | **Dutch PhDs are jobs, not programme intakes.** €3,059 to €3,881 gross. Nothing open in economics on 17 Sep. Check weekly |
+| **Maastricht (MILE)** | Inequality Dynamics round | Advertised job | Expected Feb to Apr 2027 | Ran 30 Apr 2025 and 1 Feb 2026. Theme is the thesis restated. See [notes](international/maastricht.md) |
+| **Maastricht (MILE)** | Borghans, Golsteyn, Ashwin | E13-style enquiry | Not sent | Ask whether a 2027 round is expected, and whether a German 120 ECTS M.Sc. counts as a research master. Verify addresses, two patterns are in use |
+| **Maastricht (UNU-MERIT)** | IEGSD doctoral programme | Programme application | Not started | **No GRE. Call opens 1 Nov 2026, closes 15 Feb 2027**, starts Sep 2027. €1,650 net. Cut the proposal to 2-3 pages. Confirm the letter count |
 | **Netherlands** | Potential supervisor (Rotterdam / Tinbergen / Tilburg) | Cold email | Not sent | Adapt [template](international/email-netherlands.md). Use the RSM connection for Rotterdam |
 | **Austria** | Chairs at Vienna / WU / Innsbruck | Cold email | Not sent | Adapt [template](international/email-switzerland-austria.md) |
 | **Belgium** | Potential supervisor (KU Leuven / UCLouvain) | Cold email | Not sent | Adapt [template](international/email-belgium.md). FWO round closes early December |
