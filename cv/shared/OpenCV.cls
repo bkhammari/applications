@@ -160,7 +160,14 @@
 % unless the heading, its rule and the first two lines under it fit together.
 % Prepending it to \section catches \section* too, which is the form every CV in
 % this repository uses.
-\pretocmd{\section}{\needspace{3.5\baselineskip}}{}{\ClassWarning{OpenCV}{could not guard section headings against orphaning}}
+% 6.5 baselines, and the number is not arbitrary. The heading block is the rule,
+% the \large title and the space around them, about 2.5 lines. What follows it in
+% every section here is a \resumeSubheading, which carries its own \needspace of 4.
+% Reserve only enough for the heading and the subheading guard fires instead,
+% moving the subheading to the next page and leaving the heading stranded on this
+% one, which is the exact bug this is supposed to prevent. Seen with 3.5, where
+% "Energy Economics" ended page one of the UCLouvain CV on its own.
+\pretocmd{\section}{\needspace{6.5\baselineskip}}{}{\ClassWarning{OpenCV}{could not guard section headings against orphaning}}
 
 % === Header fields ===
 % Set what applies, leave the rest unset. \cvheader skips empty fields, so the

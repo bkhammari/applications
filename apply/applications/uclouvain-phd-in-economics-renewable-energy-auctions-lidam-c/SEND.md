@@ -1,28 +1,26 @@
 # UCLouvain, what to do and in what order
 
 **Deadline: Monday 21 September 2026.** Today is Friday 18 September. Both written
-documents are finished. What is left is one email, four of your own files, and a
-form.
+documents are finished and both referees have agreed. What is left is four of your
+own files and the form.
 
-## 1. Today, before anything else: the referee
+## 1. The referee blocker is cleared
 
-**A draft to Jun.-Prof. Dr. Oliver Ruhnau is in Gmail, labelled PhD.** Send it now.
-It asks only for permission to name him, not for a letter, because the posting says
-outright that *"letters of recommendation may be requested at a later stage"*. A
-one-word answer is enough and the email says so.
+**Ruhnau said yes on 18 September.** Both referees are confirmed:
 
-**Nothing else can be submitted until he answers**, because the CV names him and the
-application requires two academic referees inside the PDF. If he says no by Sunday,
-the fallback is **Prof. Dr. Roman Liesenfeld** (Econometrics 1,3), whose E13 draft
-is already in Gmail and can carry the same ask. Do not fall back to Schabert, who
-graded his own module 3,0.
+| Referee | Basis | Address |
+|---|---|---|
+| **Prof. Dr. Pia Pinger** | Master's thesis chair | `pia.pinger@uni-koeln.de` |
+| **Jun.-Prof. Dr. Oliver Ruhnau** | Energy Markets and Regulation, 1,3 | `ruhnau@wiso.uni-koeln.de` |
 
-**If he has not answered by Sunday evening, do not submit without him.** The posting
-says *"Applications received by 21 September 2026 will receive full consideration.
-Review continues until the position is filled."* Monday is the date for full
-consideration rather than a cut-off. Tuesday with two referees beats Monday with
-one. This is not licence to drift, because rolling review means someone who applied
-on time can take the position.
+Both are named with contact details in the CV, which is what the posting asks for:
+*"Names and contact details of at least two academic referees (letters of
+recommendation may be requested at a later stage)."* Nothing further is owed to
+either of them now. If a letter is requested later, Anna Person writes the
+substance for Pinger's signature under the arrangement agreed on 9 September.
+
+**Nothing blocks submission.** The remaining work is four of your own files and the
+form, below. Liesenfeld is no longer needed as a fallback.
 
 ## 2. Collect four files of your own
 
@@ -39,7 +37,7 @@ They want **one PDF** and they name it for you: `Lastname_Firstname.pdf`, so
 | Bachelorzeugnis | Yours, the certificate with the Einstufungstabelle |
 | IELTS certificate | Yours |
 | Writing sample | The thesis, already in the repository |
-| Two academic referees | Named in the CV. **Pinger agreed, Ruhnau pending** |
+| Two academic referees | Named in the CV. **Both agreed** |
 | Test scores | None, and none required |
 
 Put the four personal files in a folder called `personal/` at the top of the
