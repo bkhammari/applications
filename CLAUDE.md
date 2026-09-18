@@ -632,8 +632,8 @@ next time.
 Mohamed**. His paper there is the final requirement of the degree. The group
 presentation was with Márton and Yin, twenty minutes, three papers with one each:
 Colmer et al. (2025), Dechezleprêtre et al. (2023) and D'Arcangelo et al. (2022).
-Working document in Drive, *EU ETS \& Firm Production — Group Presentation Working
-Document*, file id `1HiclTmRu9P-mA6NadIDZxbPmT1yD8Q4nR3vtwgbl0aY`.
+Working document in Drive, titled *EU ETS and Firm Production*, file id
+`1HiclTmRu9P-mA6NadIDZxbPmT1yD8Q4nR3vtwgbl0aY`.
 
 **The subject is identification, not energy policy description.** The seminar
 compared how the firm-level ETS literature identifies effects: coarsened exact
