@@ -107,6 +107,26 @@ a four-paragraph persuasive layout he supplied and produced four disconnected bl
 with no roter Faden, opening on a sentence no cold reader could parse. His reaction
 was that it was incoherent. Whatever the structure, the paragraphs have to join.
 
+**Research the document type before writing it.** Instructed 18 September: look up
+guides from academic chairs or professionals for whatever is being written, rather
+than composing from instinct. Doing this for the statement of intent produced three
+rules that changed the draft and are worth keeping. **Open with field and direction
+in the vocabulary of the field**, not with an origin story or a declaration of
+passion, which no committee is persuaded by. **Keep mathematical preparation near
+the centre of the document**, because it carries real weight in economics admissions
+and does not belong in a closing list. And **send the clearest signal of research
+ability and cut everything that is noise around it.** Sources were Chris Blattman's
+2022 post on writing the statement of purpose and the economics-SOP advice
+collected alongside it.
+
+**Never assume what he wants. Ask.** Instructed 18 September, after the UCLouvain
+statement said he would take up research directions 3 and 4 from the call when he
+wants **1 and 2**. Nothing in the posting or the repository said which, and I chose
+two and wrote them into a document going out under his name as his own research
+interest. That is the worst class of error available here, because it is invisible
+to him unless he reads every line. Where a document has to state a preference he
+has not expressed, ask him or leave the choice out.
+
 Spelling: **British** in general documents, **American** in the Bonn-specific
 documents (labor, subsidizing). This was a deliberate instruction, not drift.
 
@@ -364,6 +384,31 @@ visible weakness on any post asking for microeconomic theory, and UCLouvain asks
 exactly that. **Development Economics is 3,3**, and the GIZ letter leads with
 Development Economics. The letter claims no grade, so nothing there is false, but if
 GIZ asks for the transcript it is visible.
+
+## His energy background, in his own words
+
+Given on 18 September, and it corrects an overclaim I had put in a document.
+
+**His training is economics at the University of Cologne. It is not EWI.** A
+UCLouvain draft said *"My training is Cologne through the Institute of Energy
+Economics"*, which is wrong. He took modules taught by EWI-affiliated staff inside
+an economics degree. Ruhnau and Lindenberger are at EWI, he is not, and naming their
+affiliation on a CV line is fine while implying he was trained there is not.
+
+**The energy specialisation is two master's modules, and their content matters more
+than their grades.**
+
+| Module | Examiner | Grade | What it covered |
+|---|---|---|---|
+| Growth, Energy, Climate Change | Lindenberger D | 2,3 | Three parts: the **physical foundations** of energy, the **economic foundations**, and **European regulation and market intervention** |
+| Energy Markets and Regulation | **Ruhnau O** | **1,3** | The same ground, then specialised further into **grids and interconnectors** and the **European electricity market** |
+
+Behind those sits the bachelor module **Current Topics in Economics** with Gürtler
+at **1,3**, covering energy and environmental policy, and in front of them the EU
+ETS seminar paper. So the honest description is a two-module master's specialisation
+inside an economics degree, with a bachelor module before it and a research design
+after it. **Write the content, not the grade.** Two grade lines are not evidence of
+what he knows, and an energy post is judged on substance.
 
 ## Which referee to name
 

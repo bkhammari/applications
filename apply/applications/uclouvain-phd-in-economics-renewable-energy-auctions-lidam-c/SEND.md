@@ -73,56 +73,93 @@ Contact if anything about the form fails: **bert.willems@uclouvain.be**
 python3 apply/track.py sent uclouvain
 ```
 
-## 4. What the statement says, and what it deliberately leaves out
+## 4. What the statement says
 
-Rewritten on 18 September to the brief: say why you want the position and what you
-bring. **463 words of argument, 493 on the page, one page.**
+Rewritten on 18 September after three corrections. **596 words, one page, filling
+the page.** The word count is above the 400 to 500 that general guides quote,
+because the constraint the posting actually states is one page and this uses it.
 
-| Paragraph | Job | Words |
+| Paragraph | Job |
+|---|---|
+| 1 | Why this doctorate and why you. Field and direction first |
+| 2 | Track record. Cologne energy modules, quantitative preparation, the thesis |
+| 3 | The two directions you would take up, and the evidence behind each |
+| 4 | Three colleagues at CORE, then the ten-year trajectory |
+
+### The correction that mattered most
+
+**You want directions 1 and 2. Earlier drafts said 3 and 4.** I chose those without
+asking and wrote them into a document going out under your name as your own research
+interest. Nothing in the posting or this repository said which you wanted. That is
+the worst kind of error available here, because it is invisible unless you read
+every line, and the rule is now in `CLAUDE.md`.
+
+Directions 1 and 2 turn out to be the better home for your own work anyway.
+
+**Direction 1, de-risking green investment.** The call asks whether public
+intervention *"crowd[s] out private insurance or weaken[s] cost incentives"*. Your
+seminar paper is already an instance of the second half of that question. Free
+allocation is a public intervention that weakens a cost incentive while the headline
+allowance price is unchanged, and the attenuation is not lump-sum because activity
+thresholds and closure provisions tie allocation to production. The statement says
+the same logic reaches guarantees, contracts for difference and public insurance.
+
+**Direction 2, multi-technology auction design.** This one has the cleaner empirical
+footing and the statement says so. Since the 2016 state aid framework, member states
+have landed on technology-neutral, technology-specific and mixed designs at
+different dates, and **Germany's joint wind and solar auction of April 2018 gave the
+entire 200 MW to solar at bids above the technology-specific benchmark**. Portfolio
+composition and rents are observable, which is what makes the direction measurable
+rather than only modellable. That fact was verified before it went in.
+
+### Two more corrections
+
+**Your training is economics at the University of Cologne, not at EWI.** A previous
+draft said *"My training is Cologne through the Institute of Energy Economics"*,
+which overclaims. Ruhnau and Lindenberger are at EWI. You took their modules inside
+an economics degree. Naming their affiliation on a CV line is accurate, implying you
+were trained there is not.
+
+**The energy modules are now written out by content rather than by grade**, on the
+statement and on the CV, because two grade lines prove nothing about what you know
+and this post is judged on energy substance.
+
+| Module | Grade | What the CV and statement now say |
 |---|---|---|
-| 1 | Why this position, stated as a claim about auction design | 95 |
-| 2 | What you bring on energy. Ruhnau 1.3, and the ETS paper | 130 |
-| 3 | What you bring on method. The thesis, and why it transfers | 113 |
-| 4 | Which directions, whose work, your theory training, the close | 125 |
+| Growth, Energy, Climate Change | 2,3 | Physical foundations of energy systems, economic foundations, European regulation and market intervention |
+| Energy Markets and Regulation | **1,3** | The same ground, then grids and interconnectors and the European electricity market |
 
-**Three things came out that earlier drafts carried, and it is worth knowing they
-were removed on purpose rather than lost.**
+### What the guides changed
 
-The **two-way fixed effects sign reversal** is gone. An earlier draft made it the
-spine of the whole document. It reads as a confession, and a reader who meets a
-mistake in paragraph one is thinking about the mistake for the rest of the page. The
-thesis now states its estimator and its result as a capability. If it comes up in an
-interview it is a good answer to a question, which is a different thing from an
-opening line.
+You asked me to research the document type first. Three rules came back that altered
+the draft. **Open with field and direction in the vocabulary of the field**, not with
+motivation, so paragraph one now opens on the doctorate you want to write rather
+than on wanting to work on European instruments. **Keep mathematical preparation
+near the centre**, because it carries real weight in economics admissions, so the
+1.0 in mathematics, 1.3 in econometrics and the bachelor marks are in paragraph two
+rather than in a closing list. **Cut everything that is noise around the research
+signal.**
 
-The **microeconomics 3.0** is gone. It was in on the argument that the transcript
-travels in the same PDF, so naming it first beats being caught by it. That holds in a
-document that is arguing with the reader. This one is not. Paragraph four states the
-theory training positively instead, game theory and competition with Ockenfels at
-1.3 alongside econometrics at 1.3, which is true and answers the same requirement
-without volunteering anything against you.
+### Three people at CORE, all verified
 
-The **Tunisia clause** is gone with the narrative structure that carried it. There is
-no slot for it in a document about why you want the post and what you bring.
+- **Willems and Yu** on discriminatory against uniform-price auctions and how
+  short-run bidding maps into long-run investment, which is the rent question inside
+  direction 2.
+- **Quentin Lété**, assistant professor at CORE, on market design, capacity
+  investment and risk management, which is direction 1.
+- **Enerpol**, the Horizon Europe doctoral network at CORE on energy inequality with
+  **Jean Hindriks and François Maniquet**, which connects to the distributional side
+  of your thesis.
 
-### Paragraph four names two people, both verified
+Papavasiliou has moved to NTUA, so he stays a citation and is not offered as a
+colleague.
 
-- **Willems and Yu** compare discriminatory and uniform-price auctions on short-run
-  bidding and long-run investment. Your point is that a penalty regime changing the
-  map from bid to delivered capacity changes that comparison.
-- **Lété, Smeers and Papavasiliou (2026)** on what zonal pricing with market-based
-  re-dispatch costs in efficiency. Quentin Lété is an assistant professor at CORE
-  and teaches Quantitative Energy Economics.
+### Still deliberately absent
 
-**Hindriks and Maniquet were considered for a third and left out.** They appear on a
-Horizon Europe project about energy inequality, which would connect to the
-distributional side of your thesis, but that page would not load and a name in a
-statement of intent has to be verified. Two named beats three with one guessed.
+The two-way fixed effects sign reversal, the master's Microeconomics 3,0, and the
+Tunisia clause. All three were in earlier drafts and all three came out on your
+instruction. Keep the sign reversal ready as an interview answer.
 
-**One thing the layout has no slot for.** Availability from October, French,
-citizenship and the two referees sit in a single small-type line under paragraph
-four. On an advertised post with an autumn 2026 start and a two-referee requirement,
-availability is load-bearing rather than padding.
 
 ## 5. French is on the front page now
 
@@ -140,11 +177,11 @@ must be submitted in English."*
 Worth knowing before an interview, since the position is theory-led and you are not.
 
 **The claim is that European auction design is staggered adoption.** Member states
-introduced auctions at different dates and then revised penalty levels, bid bonds,
-realisation deadlines, technology lots and local content rules on different national
-timetables. That is variation of exactly the kind your thesis was built to handle,
-and the statement proposes it as the contribution a theory-trained candidate could
-not make.
+introduced auctions at different dates and then revised the rules on their own
+national timetables, including whether technologies bid against each other in one
+pot. That is variation of exactly the kind your thesis was built to handle, and the
+statement offers it as the contribution a theory-trained candidate could not make.
+The concrete case it names is Germany in April 2018.
 
 **Prepare one answer before any interview.** The statement does not raise the
 master's Microeconomics 3,0 and it should not, but both transcripts are in the

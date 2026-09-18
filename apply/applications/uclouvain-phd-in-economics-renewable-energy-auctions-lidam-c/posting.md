@@ -31,6 +31,27 @@ intent is capped at one page by the posting**, not only by his own instruction. 
 the file must be **named `Lastname_Firstname.pdf`**, so the submitted bundle is
 `Khammari_Baha.pdf` rather than the house `cv_<firm>_khammari.pdf` scheme.
 
+## Which directions he wants: 1 and 2
+
+Stated by him on 18 September, and recorded here because an earlier draft of the
+statement assumed 3 and 4.
+
+1. **De-risking green investment.** *"How should governments de-risk investment in
+   green energy? Does public intervention crowd out private insurance or weaken cost
+   incentives?"*
+2. **Multi-technology auction design.** *"How should auctions be designed when
+   different energy technologies compete in the same auction?"* Aimed at optimal
+   technology portfolios and reduced firm rents.
+3. Local content requirements, through a strategic trade lens. **Not his choice.**
+4. Pre-qualification requirements and completion bonds. **Not his choice.**
+
+Both of his fit his own work better than the two I had picked. Direction 1 contains
+the free-allocation argument in the call's own words, since free allocation is a
+public intervention that weakens a cost incentive. Direction 2 carries the cleaner
+identification, because member states landed on technology-neutral, technology-specific
+and mixed designs at different dates after the 2016 state aid framework, and portfolio
+composition and rents are both observable.
+
 ## Verdict: a long shot, and the first one worth taking
 
 The three postings before this were rejects on eligibility. This one is not. He is
