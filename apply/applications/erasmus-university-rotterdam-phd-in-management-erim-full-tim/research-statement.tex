@@ -1,0 +1,80 @@
+% Research statement for the ERIM full-time PhD in Management.
+% ERIM's spec: maximum 2 pages, 11-point, single-spaced. Both are respected here.
+%
+% The problem this document solves: he is an applied microeconometrician applying
+% to a business school, and the lazy version of that application either apologises
+% for the mismatch or pretends to be a management scholar. This does neither. It
+% argues that his thesis data, linked employer-employee records, is firm-level
+% data that he has so far used to ask regional questions, and that the firm-level
+% questions are the ones a management school should want asked.
+%
+% Nothing here is invented about his work. The Brazilian setting, the estimator,
+% the five million records and the sign reversal are all from the thesis.
+
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{tgheros}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[left=22mm, right=22mm, top=20mm, bottom=18mm]{geometry}
+\usepackage{parskip}
+\usepackage{microtype}
+\usepackage{ragged2e}
+\RaggedRight
+\hyphenpenalty=4000
+\tolerance=3000
+
+\pagestyle{empty}
+\setlength{\parskip}{0.65em}
+\linespread{1.0}
+
+\begin{document}
+
+\noindent
+{\large\bfseries Research statement}\\[3pt]
+{\small Baha Khammari \quad$\cdot$\quad ERIM full-time PhD in Management}
+
+\vspace{4mm}
+
+\noindent\textbf{The question I want to work on}
+
+When a policy suddenly increases the supply of skilled graduates, who captures the gain? The literature usually answers that at the level of a region or a cohort. I want to answer it at the level of the firm, because the firm is where the hiring, the sorting and the promotion actually happen, and because the aggregate answer hides the mechanism.
+
+My master's thesis asked a version of this question and stopped one level too high. I estimated the labour-market effects of Brazil's ProUni scholarship programme across 558 regions over 2005 to 2019, using the Callaway and Sant'Anna (2021) heterogeneity-robust staggered difference-in-differences estimator with doubly-robust inference. The result was non-monotonic: a wage gain of about 3 per cent in low-exposure regions, near-zero effects where exposure was highest, and a conventional two-way fixed effects estimate that returned the wrong sign entirely. Gains accrued disproportionately to non-white workers in moderate-exposure markets, and a gender asymmetry persisted even though the majority of scholarship holders were women. The thesis was graded 1.0.
+
+The part of that result I could not explain is the part that belongs to a management school. Why do some labour markets absorb a supply shock into wages and others into nothing? The regional data cannot say, because firms are the missing layer.
+
+\vspace{1mm}
+\noindent\textbf{Why this is a management question and not only an economics one}
+
+The data I built the thesis on is RAIS, the Brazilian linked employer--employee register: roughly five million observations in which every worker is matched to the firm that employs them. I used it to construct regional aggregates. The same records support firm-level questions directly, and those questions are organisational rather than macroeconomic.
+
+Three that I would want to pursue:
+
+\textbf{Which firms hire the newly qualified, and what happens to the people already inside them.} A supply shock of graduates is not absorbed uniformly. Some firms restructure their entry-level hiring, others do not. The difference is plausibly about internal labour markets, promotion ladders and how formalised the firm's hiring is, all of which are observable in the employment record.
+
+\textbf{Whether widened access translates into progression or only into entry.} Getting hired and getting promoted are different outcomes, and a policy evaluated on the first can look successful while failing on the second. Linked records follow individuals across firms and job levels over time, which makes the distinction testable rather than rhetorical.
+
+\textbf{Where the gender asymmetry in my thesis comes from.} Majority-female uptake produced male-skewed gains. That is an outcome of firm behaviour somewhere between the scholarship and the payslip, and it is the finding I most want to explain.
+
+\vspace{1mm}
+\noindent\textbf{Methods}
+
+I work in R and SQL, and I built the thesis panel myself through a BigQuery interface rather than receiving a cleaned dataset. My methodological centre is causal inference on observational panel data: staggered difference-in-differences with heterogeneity-robust estimators, event studies, instrumental variables, and the diagnostics that decide whether an estimate is credible. In the thesis those were HonestDiD sensitivity analysis, a Bacon decomposition, an age-cohort placebo, alternative exposure cutoffs and controls for two concurrent policies.
+
+That last part is the habit I would bring. The headline of my thesis is not the coefficient, it is that the standard estimator reversed the sign, and I only know that because I checked. Large personnel and registry datasets are becoming ordinary in management research, and they carry exactly the staggered-adoption structure in which conventional estimators fail quietly.
+
+I am open about the direction I would need to grow. My training is econometric rather than theoretical, and the organisational theory that turns these questions into management scholarship is something I would be learning rather than arriving with. The first-year coursework is where I would expect to do it.
+
+\vspace{1mm}
+\noindent\textbf{Why Rotterdam}
+
+I spent the autumn 2024 semester at RSM on an Erasmus+ exchange, taking Asset Pricing and Derivatives Valuation. It was the best period of my studies, and the reason was the way research was taught there: as an argument to be interrogated rather than a result to be memorised. I would like to do a doctorate in that environment.
+
+The substantive reason is that the questions above sit between labour economics and organisational research, and they need a school that takes both seriously. ERIM's empirical management tradition and access to registry and personnel data are what would make the firm-level version of my thesis possible, which is not something an economics department would push me towards and not something a purely qualitative management department could support.
+
+\vspace{3mm}
+\noindent{\small Baha Khammari \quad$\cdot$\quad b.e.khammari@gmail.com \quad$\cdot$\quad +49\,1520\,9016956}
+
+\end{document}

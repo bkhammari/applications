@@ -1,0 +1,151 @@
+% CV tuned for UCLouvain, PhD in Economics, Renewable Energy Auctions, LIDAM/CORE.
+% Base: cv/academic/cv_academic_khammari.tex
+%
+% What changed for this application, and why:
+%   - RESEARCH INTERESTS rewritten to lead with energy economics and market
+%     design. The old version led with labour and development, which is the
+%     honest general picture and the wrong one for this reader.
+%   - A new ENERGY ECONOMICS block sits directly under Education, above the
+%     thesis. It carries the two graded modules with their examiners and the EU
+%     ETS seminar paper. Ruhnau's 1.3 in Energy Markets and Regulation is the
+%     single most relevant line on the page for this post, and it was invisible
+%     before because the base CV compressed all coursework into one bullet.
+%   - Module grades are stated. The post asks for a research master obtained with
+%     distinction, so individual grades do more work here than the 1.6 average.
+%   - The housing seminar is OUT. The transcript records Kang D as examiner while
+%     every document in this repo names Krause, and that is unresolved. A CV going
+%     into a competitive application is not the place to carry an open question.
+%   - Young Economic Summit and the DPG Abitur prize are out. School prizes next
+%     to a 1.0 thesis are noise.
+%   - PwC cut to two lines. It is real experience and it is not what this reader
+%     is buying.
+%   - REFERENCES names both people, because the application requires at least two
+%     academic referees inside the submitted PDF. DO NOT SUBMIT until Ruhnau has
+%     agreed. See SEND.md.
+
+\documentclass[serif,compact]{../../../cv/shared/OpenCV}
+\usepackage[english]{babel}
+
+\cvname{Baha Khammari}
+\cvlocation{D\"usseldorf}
+\cvemail{b.e.khammari@gmail.com}
+\cvphone{+49\,1520\,9016956}
+\cvlinkedin{linkedin.com/in/baha-khammari}
+
+\begin{document}
+
+\cvheader
+
+%================ RESEARCH INTERESTS ================%
+\section*{Research Interests}
+\small
+Energy economics and electricity market design, environmental regulation and carbon pricing, applied microeconometrics and policy evaluation.
+
+%================ EDUCATION ================%
+\section*{Education}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{University of Cologne}{Cologne, Germany}
+{M.Sc.\ Economics, 120 ECTS. Overall 1.6 (German scale, 1.0 highest)}{Oct.\ 2023 -- Sep.\ 2026}
+\resumeItemListStart
+\resumeItem{Master's thesis \textbf{1.0}. Mathematics for Economists \textbf{1.0}. Econometrics \textbf{1.3}. Energy Markets and Regulation \textbf{1.3}.}
+\resumeItem{Available from October 2026.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Rotterdam School of Management (RSM), Erasmus University}{Rotterdam, Netherlands}
+{Erasmus+ Exchange Semester. Asset Pricing, Derivatives Valuation}{Sep.\ 2024 -- Dec.\ 2024}
+
+\resumeSubheading
+{University of Cologne}{Cologne, Germany}
+{B.Sc.\ Economics, 1.6. Top 5\,\% of cohort, Dean's List}{Oct.\ 2019 -- Feb.\ 2023}
+
+\resumeSubHeadingListEnd
+
+%================ ENERGY ECONOMICS ================%
+% Placed above the thesis on purpose. This is what the post is about.
+\section*{Energy Economics}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Seminar paper: the EU Emissions Trading System}{University of Cologne}
+{Specialisation seminar, Markets and Economic Policy}{2026}
+\resumeItemListStart
+\resumeItem{Analysis of the EU ETS as a market instrument for a global public good, covering allowance supply, price formation and the incentives the scheme creates for abatement investment.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Energy and Climate Change I: Energy Markets and Regulation}{University of Cologne}
+{Examiner: Jun.-Prof.\ Dr.\ Oliver Ruhnau (EWI) \quad $\vert$ \quad Grade: \textbf{1.3}}{2025}
+\resumeItemListStart
+\resumeItem{Electricity market design, network regulation, and the instruments used to support and integrate renewable generation.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Energy and Climate Change II: Growth, Energy, Climate Change}{University of Cologne}
+{Examiner: PD Dr.\ Dietmar Lindenberger (EWI) \quad $\vert$ \quad Grade: 2.3}{2025}
+
+\resumeSubHeadingListEnd
+
+%================ RESEARCH EXPERIENCE ================%
+\section*{Research Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Master's Thesis}{University of Cologne}
+{Grade 1.0/1.0. Supervisors: Prof.\ Dr.\ Pia Pinger and Anna Person, M.Sc.}{Oct.\ 2025 -- Apr.\ 2026}
+\resumeItemListStart
+\resumeItem{\textbf{Title:} \textit{How Equal is Equal Opportunity? Gender, Ethnic and Regional Disparities in Labor Market Outcomes of Higher Education Policies in Brazil.}}
+\resumeItem{Estimated the causal labour-market effects of a national scholarship programme across 558 regions over 2005--2019, using the Callaway and Sant'Anna (2021) heterogeneity-robust staggered difference-in-differences estimator with doubly-robust inference.}
+\resumeItem{Built the panel from administrative records, roughly five million linked employer--employee observations, in R through a BigQuery interface.}
+\resumeItem{Documented a non-monotonic dose--response whose sign two-way fixed effects reverses ($-0.65\,\%$ against a corrected $+3.04\,\%$), an empirical case of forbidden comparisons (Goodman-Bacon, 2021).}
+\resumeItem{Robustness: HonestDiD sensitivity analysis (Rambachan and Roth, 2023), Bacon decomposition, age-cohort placebo, alternative exposure cutoffs, concurrent-policy controls.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Bachelor's Thesis}{University of Cologne}
+{Supervisor: Univ.-Prof.\ Dr.\ Andreas Schabert \quad $\vert$ \quad Grade: 1.7}{2022 -- 2023}
+\resumeItemListStart
+\resumeItem{\textit{The Financial Accelerator Mechanism.} Theoretical review of financial frictions and macroeconomic amplification, centred on Bernanke, Gertler and Gilchrist (1999).}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%================ TECHNICAL SKILLS ================%
+\section*{Technical Skills}
+\resumeItemListStart
+\resumeItem{\textbf{R} (advanced: \texttt{did}, \texttt{fixest}, \texttt{HonestDiD}, \texttt{tidyverse}), SQL and BigQuery, Python (basic), \LaTeX.}
+\resumeItem{\textbf{Methods:} Difference-in-Differences including staggered adoption and doubly-robust estimation, event studies, panel data models, instrumental variables.}
+\resumeItemListEnd
+
+%================ PROFESSIONAL EXPERIENCE ================%
+\section*{Professional Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{PwC Germany}{D\"usseldorf, Germany}
+{Intern and Working Student, Assurance Solutions}{Mar.\ 2023 -- Jul.\ 2025}
+\resumeItemListStart
+\resumeItem{Two consecutive annual audits for the same client (HGB/IFRS, balance sheets above EUR\,500\,million), plus documentation on several smaller engagements.}
+\resumeItem{Audited sustainability disclosures under ISAE\,3000 and performed internal control testing.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%================ LANGUAGES ================%
+\section*{Languages}
+\resumeItemListStart
+\resumeItem{German (native), Tunisian Arabic (native), English (C1, IELTS Academic 8.0), French (B1, DELF).}
+\resumeItemListEnd
+
+%================ REFERENCES ================%
+% The application requires at least two academic referees inside the PDF.
+% DO NOT SUBMIT until Ruhnau has agreed in writing. See SEND.md.
+\section*{References}
+\resumeItemListStart
+\resumeItem{\textbf{Prof.\ Dr.\ Pia Pinger}, University of Cologne. Master's thesis chair. \texttt{pia.pinger@uni-koeln.de}}
+\resumeItem{\textbf{Jun.-Prof.\ Dr.\ Oliver Ruhnau}, University of Cologne and EWI. Energy Markets and Regulation. \texttt{ruhnau@wiso.uni-koeln.de}}
+\resumeItemListEnd
+
+\end{document}
