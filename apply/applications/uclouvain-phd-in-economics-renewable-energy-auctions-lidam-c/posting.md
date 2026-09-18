@@ -88,9 +88,9 @@ is that winning it means doing theory rather than the empirics he is good at.
 
 The posting's own list, verbatim:
 
-> - Statement of intent (max. 1 page)
-> - Curriculum vitae
-> - Bachelor's and Master's transcripts and degree certificates
+> - Statement of intent (max. 1 page), outlining the research you would like to pursue
+> - Curriculum vitae (expected Master's completion date if applicable)
+> - Bachelor's and Master's transcripts and degree certificates (if available)
 > - One writing sample (e.g. Master's thesis or research paper)
 > - Formal language certificates (e.g. TOEFL or IELTS), if available
 > - Standardized test scores (e.g. GRE), if available
@@ -112,12 +112,17 @@ that makes this tractable in three days. They want a name and an address now, wh
 is a one-line permission rather than a letter, which is exactly what the Ruhnau
 draft asks for.
 
-**The degree certificates line has a wrinkle.** They ask for bachelor's *and*
-master's certificates. The Bachelorzeugnis exists, conferred 1 February 2023. The
-master's certificate does not, because he graduates this month, and the transcript
-of records in hand is dated 13 August 2026 at 114 of 120 ECTS. Nothing there is
-concealable and nothing there needs concealing: the statement says he completes the
-M.Sc. this month and is available from October. Send what exists. If the transcript
+**The degree certificates line is not the wrinkle this file called it, re-read on
+18 September.** The posting says *"Bachelor's and Master's transcripts and degree
+certificates **(if available)**"*, and the earlier quote here dropped those two
+words. So the missing master's certificate is a case the posting already provides
+for rather than a gap to explain. Send what exists: the Bachelorzeugnis, conferred
+1 February 2023, and both transcripts.
+
+**Two other words were missing from the quote, and one of them is an
+instruction.** The CV line reads *"Curriculum vitae (expected Master's completion
+date if applicable)"*. The CV carried that date only by implication, through the
+date range on the Education entry, and now states it outright. If the transcript
 has since been reissued at 120 ECTS, request the current version from the
 Prüfungsamt and use that instead, because it carries the thesis grade of 1,0 as a
 recorded result rather than a claim.

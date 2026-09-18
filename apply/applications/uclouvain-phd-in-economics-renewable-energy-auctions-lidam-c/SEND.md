@@ -56,10 +56,12 @@ That writes `Khammari_Baha.pdf` and prints the page count of every part, so you 
 see at a glance whether anything went in twice or not at all. Expect about ninety
 pages, most of it the thesis.
 
-**One wrinkle on the certificates.** They ask for bachelor's and master's degree
-certificates. The master's one does not exist yet, and the transcript in hand is
-dated 13 August at 114 of 120 ECTS. Send what exists. The statement already says you
-complete the M.Sc. this month and are available from October, so nothing is hidden.
+**The certificates are not a problem.** The posting asks for bachelor's and
+master's transcripts and degree certificates *"(if available)"*, and this file
+previously quoted that line without the last two words. Your master's certificate
+does not exist yet and the posting already allows for that. Send what exists.
+The statement and the CV both carry the September 2026 completion date, which the
+posting asks for by name on the CV.
 If the Prüfungsamt has since reissued the transcript at 120 ECTS, use that version
 instead, because it records the 1,0 thesis grade as a result rather than a claim.
 
@@ -75,30 +77,54 @@ python3 apply/track.py sent uclouvain
 
 ## 4. What the statement says
 
-Rebuilt against the MIT EECS Communication Lab guide you sent, plus your three
-answers. **613 words, one page, filling it.** Above the 400 to 500 general guides
+Rebuilt against the MIT EECS Communication Lab guide you sent, then revised on
+18 September when you asked for a story, for the future-colleague argument, and for
+concision. **651 words, one page, filling it.** Above the 400 to 500 general guides
 quote, kept because the constraint the posting states is one page.
 
 | Paragraph | Job |
 |---|---|
-| 1 | Why this doctorate and why you. Field and direction first |
-| 2 | Track record. Cologne energy modules, quantitative preparation, tutoring, the thesis |
-| 3 | The two directions you would take up, and the evidence behind each |
-| 4 | Three colleagues at CORE, then the ten-year trajectory |
+| 1 | Why this doctorate. The question that recurs across your work, stated first |
+| 2 | The Cologne energy modules, and what they let you see in an auction rule |
+| 3 | Quantitative preparation, tutoring, the thesis, and what the thesis settled |
+| 4 | The two directions you would take up, and the evidence behind each |
+| 5 | Why a colleague here specifically, the impact, the ten-year goal |
+
+**The story is an intellectual one, not a biographical one.** One question runs
+through all of it: the support an instrument appears to offer and the incentive it
+creates are different quantities, and the rules decide the distance between them.
+ProUni is an instance, because dose rather than treatment status carries the
+effect. The EU ETS paper is an instance, because free allocation attenuates the
+allowance price. Renewable auctions are the next one. Paragraph one states it and
+paragraphs three and four are the evidence, which is the roter Faden you said an
+earlier draft lacked. It is not an error narrative and must not become one.
+
+**The future-colleague question is answered in paragraph five, by addition.** The
+group argues these questions formally. You are not a theorist and the statement
+does not pretend otherwise. What it offers is the empirical counterpart, on the
+ground that European support-scheme reform is staggered adoption and you know how
+to read it. That answers the theory requirement without conceding anything, and it
+is also the honest description of what you would add to that corridor.
 
 ### What the MIT guide changed
 
 **Meaning is now wrapped around every experience.** That is the guide's central
 teaching and every earlier draft missed it. An experience on its own is a CV in
 prose. Its line is worth keeping: *"A statement of purpose is a way to make a
-narrative out of your CV. It is not a diary entry."* Three meaning sentences now
-carry the reader through paragraph two.
+narrative out of your CV. It is not a diary entry."* Each block still ends on the
+sentence that says what it proves.
 
 | After | The sentence that says what it proves |
 |---|---|
-| The two energy modules | Why you read an auction rule as a physical and regulatory constraint and not only an economic one |
+| The two energy modules | Why an auction rule reads to you as a physical and regulatory constraint as much as an economic one |
 | Maths, econometrics, tutoring | Tutoring is the test of whether you know a method or only recognise it |
-| The thesis | You can take a staggered policy rollout from raw records to a defensible causal estimate on your own |
+| The thesis | Dose, rather than treatment status, is where the answer sits, and you can get there from raw records on your own |
+
+The last of those changed on 18 September. It used to say only that you can take a
+staggered rollout from raw records to a defensible estimate, which is a claim about
+craft. It now also names what the thesis found out about policy, which is the claim
+that links the thesis to the auction question and carries the reader into paragraph
+four.
 
 **Your tutoring is in, quantified.** Two school students, Abitur-level mathematics.
 The guide asks for exactly that kind of number and it sits next to the mathematics
@@ -180,12 +206,12 @@ signal.**
 
 ### Three people at CORE, all verified
 
-- **Willems and Yu** on discriminatory against uniform-price auctions and how
+- **Willems and Yu** on discriminatory versus uniform-price auctions and how
   short-run bidding maps into long-run investment, which is the rent question inside
   direction 2.
 - **Quentin Lété**, assistant professor at CORE, on market design, capacity
   investment and risk management, which is direction 1.
-- **Enerpol**, the Horizon Europe doctoral network at CORE on energy inequality with
+- **ENERPOL**, the Horizon Europe doctoral network at CORE on energy inequality with
   **Jean Hindriks and François Maniquet**, which connects to the distributional side
   of your thesis.
 

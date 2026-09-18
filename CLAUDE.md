@@ -171,7 +171,7 @@ him that he cannot get elsewhere.
 **Demonstrate the match in the programme's own words.** Echo the call's vocabulary,
 name the professors he would work with, and say which research directions or
 projects he would pursue with each. Naming other groups at the university worth
-collaborating with also counts, which is why Enerpol is in the UCLouvain statement.
+collaborating with also counts, which is why ENERPOL is in the UCLouvain statement.
 
 **Section headings are recommended but not free.** The MIT guide suggests explicit
 titles such as Research Interests and Prior Experience, and assumes two pages.
@@ -209,8 +209,43 @@ pdflatex always writes `<source>.pdf`. The sources stay `cv.tex` and `letter.tex
 in every folder. `<firm>` comes from the tracker's `firm` column, or the first word
 of the employer when that column is blank, and `python3 apply/track.py firm <id>
 <word>` fixes the cases where the first word is wrong, such as Deutsche Bundesbank
-or European Central Bank. The base CVs are `cv/academic/cv_academic_khammari.tex`
-and `cv/professional/cv_professional_khammari.tex`.
+or European Central Bank. There are now **four base CVs**, listed under "The four base CVs" below.
+
+### The four base CVs, settled 18 September
+
+He asked for general, untuned copies he can keep and cut from. The split is by who
+reads it, because that is what changes the order of the page.
+
+| File | Language | Reader | Class options |
+|---|---|---|---|
+| `cv/academic/cv_academic_khammari.tex` | English | PhD programmes, chairs, research posts | `[serif]`, colour, icons |
+| `cv/institutional/cv_institutional_khammari.tex` | English | ECB, Bundesbank, EU institutions, GIZ, DEval, OECD | `[compact,mono,noicons]` |
+| `cv/private/cv_private_khammari.tex` | English | Economic consulting, banks, industry, Big Four | `[compact,mono,noicons]` |
+| `cv/professional/cv_professional_khammari.tex` | German | Every German employer, public and private | `[compact,mono,noicons]` |
+
+**One German CV covers both German readers, and that is deliberate.** The
+conservative Lebenslauf is the same document for a Bundesunternehmen and for
+industry, because the Anschreiben is mandatory in Germany and it is the Anschreiben
+that differentiates. Splitting the German CV would duplicate a file to change
+nothing.
+
+**What separates the two English ones.** The institutional CV puts Languages on the
+front page, because a multilingual profile is a selection criterion at an EU
+institution rather than a decoration, and it runs the thesis and the EU ETS design
+above PwC. The private CV puts PwC above the research, folds languages into the
+skills block, cuts the thesis to the scale of the data and the tools, and holds one
+page. Both carry a one-sentence Profile and a commented `cvquals` scaffold at the
+foot, because the qualifications block only works when it maps a posting's own
+words and cannot be written in advance.
+
+**`noicons` is on all three non-academic base CVs.** They go through ATS portals,
+and with FontAwesome on, `pdftotext` returns the contact line as
+`Q b.e.khammari@gmail.com ... ¯` **and drops the phone number entirely**. Verified
+18 September on the academic CV, which still does this and should, because one
+person reads it slowly. Anywhere a system reads the file first, use `noicons`.
+
+`apply/build.py` only walks application folders, so the base CVs are compiled by
+hand: `cd cv/<folder> && pdflatex -interaction=nonstopmode <file>.tex`.
 
 **PwC leads Berufserfahrung, and the retail job sits under its own heading.** He
 asked for PwC first on 16 September, after I had put the current job on top for
@@ -956,6 +991,8 @@ draft uses correctly.
 - `phd/geography-and-pay.md` PhD destinations ranked by pay
 - `bridge/` paid interim positions. `private-sector.md` covers finance and consulting
 - `eu/` EPSO AD5 and Blue Book, with mock exams and an abstract-reasoning trainer
-- `cv/`, `letters/`, `research/`, `scholarships/`, `dashboards/`
+- `cv/academic/`, `cv/institutional/`, `cv/private/`, `cv/professional/` the four
+  base CVs, plus `cv/shared/OpenCV.cls`
+- `letters/`, `research/`, `scholarships/`, `dashboards/`
 
 Work happens on the branch `claude/sleepy-keller-gissaq`. Commit and push as you go.
