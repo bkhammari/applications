@@ -345,6 +345,24 @@ applying.** So the portal is paperwork that follows the approach. Rolling review
 through May 2027, Studielink opens 1 October 2026. Central address
 `gsbe-phd-application@maastrichtuniversity.nl`.
 
+**The board was empty in his field on 18 September.** Checked AcademicTransfer,
+filtered to scientific vacancies in economics and labour economics. The only
+economics vacancy was the Maastricht Assistant Professor in Macroeconomics, out of
+reach. So the board is a **weekly** check, not a daily one, and the effort belongs
+in direct enquiries and the Frontier window.
+
+**Two postings he sent on 18 September were both rejects, and both failed on the
+requirement list rather than on fit.** Tilburg wanted hands-on RCT implementation,
+Utrecht sat in the Faculty of Geosciences and asked for Geoinformatics or spatial
+data science. A thirty-second test now lives at the top of step 2 in
+[`apply/README.md`](apply/README.md): check the faculty, check whether an economics
+MSc is on their accepted list, check whether they name a method he has never used.
+**Two false signals have cost time.** A shared country is not a fit signal, Brazil
+appearing in both his thesis and a land-use project means nothing. And **558
+microregions reads as spatial work but is a regional panel**, so geography is an
+index rather than an object of analysis. No GIS, no raster data, no spatial
+econometrics anywhere in the thesis.
+
 **The Dutch job board carries two different things, and the filter matters.**
 Learned 18 September from a Tilburg posting he sent. **Project positions** are
 attached to a specific grant, so their requirements come from the grant rather than

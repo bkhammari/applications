@@ -48,6 +48,31 @@ in [`../bridge/README.md`](../bridge/README.md) for research roles and
 [`../bridge/private-sector.md`](../bridge/private-sector.md) for finance,
 consulting and industry.
 
+**The thirty-second test for an academic vacancy.** Three postings in September
+survived a surface read and died on the requirement list, so read these three lines
+first and skip the salary until they pass.
+
+1. **Which faculty is it?** Economics, econometrics or a business school. A Utrecht
+   land-use post that looked like a fit sat in the Faculty of Geosciences.
+2. **Is an economics MSc on their list of accepted degrees?** If the list runs
+   Geoinformatics, Computer Science, Quantitative Geography and Environmental
+   Science, the answer is no and "or a related discipline" does not stretch that far.
+3. **Do they name a method he has not used?** Hands-on RCT implementation, spatial
+   optimisation, structural estimation and lab experiments all take years to
+   acquire. A project position inherits its requirements from its grant, so these
+   are not negotiable.
+
+It passes when the named methods are difference-in-differences, panel data, event
+studies, instrumental variables, policy evaluation or administrative register data,
+and the subject is labour, education, inequality or public policy.
+
+**Two false signals, both of which have cost time.** A **shared country** is not a
+fit signal: the thesis is on Brazilian labour market returns and the Utrecht post is
+on Brazilian land use, and they have nothing else in common. And **558
+microregions** reads as spatial work but is a regional panel, where geography is an
+index rather than an object of analysis. There is no GIS, no raster data and no
+spatial econometrics anywhere in the thesis.
+
 If a role fails, mark it and move on:
 
 ```bash
