@@ -1,13 +1,15 @@
 # UCLouvain, what to do and in what order
 
-**Deadline: Monday 21 September 2026.** Today is Friday 18 September. Everything
-except one thing is written.
+**Deadline: Monday 21 September 2026.** Today is Friday 18 September. Both written
+documents are finished. What is left is one email, four of your own files, and a
+form.
 
 ## 1. Today, before anything else: the referee
 
 **A draft to Jun.-Prof. Dr. Oliver Ruhnau is in Gmail, labelled PhD.** Send it now.
-It asks only for permission to name him, not for a letter, and says the deadline is
-Monday so a one-word answer is enough.
+It asks only for permission to name him, not for a letter, because the posting says
+outright that *"letters of recommendation may be requested at a later stage"*. A
+one-word answer is enough and the email says so.
 
 **Nothing else can be submitted until he answers**, because the CV names him and the
 application requires two academic referees inside the PDF. If he says no by Sunday,
@@ -15,27 +17,66 @@ the fallback is **Prof. Dr. Roman Liesenfeld** (Econometrics 1,3), whose E13 dra
 is already in Gmail and can carry the same ask. Do not fall back to Schabert, who
 graded his own module 3,0.
 
-## 2. The documents
+**If he has not answered by Sunday evening, do not submit without him.** The posting
+says *"Applications received by 21 September 2026 will receive full consideration.
+Review continues until the position is filled."* Monday is the date for full
+consideration rather than a cut-off. Tuesday with two referees beats Monday with
+one. This is not licence to drift, because rolling review means someone who applied
+on time can take the position.
 
-They want **one PDF** containing all of it.
+## 2. Collect four files of your own
 
-| Item | Status |
+They want **one PDF** and they name it for you: `Lastname_Firstname.pdf`, so
+`Khammari_Baha.pdf`. Everything goes inside it, in the posting's order.
+
+| Item | Where it is |
 |---|---|
-| Statement of intent | Ready, `statement.pdf`, **one page** |
+| Statement of intent | Ready, `statement.pdf`, **one page**, which is their cap |
 | CV | Ready, `cv_uclouvain_khammari.pdf`, two pages |
-| Transcript | `Khammari_ToR_Aug2026.pdf`, already in hand |
-| Writing sample | The master's thesis, `research/thesis/Master_Thesis_Final.pdf` |
-| Language certificate | IELTS Academic 8.0 |
+| Master's transcript | Yours. `Khammari_ToR_Aug2026.pdf` |
+| BSc transcript | Yours |
+| Bachelorzeugnis | Yours, the certificate with the Einstufungstabelle |
+| IELTS certificate | Yours |
+| Writing sample | The thesis, already in the repository |
 | Two academic referees | Named in the CV. **Pinger agreed, Ruhnau pending** |
 | Test scores | None, and none required |
 
-Merge in that order. The statement goes first because it is the only part written
-for this reader.
+Put the four personal files in a folder called `personal/` at the top of the
+repository. It is in `.gitignore` and will never be committed, which matters because
+this repository is public. Name them as `merge.txt` expects, or edit the paths in
+that file, whichever is quicker.
 
-## 3. What the one-page cut kept, and what it dropped
+Then:
 
-The statement was two pages and is now one, which was the instruction. Four things
-survived, in this order of priority.
+```bash
+python3 apply/merge.py uclouvain
+```
+
+That writes `Khammari_Baha.pdf` and prints the page count of every part, so you can
+see at a glance whether anything went in twice or not at all. Expect about ninety
+pages, most of it the thesis.
+
+**One wrinkle on the certificates.** They ask for bachelor's and master's degree
+certificates. The master's one does not exist yet, and the transcript in hand is
+dated 13 August at 114 of 120 ECTS. Send what exists. The statement already says you
+complete the M.Sc. this month and are available from October, so nothing is hidden.
+If the Prüfungsamt has since reissued the transcript at 120 ECTS, use that version
+instead, because it records the 1,0 thesis grade as a result rather than a claim.
+
+## 3. Submit
+
+The form: **https://forms.cloud.microsoft/e/Nbx4HmviLp**
+
+Contact if anything about the form fails: **bert.willems@uclouvain.be**
+
+```bash
+python3 apply/track.py sent uclouvain
+```
+
+## 4. What the one-page cut kept, and what it dropped
+
+The statement was two pages and is now one, which the posting requires as well as
+you. Four things survived, in this order of priority.
 
 **The free-allocation argument from your own seminar paper.** The effective carbon
 cost is the allowance price attenuated by the sector-year free-allocation share, a
@@ -60,14 +101,17 @@ industrial organization and nothing wider.
 threats catalogue, the full thesis description, and the section headings. All of it
 is either on the CV or in the paper itself, which you offer to send.
 
-## 4. French is on the front page now
+## 5. French is on the front page now
 
 **UCLouvain is in Louvain-la-Neuve, in francophone Wallonia.** B1 French is not a
 decorative line for this application, it is a fact about whether you can live and
 work there, so Languages moved from the foot of the CV to page one with French
 first. The statement says the same thing in one clause.
 
-## 5. What the application argues
+The application itself stays in English, because the posting requires it: *"Applications
+must be submitted in English."*
+
+## 6. What the application argues
 
 Worth knowing before an interview, since the position is theory-led and you are not.
 
@@ -84,12 +128,6 @@ transcripts travel in the same PDF. What it no longer concedes is general weakne
 in theory, because the BSc transcript does not support that: microeconomics 1,0, and
 advanced microeconomics on strategic thinking and competition with Ockenfels 1,3.
 The admitted gap is graduate industrial organization alone, which is coursework.
-
-## 6. After you submit
-
-```bash
-python3 apply/track.py sent uclouvain
-```
 
 ## Why this one is worth three days
 

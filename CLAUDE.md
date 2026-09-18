@@ -315,13 +315,18 @@ repo were built on memory and two of them were wrong.
 
 **Two things this corrects.**
 
-**The housing seminar was examined by Kang D, not Krause.** The CV, the research
-statement and the general motivation letter all name *Prof. Dr. Michael Krause* as
-the instructor of the Housing and the Macroeconomy seminar, and the transcript names
-**Kang D** as Prüfer with 1,3. Krause may well have run the seminar with Kang
-examining. **Ask him which it was before that line goes out again**, because it is
-on documents being sent and the transcript is what a programme sees. Krause appears
-once on this transcript, for Core Macroeconomics at 1,7.
+**The housing seminar was examined by Kang D, not Krause, and the mailbox settles
+it.** The CV, the research statement and the general motivation letter all name
+*Prof. Dr. Michael Krause* as the instructor of the Housing and the Macroeconomy
+seminar, and the transcript names **Kang D** as Prüfer with 1,3. This no longer
+needs asking. His own email to Krause of 13 August 2026 reads: *"I was a student in
+your macroeconomics and labour courses across Bachelor and Master of Economics as
+well as the housing seminar with Dong-Ho Kang in 2024."* He wrote that before any of
+this analysis existed, to the man himself, so **the seminar is Kang's**. Where a
+document needs a name, use **Dr. Dong-Ho Kang**, or drop the name and keep the
+topic. Krause appears twice across the two transcripts, Core Macroeconomics 1,7 in
+the master and Economic Policy 2,0 in the bachelor, which is what makes him the
+weakest of the three referees proposed on 18 September.
 
 **Schabert is not a referee.** He graded *Money and Financial Markets* at **3,0**.
 He supervised the bachelor's thesis and is worth an E13 enquiry, but do not name him
@@ -395,10 +400,19 @@ email reaches Bonn, Maastricht and ROA.
 **Carina Neisser's recommendation, 17 July 2026:** Siegloch, Pinger, Settele,
 Wohlfart. Three are now in motion. Wohlfart sat unused for eight weeks.
 
-**Email address patterns.** Cologne is consistent: `lastname@wiso.uni-koeln.de`.
-**Bonn is not**: `t.dohmen@`, `tboneva@`, `amelie.schiprowski@`, `klagge@`,
-`mqaim@`, `parlasca@`. Always verify a Bonn address on the faculty page. Department
-fallback: `econpr@uni-bonn.de`.
+**Email address patterns, corrected 18 September against the sent folder.** The
+earlier claim here was that **Cologne is consistent at `lastname@wiso.uni-koeln.de`
+and that is wrong**. Most are: `settele@`, `neisser@`, `kang@`, `boelmann@`,
+`rubio@`, `siegloch@`, `vanmaarseveen@`, `wohlfart@`, `schabert@`, `liesenfeld@`,
+`roth@`, `ruhnau@`, and Anna Person at `person@`. But **Krause is
+`michael.krause@wiso.uni-koeln.de` and Braun is `helge.braun@wiso.uni-koeln.de`**,
+and **Pinger is `pia.pinger@uni-koeln.de` with no `wiso`**, all three verified from
+replies they sent. So Cologne has three patterns, not one, and the rule is the same
+as for Bonn: check the faculty page before writing to someone new.
+
+**Bonn**: `t.dohmen@`, `tboneva@`, `amelie.schiprowski@`, `klagge@`, `mqaim@`,
+`parlasca@`. Department fallback: `econpr@uni-bonn.de`. **RWI Essen** capitalises:
+`Ronald.Bachmann@`, `Matthias.Westphal@`, `Marcus.Tamm@rwi-essen.de`.
 
 **Two CRCs just refunded, both staffing now.**
 
@@ -437,6 +451,21 @@ of the office, which is what makes **Cologne and Berlin** work and Amsterdam not
 applying.** So the portal is paperwork that follows the approach. Rolling review
 through May 2027, Studielink opens 1 October 2026. Central address
 `gsbe-phd-application@maastrichtuniversity.nl`.
+
+**UCLouvain, read off the posting page on 18 September rather than inferred.**
+Submission is a **Microsoft Forms page**, `https://forms.cloud.microsoft/e/Nbx4HmviLp`,
+and the contact is `bert.willems@uclouvain.be`. One PDF, **named
+`Lastname_Firstname.pdf`**, so `Khammari_Baha.pdf` and not the house
+`cv_<firm>_khammari.pdf`. The **statement of intent is capped at one page by the
+posting**, which happens to match his own instruction. The deadline is softer than
+it reads: *"Applications received by 21 September 2026 will receive full
+consideration. Review continues until the position is filled."* So Monday is the
+date for full consideration and Tuesday with two referees beats Monday with one.
+Referees are **names and contact details only**, since *"letters of recommendation
+may be requested at a later stage"*, which is why the Ruhnau ask is one line and not
+a request for a letter. They also want **bachelor's and master's degree
+certificates**, and the master's one does not exist yet, so the transcript at 114 of
+120 ECTS goes in and the statement carries the September completion date.
 
 **The board was empty in his field on 18 September.** Checked AcademicTransfer,
 filtered to scientific vacancies in economics and labour economics. The only
@@ -580,8 +609,16 @@ been asked yet.**
 apply/new.py     scaffold an application: posting record, tuned CV, letter, tracker row
 apply/track.py   list / due / sent / set / note / summary
 apply/build.py   compile the LaTeX to PDF
+apply/merge.py   assemble the single PDF a portal asks for, from a merge.txt manifest
 apply/tracker.csv  one row per application, the single source of truth
 ```
+
+**`personal/` at the repository root holds transcripts and certificates and is in
+`.gitignore`.** Added 18 September, when UCLouvain turned out to want bachelor's and
+master's transcripts and degree certificates inside one PDF. This repository is
+public, so those files are referenced by path from a `merge.txt` manifest and never
+committed. If they are not on disk, `merge.py` names each missing one and refuses to
+build, rather than producing a bundle that looks complete.
 
 Full loop in [`apply/README.md`](apply/README.md). Two blocks get written per
 application: the **Profile** at the top of the CV, and the **fit paragraph** in the

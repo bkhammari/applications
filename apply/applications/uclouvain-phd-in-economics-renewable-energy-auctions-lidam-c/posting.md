@@ -8,8 +8,28 @@
 | **Pay** | about **€2.400 net**, tax-exempt under the Belgian doctoral regime |
 | **Term** | 24 months, extendable by 24 |
 | **Start** | **Autumn 2026, no later than January 2027** |
-| **Deadline** | **21 September 2026** |
+| **Deadline** | **21 September 2026**, and it is soft. See below |
+| **Submit** | [Microsoft Forms](https://forms.cloud.microsoft/e/Nbx4HmviLp), one PDF named `Khammari_Baha.pdf` |
+| **Contact** | `bert.willems@uclouvain.be` |
 | **Added** | 18 September 2026 |
+
+## The deadline is softer than it looks, verified 18 September
+
+Read from the posting page itself rather than inferred:
+
+> Applications received by 21 September 2026 will receive full consideration.
+> Review continues until the position is filled.
+
+So Monday is the date for full consideration and not a portcullis. That matters
+only for one thing: if Ruhnau has not answered by Sunday evening, submitting on
+Tuesday or Wednesday with both referees in place beats submitting on Monday with
+one. Do not read it as licence to drift. Rolling review means the position can be
+filled by someone who applied on time.
+
+The posting also fixes two things the repository had guessed at. The **statement of
+intent is capped at one page by the posting**, not only by his own instruction. And
+the file must be **named `Lastname_Firstname.pdf`**, so the submitted bundle is
+`Khammari_Baha.pdf` rather than the house `cv_<firm>_khammari.pdf` scheme.
 
 ## Verdict: a long shot, and the first one worth taking
 
@@ -45,18 +65,44 @@ is that winning it means doing theory rather than the empirics he is good at.
 
 ## What the application needs
 
-One PDF containing: statement of intent, CV, transcripts, a writing sample,
-language certificates, test scores if available, and **the names of at least two
-academic referees**.
+The posting's own list, verbatim:
+
+> - Statement of intent (max. 1 page)
+> - Curriculum vitae
+> - Bachelor's and Master's transcripts and degree certificates
+> - One writing sample (e.g. Master's thesis or research paper)
+> - Formal language certificates (e.g. TOEFL or IELTS), if available
+> - Standardized test scores (e.g. GRE), if available
+> - Names and contact details of at least two academic referees (letters of
+>   recommendation may be requested at a later stage)
 
 | Item | Status |
 |---|---|
-| CV | `cv/academic/cv_academic_khammari.pdf` |
-| Writing sample | The master's thesis |
-| Transcripts | `Khammari_ToR_Aug2026.pdf` |
-| Language certificate | IELTS 8.0 |
-| Statement of intent | **Has to be written.** Lead with energy, not with Brazil |
-| **Two academic referees** | **Only Pinger is agreed.** This is the blocker |
+| Statement of intent | **Written**, `statement.pdf`, one page |
+| CV | **Written**, `cv_uclouvain_khammari.pdf`, two pages |
+| Writing sample | The master's thesis, in the repository |
+| Transcripts and certificates | His own files, four of them. See below |
+| Language certificate | IELTS Academic 8.0 |
+| Test scores | None, and none required |
+| **Two academic referees** | **Pinger agreed. Ruhnau pending.** The blocker |
+
+**"Letters of recommendation may be requested at a later stage"** is the sentence
+that makes this tractable in three days. They want a name and an address now, which
+is a one-line permission rather than a letter, which is exactly what the Ruhnau
+draft asks for.
+
+**The degree certificates line has a wrinkle.** They ask for bachelor's *and*
+master's certificates. The Bachelorzeugnis exists, conferred 1 February 2023. The
+master's certificate does not, because he graduates this month, and the transcript
+of records in hand is dated 13 August 2026 at 114 of 120 ECTS. Nothing there is
+concealable and nothing there needs concealing: the statement says he completes the
+M.Sc. this month and is available from October. Send what exists. If the transcript
+has since been reissued at 120 ECTS, request the current version from the
+Prüfungsamt and use that instead, because it carries the thesis grade of 1,0 as a
+recorded result rather than a claim.
+
+Assembly is `merge.txt` plus `python3 apply/merge.py uclouvain`, which builds
+`Khammari_Baha.pdf` in the posting's own order.
 
 ## The second referee: Ruhnau, and it is not close
 

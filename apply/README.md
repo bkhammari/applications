@@ -142,7 +142,29 @@ and `lmodern` are the two easy ones to miss, and the CV class needs both.
 `cv_giz_khammari.pdf` and `anschreiben_giz_khammari.pdf` rather than `cv.pdf` and
 `letter.pdf`. See the naming section below.
 
-### 5. Send, then record it
+### 5. Merge, when they want one PDF
+
+Academic applications usually do. UCLouvain asks for statement, CV, transcripts,
+certificates and a writing sample in a single file, and names the file for you.
+
+Write a `merge.txt` in the application folder listing the parts in the order the
+posting lists them, one path per line, with `out:` giving the filename they ask
+for. Then:
+
+```bash
+python3 apply/merge.py uclouvain
+```
+
+It prints the page count of every part and the total, which is how you catch a
+document that went in twice or not at all. Missing sources stop the merge and are
+named, because a half-assembled application PDF is worse than none: it looks
+finished.
+
+**Transcripts and certificates live in `personal/` at the top of the repository,
+which `.gitignore` drops.** This repository is public. Manifests reference them by
+path and nothing puts them in a commit.
+
+### 6. Send, then record it
 
 ```bash
 python3 apply/track.py sent frontier
@@ -151,7 +173,7 @@ python3 apply/track.py sent frontier
 That stamps the send date and schedules a nudge twelve days out. Ids can be
 shortened to any unique prefix, and a unique employer name works too.
 
-### 6. Check what is owed
+### 7. Check what is owed
 
 ```bash
 python3 apply/track.py due
@@ -357,6 +379,7 @@ does not exist.
 | `python3 apply/track.py summary` | Counts and reply rate |
 | `python3 apply/build.py <id>` | Compile that application's CV and letter |
 | `python3 apply/build.py --all --clean` | Compile everything open, tidy up after |
+| `python3 apply/merge.py <id>` | Assemble the single PDF a portal asks for |
 
 Statuses run `draft`, `sent`, `replied`, `interview`, `offer`, `rejected`,
 `closed`. The first four count as open.
@@ -368,6 +391,7 @@ apply/
 ├── new.py              scaffold an application
 ├── track.py            read and update the tracker
 ├── build.py            compile the LaTeX to PDF
+├── merge.py            assemble the single PDF a portal asks for
 ├── _tracker.py         shared state, the only thing that touches the CSV
 ├── tracker.csv         one row per application, the single source of truth
 ├── templates/
@@ -380,7 +404,8 @@ apply/
         ├── cv.tex                     copied in and tuned for this application
         ├── letter.tex                 boilerplate plus the one fit paragraph
         ├── cv_<firm>_khammari.pdf     what you actually send
-        └── anschreiben_<firm>_khammari.pdf
+        ├── anschreiben_<firm>_khammari.pdf
+        └── merge.txt                  only where they want one combined PDF
 ```
 
 The tracker is a CSV rather than a markdown table so that git diffs it row by row,

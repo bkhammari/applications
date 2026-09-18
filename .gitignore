@@ -18,6 +18,11 @@
 # Uncomment the next line to ignore all PDFs except those you explicitly track:
 # *.pdf
 
+## Personal documents: transcripts, degree certificates, language certificates.
+## This repository is public. Applications reference these by path through
+## apply/merge.py, and they are never committed.
+personal/
+
 ## OS files
 .DS_Store
 Thumbs.db
