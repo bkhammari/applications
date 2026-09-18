@@ -621,6 +621,33 @@ bottleneck has never been tooling.
 the EU ETS. It has nothing to do with the job search and it is not in this repo, so
 give it its own chat. In applications it is a subject he can cite, never a gap.
 
+### The Bachelorzeugnis, read 18 September
+
+He uploaded it. **B.Sc. Volkswirtschaftslehre, conferred 1 February 2023, overall
+gut (1,6).** Bachelorarbeit **Finanz-Akzelerator**, 12 ECTS, gut (1,7), Erstgutachter
+Univ.-Prof. Dr. Andreas Schabert. Section grades: Basis- und Aufbaubereich 90 ECTS
+at 1,7, **Ergänzungsbereich 36 ECTS at sehr gut (1,5)**, Schwerpunktbereich 30 ECTS
+at 1,8, Studium Integrale 12 ECTS passed.
+
+**The "top 5 percent" claim needs his decision, and it is on fourteen files.** The
+Zeugnis carries the university's **Einstufungstabelle**. For an overall grade of 1,6
+it reports that **5.5 per cent** of the 256 degrees awarded in the reference period,
+1 February 2021 to 1 February 2023, were 1,6 or better. Every CV in this repo says
+*top 5 %*.
+
+Those may both be true. The comparison group in that table pools Betriebswirtschaft,
+Sozialwissenschaften, Volkswirtschaft and Wirtschaftsinformatik, and **the Dean's
+List is a separate award with its own criterion**, which may well be top 5 per cent
+of the VWL cohort alone. **Ask him what his Dean's List letter says.** Until then:
+the UCLouvain CV now reads *B.Sc. Economics, 1.6. Dean's List*, with no percentage,
+because the Zeugnis travels in the same PDF and a reader can check. Nothing else was
+mass-edited on an inference.
+
+**The bachelor's thesis title is German on the certificate.** It reads
+*Finanz-Akzelerator*, and the English certificate leaves it untranslated. The CVs
+render it as *The Financial Accelerator Mechanism*, which adds a word the official
+title does not have. Minor, and worth knowing if a transcript is attached.
+
 ### What the EU ETS seminar actually is, recovered 18 September
 
 He asked for it from "other chats and memory". **Neither is reachable from Claude
@@ -660,9 +687,42 @@ intensity; survivorship bias from balanced panels. The gap he identified is that
 credible firm-level evidence concentrates on Phases I and II and is scarce for
 Phases III and IV.
 
-**Still unknown: his individual paper's own question.** Drive holds the group
-document, not his written paper. An unsent draft mentions "the empirical extension
-we are considering for the paper", so there may be one. Ask him.
+**His individual paper is on GitHub, and it is much better than the group document
+suggested.** Repo `bkhammari/EU-ETS-and-Production`, public. `main` holds only a
+README. **The work is on the branch `claude/eu-ets-carbon-leakage-8etb0s`**, in
+`paper/` as a LaTeX project with sections and a bib file, plus a `proposal/`.
+
+The question: **did increases in the effective EU ETS carbon cost, net of free
+allocation, raise EU imports of emission-intensive goods from Morocco, Algeria,
+Egypt and Tunisia between 2005 and 2021**, relative to less emission-intensive goods
+and to comparison partners? It is a research design paper arguing against the
+aggregate null in Naegele and Zaklan (2019), on the ground that an aggregate null
+can hide leakage concentrated in corridors with large regulatory asymmetry, low
+transport costs and existing emission-intensive capacity.
+
+**Triple difference.** Exposure varies across products through sectoral CO$_2$
+intensity, over time through the effective carbon cost, across partners through
+corridor membership. Product-by-year fixed effects absorb global product shocks,
+partner-by-year absorb macro and exchange-rate movements, product-by-partner absorb
+bilateral relationships. Comparison groups considered: Turkey, the Western Balkans,
+an intra-EU benchmark, with the limitation of each stated.
+
+**The idea worth reusing in any energy application.** The treatment is
+$C_{st} = P_t \times (1 - a_{st})$, the allowance price attenuated by the sector-year
+free-allocation share, so a fully allocated sector faces an effective cost of zero
+whatever the headline price does. He anticipates the lump-sum objection and answers
+it: EU allocation is tied to continued production through activity thresholds,
+closure provisions and partial-cessation rules. **The headline price of an
+instrument and the incentive it creates are different objects, and the gap is a
+property of the rules.** That is the sentence the UCLouvain statement now turns on,
+because an auction award price is not the effective support either once
+pre-qualification, penalties, bonds and local content are priced into a bid.
+
+Endogeneity of the allocation share is handled by fixing it to 2005 to 2007 verified
+emissions. The window stops in 2021 to give a pre-CBAM baseline.
+
+Note without putting it in an application: **Tunisia is in his own treatment
+corridor.**
 
 **One thing to tell him.** An unsent draft opening *"Dear Ms Fadl"* is addressed to
 `ilias@uni-koeln.de`. ILIAS is the Cologne learning platform, so that is a system
