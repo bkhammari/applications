@@ -158,6 +158,19 @@ in Cologne and Simon-Kucher in Bonn belong near the top of any list. Strategy
 consulting and banking pay far more than anything on this page but are career
 tracks rather than bridges, which is worth naming rather than glossing over.
 
+## Impact evaluation, and whether to chase RCT experience
+
+Covered separately in [`rct-and-ra-routes.md`](rct-and-ra-routes.md), written after
+a Tilburg position was rejected for wanting hands-on RCT experience in a
+low- or middle-income country. Short version: the route that supplies that sentence
+is a J-PAL or IPA Research Associate post, it is field-based in Kenya or Uganda or
+the DRC for one to two years, and it is a change of direction rather than a bridge.
+The version that keeps the geography is DEval in Bonn, C4ED in Mannheim, or the
+evaluation units at KfW and GIZ, and it buys evaluation credibility rather than that
+exact sentence. The gap actually worth closing is the absence of any
+research-assistant experience, which an ordinary economics pre-doc fixes without a
+detour.
+
 ## Qualification filter
 
 This is the research-track filter. The private-sector one is different and lives

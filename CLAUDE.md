@@ -124,6 +124,17 @@ Prüfungsdokumentation bei mehreren kleineren Mandaten.*
 how many reports he worked on, whether anything he built saved measurable time.
 Numbers must not be invented.
 
+**He asked on 18 September about RA posts that would give RCT experience.** The
+answer is in [`bridge/rct-and-ra-routes.md`](bridge/rct-and-ra-routes.md) and it
+needs a decision from him rather than more research. The route that supplies
+"hands-on RCT experience in a low- or middle-income country" is a J-PAL or IPA
+Research Associate post, which is one to two years in the field and therefore a
+change of direction, not a bridge. **Do not treat this as settled either way.** If he
+says development economics is the direction, the whole plan rebuilds around it and
+the doctorate moves to 2028. If not, the gap worth closing is the absence of any
+research-assistant experience, which an ordinary economics pre-doc fixes inside the
+existing geography. DEval in Bonn is the best single test of the middle option.
+
 **Destructive actions in Gmail need his say-so first.** Three drafts were deleted on
 10 September without asking. They were verified duplicates and recoverable from
 Trash, but the point stands: show the list, then wait.
