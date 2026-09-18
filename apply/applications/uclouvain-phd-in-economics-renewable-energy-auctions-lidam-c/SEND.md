@@ -75,16 +75,54 @@ python3 apply/track.py sent uclouvain
 
 ## 4. What the statement says
 
-Rewritten on 18 September after three corrections. **596 words, one page, filling
-the page.** The word count is above the 400 to 500 that general guides quote,
-because the constraint the posting actually states is one page and this uses it.
+Rebuilt against the MIT EECS Communication Lab guide you sent, plus your three
+answers. **613 words, one page, filling it.** Above the 400 to 500 general guides
+quote, kept because the constraint the posting states is one page.
 
 | Paragraph | Job |
 |---|---|
 | 1 | Why this doctorate and why you. Field and direction first |
-| 2 | Track record. Cologne energy modules, quantitative preparation, the thesis |
+| 2 | Track record. Cologne energy modules, quantitative preparation, tutoring, the thesis |
 | 3 | The two directions you would take up, and the evidence behind each |
 | 4 | Three colleagues at CORE, then the ten-year trajectory |
+
+### What the MIT guide changed
+
+**Meaning is now wrapped around every experience.** That is the guide's central
+teaching and every earlier draft missed it. An experience on its own is a CV in
+prose. Its line is worth keeping: *"A statement of purpose is a way to make a
+narrative out of your CV. It is not a diary entry."* Three meaning sentences now
+carry the reader through paragraph two.
+
+| After | The sentence that says what it proves |
+|---|---|
+| The two energy modules | Why you read an auction rule as a physical and regulatory constraint and not only an economic one |
+| Maths, econometrics, tutoring | Tutoring is the test of whether you know a method or only recognise it |
+| The thesis | You can take a staggered policy rollout from raw records to a defensible causal estimate on your own |
+
+**Your tutoring is in, quantified.** Two school students, Abitur-level mathematics.
+The guide asks for exactly that kind of number and it sits next to the mathematics
+marks it supports.
+
+**The European institution route is out of the close**, on your answer. The
+ten-year sentence is now research only. You were shown the trade-off and chose it,
+so a future session should not put it back.
+
+**No section headings**, on your answer. The guide recommends them and assumes two
+pages. You have one.
+
+### Two numbers the guide asks for and I do not have
+
+The guide is explicit that collaboration should be quantified, not just data. Team
+size, report counts, how selective an award was. **Only you can supply these.**
+
+1. **PwC.** How large was the engagement team, how many reports did you work on,
+   and did anything you built save measurable time?
+2. **The Dean's List.** What does the letter actually say the criterion is? The
+   Zeugnis Einstufungstabelle reports 5.5 per cent for a 1,6 across a pooled
+   comparison group, and fourteen files in this repo say top 5 per cent.
+
+Neither blocks this application. Both would strengthen every future one.
 
 ### The correction that mattered most
 

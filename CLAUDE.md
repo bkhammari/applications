@@ -127,6 +127,57 @@ interest. That is the worst class of error available here, because it is invisib
 to him unless he reads every line. Where a document has to state a preference he
 has not expressed, ask him or leave the choice out.
 
+### The statement of purpose, consolidated from three guides
+
+He supplied the MIT EECS Communication Lab's *Graduate School Statement of Purpose*
+on 18 September and asked that the lessons be kept. Read with his own
+four-paragraph brief and the Blattman advice above, the three agree more than they
+disagree, and where they conflict his brief wins. What follows is the working rule
+set, ordered by how much it changed the drafts.
+
+**Wrap meaning around every experience, and use it as the transition.** This is the
+MIT guide's central structural teaching and the one the drafts kept missing. An
+experience is the *what*, and on its own it is a CV in prose. Meaning is the *why*
+and the *so what*: why the experience mattered to his growth as a researcher, what
+it says about his ability. The guide's line is worth keeping verbatim: *"A statement
+of purpose is a way to make a narrative out of your CV. It is not a diary entry."*
+Meaning is also what carries the reader from one paragraph to the next, so a
+document with no meaning statements has no joins, which is exactly the incoherence
+he objected to.
+
+**Quantify the collaboration, not only the data.** Drafts here have been good at
+quantifying datasets, five million observations, 558 microregions, 2005 to 2019, and
+blind to everything the guide actually asks for. How many people were on the team.
+How many reports. How many competitors for an award. Those numbers are the ones
+missing from the PwC block and from the Dean's List claim, and **only he can supply
+them**, which is a reason to ask rather than a reason to omit.
+
+**Describe actions, not internal states.** The guide's own table is the test. *"My
+mind was opened to the possibility of..."* against *"I collaborated with other group
+members to develop a user-friendly Python wrapper for a 10,000-line Fortran
+library."* Anything in the register of realising, becoming interested, growing
+curious or being inspired is a diary entry and comes out.
+
+**Open with a portrait of what drives him as a researcher, and name the research
+direction.** Both guides agree and both forbid the childhood opening. The MIT
+version adds a useful prompt: what would he work on if he had to start tomorrow,
+and what does he picture himself doing in ten years.
+
+**Close with two or three sentences on career interests, and say what the programme
+supplies.** The current close names the ten-year goal and asserts the position is
+the first step. The guide asks for the mechanism, so state what this group gives
+him that he cannot get elsewhere.
+
+**Demonstrate the match in the programme's own words.** Echo the call's vocabulary,
+name the professors he would work with, and say which research directions or
+projects he would pursue with each. Naming other groups at the university worth
+collaborating with also counts, which is why Enerpol is in the UCLouvain statement.
+
+**Section headings are recommended but not free.** The MIT guide suggests explicit
+titles such as Research Interests and Prior Experience, and assumes two pages.
+UCLouvain caps the statement at one. On one page headings cost four lines, so this
+is a per-application judgement and **his call, not an automatic yes**.
+
 Spelling: **British** in general documents, **American** in the Bonn-specific
 documents (labor, subsidizing). This was a deliberate instruction, not drift.
 
