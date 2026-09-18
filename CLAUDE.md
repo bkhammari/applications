@@ -621,6 +621,54 @@ bottleneck has never been tooling.
 the EU ETS. It has nothing to do with the job search and it is not in this repo, so
 give it its own chat. In applications it is a subject he can cite, never a gap.
 
+### What the EU ETS seminar actually is, recovered 18 September
+
+He asked for it from "other chats and memory". **Neither is reachable from Claude
+Code**: chat history on claude.ai cannot be read from here and no memory store is
+mounted. What worked was Gmail and **Google Drive**, and that is the route to use
+next time.
+
+**The seminar is Panel Data Methods, Summer 2026, Cologne.** Instructor **Nada Fadl
+Mohamed**. His paper there is the final requirement of the degree. The group
+presentation was with Márton and Yin, twenty minutes, three papers with one each:
+Colmer et al. (2025), Dechezleprêtre et al. (2023) and D'Arcangelo et al. (2022).
+Working document in Drive, *EU ETS \& Firm Production — Group Presentation Working
+Document*, file id `1HiclTmRu9P-mA6NadIDZxbPmT1yD8Q4nR3vtwgbl0aY`.
+
+**The subject is identification, not energy policy description.** The seminar
+compared how the firm-level ETS literature identifies effects: coarsened exact
+matching with DiD (Colmer, Martin, Muûls and Wagner, 2025, *ReStud*, emissions down
+about 15 per cent in Phase I and 26 per cent in Phase II, no significant effect on
+value added or employment, capital stock rising); propensity-score matching on
+pre-treatment trends (Dechezleprêtre, Nachtigall and Venmans, 2023, *JEEM*, about
+$-10$ per cent, null effects on revenue, employment and fixed assets); instrumental
+variables on carbon-leakage criteria (Martin, Muûls, de Preux and Wagner, 2014,
+*AER*); Poisson count models for patents (Calel and Dechezleprêtre, 2016, *REStat*,
+roughly 10 per cent more low-carbon patenting); and **heterogeneity-robust staggered
+DiD in Bremer and Sommer (2025, *Energy Economics*), who apply Callaway and
+Sant'Anna to Dutch firms across Phases I to III**.
+
+**That last one is the single most useful fact in this file for energy
+applications.** The estimator he used on Brazilian labour data is the estimator the
+frontier ETS literature uses on European carbon regulation. The bridge between his
+econometrics and energy policy is already built, in his own coursework.
+
+Threats to identification he worked through: anticipation, since the Directive was
+adopted in 2003 and the scheme began in 2005; Great Recession confounding; SUTVA
+violations through product markets; free allocation weakening effective treatment
+intensity; survivorship bias from balanced panels. The gap he identified is that
+credible firm-level evidence concentrates on Phases I and II and is scarce for
+Phases III and IV.
+
+**Still unknown: his individual paper's own question.** Drive holds the group
+document, not his written paper. An unsent draft mentions "the empirical extension
+we are considering for the paper", so there may be one. Ask him.
+
+**One thing to tell him.** An unsent draft opening *"Dear Ms Fadl"* is addressed to
+`ilias@uni-koeln.de`. ILIAS is the Cologne learning platform, so that is a system
+address rather than hers. Her address is `nmohame1@uni-koeln.de`, which the second
+draft uses correctly.
+
 ## Where things are
 
 - `apply/` the workflow and per-application folders
