@@ -33,6 +33,29 @@ difference-in-differences on five million linked employment records is not what 
 project needs, and a four-year doctorate in entrepreneurship research is a change of
 field rather than a job.
 
+## Corrected on 18 September, after he said he would sit the GMAT
+
+Two things changed the picture, and the verdict on **this specific project** stands
+while the verdict on **RSM as a destination** does not.
+
+**He probably does not need the GMAT.** ERIM states that applicants may apply
+without a test score if there is other evidence of excellence, and names **top 15
+percent grades**, prior research experience and degrees from renowned institutions
+as examples. Top 5 percent of cohort, the Dean's List and a 1,0 thesis clear that.
+So the score is worth a booking only if he wants the extra signal, not because the
+door is shut without it.
+
+**There are two RSM routes, the same split as Tilburg and Maastricht.** This
+AcademicTransfer post is a project vacancy tied to the neurodivergence study,
+closing 1 October. The **general full-time ERIM intake for a September 2027 start
+opens in November 2026**, and there he chooses a supervisor and a topic instead of
+inheriting one he has no background in.
+
+**So the recommendation is: skip this posting, put the November ERIM intake in the
+calendar.** He has said a change of field is acceptable, and a management PhD at a
+school where he has already studied is a real option. It just should not be entered
+through the one project on the board that happens to be open this fortnight.
+
 ## The thing that matters more than the verdict
 
 He said he is desperate for a job. **This would not pay him in October.** Nor would

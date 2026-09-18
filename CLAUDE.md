@@ -36,8 +36,17 @@ wrong. He is very good in Excel and did not build VBA tools. Corrected across ev
 file. Claim advanced Excel, nothing more.
 
 Languages: German native, Tunisian Arabic native, English C1 (IELTS 8.0), French
-B1 (DELF), Italian A2. Parents are from Tunisia. He holds EU citizenship, inferred
-reliably from having registered for the EPSO AD5 competition.
+B1 (DELF), Italian A2. Parents are from Tunisia.
+
+**Citizenship, stated by him on 18 September: he holds both EU and Tunisian
+citizenship.** Previously this file only inferred the EU half from the EPSO
+registration. The Tunisian half matters because some programmes restrict
+eligibility by country of origin. **Do not assume it qualifies him for those.**
+Tunisia is a lower-middle income country, but he was schooled at the
+Cecilien-Gymnasium in Düsseldorf and studied in Cologne, so a programme aimed at
+applicants *from* such countries may read him as a German-educated EU citizen.
+Zurich's Global Talent pre-doc is the live case. **Ask `predoc@econ.uzh.ch` rather
+than assuming either way.**
 
 **No reference letters confirmed. No research-assistant experience.** Both are real
 gaps and shape everything below.
@@ -162,8 +171,14 @@ in both cases checking was the right move and he accepted the correction.
   tiebreaker.
 - **Priority order:** salaried E13 research posts and graduate schemes first,
   internships only as a fallback.
-- **No GRE.** Decided 10 September 2026. This closes the Bonn BGSE programme, UPF
-  and the Barcelona School of Economics. Do not propose the GRE again.
+- **No GRE, but the GMAT is now open.** The GRE decision of 10 September stands for
+  economics programmes and still closes the Bonn BGSE, UPF and the Barcelona School
+  of Economics, so do not propose the GRE again for those. **On 18 September he said
+  he would sit the GMAT for Erasmus Rotterdam and that a change of field is fine,
+  because he is flexible about the doctorate.** Treat field as open from now on.
+  **He probably does not need the GMAT anyway:** ERIM accepts applications without a
+  test score given other evidence of excellence, and names **top 15 percent grades**
+  as an example. He is top 5 percent with a Dean's List and a 1,0 thesis.
 - **Bonn is out**, decided 10 September 2026, and now confirmed from the inside.
   Schiprowski replied to the direct chair enquiry on 10 September: *"In Bonn, all
   PhD admissions have to go through our graduate school, the BGSE... The next

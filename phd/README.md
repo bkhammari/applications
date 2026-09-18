@@ -96,6 +96,36 @@ decision already committed to. The four months before December are for building 
 pipeline, and the cold-email countries, Switzerland, Denmark, Belgium and
 Luxembourg, have no deadline at all and can start on any day.
 
+## The E13 batch, drafted 18 September 2026
+
+Five drafts are in Gmail, labelled **PhD**, all asking the one question a professor
+can answer in a line. **None has the CV attached**, because the file is too large to
+attach through the tooling. Attach `cv/academic/cv_academic_khammari.pdf` to each
+one before sending, since every draft says the CV is attached.
+
+| To | Address | Why this person |
+|---|---|---|
+| **Prof. Christopher Roth** | `roth@wiso.uni-koeln.de` | Taught him, M.Sc. Methods 1,7. Holds an **ERC Starting Grant on Viral Narratives**, five years, so there is new money on that chair. English |
+| **Prof. Roman Liesenfeld** | `liesenfeld@wiso.uni-koeln.de` | Taught him econometrics, 1,3. German |
+| **Prof. Andreas Schabert** | `schabert@wiso.uni-koeln.de` | Supervised the bachelor's thesis. German |
+| **Prof. Matthias Westphal** | `Matthias.Westphal@rwi-essen.de` | TU Dortmund and RWI. Monetary returns to education, applied microeconometrics. Closest field fit outside Cologne. German |
+| **Dr Marcus Tamm** | `Marcus.Tamm@rwi-essen.de` | RWI, Arbeitsmärkte Bildung Bevölkerung. Education economics and evaluation of labour market reforms. German |
+
+**Address confidence.** Tamm and Westphal came from RWI's own staff pages. Roth was
+confirmed in search. **Liesenfeld and Schabert follow the Cologne `lastname@wiso`
+pattern but were not confirmed on a primary page**, and Cologne is not fully
+consistent, since Pinger is `pia.pinger@uni-koeln.de`. If either bounces, check the
+faculty page and resend.
+
+Both RWI emails say openly that Bachmann already answered that his chair has
+nothing. That is deliberate. It shows the homework and stops the message reading as
+a scattergun.
+
+**Not in this batch: CRC TR 224 EPoS.** It is Bonn and Mannheim, and the Bonn side
+routes everything through the BGSE. Writing to the Mannheim side needs a named
+principal investigator, and guessing one is worse than waiting. Pick a PI from the
+CRC site first.
+
 ## Gmail, as of 9 September 2026
 
 Nine emails went out on the evening of 8 September. **Six replies came back within
