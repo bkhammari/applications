@@ -56,6 +56,13 @@ M.Sc. at 120 ECTS should satisfy that, but *research master* is a specific categ
 in the Dutch system. It is worth one line to the department before building a plan
 on it, and it is a reasonable reason to write to them now.
 
+**Tilburg answers the same question favourably**, which is a reason to expect
+Maastricht will too rather than to assume it. CentER asks for *"an academic
+Master's or Research Master's degree"* and treats Research Master holders as
+preferred rather than required, and it waives the GRE for an EU MSc carrying 24
+ECTS of quantitative and research methods. Written up in
+[`../../apply/applications/tilburg-university-phd-candidate-in-economics-center-digital/posting.md`](../../apply/applications/tilburg-university-phd-candidate-in-economics-center-digital/posting.md).
+
 ## Nothing is open today
 
 Checked 17 September 2026. The only Maastricht economics vacancy live is an

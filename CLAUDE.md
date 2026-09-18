@@ -334,6 +334,28 @@ applying.** So the portal is paperwork that follows the approach. Rolling review
 through May 2027, Studielink opens 1 October 2026. Central address
 `gsbe-phd-application@maastrichtuniversity.nl`.
 
+**The Dutch job board carries two different things, and the filter matters.**
+Learned 18 September from a Tilburg posting he sent. **Project positions** are
+attached to a specific grant, so their requirements come from the grant rather than
+the graduate school and are not negotiable. The Tilburg one required *"demonstrated
+hands-on experience implementing randomized controlled trials in low- or
+middle-income countries"* and substantial periods in Kenya, which is a reject on the
+first screen however well the subject fits. **General graduate-school intakes** run
+to the school's own admission rules. Read the requirement list before the salary.
+Rejected and written up in
+`apply/applications/tilburg-university-phd-candidate-in-economics-center-digital/posting.md`.
+
+**Tilburg CentER takes an academic Master's and does not need the GRE.** Verified on
+their admission pages, 18 September. They ask for *"an academic Master's or Research
+Master's degree"*, with Research Master holders *"preferred"* rather than required,
+and the GRE is only the fallback for applicants who cannot show **24 ECTS of
+quantitative and research methods** across the BSc and MSc. His econometrics
+coursework clears that alone. So the no-GRE decision does not close the
+Netherlands. **Check which Tilburg route a posting is**: the direct PhD is salaried
+from day one at about €2,750 gross rising to €3,500 by year 4, while the Research
+Master plus PhD route is five years and starts with two years of coursework, which
+is a second master's after this one.
+
 **A Dutch PhD is an advertised job, not a programme intake.** Verified 17
 September. Every funded Maastricht PhD is published on **AcademicTransfer** and the
 UM job site and filled by applying to it, with no committee cycle. Same shape as
