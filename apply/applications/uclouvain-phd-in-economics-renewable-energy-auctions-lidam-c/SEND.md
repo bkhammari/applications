@@ -73,33 +73,55 @@ Contact if anything about the form fails: **bert.willems@uclouvain.be**
 python3 apply/track.py sent uclouvain
 ```
 
-## 4. What the one-page cut kept, and what it dropped
+## 4. How the statement is built
 
-The statement was two pages and is now one, which the posting requires as well as
-you. Four things survived, in this order of priority.
+Rebuilt on the four-paragraph persuasive layout rather than a compressed
+biography. **461 words of argument, 503 on the page including the closing line, one
+page with room at the bottom.**
 
-**The free-allocation argument from your own seminar paper.** The effective carbon
-cost is the allowance price attenuated by the sector-year free-allocation share, a
-fully allocated sector faces zero effective cost whatever the headline price does,
-and EU allocation is not lump-sum because activity thresholds and closure provisions
-tie it to production. Then the parallel: an auction award price is not the effective
-support either, once pre-qualification, penalties, bonds and local content are priced
-into the bid. That paragraph is the application. Everything else is support.
+| Paragraph | Job | Words |
+|---|---|---|
+| 1 | The hook, the idea, the gap | 100 |
+| 2 | Proven research: context, action, result, and a setback you fixed | 110 |
+| 3 | What you would do, and why here | 142 |
+| 4 | Where this goes in five to ten years | 109 |
 
-**Ruhnau's 1.3 in energy market design**, which also tells the reader who your second
-referee is before they reach the reference list.
+**It opens on a concrete moment rather than a credential.** A week spent building the
+EU ETS allowance price series before realising it was the wrong variable, because a
+plant holding free allocation faces almost none of the headline price. Then the
+objection, that allowances are tradable so a lump-sum grant should not move output,
+and the answer, that activity thresholds and closure provisions tie EU allocation to
+production. The previous draft opened with Ruhnau's 1.3, which is on the CV. This
+one does not repeat the CV anywhere.
 
-**The staggered-adoption problem and the sign reversal**, compressed to two sentences
-because the CV carries the detail.
+**Paragraph two now tells the sign reversal as something that went wrong and you
+fixed.** First specification two-way fixed effects, minus 0.65 per cent, Goodman-Bacon
+decomposition, already-treated regions serving as controls, re-estimate at plus 3.04
+per cent. It closes on what you took from it rather than on the grade. That is the
+paragraph the layout asks for and the earlier drafts did not have.
 
-**The theory position, stated before the transcript states it.** Master's
-microeconomics 3.0, bachelor microeconomics 1.0, advanced microeconomics with
-Ockenfels 1.3 on strategic thinking and competition. The admitted gap is graduate
-industrial organization and nothing wider.
+**Paragraph three names two people and says what you add to each.** Both were
+verified rather than assumed.
 
-**Dropped:** the specification detail of the triple difference, the identification
-threats catalogue, the full thesis description, and the section headings. All of it
-is either on the CV or in the paper itself, which you offer to send.
+- **Willems and Yu** compare discriminatory and uniform-price auctions on short-run
+  bidding and long-run investment. Your point is that a penalty regime changing the
+  map from bid to delivered capacity changes that comparison.
+- **Lété, Smeers and Papavasiliou (2026)** on what zonal pricing with market-based
+  re-dispatch costs in efficiency. Quentin Lété is an assistant professor at CORE
+  and teaches Quantitative Energy Economics. Your point is that Europe has been
+  generating the empirical counterpart for a decade through staggered national
+  adoption, which is the setting your thesis was built for.
+
+**Hindriks and Maniquet were considered and left out.** They appear on a Horizon
+Europe project about energy inequality, which would connect to the distributional
+side of your thesis, but that page would not load and a name in a statement of
+intent has to be verified. Two named beats three with one guessed.
+
+**One deliberate deviation from the layout.** It has no slot for logistics, so
+availability from October, French, citizenship and the two referees sit in a single
+small-type line under paragraph four. On an advertised post with an autumn 2026
+start and a two-referee requirement, availability is load-bearing rather than
+padding.
 
 ## 5. French is on the front page now
 
