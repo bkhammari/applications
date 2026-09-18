@@ -232,6 +232,28 @@ audit mandate in two consecutive years**, and supported several smaller
 engagements for documentation. The repeat is the point, because the team put him
 back on that mandate the following year.
 
+**The engagement team, given 18 September.** Two working students including him, one
+manager, one director and one partner. Five people. **That is the number worth
+using**, because a five-person team with a partner and a director on it means a
+working student sat close to the senior review rather than being one of thirty
+juniors. It describes his exposure, not the client, so it carries no confidentiality
+problem.
+
+**Do not put the client's financials on any document.** He said on 18 September that
+the client is public and the numbers can be researched. They were, and the result is
+a reason not to use them. Northdata paywalls the filed Bilanzsumme, and the free
+data brokers disagree by a factor of three to seven on revenue and undercount
+headcount badly. So there is no verifiable figure to quote, a precise one would
+point at the client he has twice said never to name, and a client's size is evidence
+about the client rather than about him. **The existing CV line "balance sheets above
+EUR 500 million" could not be verified from a primary source. Ask him to confirm it
+or soften it**, because his own rule is that claims stay checkable.
+
+**Only absolutely relevant things go on the CV.** Restated 18 September. The team
+composition belongs on the German professional CV and in an interview answer. It
+does not belong on the academic CV, where PwC is two lines and the reader is buying
+econometrics.
+
 **Audit clients are never named.** Not on a CV, not in a letter, not in an email.
 He said so, and it is a confidentiality question rather than a style one. **He told
 me which client it was and that name is deliberately not written down here, because
@@ -240,9 +262,26 @@ that carries the fact without it is *zwei aufeinanderfolgende
 Jahresabschlussprüfungen desselben Mandanten, dazu Zuarbeit und
 Prüfungsdokumentation bei mehreren kleineren Mandaten.*
 
-**Still missing, and only he can supply it:** how large the engagement team was,
-how many reports he worked on, whether anything he built saved measurable time.
-Numbers must not be invented.
+**Still missing, and only he can supply it:** how many reports he worked on, and
+whether anything he built saved measurable time. The engagement team size is now
+answered, see above. Numbers must not be invented.
+
+**Teaching experience, given 18 September:** private tutoring of **two school
+students in Abitur-level mathematics**. That is the whole of it, and it is worth
+having, because it is quantified and it sits next to the strongest part of his
+record. Mathematics for Economists 1,0, bachelor mathematics 1,0, bachelor
+statistics 1,0.
+
+**His career goal, in his own words, 18 September.** In five to ten years he wants
+to **contribute to the European Union as a researcher in energy economics**, and he
+can also imagine becoming an **EU administrator** in that field. The `eu/` folder,
+the EPSO AD5 registration and the Blue Book track are that ambition in motion rather
+than a fallback.
+
+**He decided on 18 September to keep the institution route out of the UCLouvain
+statement.** Shown the trade-off, that naming an administrator path can read to a
+supervisor as low commitment to research, he chose research only. **Do not put it
+back into a PhD statement.** It stays true of him and it stays off that document.
 
 **He asked on 18 September about RA posts that would give RCT experience.** The
 answer is in [`bridge/rct-and-ra-routes.md`](bridge/rct-and-ra-routes.md) and it
@@ -357,7 +396,6 @@ All labelled **PhD** except Frontier, labelled **Applications**.
 ### Mailbox checked 18 September 2026
 
 Three changes since the 10 September snapshot above, all verified in Gmail.
-
 **GIZ was submitted on 16 September.** Portal confirmation at 14:37, RE-ID
 `oeiqlwzjwwfzjjdmemfusupfotdgyhen`. Selection starts after the 21 September
 deadline and GIZ say they will come back proactively. Tracker marked sent, nudge
@@ -377,6 +415,73 @@ seminar paper grading timeline, which belongs to the EU ETS work and not here.
 
 He opened an **AcademicTransfer account** on the morning of 18 September, which is
 the Maastricht vacancy channel.
+
+### The afternoon of 18 September: three outbound, two answered in hours
+
+The E13 batch started going out. What actually happened, verified in Gmail.
+
+| To | Sent | Outcome |
+|---|---|---|
+| **Jun.-Prof. Ruhnau** | 09:58 | **Yes at 11:34.** Referee agreed. No EWI post advertised *aktuell* |
+| **Prof. Roth** | 09:59 | **Declined at 12:54.** *"I am moving to LMU this fall and have no positions at this point."* |
+| **Prof. Westphal, RWI** | 09:58 | **Bounced at 09:59.** Never reached him |
+
+**Two answers inside three hours on two delivered emails.** The direct question keeps
+working. The E13 template is doing its job and should not be rewritten.
+
+**Roth is a future contact, not a closed door.** He is **moving to LMU Munich this
+autumn** and carries an ERC Starting Grant on Viral Narratives. A chair that has just
+moved is a chair that will staff up. He also opened with *"Great to hear from you and
+congratulations to your accomplishments"*, which is warm rather than formulaic.
+**Re-approach him at LMU in early 2027**, and update his address then, because
+`roth@wiso.uni-koeln.de` will die.
+
+**The Westphal bounce is a delivery problem, not a rejection.** RWI's postmaster
+returned *"Security or policy settings at rwi-essen.de have rejected your message."*
+The same thing happened to the Bachmann email in July. Both carried PDF attachments,
+and RWI is the one domain in this repo that has now rejected mail twice. **Resend to
+RWI with no attachment and offer the CV on request.** A replacement draft was
+prepared and needs his approval to create. Tamm at RWI is still unsent and should get
+the same treatment.
+
+**Six drafts are still unsent**, all labelled PhD: Liesenfeld, Schabert, Tamm, the
+thank-you to Ruhnau, the covering note to Willems, and the older Settele, Wohlfart,
+van Maarseveen and Anna Person messages.
+
+**Two stale duplicate drafts exist** for Ruhnau and Roth, left over from messages that
+were actually sent. They are harmless and they clutter the list. **Deleting them needs
+his say-so first**, per the rule above. Show the list, then wait.
+
+### Operational lessons from the 18 September session
+
+**The container was rebuilt twice mid-session and came back at stale history both
+times.** The local clone showed an unrelated old tree, `CLAUDE.md` was missing, and
+the branch name pointed at a commit from a different lineage. Nothing was lost,
+because everything had been pushed. Recovery is one command:
+
+```bash
+git fetch origin claude/sleepy-keller-gissaq
+git reset --hard origin/claude/sleepy-keller-gissaq
+```
+
+**This is the argument for committing after every change rather than batching.** Do
+not hold work in the working tree while a long task runs.
+
+**A rebuild also wipes the toolchain.** LaTeX, poppler and any pip packages go. The
+line that restores it, and `apt-get update` is required first because the package
+index is stale and fetches 404 without it:
+
+```bash
+apt-get update -qq && apt-get install -y -qq texlive-latex-base texlive-latex-extra \
+  texlive-fonts-recommended texlive-fonts-extra lmodern tex-gyre poppler-utils
+```
+
+**pypdf may be present but broken**, because the `cryptography` rust binding fails to
+import. Blocking `cryptography` on `sys.meta_path` makes pypdf fall back to its
+no-encryption provider and read PDFs fine.
+
+**Working directory resets between Bash calls.** A `cd` in one call does not
+survive. Use absolute paths in every command that touches a file.
 
 ### Open questions he has not answered
 
@@ -591,7 +696,36 @@ through May 2027, Studielink opens 1 October 2026. Central address
 Submission is a **Microsoft Forms page**, `https://forms.cloud.microsoft/e/Nbx4HmviLp`,
 and the contact is `bert.willems@uclouvain.be`. One PDF, **named
 `Lastname_Firstname.pdf`**, so `Khammari_Baha.pdf` and not the house
-`cv_<firm>_khammari.pdf`. The **statement of intent is capped at one page by the
+`cv_<firm>_khammari.pdf`.
+
+**He wants research directions 1 and 2**, stated 18 September. Verbatim from the
+call:
+
+1. **De-risking green investment.** *"How should governments de-risk investment in
+   green energy? Does public intervention crowd out private insurance or weaken cost
+   incentives?"*
+2. **Multi-technology auction design.** *"How should auctions be designed when
+   different energy technologies compete in the same auction?"* Aimed at optimal
+   technology portfolios and reduced firm rents.
+
+Directions 3 and 4, local content and pre-qualification with completion bonds, are
+**not his choice**, and an earlier draft assumed they were. Both of his fit his own
+work better. Direction 1 contains the free-allocation argument in the call's own
+words, since free allocation is a public intervention that weakens a cost incentive.
+Direction 2 carries the identification, because member states landed on
+technology-neutral, technology-specific and mixed designs at different dates after
+the 2016 state aid framework. The concrete case in the statement is **Germany's joint
+wind and solar auction of April 2018, which gave the entire 200 MW to solar at bids
+above the technology-specific benchmark**, verified before use.
+
+**Three CORE people are named in the statement**, all verified: **Bert Willems** with
+Yueting Yu on discriminatory against uniform-price auctions, **Quentin Lété**, an
+assistant professor at CORE working on market design, capacity investment and risk
+management, and **Enerpol**, the Horizon Europe MSCA doctoral network at CORE on
+energy inequality with **Jean Hindriks and François Maniquet**. Papavasiliou has
+moved to NTUA and is a citation only, never a colleague.
+
+The **statement of intent is capped at one page by the
 posting**, which happens to match his own instruction. The deadline is softer than
 it reads: *"Applications received by 21 September 2026 will receive full
 consideration. Review continues until the position is filled."* So Monday is the
@@ -601,6 +735,10 @@ may be requested at a later stage"*, which is why the Ruhnau ask is one line and
 a request for a letter. They also want **bachelor's and master's degree
 certificates**, and the master's one does not exist yet, so the transcript at 114 of
 120 ECTS goes in and the statement carries the September completion date.
+
+**Both referees agreed**, Pinger on 9 September and Ruhnau on 18 September, so the
+application is unblocked. What remains is four personal files in `personal/`, then
+`python3 apply/merge.py uclouvain`, then the form.
 
 **The board was empty in his field on 18 September.** Checked AcademicTransfer,
 filtered to scientific vacancies in economics and labour economics. The only
