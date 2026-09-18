@@ -276,9 +276,74 @@ the Maastricht vacancy channel.
 The GRE question is now answered. He does not want to sit it, which is recorded
 above as a decision.
 
+## The transcript, read 18 September 2026
+
+He uploaded `Khammari_ToR_Aug2026.pdf`, dated 13 August 2026. Master only, 114 of
+120 ECTS at that date, preliminary overall **1,6**, thesis **1,0** with **Anna
+Person as Erstgutachterin**. Recorded here because several claims elsewhere in this
+repo were built on memory and two of them were wrong.
+
+**Examiners and grades, master's programme.**
+
+| Module | Topic | Examiner | Grade |
+|---|---|---|---|
+| Core Mathematics | Mathematics for Economists | Dyckerhoff R | **1,0** |
+| Core Econometrics | Econometrics | **Liesenfeld R** | **1,3** |
+| Energy and Climate Change I | **Energy Markets and Regulation** | **Ruhnau O** | **1,3** |
+| Seminar Markets and Economic Policy | Housing and the Macroeconomy | **Kang D** | **1,3** |
+| Core Macroeconomics | Macroeconomics | **Krause M** | 1,7 |
+| Selected Methods in Economics | Experimental Methods | **Roth C** | 1,7 |
+| Markets and Economic Policy IV | Macroeconomics of the Labor Market | **van Maarseveen R** | 2,0 |
+| Energy and Climate Change II | Growth, Energy, Climate Change | Lindenberger D | 2,3 |
+| Markets and Economic Policy V | Determinants of Growth in Economic History | Hornung J | 2,3 |
+| Core Microeconomics | Microeconomics | Schottmüller C | **3,0** |
+| Markets and Economic Policy II | Money and Financial Markets | **Schabert A** | **3,0** |
+| Markets and Economic Policy III | **Development Economics** | Hornung J | **3,3** |
+
+**Two things this corrects.**
+
+**The housing seminar was examined by Kang D, not Krause.** The CV, the research
+statement and the general motivation letter all name *Prof. Dr. Michael Krause* as
+the instructor of the Housing and the Macroeconomy seminar, and the transcript names
+**Kang D** as Prüfer with 1,3. Krause may well have run the seminar with Kang
+examining. **Ask him which it was before that line goes out again**, because it is
+on documents being sent and the transcript is what a programme sees. Krause appears
+once on this transcript, for Core Macroeconomics at 1,7.
+
+**Schabert is not a referee.** He graded *Money and Financial Markets* at **3,0**.
+He supervised the bachelor's thesis and is worth an E13 enquiry, but do not name him
+as a referee anywhere.
+
+**Two grades worth knowing before writing.** **Microeconomics is 3,0**, which is the
+visible weakness on any post asking for microeconomic theory, and UCLouvain asks for
+exactly that. **Development Economics is 3,3**, and the GIZ letter leads with
+Development Economics. The letter claims no grade, so nothing there is false, but if
+GIZ asks for the transcript it is visible.
+
 ## Which referee to name
 
-Asked on 10 September. The answer splits by context and the split matters.
+Asked on 10 September, reopened on 18 September when he said Anna Person is willing
+and asked about Krause, Liesenfeld, or an energy professor. **The transcript answers
+it.**
+
+**For anything energy: Oliver Ruhnau**, `ruhnau@wiso.uni-koeln.de`. Jun.-Prof. for
+**energy market design** at Cologne and senior scientist at EWI. He taught *Energy
+Markets and Regulation* and graded it **1,3**. For the UCLouvain renewable-auctions
+post he is a better name than any general econometrician, because the chair, the
+course and the application subject are the same thing.
+
+**For anything general: Roman Liesenfeld**, 1,3 in Econometrics, and he is already
+getting an E13 enquiry so the ask can ride along.
+
+**Krause is the weaker of the three he proposed.** One course on the transcript,
+Macroeconomics at 1,7, and the seminar that justified him belongs to Kang on paper.
+He is also recorded as unresponsive for five days in September.
+
+**Anna Person is willing**, stated 18 September. That does not change the rule below.
+She is an M.Sc. and a PhD candidate, so she goes where a professorial title is not
+required.
+
+The older answer, which still holds for the professor-versus-Anna split:
 
 **PhD programme applications: name Pinger.** Most programmes require a professor,
 and Anna Person is an M.Sc. and a PhD candidate. The agreed arrangement covers this,

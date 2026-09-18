@@ -58,10 +58,40 @@ academic referees**.
 | Statement of intent | **Has to be written.** Lead with energy, not with Brazil |
 | **Two academic referees** | **Only Pinger is agreed.** This is the blocker |
 
-**The second referee is the thing to solve today.** Schabert supervised the
-bachelor's thesis and has an E13 enquiry drafted to him in the same batch, so
-asking him to be named is one extra sentence. Settele is the other candidate and
-her draft has been sitting unsent since 10 September.
+## The second referee: Ruhnau, and it is not close
 
-Naming a referee does not need their letter, only their permission, so this is a
-short email rather than a week of work.
+The transcript, read on 18 September, settles this.
+
+> **SM Energy and Climate Change I**, topic *Energy Markets and Regulation*.
+> Examiner **Ruhnau O**. Grade **1,3**.
+
+**Jun.-Prof. Dr. Oliver Ruhnau is assistant professor for energy market design at
+Cologne** and senior scientist at EWI, the university's energy economics institute.
+`ruhnau@wiso.uni-koeln.de`, confirmed on the WiSo faculty page.
+
+Auction-based support schemes for renewables *are* energy market design. A referee
+who holds that chair, taught the applicant the subject and graded him 1,3 is the
+strongest possible second name for this application, and better than any general
+econometrics referee.
+
+The other energy examiner is **Lindenberger D**, *Energy and Climate Change II*,
+grade **2,3**. He is a Privatdozent and EWI senior advisor rather than a professor,
+and the grade is weaker, so he is the fallback and not the choice.
+
+**Correction to what this file said earlier.** It suggested Schabert as the second
+referee because he supervised the bachelor's thesis. The transcript shows he
+examined *Money and Financial Markets* at **3,0**. He still gets the E13 enquiry,
+but do not name him as a referee.
+
+So: **Pinger and Ruhnau.** Naming a referee needs their permission, not their
+letter, so it is one short email.
+
+## One thing to be honest about before applying
+
+The post wants *solid graduate-level training in microeconomic theory*. The
+transcript shows **Core Module Microeconomics at 3,0**, and they will see it,
+because transcripts are in the required PDF. Mathematics for Economists at 1,0 and
+Econometrics at 1,3 pull the other way, but the micro grade is the visible weakness
+on exactly the dimension the post names. That is an argument for leading the
+statement of intent with the energy coursework and the EU ETS paper rather than with
+method.

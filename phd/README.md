@@ -268,8 +268,20 @@ The reply carrying those is drafted. First letters are due around 15 January 202
   will send it out on Anna's behalf. That combination satisfies programmes that
   require a professor. Pinger also advised that the second letter should come
   from someone who has interacted with the applicant, such as a seminar
-  instructor, which points to Krause. See
+  instructor. **That pointed to Krause until the transcript was read on 18
+  September. It now points to Ruhnau or Liesenfeld**, see the transcript table in
+  [`../CLAUDE.md`](../CLAUDE.md). Krause examined one module at 1,7, and the housing
+  seminar that justified him is recorded under **Kang D**. See
   `cologne/email-pinger-general-reference.md`.
+- **Jun.-Prof. Dr. Oliver Ruhnau**, `ruhnau@wiso.uni-koeln.de`. Assistant professor
+  for **energy market design** at Cologne, senior scientist at EWI. Taught *Energy
+  Markets and Regulation*, **graded 1,3**. The right second name for anything in
+  energy, starting with the UCLouvain renewable-auctions post.
+- **Prof. Dr. Roman Liesenfeld.** **1,3 in Econometrics.** The right second name for
+  anything general, and he already has an E13 enquiry drafted, so the referee ask
+  can ride along with it.
+- **Not Schabert.** He supervised the bachelor's thesis but graded his own master's
+  module, *Money and Financial Markets*, at **3,0**.
 - **Prof. Dr. Sonja Settele.** The answer to Pinger's question about a second
   letter writer, and it had been overlooked. Associate Professor at Cologne,
   ECONtribute faculty, senior research fellow at the MPI in Bonn, and an external
@@ -281,9 +293,13 @@ The reply carrying those is drafted. First letters are due around 15 January 202
 - **Univ.-Prof. Dr. Andreas Schabert.** Bachelor's thesis supervisor, a professor
   who has seen the applicant's independent research. Straightforward.
 - **Backups who taught the applicant with strong grades.** Prof. Christopher Roth
-  (applied micro, ECONtribute, 1.7), Prof. Roman Liesenfeld (econometrics, 1.3),
-  and Prof. Michael Krause (three courses, unresponsive for five days, field
-  mismatch).
+  (Experimental Methods, ECONtribute, 1,7), Dyckerhoff (Mathematics for Economists,
+  **1,0**), and Prof. Michael Krause (Macroeconomics 1,7, unresponsive for five
+  days, field mismatch, and the housing seminar that used to justify him is recorded
+  under Kang D).
+- **Anna Person is willing**, confirmed 18 September. She is an M.Sc. and a PhD
+  candidate, so she goes wherever a professorial title is not required, which is
+  jobs and internships rather than doctoral programmes.
 - **Anna Person, M.Sc.** The direct thesis supervisor, and the person who actually
   writes the letter, with Pinger sending it out. She needs the applicant section
   of each form completed first. Her university address has expired, so use her
