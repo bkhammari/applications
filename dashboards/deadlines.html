@@ -1,0 +1,650 @@
+<title>PhD Deadline Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #F4F6F9;
+    --surface: #FFFFFF;
+    --surface-2: #FAFBFC;
+    --ink: #191E28;
+    --muted: #59616F;
+    --faint: #8B93A2;
+    --border: #E3E7ED;
+    --border-strong: #D2D8E0;
+    --accent: #343C7A;
+    --accent-soft: rgba(52, 60, 122, 0.08);
+    --crit: #C0392B;   --crit-bg: rgba(192, 57, 43, 0.10);
+    --warn: #A9711A;   --warn-bg: rgba(169, 113, 26, 0.12);
+    --info: #1F6E7A;   --info-bg: rgba(31, 110, 122, 0.10);
+    --mute-pill: #6A7280; --mute-bg: rgba(106, 114, 128, 0.10);
+    --shadow: 0 1px 2px rgba(20, 26, 40, 0.04), 0 6px 20px rgba(20, 26, 40, 0.05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0E1119;
+      --surface: #161A23;
+      --surface-2: #1B212B;
+      --ink: #EAEDF2;
+      --muted: #9AA3B2;
+      --faint: #6B7484;
+      --border: #262C38;
+      --border-strong: #333B49;
+      --accent: #9BA3EE;
+      --accent-soft: rgba(155, 163, 238, 0.14);
+      --crit: #E87566;   --crit-bg: rgba(232, 117, 102, 0.16);
+      --warn: #E1A94F;   --warn-bg: rgba(225, 169, 79, 0.16);
+      --info: #4FB3C0;   --info-bg: rgba(79, 179, 192, 0.16);
+      --mute-pill: #9098A6; --mute-bg: rgba(144, 152, 166, 0.14);
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0E1119;
+    --surface: #161A23;
+    --surface-2: #1B212B;
+    --ink: #EAEDF2;
+    --muted: #9AA3B2;
+    --faint: #6B7484;
+    --border: #262C38;
+    --border-strong: #333B49;
+    --accent: #9BA3EE;
+    --accent-soft: rgba(155, 163, 238, 0.14);
+    --crit: #E87566;   --crit-bg: rgba(232, 117, 102, 0.16);
+    --warn: #E1A94F;   --warn-bg: rgba(225, 169, 79, 0.16);
+    --info: #4FB3C0;   --info-bg: rgba(79, 179, 192, 0.16);
+    --mute-pill: #9098A6; --mute-bg: rgba(144, 152, 166, 0.14);
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: clamp(20px, 4vw, 48px) clamp(16px, 3vw, 32px) 64px;
+  }
+
+  /* ---- Header ---- */
+  header { margin-bottom: 28px; }
+  .eyebrow {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 10px;
+  }
+  h1 {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-weight: 600;
+    font-size: clamp(30px, 5vw, 44px);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    margin: 0 0 12px;
+    text-wrap: balance;
+  }
+  .lede {
+    color: var(--muted);
+    font-size: clamp(15px, 2vw, 17px);
+    max-width: 64ch;
+    margin: 0;
+  }
+  .asof {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    color: var(--faint);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 5px 12px;
+  }
+  .asof b { color: var(--ink); font-weight: 500; }
+
+  /* ---- Section scaffolding ---- */
+  section { margin-top: 40px; }
+  .sec-head {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+  .sec-head h2 {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-weight: 600;
+    font-size: 21px;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+  .sec-head .note { color: var(--faint); font-size: 13px; }
+
+  /* ---- Summary tiles ---- */
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(158px, 1fr));
+    gap: 12px;
+  }
+  .tile {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 16px 14px;
+    box-shadow: var(--shadow);
+    position: relative;
+    overflow: hidden;
+  }
+  .tile::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 3px;
+    background: var(--tile-accent, var(--border-strong));
+  }
+  .tile .num {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+  .tile .cap {
+    display: block;
+    margin-top: 8px;
+    font-size: 12.5px;
+    color: var(--muted);
+  }
+  .tile .sub {
+    display: block;
+    margin-top: 3px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    color: var(--faint);
+    letter-spacing: 0.02em;
+  }
+  .t-crit { --tile-accent: var(--crit); }
+  .t-warn { --tile-accent: var(--warn); }
+  .t-info { --tile-accent: var(--info); }
+  .t-mute { --tile-accent: var(--mute-pill); }
+
+  /* ---- Hero (imminent) ---- */
+  .hero {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--crit);
+    border-radius: 14px;
+    padding: clamp(20px, 3vw, 28px);
+    box-shadow: var(--shadow);
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    gap: clamp(20px, 3vw, 36px);
+  }
+  .hero .flag {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--crit);
+    font-weight: 500;
+    margin: 0 0 10px;
+  }
+  .hero h3 {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 6px;
+    letter-spacing: -0.01em;
+  }
+  .hero .when {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 13px;
+    color: var(--muted);
+    margin: 0 0 14px;
+  }
+  .hero .when b { color: var(--crit); font-weight: 500; }
+  .hero p.body { margin: 0 0 16px; color: var(--muted); font-size: 14.5px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 7px; }
+  .chip {
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    border: 1px solid transparent;
+    white-space: nowrap;
+  }
+  .submit {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 18px;
+  }
+  .submit h4 {
+    margin: 0 0 12px;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--faint);
+    font-weight: 600;
+  }
+  .submit ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
+  .submit li { position: relative; padding-left: 24px; font-size: 13.5px; color: var(--ink); }
+  .submit li::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 4px;
+    width: 13px; height: 13px;
+    border: 1.5px solid var(--border-strong);
+    border-radius: 4px;
+  }
+  .submit li b { font-weight: 600; }
+  .submit .mono { font-family: "IBM Plex Mono", monospace; font-size: 12.5px; color: var(--accent); word-break: break-all; }
+
+  /* ---- Table ---- */
+  .table-scroll {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: var(--surface);
+    box-shadow: var(--shadow);
+  }
+  table { border-collapse: collapse; width: 100%; min-width: 720px; }
+  thead th {
+    text-align: left;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--faint);
+    font-weight: 600;
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface-2);
+    white-space: nowrap;
+  }
+  tbody td {
+    padding: 15px 16px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+    font-size: 14px;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr { position: relative; }
+  td.prog { border-left: 3px solid var(--row, transparent); }
+  .r-crit { --row: var(--crit); }
+  .r-warn { --row: var(--warn); }
+  .r-info { --row: var(--info); }
+  .prog .name { font-weight: 600; display: block; }
+  .prog .school { color: var(--muted); font-size: 12.5px; display: block; margin-top: 2px; }
+  td.date { font-family: "IBM Plex Mono", monospace; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  td.date .early { display: block; font-size: 11px; color: var(--faint); margin-top: 3px; }
+  td.start { font-family: "IBM Plex Mono", monospace; color: var(--muted); white-space: nowrap; }
+  td.fit { color: var(--muted); font-size: 13px; max-width: 260px; }
+  td.gre .g-yes { color: var(--crit); font-weight: 600; }
+  td.gre .g-no { color: var(--muted); }
+  td.gre .g-opt { color: var(--warn); }
+  td.gre small { display: block; color: var(--faint); font-size: 11px; margin-top: 2px; }
+
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 999px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .pill::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+  .pill.crit { color: var(--crit); background: var(--crit-bg); }
+  .pill.warn { color: var(--warn); background: var(--warn-bg); }
+  .pill.info { color: var(--info); background: var(--info-bg); }
+  .pill.mute { color: var(--mute-pill); background: var(--mute-bg); }
+
+  /* ---- Panels (Barcelona / France) ---- */
+  .cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: clamp(18px, 2.4vw, 24px);
+    box-shadow: var(--shadow);
+  }
+  .panel > h3 {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0 0 4px;
+  }
+  .panel > .kicker {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--faint);
+    margin: 0 0 16px;
+  }
+  .opt { padding: 14px 0; border-top: 1px solid var(--border); }
+  .opt:first-of-type { border-top: none; padding-top: 4px; }
+  .opt .top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .opt .o-name { font-weight: 600; font-size: 14.5px; }
+  .opt .o-name span { color: var(--faint); font-weight: 400; font-size: 12.5px; }
+  .opt .o-when { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; color: var(--muted); white-space: nowrap; }
+  .opt p { margin: 6px 0 0; color: var(--muted); font-size: 13px; }
+  .tag {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 999px;
+    margin-top: 8px;
+    font-weight: 500;
+  }
+  .tag.good { color: var(--info); background: var(--info-bg); }
+  .tag.reach { color: var(--warn); background: var(--warn-bg); }
+  .panel .foot { margin: 16px 0 0; padding-top: 14px; border-top: 1px dashed var(--border-strong); font-size: 12.5px; color: var(--faint); }
+
+  /* ---- Legend + checklist ---- */
+  .board {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 16px;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: clamp(18px, 2.4vw, 24px);
+    box-shadow: var(--shadow);
+  }
+  .card h3 {
+    font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--faint); font-weight: 600; margin: 0 0 14px;
+  }
+  .legend-row { display: flex; align-items: center; gap: 10px; padding: 7px 0; font-size: 13px; }
+  .prep { list-style: none; margin: 0; padding: 0; display: grid; gap: 11px; }
+  .prep li { position: relative; padding-left: 26px; font-size: 13.5px; color: var(--ink); }
+  .prep li::before {
+    content: "";
+    position: absolute; left: 0; top: 3px;
+    width: 14px; height: 14px;
+    border: 1.5px solid var(--accent);
+    border-radius: 4px;
+  }
+  .prep li b { font-weight: 600; }
+  .prep .mono { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--accent); }
+
+  /* ---- Footer ---- */
+  footer { margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--border); }
+  footer p { margin: 0 0 12px; color: var(--faint); font-size: 12.5px; max-width: 70ch; }
+  .sources { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+  .sources a {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .sources a:hover { border-bottom-color: var(--accent); }
+  a:focus-visible, .sources a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+  @media (max-width: 760px) {
+    .hero { grid-template-columns: 1fr; }
+    .cols { grid-template-columns: 1fr; }
+    .board { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">PhD Applications · Baha Khammari</p>
+    <h1>PhD Deadline Board</h1>
+    <p class="lede">Every program on the list, sorted by what needs to happen first. Düsseldorf was dropped in September 2026, so the live items are the EPSO AD5 competition and the winter cycle for an October 2027 start.</p>
+    <span class="asof">Dates verified <b>September 2026</b> · reconfirm on each portal</span>
+  </header>
+
+  <section aria-label="Summary">
+    <div class="tiles">
+      <div class="tile t-crit">
+        <span class="num">1</span>
+        <span class="cap">Imminent, act now</span>
+        <span class="sub">EPSO DOCUMENTS · 7 OCT 2026</span>
+      </div>
+      <div class="tile t-warn">
+        <span class="num">3</span>
+        <span class="cap">January cluster</span>
+        <span class="sub">BONN · BERLIN · MUNICH</span>
+      </div>
+      <div class="tile t-info">
+        <span class="num">3</span>
+        <span class="cap">March cluster</span>
+        <span class="sub">COLOGNE · RUHR · MANNHEIM</span>
+      </div>
+      <div class="tile t-mute">
+        <span class="num">6</span>
+        <span class="cap">Barcelona &amp; France</span>
+        <span class="sub">ROLLING · SPRING 2027</span>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="Imminent deadline">
+    <div class="hero">
+      <div>
+        <p class="flag">● Act now, the only hard deadline before winter</p>
+        <h3>EPSO AD5: documents and tests</h3>
+        <p class="when">Documents by <b>7 October 2026</b> · tests late October to early November</p>
+        <p class="body">Düsseldorf was dropped, so nothing else falls due before the winter round. The AD5 competition is the live item, and you are already registered. Verbal reasoning is ranked and decides who advances, while numerical and abstract together are only a pass/fail gate at 10 of 20. Practice material sits in <span style="font-family:'IBM Plex Mono',monospace;font-size:12.5px">eu/ad5-prep/</span>.</p>
+        <div class="chips">
+          <span class="chip">Already registered</span>
+          <span class="chip">Verbal is ranked</span>
+          <span class="chip">Gate at 10 of 20</span>
+          <span class="chip">Abstract is the weak point</span>
+        </div>
+      </div>
+      <div class="submit">
+        <h4>Before 7 October</h4>
+        <ul>
+          <li><b>Scan the supporting documents</b>: degree records plus B.Sc. and M.Sc. transcripts</li>
+          <li><b>Upload and link them</b> in the EPSO profile. Linking is a separate step from uploading</li>
+          <li><b>Drill verbal first</b>, since it is the only ranked block</li>
+          <li><b>Then the abstract trainer</b>: <span class="mono">eu/ad5-prep/abstract-trainer.html</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="German structured programs">
+    <div class="sec-head">
+      <h2>German graduate schools</h2>
+      <span class="note">Structured, funded PhD programs · all require two reference letters · October 2027 start unless noted</span>
+    </div>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>Program</th>
+            <th>Deadline</th>
+            <th>Starts</th>
+            <th>GRE</th>
+            <th>Fit &amp; contacts</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="prog"><span class="name">DGSE</span><span class="school">HHU Düsseldorf · DICE</span></td>
+            <td class="date"><span class="pill mute">Dropped</span></td>
+            <td class="start">Jan 2027</td>
+            <td class="gre"><span class="g-no">Not required</span></td>
+            <td class="fit">Not pursued. Decided Sep 2026 while the deadline was still open</td>
+          </tr>
+          <tr>
+            <td class="prog r-warn"><span class="name">BGSE</span><span class="school">University of Bonn</span></td>
+            <td class="date"><span class="pill warn">15 Jan 2027</span></td>
+            <td class="start">Oct 2027</td>
+            <td class="gre"><span class="g-yes">Required</span><small>quant is what counts (~165)</small></td>
+            <td class="fit">Boneva, Schiprowski · ECONtribute / IZA · tailored proposal ready</td>
+          </tr>
+          <tr>
+            <td class="prog r-warn"><span class="name">DIW Graduate Center</span><span class="school">DIW Berlin</span></td>
+            <td class="date"><span class="pill warn">15 Jan 2027</span></td>
+            <td class="start">Oct 2027</td>
+            <td class="gre"><span class="g-no">Not required</span><small>English proof if non-native</small></td>
+            <td class="fit">Public economics, education · 5-year funded</td>
+          </tr>
+          <tr>
+            <td class="prog r-warn"><span class="name">MGSE</span><span class="school">LMU Munich · ifo</span></td>
+            <td class="date"><span class="pill warn">31 Jan 2027</span></td>
+            <td class="start">Oct 2027</td>
+            <td class="gre"><span class="g-opt">Optional*</span></td>
+            <td class="fit">ifo Center for the Economics of Education (Wößmann), strongest institute fit</td>
+          </tr>
+          <tr>
+            <td class="prog r-info"><span class="name">CGS Economics</span><span class="school">University of Cologne</span></td>
+            <td class="date"><span class="pill info">15 Mar 2027</span><span class="early">opens 15 Dec 2026</span></td>
+            <td class="start">Oct 2027</td>
+            <td class="gre"><span class="g-opt">Optional*</span></td>
+            <td class="fit">Home university · Siegloch, Pinger, van Maarseveen</td>
+          </tr>
+          <tr>
+            <td class="prog r-info"><span class="name">RGS Econ</span><span class="school">Ruhr (Dortmund/Bochum/Essen) · RWI</span></td>
+            <td class="date"><span class="pill info">23 Mar 2027</span></td>
+            <td class="start">Oct 2027</td>
+            <td class="gre"><span class="g-no">Not required</span></td>
+            <td class="fit">Westphal, Tamm · Bachmann's chair full for now · top-20% cohort</td>
+          </tr>
+          <tr>
+            <td class="prog r-info"><span class="name">CDSE</span><span class="school">University of Mannheim · ZEW</span></td>
+            <td class="date"><span class="pill info">31 Mar 2027</span><span class="early">early round 15 Jan</span></td>
+            <td class="start">Oct 2027</td>
+            <td class="gre"><span class="g-opt">Optional*</span></td>
+            <td class="fit">Inequality &amp; Public Policy; Labour Markets · 5-year funded</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section aria-label="Barcelona and France">
+    <div class="sec-head">
+      <h2>Barcelona &amp; France</h2>
+      <span class="note">Less standardized, rolling admission or supervisor-led. Timing approximate for the 2027 cycle.</span>
+    </div>
+    <div class="cols">
+      <div class="panel">
+        <h3>Barcelona</h3>
+        <p class="kicker">BSE ecosystem · suggested by Sonja Settele</p>
+        <div class="opt">
+          <div class="top">
+            <span class="o-name">UB School of Economics <span>· Universitat de Barcelona</span></span>
+            <span class="o-when">Mar to Apr 2027</span>
+          </div>
+          <p>Own PhD, two spring application windows, no GRE. The most accessible of the three, a realistic good-chance entry point.</p>
+          <span class="tag good">Good chance</span>
+        </div>
+        <div class="opt">
+          <div class="top">
+            <span class="o-name">UAB · IDEA <span>· Autònoma de Barcelona</span></span>
+            <span class="o-when">Rolling → spring</span>
+          </div>
+          <p>International Doctorate in Economic Analysis, co-organized with the Barcelona School of Economics.</p>
+        </div>
+        <div class="opt">
+          <div class="top">
+            <span class="o-name">UPF PhD Track <span>· Pompeu Fabra</span></span>
+            <span class="o-when">Opens fall 2026</span>
+          </div>
+          <p>Entered through the BSE Master in Economics &amp; Finance, whose first year is PhD year one. GRE required; the most competitive route.</p>
+          <span class="tag reach">Reach</span>
+        </div>
+        <p class="foot">Common path: BSE Master → PhD at UPF/UAB. Decisions run in rounds from late 2026 into spring 2027, so early rounds help.</p>
+      </div>
+
+      <div class="panel">
+        <h3>France</h3>
+        <p class="kicker">Three good-chance picks · supervisor-led</p>
+        <div class="opt">
+          <div class="top">
+            <span class="o-name">AMSE <span>· Aix-Marseille</span></span>
+            <span class="o-when">Spring to summer 2027</span>
+          </div>
+          <p>Applied micro, labor, and development with funded doctoral contracts. Best fit and more accessible than PSE/TSE, the top pick.</p>
+          <span class="tag good">Good chance · best fit</span>
+        </div>
+        <div class="opt">
+          <div class="top">
+            <span class="o-name">Paris-Dauphine PSL <span>· LEDa</span></span>
+            <span class="o-when">Spring to summer 2027</span>
+          </div>
+          <p>Applied, development, and public economics on a Master→Doctorate track (doctoral school SDOSE).</p>
+          <span class="tag good">Good chance</span>
+        </div>
+        <div class="opt">
+          <div class="top">
+            <span class="o-name">Paris-Saclay <span>· RITM</span></span>
+            <span class="o-when">Spring to summer 2027</span>
+          </div>
+          <p>Large, well-funded, international selection. Broad applied economics, so confirm a supervisor whose work matches before committing.</p>
+        </div>
+        <p class="foot">French PhDs run on 3-year <i>contrats doctoraux</i> tied to a supervisor; secure the advisor first. PSE and TSE are stronger reaches. You have French B1 (DELF); coursework is in English.</p>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="Legend and preparation">
+    <div class="board">
+      <div class="card">
+        <h3>Urgency key</h3>
+        <div class="legend-row"><span class="pill crit">Now</span> EPSO documents by 7 Oct</div>
+        <div class="legend-row"><span class="pill warn">15 to 31 Jan</span> Winter round opens ~mid-Nov</div>
+        <div class="legend-row"><span class="pill info">Mar</span> Late-winter round</div>
+        <div class="legend-row"><span class="pill mute">Rolling</span> Barcelona &amp; France, spring 2027</div>
+        <p style="margin:14px 0 0;color:var(--faint);font-size:12px">*GRE not required but occasionally considered. Verify on the portal.</p>
+      </div>
+      <div class="card">
+        <h3>Prep now</h3>
+        <ul class="prep">
+          <li><b>Upload the EPSO documents before 7 Oct</b>, then keep drilling verbal and abstract</li>
+          <li><b>Settle the reference arrangement</b>: Anna writes and Pinger sends it out, with Krause as the second letter</li>
+          <li><b>Book the GRE only if targeting Bonn or the UPF track</b>: about a 3-week lead, and the quant score is what matters</li>
+          <li><b>Reuse the repo</b>: <span class="mono">cv/academic</span> and <span class="mono">research/proposal</span>. Bonn has its own tailored proposal</li>
+          <li><b>Winter batch (15 Jan to 31 Mar):</b> Bonn, Berlin, Munich, then Cologne, Ruhr, Mannheim</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Deadlines and requirements were read from official program pages in August 2026. Cycles shift year to year, so always reconfirm the exact date, documents, and GRE policy on each program's portal before you rely on it.</p>
+    <div class="sources">
+      <a href="https://www.dice.hhu.de/phd-programme/duesseldorf-graduate-school-of-economics/application/admission">DGSE Düsseldorf</a>
+      <a href="https://www.econ.uni-bonn.de/bgse/en/apply-now">BGSE Bonn</a>
+      <a href="https://cgs.uni-koeln.de/en/economics">CGS Cologne</a>
+      <a href="https://www.diw.de/en/diw_01.c.799242.en/application.html">DIW Berlin</a>
+      <a href="https://www.econ.lmu.de/en/faculty/mgse/program-application/">MGSE Munich</a>
+      <a href="https://www.uni-mannheim.de/gess/programs/cdse/">CDSE Mannheim</a>
+      <a href="https://www.rgs-econ.org/application">RGS Econ</a>
+      <a href="https://www.amse-aixmarseille.fr/en/study/phd/phd-program">AMSE</a>
+      <a href="https://edd.dauphine.fr/en/les-programmes-doctoraux/doctoral-program-in-economics.html">Paris-Dauphine</a>
+      <a href="https://bse.eu/research/phd-programs">Barcelona SE</a>
+    </div>
+  </footer>
+</div>

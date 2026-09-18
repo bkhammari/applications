@@ -1,0 +1,130 @@
+% CV tuned for Frontier Economics, Graduate Economic Analyst, Cologne or Berlin.
+% Base: cv/academic/cv_academic_khammari.tex
+%
+% What changed for this application, and why:
+%   - PROFILE cut to one sentence, and a QUALIFICATIONS block added under it.
+%     The posting states five requirements. The block answers them one by one, in
+%     their order and their words, so a recruiter who is not an economist can tick
+%     all five in a ten-second scan. These two blocks are what gets rewritten per
+%     application. English CVs only, see the note in OpenCV.cls.
+%   - Grades are labelled with the scale, because the posting says "Germany 2.0 or
+%     better" and 1.6 only reads as strong if the reader knows 1.0 is the top.
+%   - Thesis bullets reordered around counterfactual construction and robustness,
+%     which is what competition work actually uses. Two academic bullets cut.
+%   - Excel moved to the front of Technical Skills. The posting asks for
+%     "advanced Excel skills" before it asks for R.
+%   - RSM Rotterdam kept and dated, since Frontier has just opened Amsterdam.
+%   - Languages section and the dataset bullet removed, because the
+%     qualifications block above now states both. The block earns its space by
+%     letting the sections below stop repeating themselves.
+%   - Cut to fit one page, which is what a graduate consulting application wants:
+%     the seminar paper, the bachelor's thesis detail, the RSM course list, and the
+%     Awards section. Dean's List still appears under Education, where it belongs.
+%     The Young Economic Summit prize is from school in 2018 and was the weakest
+%     item on the page once there was a 1.0 thesis and PwC above it.
+%
+% Compile with pdflatex locally or on Overleaf. No photo, the posting says so.
+
+\documentclass[serif,compact,mono]{../../../cv/shared/OpenCV}
+\usepackage[english]{babel}
+
+\cvname{Baha Khammari}
+\cvlocation{D\"usseldorf}
+\cvemail{b.e.khammari@gmail.com}
+\cvphone{+49\,1520\,9016956}
+\cvlinkedin{linkedin.com/in/baha-khammari}
+% GitHub link left off. See the note in cv/academic/cv_academic_khammari.tex. Dropping it
+% also brings the contact block back onto one line.
+% \cvgithub{github.com/bkhammari}
+
+\begin{document}
+
+\cvheader
+
+
+%================ PROFILE, one sentence ================%
+\section*{Profile}
+\small
+Applied microeconomist finishing an M.Sc.\ at Cologne, working on causal inference with large administrative data. Available October 2026.
+
+%================ ROLE-ALIGNED QUALIFICATIONS ================%
+% One line per stated requirement in the posting, in their order, in their words.
+% One line literally: each of these five fits on a single line, which is what
+% makes the block scannable. A two-line entry here is a rewrite, not a formatting
+% problem. Whatever gets cut to make it fit is said again below in full.
+\section*{Qualifications for this role}
+\begin{cvquals}
+\cvqual{Economics degree, Germany 2.0 or better, plus a master's.}{M.Sc.\ 1.6 and B.Sc.\ 1.6, Cologne.}
+\cvqual{Microeconomics knowledge and experience.}{Master's thesis in applied microeconomics, graded 1.0.}
+\cvqual{Advanced Excel, and R or Stata.}{R across five million records. Excel daily for two years at PwC.}
+\cvqual{Strong communicator.}{Wrote audit reports and management letters at PwC for partner readers.}
+\cvqual{Fluent in the language of the office.}{German native, English C1 (IELTS Academic 8.0).}
+\end{cvquals}
+
+%================ EDUCATION ================%
+\section*{Education}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{University of Cologne}{Cologne, Germany}
+{M.Sc.\ Economics, grade 1.6 (German scale, 1.0 highest)}{Oct.\ 2023 -- Sep.\ 2026}
+\resumeItemListStart
+% Microeconomics is already claimed in the qualifications block above, and Energy
+% Economics is not what this reader is buying.
+\resumeItem{Applied Econometrics, Causal Inference, Panel Data Analysis, Time Series Econometrics.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Rotterdam School of Management (RSM), Erasmus University}{Rotterdam, Netherlands}
+{Erasmus+ Exchange Semester. Asset Pricing, Derivatives Valuation}{Sep.\ 2024 -- Dec.\ 2024}
+
+\resumeSubheading
+{University of Cologne}{Cologne, Germany}
+{B.Sc.\ Economics, grade 1.6. Top 5\,\% of cohort, Dean's List}{Oct.\ 2019 -- Feb.\ 2023}
+
+\resumeSubHeadingListEnd
+
+%================ QUANTITATIVE WORK ================%
+\section*{Quantitative Work}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Master's Thesis}{University of Cologne}
+{Grade: 1.0 (highest). Supervisors: Prof.\ Dr.\ Pia Pinger and Anna Person, M.Sc.}{Oct.\ 2025 -- Apr.\ 2026}
+\resumeItemListStart
+\resumeItem{\textbf{Estimated the causal wage effect of Brazil's ProUni scholarship programme} across 558 regions over 2005--2019, using the Callaway and Sant'Anna (2021) heterogeneity-robust staggered difference-in-differences estimator with doubly-robust inference.}
+\resumeItem{\textbf{Showed the naive estimate is wrong in sign.} Two-way fixed effects returned $-0.65\,\%$ against a corrected $+3.04\,\%$, an empirical case of forbidden comparisons (Goodman-Bacon, 2021).}
+\resumeItem{\textbf{Defended the counterfactual:} HonestDiD sensitivity analysis (Rambachan and Roth, 2023), Bacon decomposition, age-cohort placebo, and controls for two concurrent policies.}
+\resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
+%================ PROFESSIONAL EXPERIENCE ================%
+\section*{Professional Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{PwC Germany}{D\"usseldorf, Germany}
+{Intern and Working Student, Assurance Solutions}{Mar.\ 2023 -- Jul.\ 2025}
+\resumeItemListStart
+% The client is not named, which is a confidentiality question. The usable fact
+% is that the same engagement came round twice, so it rides along in the first
+% bullet rather than taking a line of its own on a one-page CV.
+\resumeItem{Ran variance analyses and plausibility checks for annual and group audits (HGB/IFRS) on clients with balance sheets above EUR\,500\,million. \textbf{Staffed on the same engagement across two consecutive audit cycles.}}
+\resumeItem{Built KPI tracking and forecasting in Excel for the engagement team.}
+\resumeItem{Identified business drivers and risks with senior associates and managers, and wrote the results into audit reports and management letters.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%================ TECHNICAL SKILLS ================%
+\section*{Technical Skills}
+\resumeItemListStart
+\resumeItem{\textbf{Excel:} advanced. \textbf{R:} advanced (\texttt{did}, \texttt{fixest}, \texttt{HonestDiD}, \texttt{tidyverse}). SQL and BigQuery, Python (basic), Power\,BI, \LaTeX.}
+% Bacon decomposition and sensitivity analysis are named in the thesis bullets
+% above, so they do not need repeating here.
+\resumeItem{\textbf{Methods:} Difference-in-Differences, event studies, panel data models, instrumental variables.}
+\resumeItemListEnd
+
+\end{document}
