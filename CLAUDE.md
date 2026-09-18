@@ -446,6 +446,42 @@ repo were built on memory and two of them were wrong.
 | Markets and Economic Policy II | Money and Financial Markets | **Schabert A** | **3,0** |
 | Markets and Economic Policy III | **Development Economics** | Hornung J | **3,3** |
 
+### Read again on 18 September, in full, with the seminar paper beside it
+
+The first reading of this transcript took the module table and stopped. The rest of
+the document carries four things that were nowhere in this repository.
+
+**The master's thesis is 30 ECTS**, a quarter of the degree, submitted 17 April 2026
+against a deadline of 17 April 2026. That number is the strongest single piece of
+evidence that this is a research master rather than a taught one, which is exactly
+what UCLouvain asks for ("a two-year research master's degree (120 ECTS)"). It was on
+none of the CVs and is now on all four.
+
+**Section grades, which are not the same as the overall 1,6.**
+
+| Section | ECTS | Grade |
+|---|---|---|
+| Basisbereich / Core | 24 | 1,7 |
+| Schwerpunktbereich / Specialisation, *Markets and Economic Policy* | 30 | 2,0 |
+| Ergänzungsbereich Economics / Supplementary | 18 | **2,3** |
+| Ergänzungsbereich Management and Social Sciences (Rotterdam) | 12 | pass |
+| **Masterarbeit** | **30** | **1,0** |
+
+The Ergänzungsbereich at 2,3 is where Development Economics (3,3) sits, alongside
+both energy modules. Worth knowing before quoting a section grade at anyone.
+
+**The official grading scale, verbatim from page 5, for any document that has to
+gloss a German grade:** 1,0–1,5 *sehr gut* / very good; 1,6–2,5 *gut* / good;
+2,6–3,5 *befriedigend* / satisfactory; 3,6–4,0 *ausreichend* / sufficient;
+4,1–5,0 *mangelhaft* / fail. So **1,6 is the first grade in the "gut" band**, which
+is worth knowing before arguing an "obtained with distinction" clause.
+
+**Administrative facts.** Legal name **Baha Eddine Khammari**, born 12 February 2001
+in Düsseldorf, Matrikelnummer **7364599**, Ein-Fach-Master, Prüfungsordnung 20212,
+six Fachsemester against a Regelstudienzeit of four. The CVs use **Baha Khammari**,
+which is fine, but official forms and the UCLouvain file name should use what the
+transcript says. Status on 13 August was *"im laufenden Prüfungsverfahren"*.
+
 **Two things this corrects.**
 
 **The housing seminar was examined by Kang D, not Krause, and the mailbox settles
@@ -455,11 +491,23 @@ seminar, and the transcript names **Kang D** as Prüfer with 1,3. This no longer
 needs asking. His own email to Krause of 13 August 2026 reads: *"I was a student in
 your macroeconomics and labour courses across Bachelor and Master of Economics as
 well as the housing seminar with Dong-Ho Kang in 2024."* He wrote that before any of
-this analysis existed, to the man himself, so **the seminar is Kang's**. Where a
-document needs a name, use **Dr. Dong-Ho Kang**, or drop the name and keep the
-topic. Krause appears twice across the two transcripts, Core Macroeconomics 1,7 in
-the master and Economic Policy 2,0 in the bachelor, which is what makes him the
-weakest of the three referees proposed on 18 September.
+this analysis existed, to the man himself.
+
+**That paragraph was half right, and the seminar paper itself settles the other
+half.** He uploaded the paper on 18 September and its title page reads:
+*"Supervisor: Univ.-Prof. Dr. Krause. Co-Supervisor: Dong-Ho Kang, PhD."* So Krause
+supervised it, Kang co-supervised it and is the Prüfer of record on the transcript,
+and **naming either one alone is incomplete**. Every CV now reads *"Supervisors:
+Prof. Dr. Michael Krause and Dong-Ho Kang, PhD"*. A correction was made in the other
+direction earlier the same day, on this file's authority, and the primary document
+overruled it. Read the paper before renaming its supervisor again.
+
+**Krause therefore has three teaching relationships, not two**, which is what this
+file originally claimed before the transcript appeared to contradict it: Core
+Macroeconomics 1,7 in the master, Economic Policy 2,0 in the bachelor, and
+supervision of the housing seminar paper graded 1,3. He is still the weakest of the
+three referees proposed on 18 September, on grades and on a five-day silence in
+September, but not for the reason previously given here.
 
 **Schabert is not a referee.** He graded *Money and Financial Markets* at **3,0**.
 He supervised the bachelor's thesis and is worth an E13 enquiry, but do not name him
@@ -470,6 +518,45 @@ visible weakness on any post asking for microeconomic theory, and UCLouvain asks
 exactly that. **Development Economics is 3,3**, and the GIZ letter leads with
 Development Economics. The letter claims no grade, so nothing there is false, but if
 GIZ asks for the transcript it is visible.
+
+### The housing seminar paper, read 18 September
+
+**Title: *From Boom to Bust: The Role of Subprime Mortgage Credit in the 2007 U.S.
+Housing Crisis*.** Nineteen pages, dated 18 June 2024, Faculty of Management,
+Economics and Social Sciences, University of Cologne. Seminar *Markets and Economic
+Policy*, topic *Housing and the Macroeconomy*, **6 ECTS, grade 1,3**, and the
+transcript records it as a **Kombinierte Prüfung**, so a paper plus a presentation.
+
+**He named it as one of his strengths on 18 September** and asked for it on the CVs.
+It had been cut from the UCLouvain CV on 18 September because the repo named Krause
+while the transcript named Kang and that looked like an open question. It is not an
+open question, and the paper is back on all four CVs.
+
+**What it actually does, and the distinction matters as much as it does for the EU
+ETS paper.** It is an appraisal of competing identification strategies, not original
+estimation. **Never describe it as producing estimates.** It weighs the three
+explanations of the 2002 to 2005 subprime mortgage expansion against one another:
+the income-based hypothesis, the credit-supply hypothesis, and the house-price
+expectations hypothesis. The spine is **Mian and Sufi (2009)** and their
+within-county comparisons across ZIP codes, which is what lets income growth and
+credit growth be separated. Around it: **Saiz (2010)** for the housing supply
+elasticity instrument built from GIS data at MSA level, **Keys et al. (2010)** on
+slacker screening under securitisation, **Adelino, Schoar and Severino (2016)** on
+the extensive against the intensive margin and the role of middle-class borrowers,
+and **Demyanyk and Van Hemert (2011)**, **Dell'Ariccia, Igan and Laeven (2012)** and
+**Fuster et al. (2019)**. He handles the reverse-causality problem between house
+prices and credit growth explicitly, which is the part worth citing in an interview.
+
+**Why this is useful beyond the housing topic.** It is a second worked example of him
+appraising identification strategies rather than describing results, on a completely
+different literature from the thesis and the ETS paper. Three pieces of written work,
+three appraisals of how a causal claim is made. That is the thing a doctoral reader
+is looking for, and it is now visible on the CVs rather than buried in a grade line.
+
+**One note for macro-financial applications.** Bundesbank, ECB financial stability,
+BaFin and bank risk functions all care about this subject directly, and the paper is
+the only thing in his file that speaks to it. It leads the research block on the
+institutional CV for that reason.
 
 ## His energy background, in his own words
 

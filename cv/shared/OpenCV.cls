@@ -81,6 +81,8 @@
 \RequirePackage{parskip}
 \RequirePackage{ragged2e}
 \RequirePackage{microtype}         % protrusion and expansion, fewer bad lines
+\RequirePackage{needspace}
+\RequirePackage{etoolbox}
 
 \if@cvicons
   \RequirePackage{fontawesome}
@@ -145,6 +147,20 @@
 % Space above a heading is what separates one section from the next, so it is
 % worth more than the same space spent inside a section.
 \titlespacing*{\section}{0pt}{11pt}{5pt}
+
+% === Orphaned section headings ===
+% A section heading that lands at the foot of a page with its content overleaf is
+% the worst line on a CV: the reader turns the page to find out what the heading
+% was for. LaTeX normally forbids a break straight after a heading, but every
+% section here opens with \resumeSubHeadingListStart, and the list's own penalties
+% and skips defeat \@afterheading. Seen on the UCLouvain CV, where "Research
+% Experience" sat alone at the bottom of page one.
+%
+% \needspace before the heading itself moves the whole block to the next page
+% unless the heading, its rule and the first two lines under it fit together.
+% Prepending it to \section catches \section* too, which is the form every CV in
+% this repository uses.
+\pretocmd{\section}{\needspace{3.5\baselineskip}}{}{\ClassWarning{OpenCV}{could not guard section headings against orphaning}}
 
 % === Header fields ===
 % Set what applies, leave the rest unset. \cvheader skips empty fields, so the
@@ -221,6 +237,11 @@
 % right margin. That is alignment, not a second column, and it reads fine: the
 % eye still runs straight down the left edge through the employers and degrees.
 \newcommand{\resumeSubheading}[4]{
+    % Same orphan guard as \section, one level down. A subheading is two lines,
+    % so without this the employer and the dates can sit at the foot of a page
+    % with every bullet about them overleaf. Seen on the UCLouvain CV, where the
+    % bachelor's thesis entry ended page one and its only bullet started page two.
+    \needspace{4\baselineskip}
     \item
     \vspace{3pt}
     \textbf{#1} \hfill \small{#2} \\[2pt]

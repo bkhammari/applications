@@ -33,6 +33,7 @@ They want **one PDF** and they name it for you: `Lastname_Firstname.pdf`, so
 |---|---|
 | Statement of intent | Ready, `statement.pdf`, **one page**, which is their cap |
 | CV | Ready, `cv_uclouvain_khammari.pdf`, two pages |
+| | Research Experience now leads, on your instruction of 18 September |
 | Master's transcript | Yours. `Khammari_ToR_Aug2026.pdf` |
 | BSc transcript | Yours |
 | Bachelorzeugnis | Yours, the certificate with the Einstufungstabelle |
@@ -217,6 +218,33 @@ signal.**
 
 Papavasiliou has moved to NTUA, so he stays a citation and is not offered as a
 colleague.
+
+### Changed on 18 September, after you sent the transcript and the housing paper
+
+**Research Experience now sits above Energy Economics**, on your call that research
+is the stronger field. Technical Skills moved down with Energy Economics so it still
+follows the research it describes. The EU ETS paper stays in the Energy block, so the
+energy signal is one section later on the page rather than gone.
+
+**The housing seminar paper is back on the CV, with its real title.** It came off on
+18 September because this repo named Krause as instructor while the transcript named
+Kang, and a competitive application is no place for an open question. The paper's own
+title page closes it: *"Supervisor: Univ.-Prof. Dr. Krause. Co-Supervisor: Dong-Ho
+Kang, PhD."* Both names are right and the CV now carries both. It is a second
+supervised research paper at 1,3, and the bullet says what it appraises rather than
+what it found, because like the EU ETS paper it is an appraisal of identification
+strategies and not a set of estimates.
+
+**The thesis is 30 ECTS and nothing in this repo said so.** It is now in the
+statement, on all four CVs, and it is the best answer available to the
+"two-year research master's degree (120 ECTS)" requirement.
+
+**Two orphaned headings fixed, the ones you circled.** "Research Experience" sat at
+the foot of page one with its content overleaf, and after the reorder the bachelor's
+thesis entry did the same one level down. Both are fixed in `cv/shared/OpenCV.cls`
+rather than in this CV, so no CV in this repository can do it again. LaTeX normally
+forbids a break straight after a heading, but every section here opens with a list,
+and the list's own penalties defeat that guard.
 
 ### Still deliberately absent
 

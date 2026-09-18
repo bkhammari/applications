@@ -76,9 +76,17 @@ auction design, which is theory rather than empirics**, so this is the core skil
 of the post and not a side requirement.
 
 They also want a two-year research master *"obtained with distinction, or equivalent
-qualifications"*. 1,6 is *gut* rather than *sehr gut*, so the distinction claim rests
-on top 5 percent of cohort, the Dean's List and the 1,0 thesis, under the
-"equivalent qualifications" clause.
+qualifications"*. 1,6 is *gut* rather than *sehr gut*, and the official scale on the
+transcript puts 1,6 at the very top of the *gut* band, so the distinction claim rests
+on the Dean's List and the 1,0 thesis under the "equivalent qualifications" clause.
+
+**The research-master half of that requirement has a better answer than this file
+had, found on 18 September when the transcript was read in full.** The **Masterarbeit
+is 30 ECTS**, a quarter of the degree, and the programme is 120 ECTS. A 30 ECTS
+thesis is research-master scale by any European reading, and it is a fact on a
+document inside the submitted PDF rather than a claim. The statement now says "graded
+1.0 and worth 30 of the degree's 120 ECTS", which answers the ECTS requirement and
+the research-master question in the same clause, and all four CVs carry the number.
 
 He said on 18 September that a change of field is acceptable and that he is
 flexible about the doctorate. On that basis this is his call, and the honest framing
