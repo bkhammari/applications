@@ -232,6 +232,15 @@ on visible holes in the lines. Two hyphenations survive on the German CV and bot
 are correct. Leading and the gaps between entries went up at the same time, which
 is what actually makes a dense page readable.
 
+**Academic documents are a separate class of thing.** Statements of intent,
+research statements, the proposal and the academic CV are set in **Latin Modern
+roman on the default `article` class**, justified, with wider margins. That is the
+LaTeX look an economist expects on a working paper, and it is what the reader of a
+doctoral application is used to. English justifies far better than German, so
+Blocksatz costs almost nothing there. Everything in `research/` and
+`letters/academic/` already worked this way. **The sans face is for German letters
+and the German CV**, which are read by an HR portal rather than by a department.
+
 **A German letter keeps Blocksatz**, because that is the convention there, so the
 GIZ letter is justified and loads `microtype` to pay for it. It also carries a
 `\hyphenation` list. Babel hyphenates by German rules, which is wrong for English

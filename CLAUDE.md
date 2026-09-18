@@ -67,6 +67,19 @@ work he will reject.
 These come from the `econometric-scholar-style` skill, anti-AI-tells section. A
 `grep -n "—\|–\|;"` over changed files before committing catches most of it.
 
+**Load that skill before writing academic prose.** He asked for it on 18 September
+and it earned its place immediately. Run against the two statements drafted that
+day it caught three real things a dash-grep does not. **Negative parallelism**, in
+both documents: "not merely imprecise, it had the wrong sign" and "the headline is
+not the coefficient, it is that the estimator reversed the sign". **Vague
+attribution** without a citable source, "my reading is that the literature is
+thinner on X", which had to become a design question rather than a claim about a
+literature that cannot be cited in a statement of intent. And **bolded
+key-term-plus-colon list items**, which became numbered prose. The skill also asks
+that **magnitude be stated separately from statistical significance**, so the
+ProUni result now reads "a wage gain of 3.04 per cent, statistically
+distinguishable from zero at the 10 per cent level" rather than blurring the two.
+
 Spelling: **British** in general documents, **American** in the Bonn-specific
 documents (labor, subsidizing). This was a deliberate instruction, not drift.
 
@@ -542,6 +555,16 @@ Two habits that came out of the same pass. **Bold has to be scarce to mean
 anything**: on the German CV it is now the name, the section headings, the
 employers, the thesis grade and the start date, and nothing else. **The letter
 uses the CV's typeface**, because they arrive together.
+
+**Academic documents get the LaTeX look.** Instructed 18 September. Latin Modern
+roman on the default `article` or `letter` class, justified, generous margins, the
+working-paper aesthetic an economist expects. That covers statements of intent,
+research statements, the research proposal, the thesis abstract and the academic
+CV, which gets it through the class option `serif`. Everything already in
+`research/` and `letters/academic/` was built that way. The two statements written
+on 18 September were the outliers, because they had been set in `tgheros`, and both
+are now converted. **German letters and the German CV stay sans**, since neither is
+an academic document and the reader there is an HR portal.
 
 **`github.com/bkhammari` is off the CVs.** Verified public on 16 September, and
 the repository it shows is this one: the tracker, the replies including every

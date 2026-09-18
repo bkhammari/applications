@@ -1,78 +1,79 @@
 % Statement of intent, UCLouvain, PhD in Economics, Renewable Energy Auctions.
 %
-% The argument this document makes, in one line: the post is theory-led, the
-% applicant is empirics-led, and instead of hiding that it proposes the empirical
-% work the project needs and nobody on a theory track will do.
+% Typeset in Latin Modern rather than the sans face used elsewhere in this repo.
+% Academic documents get the LaTeX look, instructed 18 September. The CVs already
+% carried it through the class option [serif]. German letters and the industry CV
+% stay sans, because they are not academic documents.
 %
-% It leads with energy and not with Brazil, because the transcript shows
-% Microeconomics at 3.0 and Energy Markets and Regulation at 1.3, and the reader
-% will see both.
+% Prose checked against the econometric-scholar-style anti-AI rules. Two real
+% violations came out of the first draft:
+%   - "not merely imprecise, it had the wrong sign" was negative parallelism,
+%     which the rules name explicitly. Now stated positively.
+%   - "My reading is that the literature is thinner on X" was vague attribution
+%     without a citable source. Rewritten as the design question rather than as a
+%     claim about a literature that cannot be cited here.
+% Magnitude is also kept separate from statistical significance throughout.
 %
-% Same class and typeface as the CV, since the two arrive in one PDF.
+% The argument: the post is theory-led, the applicant is empirics-led, and instead
+% of concealing that the document proposes the empirical work the project needs.
 
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
-\usepackage{tgheros}
-\renewcommand{\familydefault}{\sfdefault}
-\usepackage[left=25mm, right=25mm, top=22mm, bottom=20mm]{geometry}
+\usepackage{lmodern}
+\usepackage[left=28mm, right=28mm, top=25mm, bottom=22mm]{geometry}
 \usepackage{parskip}
 \usepackage{microtype}
-\usepackage{ragged2e}
-\RaggedRight
-% ragged2e still hyphenates freely. On a ragged margin there is no reason to, so
-% words only break when a line genuinely cannot be set otherwise.
-\hyphenpenalty=4000
-\tolerance=3000
 
 \pagestyle{empty}
-\setlength{\parskip}{0.8em}
+\setlength{\parskip}{0.75em}
+\linespread{1.05}
+
+\newcommand{\sectionrule}[1]{\vspace{2mm}\noindent\textbf{#1}\par\vspace{-0.3em}}
 
 \begin{document}
 
-\noindent
-{\large\bfseries Statement of intent}\\[3pt]
-{\small Baha Khammari \quad$\cdot$\quad PhD position, auction-based support schemes for renewable energy}\\[1pt]
+\begin{center}
+{\large\bfseries Statement of intent}\\[4pt]
+{\normalsize Baha Khammari}\\[2pt]
+{\small PhD position, auction-based support schemes for renewable energy}\\
 {\small LIDAM Energy Group, CORE, UCLouvain}
+\end{center}
 
 \vspace{6mm}
 
-I am applying for the doctoral position on auction-based support schemes for renewable energy in Europe. I want to explain what I would bring to it, and where I would need to build.
+I am applying for the doctoral position on auction-based support schemes for renewable energy in Europe. This statement sets out the training I would bring to it and the training I would have to acquire.
 
-\vspace{2mm}
-\noindent\textbf{Where I come to this from}
+\sectionrule{Background in energy}
 
-My energy training is at Cologne, where the Institute of Energy Economics teaches the specialisation. I took \textit{Energy Markets and Regulation} with Jun.-Prof.\ Dr.\ Oliver Ruhnau, whose chair is in energy market design, and finished it with 1.3. That course covered electricity market design, network regulation, and the instruments used to bring renewable generation into a market that was not built for it. I then took \textit{Growth, Energy and Climate Change} with PD Dr.\ Dietmar Lindenberger.
+My energy training is at Cologne, where the specialisation is taught by the Institute of Energy Economics. I took \textit{Energy Markets and Regulation} with Jun.-Prof.\ Dr.\ Oliver Ruhnau, whose chair is in energy market design, and finished it with a grade of 1.3 on a scale where 1.0 is the maximum. The course covered electricity market design, network regulation, and the instruments used to bring renewable generation into a market that was not built for intermittent supply. I then took \textit{Growth, Energy and Climate Change} with PD Dr.\ Dietmar Lindenberger.
 
-My specialisation seminar paper is on the \textbf{EU Emissions Trading System}. Writing it left me with the question that runs through this project as well: a policy instrument is a set of rules, the rules determine who bids what and on what terms, and the aggregate outcome is a consequence of that design rather than of the policy target. An auction for renewable capacity and a cap-and-trade scheme are both attempts to buy an environmental good through a market, and both succeed or fail on the detail.
+My specialisation seminar paper is on the EU Emissions Trading System. The question it left me with is the one this project also turns on. A support instrument is a set of rules, the rules determine who bids and on what terms, and the aggregate quantity procured follows from that design. An auction for renewable capacity and a cap-and-trade scheme are both attempts to buy an environmental good through a market, and the design detail determines what each one buys.
 
-\vspace{2mm}
-\noindent\textbf{What I would work on}
+\sectionrule{Proposed contribution}
 
-Of the four directions in the call, the two that I would most want to take up are \textbf{pre-qualification requirements and completion bonds} and \textbf{local content requirements}. My reason is specific.
+Of the four directions in the call, the two I would want to take up are pre-qualification requirements together with completion bonds, and local content requirements. My reason is specific to the identification problem they present.
 
-Auction design in Europe is not a single policy. Member states adopted auctions at different dates, and then changed the rules at different dates again: penalty levels, bid bonds, realisation deadlines, technology-specific versus technology-neutral lots, and local content conditions have all been introduced and revised on different national timetables. That is staggered adoption of a treatment whose intensity varies, which is the setting my master's thesis was built for.
+Auction design in Europe is not a single policy. Member states adopted auctions at different dates and subsequently revised the rules at different dates again: penalty levels, bid bond requirements, realisation deadlines, technology-specific against technology-neutral lots, and local content conditions have each been introduced and amended on separate national timetables. This is staggered adoption of a treatment whose intensity varies across adopters, and it is the setting in which conventional panel estimators fail in a way that is easy to miss.
 
-My thesis estimated the labour-market effects of a national scholarship programme across 558 regions over fifteen years, using the Callaway and Sant'Anna (2021) heterogeneity-robust staggered difference-in-differences estimator on a panel of roughly five million linked administrative records that I constructed myself. The central finding was methodological as much as substantive: the conventional two-way fixed effects estimate was not merely imprecise, it had the wrong sign, because the comparisons it makes between later-treated and already-treated units are invalid once effects vary across groups and over time. It was graded 1.0.
+My master's thesis was built for exactly that setting. It estimated the labour-market effects of a national scholarship programme across 558 regions over the period 2005 to 2019, using the heterogeneity-robust staggered difference-in-differences estimator of Callaway and Sant'Anna (2021) with doubly-robust inference, on a panel of roughly five million linked employer-employee records that I constructed. The doubly-robust estimate is a wage effect of $+3.04$ per cent in low-exposure regions. The two-way fixed effects estimate on the same panel is $-0.65$ per cent. The sign reverses because two-way fixed effects draws comparisons between later-treated and already-treated units, and those comparisons are invalid once effects vary across adoption cohorts and over time, as Goodman-Bacon (2021) shows. The thesis was graded 1.0.
 
-I would like to bring that to auction design. My reading is that the theory of multi-unit auctions for renewables is well developed and that credible causal evidence on what specific design features do is thinner, partly because the variation is staggered and therefore easy to analyse badly. A project that pairs auction theory with a design that can survive that variation is one I would be glad to spend four years on, and it is the contribution I think I could make that a purely theoretical candidate could not.
+The design question I would want to answer at CORE follows from this. Auction theory delivers predictions about how pre-qualification and penalty regimes should change bidding behaviour and completion rates. Testing those predictions against the European record requires an estimator that survives staggered adoption with heterogeneous treatment effects, and the diagnostics that establish whether it has survived. That is the part of the project I could do on arrival.
 
-\vspace{2mm}
-\noindent\textbf{Where I would need to build, said plainly}
+\sectionrule{Training I would have to acquire}
 
-The call asks for graduate training in microeconomic theory, industrial organization and game theory. My graduate coursework is econometric rather than theoretical: my strongest marks are in econometrics, mathematics and energy regulation, and my microeconomics grade is average. I would be starting the theory side of this project from a lower base than a candidate trained in IO, and I would rather say so than let the transcript say it for me.
+The call asks for graduate training in microeconomic theory, industrial organization and game theory. My graduate coursework is econometric. My strongest marks are in econometrics, mathematics for economists and energy regulation, and my microeconomics grade is 3.0, which is average on the German scale. I would begin the theoretical component of this project from a lower base than a candidate trained in industrial organization, and the transcript accompanying this application shows that.
 
-What I would offer against that is that the gap is the kind that closes with coursework and reading, and that the direction it closes in is one I have already chosen. I read Mas-Colell and Osborne and Rubinstein as the standard I am expected to reach, and I would treat the first year as the year in which I reach it. The empirical craft, by contrast, is not something a four-year programme usually has time to teach, and I already have it.
+Two things qualify it. Mas-Colell, Whinston and Green and Osborne and Rubinstein are the standard the call names, and reaching that standard is a matter of coursework and reading that a first year is designed to accommodate. The empirical craft is the harder thing to add later, and I have it already.
 
-\vspace{2mm}
-\noindent\textbf{Practicalities}
+\sectionrule{Practicalities}
 
-I complete my M.Sc.\ in Economics at Cologne this month and am available from October 2026, so the autumn start suits me. I work in English, hold IELTS Academic 8.0, and speak German and Tunisian Arabic natively and French at B1. I hold EU citizenship, so there is no work-permit question.
+I complete my M.Sc.\ in Economics at Cologne this month and am available from October 2026, which fits the autumn start. I hold IELTS Academic 8.0, and I speak German and Tunisian Arabic natively and French at B1. I hold EU citizenship, so no work permit is required.
 
-My referees are \textbf{Prof.\ Dr.\ Pia Pinger}, who chaired my master's thesis, and \textbf{Jun.-Prof.\ Dr.\ Oliver Ruhnau}, who taught and examined me in energy market design. Contact details are on the CV. I am glad to send the thesis in full, and the seminar paper on the EU ETS.
+My referees are Prof.\ Dr.\ Pia Pinger, who chaired my master's thesis, and Jun.-Prof.\ Dr.\ Oliver Ruhnau, who taught and examined me in energy market design. Contact details appear on the CV. The thesis and the seminar paper on the EU ETS are available on request.
 
-\vspace{4mm}
+\vspace{6mm}
 \noindent Baha Khammari\\
 {\small b.e.khammari@gmail.com \quad$\cdot$\quad +49\,1520\,9016956}
 
