@@ -45,23 +45,37 @@ attachments (this happened with RWI, status 550 5.7.1). If a message bounces,
 resend with no attachments and offer to send them on request, or use a contact
 form.
 
-## Where this stands, 17 September 2026
+## Where this stands, 18 September 2026
 
-**Nothing is due, and nothing has moved.** No PhD deadline falls before the Belgian
-FWO round at the start of December. The next date after that is UNU-MERIT, whose
-call opens 1 November and closes 15 February. So there is no deadline risk this
-month.
+Mailbox checked on 18 September. Three things had happened that were not recorded
+here.
 
-The problem is the other one. **Nine emails went out on 8 September and nothing has
-gone out since 9 September.** Fourteen rows in the table below still say *not sent*,
-and four drafts have been sitting in Gmail for a week, including the one to Anna
-Person that every reference letter depends on. Six replies came back inside 48
-hours when the emails went. Zero come back when they do not.
+**GIZ went in on 16 September.** The portal confirmation arrived at 14:37, RE-ID
+`oeiqlwzjwwfzjjdmemfusupfotdgyhen`. Their selection starts after the 21 September
+deadline and they say they will come back proactively. Nothing to do. The tracker
+now says sent, with a nudge due 28 September.
 
-Three threads are open and none of them needs anything today: Siegloch, silent
-since 8 September, where the note says follow up after three weeks, so **29
-September**. Dohmen, silent since 8 September. Huijts at ROA, circulating the
-message internally, where the right move is to wait.
+**Frontier replied on 14 September**, and it is the one live opportunity on the
+whole board. Their 2027 analyst applications for **Cologne and Berlin opened
+mid-September**, which is now, and **close at the end of January 2027**. London
+closes in November 2026 and Dublin at the end of December. The Cologne and Berlin
+postings were not yet on their Workday board when checked on 18 September, so this
+is a watch rather than an action, but the CV and letter for it are already built.
+
+**No academic reply has come in since 10 September.** Siegloch and Dohmen have both
+been silent for ten days. Siegloch's follow-up is due **29 September**, three weeks
+after sending. Huijts at ROA is still circulating internally, where waiting is
+correct.
+
+**Nothing is due, and the pipeline has not moved.** No PhD deadline falls before the
+Belgian FWO round at the start of December, so there is no deadline risk this
+month. The other problem stands: fourteen rows in the table below still say *not
+sent*, and the four PhD drafts are still sitting in Gmail unsent, including the one
+to Anna Person that every reference letter depends on. Six replies came back inside
+48 hours when the emails went out. Zero come back when they do not.
+
+He did open an **AcademicTransfer account** on the morning of 18 September, which is
+the Maastricht route below. The verification email is in the inbox.
 
 The calendar, so it is in one place:
 

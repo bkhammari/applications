@@ -217,6 +217,30 @@ All labelled **PhD** except Frontier, labelled **Applications**.
 
 | Jun.-Prof. van Maarseveen | vanmaarseveen@wiso.uni-koeln.de | **On hold.** It asserts he never replied, which the mailbox confirms. Rewrite if a reply surfaces elsewhere |
 
+### Mailbox checked 18 September 2026
+
+Three changes since the 10 September snapshot above, all verified in Gmail.
+
+**GIZ was submitted on 16 September.** Portal confirmation at 14:37, RE-ID
+`oeiqlwzjwwfzjjdmemfusupfotdgyhen`. Selection starts after the 21 September
+deadline and GIZ say they will come back proactively. Tracker marked sent, nudge
+due 28 September.
+
+**Frontier replied on 14 September** with the 2027 timeline. See the Frontier entry
+below. Cologne and Berlin are open now and close end of January 2027.
+
+**No academic reply since 10 September.** Siegloch and Dohmen both silent for ten
+days. Siegloch's follow-up falls due 29 September, three weeks after sending.
+
+**The four PhD drafts are still unsent**, confirmed in the draft list: Settele,
+Wohlfart, van Maarseveen, and the Anna Person reply dated 10 September that carries
+the CV, transcript and proposal. A separate draft to Pinger from 10 September is
+also unsent. There is also an unsent draft to `nmohame1@uni-koeln.de` about the
+seminar paper grading timeline, which belongs to the EU ETS work and not here.
+
+He opened an **AcademicTransfer account** on the morning of 18 September, which is
+the Maastricht vacancy channel.
+
 ### Open questions he has not answered
 
 1. **Did the Blue Book application go in before 4 September 2026?**
@@ -289,12 +313,21 @@ annual September cohorts, the 2026 one advertised around February. ECB traineesh
 at roughly €32,900 to €47,500, often a two-year 50 percent contract. PhD stipends
 by country are tabulated in [`phd/geography-and-pay.md`](phd/geography-and-pay.md).
 
-**Frontier Economics.** Four open roles worldwide on 8 September 2026, none
-reachable. The Amsterdam Consultant role needs C2 Dutch and several years of
-experience. Their Graduate Economic Analyst programme accepts "Germany 2.0 or
-better" plus a master's, wants R or Stata and advanced Excel, and requires fluency
-in the language of the office, which is what makes **Cologne and Berlin** work and
-Amsterdam not.
+**Frontier Economics, and this one has a live window.** Their recruitment team
+**replied on 14 September** with the 2027 timeline. Applications for interns and
+analysts in **Amsterdam, Berlin, Cologne, Dublin and London opened mid-September
+2026**. Brussels, Paris and Junior Data Scientist roles open early October.
+Closing: **London November 2026, Dublin end of December 2026, every other office
+end of January 2027.** So Cologne and Berlin close end of January.
+
+Checked the Workday board on 18 September and the Cologne and Berlin postings are
+not up yet, so this is a weekly watch at
+`frontiereconomics.wd3.myworkdayjobs.com`. The tuned CV and letter already exist in
+`apply/applications/frontier-economics-graduate-...`.
+
+Their Graduate Economic Analyst programme accepts "Germany 2.0 or better" plus a
+master's, wants R or Stata and advanced Excel, and requires fluency in the language
+of the office, which is what makes **Cologne and Berlin** work and Amsterdam not.
 
 **Maastricht GSBE expects a supervisor and funded position to be identified before
 applying.** So the portal is paperwork that follows the approach. Rolling review
