@@ -646,7 +646,52 @@ mass-edited on an inference.
 **The bachelor's thesis title is German on the certificate.** It reads
 *Finanz-Akzelerator*, and the English certificate leaves it untranslated. The CVs
 render it as *The Financial Accelerator Mechanism*, which adds a word the official
-title does not have. Minor, and worth knowing if a transcript is attached.
+title does not have. Submitted 4 July 2022, graded 1,7.
+
+**The BSc transcript, read 18 September, and it is stronger than the 1,6 average
+suggests.** 180 of 180 ECTS, seven Fachsemester.
+
+| Module | Topic | Examiner | Grade |
+|---|---|---|---|
+| Advanced Microeconomics | **Strategic thinking and competition** | **Ockenfels A** | **1,3** |
+| Core Microeconomics | Grundzüge der Mikroökonomik | Gürtler O | **1,0** |
+| Core Statistics | | Gribisch B | **1,0** |
+| Core Mathematics | | Scheicher C | **1,0** |
+| Advanced Macroeconomics | Growth and structural change | Funk P | **1,0** |
+| Supply Chain Management | | Thonemann U | **1,0** |
+| Finance I | Corporate finance | Hess D | **1,0** |
+| Advanced Econometrics | **Applied econometrics** | **Breitung J** | **1,3** |
+| Current Topics in Economics | **Energy and environmental policy**, media regulation | Gürtler O | **1,3** |
+| Cost accounting | | Homburg C | 1,3 |
+| Economic Policy | | **Krause M** | 2,0 |
+| Bachelorseminar VWL | Macro topics from the CMR | **Schabert A** | **2,3** |
+| Institutions | | Nayin T | 2,3 |
+| Core Macroeconomics | | Barbie M | 2,7 |
+| International Economics | | Prantl S | 2,7 |
+| Finance II | Bank management | Spörk W | 3,3 |
+
+**This changes the theory story.** The master's Microeconomics 3,0 had been treated
+as the whole picture. At bachelor level microeconomics is **1,0** and advanced
+microeconomics is **1,3**, and the topic of the latter is **strategic thinking and
+competition, taught by Axel Ockenfels**, whose own field is market and auction
+design and who heads *Market Design and Behavior* at ECONtribute. Any application
+asking for game theory should say so. The UCLouvain statement now does.
+
+**It also adds referee candidates who beat the ones previously listed.**
+**Oliver Gürtler** taught him twice, 1,0 in microeconomics and 1,3 in a module
+covering energy and environmental policy, which is the strongest teaching
+relationship on either transcript. **Jörg Breitung** gave 1,3 in applied
+econometrics. **Axel Ockenfels** gave 1,3. All at Cologne, so the
+`lastname@wiso.uni-koeln.de` pattern applies, and all need verifying before use.
+
+**Schabert is now definitively off the referee list.** He examined three things:
+the bachelor seminar at **2,3**, the bachelor's thesis at 1,7, and a master's
+module at **3,0**. He supervised the thesis and is worth an E13 enquiry. He is not
+a reference.
+
+**Krause is confirmed at two courses**, Economic Policy at 2,0 in the bachelor and
+Macroeconomics at 1,7 in the master. The repo's "three courses" claim may still
+hold if a third sits outside these transcripts.
 
 ### What the EU ETS seminar actually is, recovered 18 September
 
@@ -695,10 +740,19 @@ README. **The work is on the branch `claude/eu-ets-carbon-leakage-8etb0s`**, in
 The question: **did increases in the effective EU ETS carbon cost, net of free
 allocation, raise EU imports of emission-intensive goods from Morocco, Algeria,
 Egypt and Tunisia between 2005 and 2021**, relative to less emission-intensive goods
-and to comparison partners? It is a research design paper arguing against the
-aggregate null in Naegele and Zaklan (2019), on the ground that an aggregate null
-can hide leakage concentrated in corridors with large regulatory asymmetry, low
-transport costs and existing emission-intensive capacity.
+and to comparison partners? It argues against the aggregate null in Naegele and
+Zaklan (2019), on the ground that an aggregate null can hide leakage concentrated in
+corridors with large regulatory asymmetry, low transport costs and existing
+emission-intensive capacity.
+
+**It is a research design and produces no estimates.** He said so on 18 September:
+it was the groundwork for a master's thesis on the topic that he decided not to
+write. **Never describe it as empirical results.** That is not a weakness to hide
+either. A worked specification with its treatment definition, data sources and
+identifying assumptions paired against the threats each one answers is the shape of
+a doctoral proposal, which is exactly what a doctoral application wants to see. The
+UCLouvain statement says outright that it is a design rather than a set of
+estimates, and says why it exists.
 
 **Triple difference.** Exposure varies across products through sectoral CO$_2$
 intensity, over time through the effective carbon cost, across partners through
