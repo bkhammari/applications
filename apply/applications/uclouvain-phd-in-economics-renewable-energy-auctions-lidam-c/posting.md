@@ -105,7 +105,7 @@ The posting's own list, verbatim:
 | Transcripts and certificates | His own files, four of them. See below |
 | Language certificate | IELTS Academic 8.0 |
 | Test scores | None, and none required |
-| **Two academic referees** | **Pinger agreed. Ruhnau pending.** The blocker |
+| **Two academic referees** | **Both agreed.** Pinger 9 September, Ruhnau 18 September |
 
 **"Letters of recommendation may be requested at a later stage"** is the sentence
 that makes this tractable in three days. They want a name and an address now, which

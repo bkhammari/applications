@@ -473,6 +473,18 @@ Markets and Regulation* and graded it **1,3**. For the UCLouvain renewable-aucti
 post he is a better name than any general econometrician, because the chair, the
 course and the application subject are the same thing.
 
+**He agreed on 18 September 2026 at 11:34**, an hour and a half after the ask went
+out: *"Hallo Baha, Du kannst mich gerne als Referenz angeben. Am EWI haben wir
+aktuell leider keine Stelle ausgeschrieben. Beste Grüße, Oliver."* That is the
+second referee secured and it unblocked UCLouvain.
+
+Two things in that reply beyond the yes. **He writes Du and signs Oliver**, so
+correspondence with him is informal from now on, which is a warmer relationship than
+the transcript alone suggested and makes him a genuine contact rather than only a
+name. And **EWI has nothing advertised "aktuell"**, so the EWI thread is a no for
+now rather than a closed door. A short thank-you reply is drafted in Gmail and
+leaves it open without asking a second time.
+
 **For anything general: Roman Liesenfeld**, 1,3 in Econometrics, and he is already
 getting an E13 enquiry so the ask can ride along.
 

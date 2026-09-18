@@ -276,7 +276,11 @@ The reply carrying those is drafted. First letters are due around 15 January 202
 - **Jun.-Prof. Dr. Oliver Ruhnau**, `ruhnau@wiso.uni-koeln.de`. Assistant professor
   for **energy market design** at Cologne, senior scientist at EWI. Taught *Energy
   Markets and Regulation*, **graded 1,3**. The right second name for anything in
-  energy, starting with the UCLouvain renewable-auctions post.
+  energy, starting with the UCLouvain renewable-auctions post. **He agreed on 18
+  September**, ninety minutes after the ask: *"Du kannst mich gerne als Referenz
+  angeben."* He writes **Du** and signs **Oliver**, so write to him informally. He
+  also answered the EWI question: **nothing advertised there "aktuell"**, which is a
+  no for now and not a closed door.
 - **Prof. Dr. Roman Liesenfeld.** **1,3 in Econometrics.** The right second name for
   anything general, and he already has an E13 enquiry drafted, so the referee ask
   can ride along with it.

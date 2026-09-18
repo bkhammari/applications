@@ -1,28 +1,29 @@
 # UCLouvain, what to do and in what order
 
 **Deadline: Monday 21 September 2026.** Today is Friday 18 September. Both written
-documents are finished. What is left is one email, four of your own files, and a
-form.
+documents are finished and both referees have agreed. What is left is four of your
+own files and a form.
 
-## 1. Today, before anything else: the referee
+## 1. Both referees are secured
 
-**A draft to Jun.-Prof. Dr. Oliver Ruhnau is in Gmail, labelled PhD.** Send it now.
-It asks only for permission to name him, not for a letter, because the posting says
-outright that *"letters of recommendation may be requested at a later stage"*. A
-one-word answer is enough and the email says so.
+**Ruhnau agreed on 18 September at 11:34.** His reply in full:
 
-**Nothing else can be submitted until he answers**, because the CV names him and the
-application requires two academic referees inside the PDF. If he says no by Sunday,
-the fallback is **Prof. Dr. Roman Liesenfeld** (Econometrics 1,3), whose E13 draft
-is already in Gmail and can carry the same ask. Do not fall back to Schabert, who
-graded his own module 3,0.
+> Hallo Baha,
+>
+> Du kannst mich gerne als Referenz angeben. Am EWI haben wir aktuell leider keine
+> Stelle ausgeschrieben.
+>
+> Beste Grüße,
+> Oliver
 
-**If he has not answered by Sunday evening, do not submit without him.** The posting
-says *"Applications received by 21 September 2026 will receive full consideration.
-Review continues until the position is filled."* Monday is the date for full
-consideration rather than a cut-off. Tuesday with two referees beats Monday with
-one. This is not licence to drift, because rolling review means someone who applied
-on time can take the position.
+Pinger agreed on 9 September. The CV names both and nothing is blocked any more.
+The fallback to Liesenfeld is no longer needed.
+
+**Two things worth taking from that reply beyond the yes.** He wrote *Du* and signed
+*Oliver*, so write to him informally from now on. And EWI has nothing open
+**aktuell**, which is a no for now rather than a closed door. A short thank-you reply
+is drafted in Gmail and leaves it open without asking again.
+
 
 ## 2. Collect four files of your own
 
