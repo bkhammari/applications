@@ -80,6 +80,33 @@ that **magnitude be stated separately from statistical significance**, so the
 ProUni result now reads "a wage gain of 3.04 per cent, statistically
 distinguishable from zero at the 10 per cent level" rather than blurring the two.
 
+**A statement of intent says why he wants the position and what he brings. Nothing
+else.** Instructed 18 September, after two drafts that did other things. His words:
+*"Just tell why I am interested in this PhD position. Why? Nothing about, you know,
+I tried to do this in my thesis and it was wrong and I corrected this."*
+
+Three concrete consequences, all of which cost a rewrite to learn.
+
+**No error narratives.** A draft had built the whole UCLouvain statement around the
+two-way fixed effects sign reversal in his thesis, told as a mistake he found and
+fixed. It is a genuinely good story and it is wrong for this document, because a
+reader who meets a mistake in paragraph one thinks about the mistake for the rest of
+the page. State the estimator and the result as a capability. The reversal is an
+excellent answer to an interview question, which is a different job.
+
+**Do not volunteer a weakness.** The same statement had named the master's
+Microeconomics 3,0 before the reader could find it, on the reasoning that the
+transcript travels in the same PDF. That reasoning holds in a document that is
+arguing with a sceptic. A statement of intent is not. State the theory training
+positively instead, Ockenfels 1,3 on strategic thinking and competition alongside
+econometrics 1,3, which answers the same requirement and concedes nothing. Prepare
+the honest answer for interview, in `SEND.md`, and do not lead with it.
+
+**A checklist of persuasive arguments is not a document.** An earlier draft followed
+a four-paragraph persuasive layout he supplied and produced four disconnected blocks
+with no roter Faden, opening on a sentence no cold reader could parse. His reaction
+was that it was incoherent. Whatever the structure, the paragraphs have to join.
+
 Spelling: **British** in general documents, **American** in the Bonn-specific
 documents (labor, subsidizing). This was a deliberate instruction, not drift.
 
@@ -813,7 +840,12 @@ Endogeneity of the allocation share is handled by fixing it to 2005 to 2007 veri
 emissions. The window stops in 2021 to give a pre-CBAM baseline.
 
 Note without putting it in an application: **Tunisia is in his own treatment
-corridor.**
+corridor.** This was tested on 18 September and the note holds. A UCLouvain draft
+carried the clause *"Morocco, Algeria, Egypt and Tunisia, the last of which is where
+my family is from"*, written when he had asked for a personal touch. It came out
+with the narrative structure that carried it, because a statement saying why he
+wants the post and what he brings has no slot for it. Do not propose it again
+unless he asks for it.
 
 **One thing to tell him.** An unsent draft opening *"Dear Ms Fadl"* is addressed to
 `ilias@uni-koeln.de`. ILIAS is the Cologne learning platform, so that is a system
