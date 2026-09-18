@@ -21,7 +21,7 @@ They want **one PDF** containing all of it.
 
 | Item | Status |
 |---|---|
-| Statement of intent | Ready, `statement.pdf`, two pages |
+| Statement of intent | Ready, `statement.pdf`, **one page** |
 | CV | Ready, `cv_uclouvain_khammari.pdf`, two pages |
 | Transcript | `Khammari_ToR_Aug2026.pdf`, already in hand |
 | Writing sample | The master's thesis, `research/thesis/Master_Thesis_Final.pdf` |
@@ -32,17 +32,42 @@ They want **one PDF** containing all of it.
 Merge in that order. The statement goes first because it is the only part written
 for this reader.
 
-## 3. One thing I could not write for you
+## 3. What the one-page cut kept, and what it dropped
 
-The statement describes the EU ETS seminar paper as covering allowance supply, price
-formation and abatement investment incentives. **That is a reasonable description of
-an EU ETS paper and not necessarily a description of yours.** Send me the actual
-title and the actual question and I will make that paragraph specific, which would
-strengthen it, because right now it is the one place where the document is generic.
+The statement was two pages and is now one, which was the instruction. Four things
+survived, in this order of priority.
 
-The same sentence appears in the CV.
+**The free-allocation argument from your own seminar paper.** The effective carbon
+cost is the allowance price attenuated by the sector-year free-allocation share, a
+fully allocated sector faces zero effective cost whatever the headline price does,
+and EU allocation is not lump-sum because activity thresholds and closure provisions
+tie it to production. Then the parallel: an auction award price is not the effective
+support either, once pre-qualification, penalties, bonds and local content are priced
+into the bid. That paragraph is the application. Everything else is support.
 
-## 4. What the application argues
+**Ruhnau's 1.3 in energy market design**, which also tells the reader who your second
+referee is before they reach the reference list.
+
+**The staggered-adoption problem and the sign reversal**, compressed to two sentences
+because the CV carries the detail.
+
+**The theory position, stated before the transcript states it.** Master's
+microeconomics 3.0, bachelor microeconomics 1.0, advanced microeconomics with
+Ockenfels 1.3 on strategic thinking and competition. The admitted gap is graduate
+industrial organization and nothing wider.
+
+**Dropped:** the specification detail of the triple difference, the identification
+threats catalogue, the full thesis description, and the section headings. All of it
+is either on the CV or in the paper itself, which you offer to send.
+
+## 4. French is on the front page now
+
+**UCLouvain is in Louvain-la-Neuve, in francophone Wallonia.** B1 French is not a
+decorative line for this application, it is a fact about whether you can live and
+work there, so Languages moved from the foot of the CV to page one with French
+first. The statement says the same thing in one clause.
+
+## 5. What the application argues
 
 Worth knowing before an interview, since the position is theory-led and you are not.
 
@@ -53,13 +78,14 @@ timetables. That is variation of exactly the kind your thesis was built to handl
 and the statement proposes it as the contribution a theory-trained candidate could
 not make.
 
-**The honesty is deliberate.** The statement says outright that your graduate
-training is econometric rather than theoretical and that your microeconomics grade
-is average. The transcript is in the same PDF, so the reader will see Microeconomics
-3,0 next to Energy Markets and Regulation 1,3 either way. Saying it first is worth
-more than being caught by it.
+**The honesty is deliberate, and it is now narrower than it was.** The statement
+names the master's Microeconomics 3,0 before the reader finds it, because both
+transcripts travel in the same PDF. What it no longer concedes is general weakness
+in theory, because the BSc transcript does not support that: microeconomics 1,0, and
+advanced microeconomics on strategic thinking and competition with Ockenfels 1,3.
+The admitted gap is graduate industrial organization alone, which is coursework.
 
-## 5. After you submit
+## 6. After you submit
 
 ```bash
 python3 apply/track.py sent uclouvain
