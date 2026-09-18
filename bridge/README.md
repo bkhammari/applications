@@ -81,6 +81,45 @@ institutes, Bundesbank research assistant contracts, BaFin, Destatis, GIZ. Those
 are advertised throughout the year and can start within weeks. Put the volume
 there.
 
+## 18 September 2026: what actually pays before January
+
+He said he is desperate for a job. That is an income problem, and the PhD search is
+not its answer. Three funded PhD positions were assessed this week and **every one
+of them starts in 2027**, as does Frontier, as does Maastricht MILE, as does
+UNU-MERIT.
+
+**The boards have nothing.** Checked on 18 September: AcademicTransfer filtered to
+economics, EconJobMarket's pre-doc section, INOMICS Germany, the Bonn economics
+department, RWI Essen, IZA, ECONtribute and Cologne. There is no live research
+assistant or pre-doc post in his field inside the geography. The one European
+pre-doc found, the Zurich Global Talent programme, restricts eligibility to
+applicants from low and lower-middle income countries or with a refugee background,
+so **check eligibility before spending time on it** rather than assuming the Tunisian
+parentage qualifies a German-educated EU citizen.
+
+So the search is not producing openings because there are none to find this week.
+That is worth saying plainly instead of sending more links back and forth.
+
+**Where the leverage is instead, in order.**
+
+1. **GIZ is the nearest real money and it is already in flight.** Submitted 16
+   September, decision after the 21 September deadline, start 1 November at 2.349
+   gross. Nothing to do but wait, with a nudge due 28 September.
+2. **Four Gmail drafts have been sitting unsent since 10 September.** Settele,
+   Wohlfart, van Maarseveen, and the Anna Person reply that carries the CV,
+   transcript and proposal. That last one blocks every reference letter.
+3. **Fourteen rows in the PhD tracker still say not sent**, and ten targets on this
+   page have never been contacted. Nine emails went out on 8 September and six
+   answers came back inside 48 hours. Three postings were read off the board this
+   week and produced three rejections. His own record already says which activity
+   generates replies.
+4. **Rolling-start work is the only thing that fills October to January**, which the
+   section above already names: E13 posts at chairs and institutes, Bundesbank
+   research assistant contracts, BaFin, Destatis. Advertised year-round, can start
+   within weeks.
+
+The plan on this page is not wrong and does not need rewriting. It needs sending.
+
 ## In-range targets
 
 ### Frankfurt and Rhine-Main, about an hour by ICE
