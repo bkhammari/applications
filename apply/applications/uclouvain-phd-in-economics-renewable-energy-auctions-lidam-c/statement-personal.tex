@@ -48,6 +48,35 @@
 % models, and independent real analysis. He confirmed the last two on 19 September.
 % The thesis binned exposure, so the text says bins. Do not upgrade either claim.
 
+% REVISION 19 September, third pass on this file.
+%
+% RELEVANCE AUDIT. Two passages were not earning their place and both are gone.
+%   - "I am applying for the doctoral position on auction-based support schemes
+%     for renewable energy" repeated the document's own header line for line.
+%   - "founded in 1966 on that tradition, with more than twenty professors and
+%     thirty-five doctoral students in one building" told Willems the age and
+%     headcount of his own institute. The doctoral-student number survives, moved
+%     to the one place it does work, which is the collegiality sentence.
+%
+% HEADINGS ADDED, his call on 19 September. CLAUDE.md had this recorded as a
+% per-application judgement rather than an automatic yes, because on a one-page
+% document headings cost lines. Here they fit: three small bold run-in headings,
+% roughly four lines in total, paid for by the two cuts above.
+%
+% PERSONAL MATERIAL, from his own words on 19 September: he likes exchanging
+% ideas with people from different cultures, backgrounds and disciplines, Erasmus
+% at RSM Rotterdam showed him he works well in international environments, and he
+% enjoys expressing what he cares about. Written into the Why CORE paragraph
+% rather than bolted on, because at an institute that advertises an interdisciplinary
+% remit and an international network it is a fit claim, not a personality note.
+% "I enjoy expressing myself" is rendered as liking to explain what he is working
+% on and hear what others are, which is seminar culture and is the research-group
+% version of the same trait. The self-regarding version of that sentence would
+% have cost him more than it gained.
+%
+% The Rotterdam semester was already on the CV and was doing nothing there. It is
+% now evidence for something.
+
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -59,8 +88,12 @@
 \usepackage{xcolor}
 
 \pagestyle{empty}
-\setlength{\parskip}{0.6em}
+\setlength{\parskip}{0.45em}
 \linespread{1.0}
+
+% Small run-in headings. Deliberately not \section: a one-page statement of
+% intent that carries display headings reads as a form rather than a letter.
+\newcommand{\sh}[1]{\vspace{1.2mm}\noindent{\small\bfseries #1}\par\vspace{-0.15em}}
 
 \begin{document}
 
@@ -72,22 +105,21 @@
 
 \vspace{3mm}
 
-I finish an M.Sc.\ in Economics at the University of Cologne this month, with a specialisation in energy economics and a thesis in applied microeconometrics, and I am applying for the doctoral position on auction-based support schemes for renewable energy. Energy economics has followed me through both degrees. What keeps me in it is that decarbonising our economies will be a monumental effort, one that reaches well past the capital it needs into how our societies work, and that almost all of it runs through instruments governments design. The rules of those instruments decide what actually gets built. I want to spend four years on that, and I want to do it at CORE.
+\sh{Why this doctorate}
+I finish an M.Sc.\ in Economics at the University of Cologne this month, with a specialisation in energy economics and a thesis in applied microeconometrics. Energy economics has followed me through both degrees. What keeps me in it is that decarbonising our economies will be a monumental effort, one that reaches well past the capital it needs into how our societies work, and that almost all of it runs through instruments governments design. The rules of those instruments decide what actually gets built. I want to spend four years on that.
 
-CORE describes itself as an interdisciplinary centre bringing operations research, economics and econometrics together, and it names doctoral training as one of its objectives. That is why I am writing to you and not to a department that does one of those three things. My own work sits on the econometrics side. What I do not yet have is graduate industrial organization and game theory at the level this project runs on, and a centre founded in 1966 on that tradition, with more than twenty professors and thirty-five doctoral students in one building, is where I would learn it properly. Everything I have written so far I wrote alone, and four years inside a group that argues these questions formally is the part I want most. I have started on the theory without being asked to, working through Jehle and Reny in my own time.
+\sh{Why CORE}
+CORE describes itself as an interdisciplinary centre bringing operations research, economics and econometrics together, and it names doctoral training as one of its objectives. That is why I am writing to you and not to a department that does one of the three. My own work sits on the econometrics side, and what I do not yet have is graduate industrial organization and game theory at the level this project runs on. I have started without being asked to, working through Jehle and Reny in my own time. Everything I have written so far I wrote alone, and an Erasmus semester at Rotterdam School of Management taught me I work better otherwise. I like a room where nobody shares my background, and I like explaining what I am working on and hearing what other people are working on. That is most of what a research group is, and I want it next among thirty-five doctoral students and the visiting researchers you host.
 
-What I would bring is the empirical half of your question. My thesis, graded 1.0 and worth 30 of the degree's 120 ECTS, asked whether a national scholarship programme in Brazil raised formal-sector wages and for whom. I built the panel from administrative records, five million linked employer-employee observations across 558 microregions, 2005 to 2019, in R through BigQuery, and estimated Callaway and Sant'Anna (2021) group-time effects with doubly-robust inference across exposure bins. Low-exposure regions show a wage gain of 3.04 per cent, distinguishable from zero at the 10 per cent level, on a non-monotonic dose-response that two-way fixed effects reports with the opposite sign. That transfers here. Since the 2016 state aid framework member states have adopted technology-neutral, technology-specific and mixed auction designs at different dates, which is staggered adoption of a design rather than of a policy, and the AURES II database records the design and outcome of every renewable auction in the EU and UK from 2011 to 2021. I would estimate how joint bidding shifts the awarded technology portfolio and the rent per megawatt hour against not-yet-treated member states. Alongside the econometrics I have advanced microeconomics on strategic thinking and competition with Axel Ockenfels at 1.3, 1.0 in mathematics, and I have calibrated a model in MATLAB. I am free from October 2026 and my French is B1.
+\sh{What I would bring}
+My thesis, graded 1.0 and worth 30 of the degree's 120 ECTS, asked whether a national scholarship programme in Brazil raised formal-sector wages and for whom. I built the panel from administrative records, five million linked employer-employee observations across 558 microregions, 2005 to 2019, in R through BigQuery, and estimated Callaway and Sant'Anna (2021) group-time effects with doubly-robust inference across exposure bins. Low-exposure regions show a wage gain of 3.04 per cent, distinguishable from zero at the 10 per cent level, on a non-monotonic dose-response that two-way fixed effects reports with the opposite sign. That transfers here. Since the 2016 state aid framework member states have adopted technology-neutral, technology-specific and mixed auction designs at different dates, which is staggered adoption of a design rather than of a policy, and the AURES II database records the design and outcome of every renewable auction in the EU and UK from 2011 to 2021. I would estimate how joint bidding shifts the awarded technology portfolio and the rent per megawatt hour against not-yet-treated member states. Alongside the econometrics I have advanced microeconomics on strategic thinking and competition with Axel Ockenfels at 1.3, 1.0 in mathematics, and I have calibrated a model in MATLAB. I am free from October 2026 and my French is B1.
 
 Thank you for considering my application. I would be glad to talk the project through whenever it suits you.
 
-\vspace{4mm}
+\vspace{3.5mm}
 {\color{black!35}\hrule height 0.5pt}
 \vspace{2.5mm}
 
-% Ragged right inside this block on purpose. The addresses are \texttt, which
-% does not hyphenate, so a justified line with a long one at the end pushes it
-% straight through the right margin. Seen on the first build of this footer,
-% where ruhnau@wiso.uni-koeln.de ran off the page.
 \begin{flushleft}
 {\small\textbf{Referees}}\\[3pt]
 {\small Prof.\ Dr.\ Pia Pinger, University of Cologne, chair of my master's thesis.\\
