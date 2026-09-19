@@ -1,0 +1,145 @@
+\documentclass[serif]{../shared/OpenCV}
+\usepackage[english]{babel}
+
+\cvname{Baha Khammari}
+\cvlocation{D\"usseldorf, Germany}
+\cvemail{b.e.khammari@gmail.com}
+\cvphone{+49\,1520\,9016956}
+\cvlinkedin{linkedin.com/in/baha-khammari}
+% GitHub link commented out on 16 September 2026. github.com/bkhammari is public,
+% and the repo it currently shows is this one, the job search itself: the tracker
+% of who has been applied to, the replies including the rejections, and the
+% reasoning about referees. That is not what a reader should find at the end of a
+% link on a CV. Put it back when there is a repository worth sending someone to,
+% such as the thesis replication code.
+% \cvgithub{github.com/bkhammari}
+
+\begin{document}
+
+\cvheader
+
+
+%================ RESEARCH INTERESTS ================%
+\section*{Research Interests}
+\small
+Applied microeconomics, causal inference, labour economics, policy evaluation, development economics. \\
+Methodological focus on difference-in-differences estimation, panel data methods, and heterogeneous treatment effects.
+
+%================ EDUCATION ================%
+\section*{Education}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{University of Cologne}{Cologne, Germany}
+{M.Sc.\ Economics, 120 ECTS. Thesis \textbf{1.0}, overall 1.6 (completed Sep.\ 2026)}{Oct.\ 2023 -- Sep.\ 2026}
+\resumeItemListStart
+\resumeItem{Specialisation: Applied Econometrics, Energy Economics, Financial Macroeconomics.}
+\resumeItem{Relevant coursework: Advanced Econometrics, Causal Inference, Panel Data Analysis, Time Series Econometrics, Microeconomics, Energy Economics.}
+\resumeItem{Available from Oct.\ 2026.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Rotterdam School of Management (RSM), Erasmus University}{Rotterdam, Netherlands}
+{Erasmus+ Exchange Semester}{Sep.\ 2024 -- Dec.\ 2024}
+\resumeItemListStart
+\resumeItem{Coursework in Asset Pricing (CAPM, multi-factor models) and Derivatives Valuation (Black--Scholes, option strategies).}
+\resumeItemListEnd
+
+\resumeSubheading
+{University of Cologne}{Cologne, Germany}
+{B.Sc.\ Economics (Grade: 1.6/1.0, top 5\,\% of cohort, Dean's List)}{Oct.\ 2019 -- Feb.\ 2023}
+
+\resumeSubHeadingListEnd
+
+%================ RESEARCH EXPERIENCE ================%
+\section*{Research Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Master's Thesis}{University of Cologne}
+% Kept short enough to sit on one line with the date at the right margin. The
+% longer version, with "(PhD candidate)" and a rule between the two halves,
+% overflowed and left the year stranded on a line of its own.
+{Grade 1.0/1.0, 30 ECTS. Supervisors: Prof.\ Dr.\ Pia Pinger and Anna Person, M.Sc.}{Oct.\ 2025 -- Apr.\ 2026}
+\resumeItemListStart
+\resumeItem{\textbf{Title:} \textit{How Equal is Equal Opportunity? Gender, Ethnic and Regional Disparities in Labor Market Outcomes of Higher Education Policies in Brazil.}}
+\resumeItem{\textbf{Found a non-monotonic dose--response whose sign na\"ive TWFE reverses} ($\hat{\beta}_{\text{TWFE}} = -0.65\%$ against a corrected $+3.04\%$ in Low-Dose regions), an empirical illustration of forbidden comparisons (Goodman-Bacon, 2021).}
+\resumeItem{Estimated the causal labour-market effects of Brazil's ProUni scholarship programme on 558 microregions (2005--2019) using the Callaway \& Sant'Anna (2021) heterogeneity-robust staggered DiD estimator with doubly-robust inference.}
+\resumeItem{Constructed a microregion-level panel linking ProUni administrative records, RAIS formal employer--employee data ($\sim$5\,million observations), and Census demographics via the \texttt{basedosdados} BigQuery interface.}
+\resumeItem{Magnitudes: +3.04\,\% wage effect in Low-Dose regions (DR estimate, $p < 0.10$), negative Mid-Dose effects coinciding with recession timing, and near-zero High-Dose effects consistent with diminishing returns.}
+\resumeItem{Heterogeneity analysis: wage gains accrue disproportionately to non-white workers in moderate-exposure markets (consistent with affirmative-action design). Gender asymmetry persists despite majority-female scholarship uptake.}
+\resumeItem{Robustness: HonestDiD sensitivity analysis (Rambachan \& Roth, 2023), age-cohort placebo, Bacon decomposition, alternative dose cutoffs, concurrent-policy controls (FIES, Quota Law).}
+\resumeItem{Tools: R (\texttt{did}, \texttt{fixest}, \texttt{HonestDiD}, \texttt{tidyverse}, \texttt{ggplot2}), SQL/BigQuery, \LaTeX.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Seminar Paper: Housing and the Macroeconomy}{University of Cologne}
+{Supervisors: Prof.\ Dr.\ Michael Krause and Dong-Ho Kang, PhD \quad $\vert$ \quad Grade: \textbf{1.3}}{2024}
+\resumeItemListStart
+\resumeItem{\textbf{Title:} \textit{From Boom to Bust: The Role of Subprime Mortgage Credit in the 2007 U.S. Housing Crisis.}}
+\resumeItem{Weighed the income, credit-supply and house-price-expectation explanations of the 2002--2005 subprime expansion against one another, on the within-county ZIP-code comparisons of Mian and Sufi (2009), the housing supply elasticity instrument of Saiz (2010), and the securitisation evidence in Keys et al.\ (2010) and Adelino et al.\ (2016).}
+\resumeItemListEnd
+
+\resumeSubheading
+{Bachelor's Thesis}{University of Cologne}
+{Supervisor: Univ.-Prof.\ Dr.\ Andreas Schabert \quad $\vert$ \quad Grade: 1.7/1.0}{2022 -- 2023}
+\resumeItemListStart
+\resumeItem{\textbf{Title:} \textit{Finanz-Akzelerator} (the financial accelerator).}
+\resumeItem{Reviewed and synthesised the theoretical literature on financial frictions and macroeconomic amplification, with a focus on the Bernanke--Gertler--Gilchrist (1999) framework.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%================ TECHNICAL SKILLS ================%
+\section*{Technical Skills}
+\resumeItemListStart
+\resumeItem{\textbf{Programming \& Data Analysis:} R (advanced: \texttt{did}, \texttt{fixest}, \texttt{HonestDiD}, \texttt{tidyverse}, \texttt{ggplot2}), Python (basic), SQL/BigQuery.}
+\resumeItem{\textbf{Econometric Methods:} Difference-in-Differences (incl.\ staggered adoption, doubly-robust estimation), Instrumental Variables, Panel Data Models, Event Studies, Bacon Decomposition.}
+\resumeItem{\textbf{Tools:} \LaTeX/Overleaf, Git/GitHub, MS Excel (advanced), Power\,BI.}
+\resumeItemListEnd
+
+%================ PROFESSIONAL EXPERIENCE ================%
+\section*{Professional Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{PwC Germany}{D\"usseldorf, Germany}
+{Intern \& Working Student -- Assurance Solutions}{Mar.\ 2023 -- Jul.\ 2025}
+\resumeItemListStart
+% The client is not named. Audit clients do not go on a CV, which is a
+% confidentiality question rather than a matter of style. The usable fact is not
+% the name anyway: it is that the same engagement came round twice, so the team
+% staffed him on it again the following year.
+\resumeItem{Worked two consecutive annual audits for the same client, and supported documentation on several smaller engagements.}
+\resumeItem{Conducted variance analyses and plausibility checks for annual and group audits (HGB/IFRS) of clients with balance sheets exceeding EUR\,500\,million.}
+\resumeItem{Audited sustainability disclosures under ISAE\,3000 and performed internal control system (IKS) testing.}
+\resumeItem{Built KPI tracking and financial forecasting in Excel for the engagement team.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%================ LANGUAGES ================%
+\section*{Languages}
+\resumeItemListStart
+\resumeItem{German (native), Tunisian Arabic (native), English (C1, IELTS Academic 8.0), French (B1, DELF).}
+\resumeItemListEnd
+
+%================ EXTRACURRICULAR ================%
+\section*{Awards \& Activities}
+\resumeItemListStart
+\resumeItem{\textbf{Dean's List}, University of Cologne. Top 5\,\% of B.Sc.\ Economics cohort.}
+\resumeItem{\textbf{Interests:} economic geography and modern history. Fashion. Most sports with a ball or an engine, above all football, Formula 1, tennis and the NFL.}
+\resumeItem{\textbf{2nd Prize}, Young Economic Summit (YES!) 2018, national finals. Developed a policy solution on digital trust in online transactions. Organised by ZBW Leibniz Information Centre for Economics under patronage of the Federal Ministry for Economic Affairs.}
+\resumeItem{\textbf{DPG Abitur Prize}, Deutsche Physikalische Gesellschaft (2019), awarded for outstanding performance in Physics.}
+\resumeItemListEnd
+
+%================ REFERENCES ================%
+% Dropped. It was pushing a third page for one line that tells a reader nothing
+% they had not already assumed. Referees go in by name on an application that asks
+% for them, as on the UCLouvain copy, where the posting requires two.
+%   \section*{References}
+%   \resumeItemListStart
+%   \resumeItem{Available upon request.}
+%   \resumeItemListEnd
+
+\end{document}

@@ -1,0 +1,58 @@
+% Anschreiben: {{EMPLOYER}}, {{ROLE}}
+% Erzeugt am {{DATE}} von apply/new.py
+%
+% Nur der FIT-Block muss geschrieben werden. Der Rest stimmt und ist wiederverwendbar.
+% Kompilieren mit pdflatex lokal oder auf Overleaf.
+
+\documentclass[a4paper,11pt,version=last]{scrlttr2}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{lmodern}
+\usepackage[colorlinks=true, urlcolor=blue]{hyperref}
+
+\setkomavar{fromname}{Baha Khammari}
+\setkomavar{fromaddress}{D\"usseldorf, Deutschland}
+\setkomavar{fromemail}{b.e.khammari@gmail.com}
+\setkomavar{fromphone}{+49\,1520\,9016956}
+\setkomavar{subject}{Bewerbung als {{ROLE}}}
+\KOMAoptions{fromemail=true, fromphone=true, backaddress=false}
+
+\begin{document}
+
+\begin{letter}{%
+    {{CONTACT}} \\
+    {{EMPLOYER}} \\
+    {{LOCATION}}
+}
+
+\opening{{{OPENING}},}
+
+% ---------------------------------------------------------------------------
+% FIT. Der einzige wirklich neue Teil. Zwei bis drei S\"atze, die auf keinen
+% anderen Arbeitgeber passen w\"urden. Etwas Konkretes aus der Ausschreibung
+% aufgreifen. L\"asst sich das nicht schreiben, passt die Stelle vermutlich nicht.
+%
+% Muster:
+%   Ihr Team arbeitet an [konkret aus der Ausschreibung].
+%   In meiner Masterarbeit habe ich [Methode oder Thema], und
+%   [eine konkrete geforderte F\"ahigkeit].
+%   Genau das m\"ochte ich bei [das, was sie nennen] einbringen.
+% ---------------------------------------------------------------------------
+
+{{FIT}}
+
+% --- Belege. Wiederverwendbar. Auf eine Seite k\"urzen. ---
+In meiner Masterarbeit (Note 1,0) habe ich die kausalen Lohneffekte des brasilianischen Stipendienprogramms ProUni gesch\"atzt. Daf\"ur habe ich in \textbf{R} rund f\"unf Millionen Arbeitgeber-Arbeitnehmer-Datens\"atze aus 558 Regionen aufbereitet und mit einem heterogenit\"atsrobusten Differenz-von-Differenzen-Sch\"atzer ausgewertet. Das Ergebnis ist ein nicht-monotoner Effekt, dessen Vorzeichen g\"angige Verfahren umkehren. Solche Befunde h\"alt nur sauberes Arbeiten mit gro\ss{}en Verwaltungsdaten aus.
+
+Die n\"otige Disziplin bringe ich aus meiner Zeit in Assurance Solutions bei \textbf{PwC Deutschland} mit. Dort war Excel das t\"agliche Werkzeug, um Kennzahlen zu pr\"ufen und Ergebnisse f\"ur das Management aufzubereiten. Ich wei\ss{} also, wie wichtig Pr\"azision ist, wenn andere auf die Zahlen bauen, und wie man aus einem komplexen Datensatz eine klare Aussage macht.
+
+Mein Masterstudium schlie\ss{}e ich im September 2026 ab, ab Oktober 2026 bin ich voll verf\"ugbar.
+
+\"Uber ein Gespr\"ach w\"urde ich mich sehr freuen.
+
+\closing{Mit freundlichen Gr\"u\ss{}en}
+
+\end{letter}
+
+\end{document}

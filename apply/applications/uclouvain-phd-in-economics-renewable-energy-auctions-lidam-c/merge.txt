@@ -1,0 +1,34 @@
+# UCLouvain wants one PDF, and it names the file for you:
+#
+#   "Applications must be submitted in English as a single PDF file, named:
+#    Lastname_Firstname.pdf"
+#
+# So the submitted file is Khammari_Baha.pdf, not the repository's usual
+# cv_<firm>_khammari.pdf. The portal's name wins over house style.
+#
+# Order below follows the posting's own list of required documents, which is
+# also the order a reader wants: the thing written for them first, the thing
+# that proves it second, the evidence behind both after that.
+#
+# The transcripts and certificates are NOT in this repository and must not be.
+# github.com/bkhammari/applications is public. Put them in a `personal/` folder
+# at the repository root, which .gitignore drops, or edit these lines to point
+# wherever they already live.
+#
+# Build it with:   python3 apply/merge.py uclouvain
+
+out: Khammari_Baha.pdf
+
+statement.pdf
+cv_uclouvain_khammari.pdf
+
+# Master's first, since it is the degree the application turns on.
+../../../personal/Khammari_ToR_Aug2026.pdf
+../../../personal/Khammari_BSc_Transcript.pdf
+../../../personal/Khammari_Bachelorzeugnis.pdf
+
+# Writing sample.
+../../../research/thesis/Master_Thesis_Final.pdf
+
+# Language certificate. Test scores: none, and none required.
+../../../personal/Khammari_IELTS.pdf

@@ -1,0 +1,188 @@
+% GENERAL INSTITUTIONAL CV, English. Written 18 September 2026.
+%
+% WHO THIS IS FOR. Public-sector and international-organisation applications:
+% ECB, Bundesbank, EU institutions and agencies, GIZ, DEval, OECD, IMF and World
+% Bank, federal ministries, and research institutes on the public side. It is the
+% English counterpart of the German Lebenslauf, for employers who recruit in
+% English. It is NOT tuned to any posting. Do not send it as it stands without
+% running step 3 of apply/README.md over it first.
+%
+% DESIGN, per CLAUDE.md:
+%   compact  one page is the target for anything a recruiter screens at volume
+%   mono     single column, black and white, the rule for anything commercial or
+%            public-sector. Colour stays on the academic CV, which one person
+%            reads slowly.
+%   noicons  public-sector applications go through ATS portals (SuccessFactors,
+%            Taleo, SAP). With FontAwesome on, pdftotext returns the contact line
+%            as "Q b.e.khammari@gmail.com ... ¯" and a parser glues a stray letter
+%            to the email address. See the header comment in OpenCV.cls.
+%
+% WHAT AN INSTITUTIONAL READER IS BUYING, and why the order is this order:
+% policy evaluation on administrative data, European regulation, and languages.
+% So the thesis and the EU ETS design sit above PwC, and Languages sits on the
+% front page rather than at the foot, because a multilingual profile is a hiring
+% criterion at EU institutions rather than a decoration.
+%
+% THE QUALIFICATIONS BLOCK IS DELIBERATELY ABSENT. It only works when it maps a
+% posting's stated requirements onto evidence, in the posting's own order and
+% words, so it cannot be written in advance. The scaffold is at the bottom of
+% this file, commented out. Paste it under the Profile when tuning.
+%
+% CLAIMS DELIBERATELY NOT MADE, all of them recorded in CLAUDE.md:
+%   - No VBA. He is very good in Excel and did not build VBA tools.
+%   - No "eigenständige Durchführung" of audits. An intern does not run an audit.
+%   - The audit client is never named. That is confidentiality, not style.
+%   - No "top 5 %". The Bachelorzeugnis Einstufungstabelle reports 5.5 per cent
+%     for an overall 1,6 across a pooled comparison group. The Dean's List is a
+%     separate award and stands on its own. Restore the percentage only if the
+%     Dean's List letter states a criterion that supports it.
+
+\documentclass[compact,mono,noicons]{../shared/OpenCV}
+\usepackage[english]{babel}
+
+\cvname{Baha Khammari}
+\cvlocation{D\"usseldorf, Germany}
+\cvemail{b.e.khammari@gmail.com}
+\cvphone{+49 1520 9016956}
+\cvlinkedin{linkedin.com/in/baha-khammari}
+
+\begin{document}
+
+\cvheader
+
+%================ PROFILE ================%
+\section*{Profile}
+\small
+Economist with graduate training in causal inference and applied microeconometrics, working on the evaluation of public policy from administrative microdata. M.Sc.\ Economics, University of Cologne, thesis graded 1.0. Two years at PwC in audit and financial reporting. German and Tunisian Arabic native, English C1, French B1. EU citizen, available from October 2026.
+
+%================ EDUCATION ================%
+\section*{Education}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{University of Cologne}{Cologne, Germany}
+{M.Sc.\ Economics, 120 ECTS. Thesis \textbf{1.0}, overall 1.6 (German scale, 1.0 highest)}{Oct.\ 2023 -- Sep.\ 2026}
+\resumeItemListStart
+\resumeItem{Mathematics for Economists \textbf{1.0}. Econometrics \textbf{1.3}. Energy Markets and Regulation \textbf{1.3}.}
+\resumeItem{Focus on applied econometrics, energy and climate policy, and financial macroeconomics.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Rotterdam School of Management (RSM), Erasmus University}{Rotterdam, Netherlands}
+{Erasmus+ Exchange Semester. Asset Pricing, Derivatives Valuation}{Sep.\ 2024 -- Dec.\ 2024}
+
+\resumeSubheading
+{University of Cologne}{Cologne, Germany}
+{B.Sc.\ Economics, 1.6. Dean's List}{Oct.\ 2019 -- Feb.\ 2023}
+\resumeItemListStart
+\resumeItem{Microeconomics \textbf{1.0}. Statistics \textbf{1.0}. Mathematics \textbf{1.0}. Applied Econometrics \textbf{1.3}. Advanced Microeconomics \textbf{1.3}. Energy and environmental policy \textbf{1.3}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%================ LANGUAGES ================%
+% On the front page on purpose. At an EU institution this is a selection
+% criterion, not a footnote.
+\section*{Languages}
+\resumeItemListStart
+\resumeItem{German (native), Tunisian Arabic (native), English (C1, IELTS Academic 8.0), French (B1, DELF), Italian (A2).}
+\resumeItemListEnd
+
+%================ POLICY RESEARCH ================%
+\section*{Policy Research and Evaluation}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Master's Thesis: evaluating a national higher-education policy}{University of Cologne}
+{Grade 1.0/1.0, 30 ECTS. Supervisors: Prof.\ Dr.\ Pia Pinger and Anna Person, M.Sc.}{Oct.\ 2025 -- Apr.\ 2026}
+\resumeItemListStart
+\resumeItem{\textbf{Found a non-monotonic dose--response whose sign the conventional two-way fixed effects estimator reverses}, and reported effects separately by gender, ethnicity and region.}
+\resumeItem{Estimated the causal labour-market effects of Brazil's ProUni scholarship programme across 558 regions over 2005--2019, using the Callaway and Sant'Anna (2021) heterogeneity-robust staggered difference-in-differences estimator with doubly-robust inference.}
+\resumeItem{Built the panel alone from administrative records, roughly five million linked employer--employee observations, in R through a BigQuery interface.}
+\resumeItem{Robustness: HonestDiD sensitivity analysis (Rambachan and Roth, 2023), Bacon decomposition, age-cohort placebo, alternative exposure cutoffs, concurrent-policy controls.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Seminar Paper: Housing and the Macroeconomy}{University of Cologne}
+{Supervisors: Prof.\ Dr.\ Michael Krause and Dong-Ho Kang, PhD \quad $\vert$ \quad Grade: \textbf{1.3}}{2024}
+\resumeItemListStart
+\resumeItem{\textbf{Title:} \textit{From Boom to Bust: The Role of Subprime Mortgage Credit in the 2007 U.S. Housing Crisis.}}
+\resumeItem{Weighed the income, credit-supply and house-price-expectation explanations of the 2002--2005 subprime expansion against one another, on the within-county ZIP-code comparisons of Mian and Sufi (2009), the housing supply elasticity instrument of Saiz (2010), and the securitisation evidence in Keys et al.\ (2010) and Adelino et al.\ (2016).}
+\resumeItemListEnd
+
+\resumeSubheading
+{Seminar paper: carbon leakage from the EU ETS}{University of Cologne}
+{Panel Data Methods seminar}{Summer 2026}
+\resumeItemListStart
+\resumeItem{Research design on whether a higher effective EU ETS carbon cost raised EU imports of emission-intensive goods from North African partners over 2005--2021.}
+\resumeItem{Defines the treatment as the allowance price attenuated by the sector-year free-allocation share, and works through the EU rules on activity thresholds, closure provisions and partial cessation that tie allocation to continued production.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%================ METHODS AND TOOLS ================%
+\section*{Methods and Tools}
+\resumeItemListStart
+\resumeItem{\textbf{Methods:} Difference-in-differences including staggered adoption and doubly-robust estimation, event studies, panel data models, instrumental variables, regression diagnostics.}
+\resumeItem{\textbf{Tools:} R (advanced: \texttt{did}, \texttt{fixest}, \texttt{HonestDiD}, \texttt{tidyverse}, \texttt{ggplot2}), SQL and BigQuery, Python (basic), MS Excel (advanced), Power\,BI, \LaTeX, Git.}
+\resumeItemListEnd
+
+%================ PROFESSIONAL EXPERIENCE ================%
+\section*{Professional Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{PwC Germany}{D\"usseldorf, Germany}
+{Intern and Working Student, Assurance Solutions}{Mar.\ 2023 -- Jul.\ 2025}
+\resumeItemListStart
+\resumeItem{Worked two consecutive annual audits for the same client, and supported documentation on several smaller engagements.}
+\resumeItem{Variance analyses and plausibility checks for annual and group audits (HGB/IFRS) of clients with balance sheets above EUR\,500\,million.}
+\resumeItem{Audited sustainability disclosures under ISAE\,3000 and tested internal controls.}
+\resumeItem{Built KPI tracking and financial forecasting in Excel for the engagement team.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section*{Alongside Studies}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Nespresso (Nestl\'e)}{Cologne and D\"usseldorf, Germany}
+{Product Adviser, part-time}{since Jan.\ 2026}
+\resumeItemListStart
+\resumeItem{Advising and selling premium products in direct customer contact, at consistent target attainment.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Private tutoring}{D\"usseldorf, Germany}
+{Mathematics, Abitur level, two students}{2023 -- 2025}
+
+\resumeSubHeadingListEnd
+
+%================ AWARDS ================%
+\section*{Awards}
+\resumeItemListStart
+\resumeItem{\textbf{Dean's List}, University of Cologne, B.Sc.\ Economics.}
+\resumeItem{\textbf{Junior Ambassador of the European Parliament}, Cecilien-Gymnasium D\"usseldorf, 2017--2019.}
+\resumeItem{\textbf{2nd Prize}, Young Economic Summit national finals 2018, organised by the ZBW Leibniz Information Centre for Economics under the patronage of the Federal Ministry for Economic Affairs.}
+\resumeItem{\textbf{Interests:} economic geography and modern history. Fashion. Most sports with a ball or an engine, above all football, Formula 1, tennis and the NFL.}
+\resumeItemListEnd
+
+%================ REFERENCES ================%
+\section*{References}
+\resumeItemListStart
+\resumeItem{Available upon request.}
+\resumeItemListEnd
+
+% ===================================================================
+% TUNING SCAFFOLD. Paste directly under the Profile and fill it from the
+% posting, in the posting's own order and its own words, five lines at most.
+% The test is a ten-second scan by a recruiter who is not an economist.
+%
+% \section*{Qualifications for this role}
+% \begin{cvquals}
+%   \cvqual{What the posting asks for.}{What in this CV answers it.}
+% \end{cvquals}
+% ===================================================================
+
+\end{document}

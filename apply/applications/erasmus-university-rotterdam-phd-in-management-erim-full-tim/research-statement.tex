@@ -1,0 +1,83 @@
+% Research statement for the ERIM full-time PhD in Management.
+% ERIM's spec: maximum 2 pages, 11-point, single-spaced. All three respected.
+%
+% Latin Modern, not the sans face used elsewhere in this repo. Academic documents
+% get the LaTeX look, instructed 18 September.
+%
+% Prose checked against the econometric-scholar-style anti-AI rules. Three things
+% came out of the first draft:
+%   - "The headline is not the coefficient, it is that the estimator reversed the
+%     sign" was negative parallelism, which the rules name explicitly.
+%   - The three research questions were bolded lead-in sentences, which is the
+%     bolded key-term structure the rules tell you to avoid outside reference
+%     tables. They are now numbered and run as prose.
+%   - Magnitude is now stated separately from statistical significance.
+%
+% The argument: his thesis ran on linked employer-employee records and aggregated
+% five million worker-firm observations up to 558 regions. The firm layer was in
+% the data and went unused. Going back down to it is the honest bridge from
+% economics to a management school.
+
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+\usepackage[left=24mm, right=24mm, top=21mm, bottom=19mm]{geometry}
+\usepackage{parskip}
+\usepackage{microtype}
+\usepackage{enumitem}
+
+\pagestyle{empty}
+\setlength{\parskip}{0.6em}
+\linespread{1.0}
+
+\newcommand{\sectionrule}[1]{\vspace{1.5mm}\noindent\textbf{#1}\par\vspace{-0.4em}}
+
+\begin{document}
+
+\begin{center}
+{\large\bfseries Research statement}\\[3pt]
+{\normalsize Baha Khammari} \quad$\cdot$\quad {\small ERIM full-time PhD in Management}
+\end{center}
+
+\vspace{4mm}
+
+\sectionrule{The question}
+
+When a policy raises the supply of skilled graduates, which employers absorb them and what happens to the workers already inside those firms? The evaluation literature answers at the level of the region or the cohort. The mechanism operates at the level of the firm, where hiring, sorting and promotion take place.
+
+My master's thesis asked a version of this question one level too high. I estimated the labour-market effects of Brazil's ProUni scholarship programme across 558 microregions over 2005 to 2019, using the heterogeneity-robust staggered difference-in-differences estimator of Callaway and Sant'Anna (2021) with doubly-robust inference. The dose-response is non-monotonic. In low-exposure regions the doubly-robust estimate is a wage gain of 3.04 per cent, statistically distinguishable from zero at the 10 per cent level. Effects are negative in mid-exposure regions, coinciding with recession timing, and close to zero where exposure was highest. The two-way fixed effects estimate on the same panel is $-0.65$ per cent, so the sign reverses, for the reason Goodman-Bacon (2021) identifies: comparisons between later-treated and already-treated units are invalid once effects vary across adoption cohorts. Gains accrue disproportionately to non-white workers in moderate-exposure markets. A gender asymmetry persists even though the majority of scholarship holders were women. The thesis was graded 1.0.
+
+What the regional data cannot explain is why some labour markets absorbed the supply shock into wages and others absorbed it into nothing. The firm is the missing layer.
+
+\sectionrule{Why this belongs in a management school}
+
+The thesis panel was built from RAIS, the Brazilian linked employer-employee register, in which each worker is matched to the establishment that employs them. Roughly five million such observations were aggregated up to the microregion. The same records support firm-level analysis directly, and the questions that analysis opens are organisational.
+
+Three of them I would want to pursue.
+
+\begin{enumerate}[leftmargin=*, itemsep=3pt, topsep=4pt]
+\item Which firms restructure entry-level hiring in response to a graduate supply shock, and which do not. The candidate explanations are organisational: the shape of the internal labour market, the existence of a promotion ladder, and how formalised the hiring process is. Each is observable in the employment record.
+\item Whether widened access produces progression or only entry. Being hired and being promoted are distinct outcomes, and a programme evaluated on the first can appear successful while failing on the second. Linked records follow individuals across employers and job levels, which makes the distinction testable.
+\item The source of the gender asymmetry in my own estimates. Majority-female take-up produced male-skewed wage gains, and the process that generates that gap operates inside firms, between the award of a scholarship and the wage that results.
+\end{enumerate}
+
+\sectionrule{Methods}
+
+I work in R and SQL and constructed the thesis panel myself through a BigQuery interface rather than receiving a prepared dataset. My methodological centre is causal inference on observational panel data: staggered difference-in-differences with heterogeneity-robust estimators, event studies, instrumental variables, and the diagnostics that determine whether an estimate can be believed. In the thesis those were HonestDiD sensitivity analysis (Rambachan and Roth, 2023), a Bacon decomposition, an age-cohort placebo, alternative exposure cutoffs, and controls for two concurrent policies.
+
+The diagnostic habit is what I would bring. Administrative personnel and registry data are becoming ordinary in empirical management research, and they carry the staggered-adoption structure in which conventional estimators fail without announcing it. My thesis is a case in which the check changed the conclusion.
+
+On the theory side I would be building rather than arriving. My training is econometric, and the organisational theory that turns these questions into management scholarship is what I would expect the first-year coursework to supply.
+
+\sectionrule{Why Rotterdam}
+
+I spent the autumn 2024 semester at RSM on an Erasmus+ exchange, taking Asset Pricing and Derivatives Valuation. It was the best period of my studies, and the reason was how research was taught there, as an argument to be interrogated rather than a result to be reproduced.
+
+The substantive reason is that these questions sit between labour economics and organisational research and require a school that takes both seriously. ERIM's empirical tradition and its access to registry and personnel data are what make the firm-level version of my thesis feasible.
+
+\vspace{3mm}
+\noindent{\small Baha Khammari \quad$\cdot$\quad b.e.khammari@gmail.com \quad$\cdot$\quad +49\,1520\,9016956}
+
+\end{document}
